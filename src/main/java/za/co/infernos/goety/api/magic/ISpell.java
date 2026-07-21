@@ -210,6 +210,14 @@ public interface ISpell {
         return (int) (defaultSpellCooldown() * ModAttributes.getCooldownDiscount(caster));
     }
 
+    /**
+     * Allows a spell to opt out of the wand's default focus cooldown application.
+     * Return true if the spell manages its own cooldown bookkeeping (e.g. via SEHelper directly).
+     */
+    default boolean hasCustomCooldown(LivingEntity caster, ItemStack staff, ItemStack focus, int ticks){
+        return false;
+    }
+
     @OnlyIn(Dist.CLIENT) //Had to use this in case of server issues T~T
     default HumanoidModel.ArmPose getPose(LivingEntity caster, ItemStack staff, SpellStat spellStat) {
         return SpellPoses.SPELL;

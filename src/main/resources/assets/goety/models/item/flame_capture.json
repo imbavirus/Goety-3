@@ -6,13 +6,13 @@
   "overrides": [
     {
       "predicate": {
-        "capture": 0.00000
+        "goety:capture": 0.0
       },
       "model": "goety:item/flame_capture_empty"
     },
     {
       "predicate": {
-        "capture": 1.00000
+        "goety:capture": 1.0
       },
       "model": "goety:item/flame_capture_full"
     }

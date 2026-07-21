@@ -47,6 +47,7 @@ import za.co.infernos.goety.common.items.WaystoneItem;
 import za.co.infernos.goety.common.items.curios.GloveItem;
 import za.co.infernos.goety.common.magic.spells.abyss.PrismaBeamSpell;
 import za.co.infernos.goety.common.magic.spells.geomancy.BurrowingSpell;
+import net.neoforged.neoforge.network.PacketDistributor;
 import za.co.infernos.goety.common.network.ModNetwork;
 import za.co.infernos.goety.common.network.client.*;
 import za.co.infernos.goety.common.network.client.brew.CBrewBagKeyPacket;
@@ -115,11 +116,13 @@ import net.neoforged.neoforge.event.entity.living.LivingEntityUseItemEvent;
 import net.neoforged.neoforge.event.entity.living.LivingEvent;
 import net.neoforged.bus.api.EventPriority;
 import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import org.lwjgl.glfw.GLFW;
 
 import java.util.*;
 
+@EventBusSubscriber(modid = Goety.MOD_ID, bus = EventBusSubscriber.Bus.GAME, value = Dist.CLIENT)
 public class ClientEvents {
 
     @SubscribeEvent
@@ -746,7 +749,7 @@ public class ClientEvents {
                     if (wight.lookTime >= MathHelper.secondsToTicks(3)){
                         if (wight.lookTime % 20 == 0 && wight.getRandom().nextInt(8) == 0) {
                             wight.lookTime = 0;
-                            ModNetwork.sendToServer(new CTargetPlayerPacket(wight));
+                            PacketDistributor.sendToServer(new CTargetPlayerPacket(wight));
                         }
                     }
                 } else {
@@ -756,7 +759,7 @@ public class ClientEvents {
                 }
             }
             if (minecraft.options.keyJump.isDown() && !prevJumpBindState && !player.isInWater() && SEHelper.getTicksInAir(player) > 2 && !player.isCreative() && !player.isSpectator() && !player.isPassenger()) {
-                ModNetwork.sendToServer(new CMultiJumpPacket());
+                PacketDistributor.sendToServer(new CMultiJumpPacket());
                 SEHelper.doubleJump(player);
             }
             prevJumpBindState = minecraft.options.keyJump.isDown();
@@ -933,22 +936,23 @@ public class ClientEvents {
         }
 
         if (ModKeybindings.keyBindings[0].isDown() && MINECRAFT.isWindowActive()){
-            ModNetwork.sendToServer(new CWandKeyPacket());
+            Goety.LOGGER.debug("[Goety] Z pressed -> sending CWandKeyPacket");
+            PacketDistributor.sendToServer(new CWandKeyPacket());
         }
         if (ModKeybindings.keyBindings[2].isDown() && MINECRAFT.isWindowActive()){
-            ModNetwork.sendToServer(new CBagKeyPacket());
+            PacketDistributor.sendToServer(new CBagKeyPacket());
         }
         if (ModKeybindings.keyBindings[3].isDown() && MINECRAFT.isWindowActive()){
-            ModNetwork.sendToServer(new CWitchRobePacket());
+            PacketDistributor.sendToServer(new CWitchRobePacket());
         }
         if (ModKeybindings.keyBindings[4].isDown() && MINECRAFT.isWindowActive()){
-            ModNetwork.sendToServer(new CStopAttackPacket());
+            PacketDistributor.sendToServer(new CStopAttackPacket());
         }
         if (ModKeybindings.keyBindings[5].isDown() && MINECRAFT.isWindowActive()){
-            ModNetwork.sendToServer(new CMagnetPacket());
+            PacketDistributor.sendToServer(new CMagnetPacket());
         }
         if (ModKeybindings.keyBindings[6].isDown() && MINECRAFT.isWindowActive()){
-            ModNetwork.sendToServer(new CSetLichNightVisionMode());
+            PacketDistributor.sendToServer(new CSetLichNightVisionMode());
             if (MINECRAFT.player != null && za.co.infernos.goety.utils.ConfigHelper.getBoolean(MainConfig.LichNightVision, false)){
                 if (LichdomHelper.isLich(MINECRAFT.player)){
                     MINECRAFT.player.playSound(SoundEvents.END_PORTAL_FRAME_FILL);
@@ -956,16 +960,16 @@ public class ClientEvents {
             }
         }
         if (ModKeybindings.keyBindings[7].isDown() && MINECRAFT.isWindowActive()){
-            ModNetwork.sendToServer(new CExtractPotionKeyPacket());
+            PacketDistributor.sendToServer(new CExtractPotionKeyPacket());
         }
         if (ModKeybindings.keyBindings[8].isDown() && MINECRAFT.isWindowActive()){
-            ModNetwork.sendToServer(new CBrewBagKeyPacket());
+            PacketDistributor.sendToServer(new CBrewBagKeyPacket());
         }
         if (ModKeybindings.keyBindings[10].isDown() && MINECRAFT.isWindowActive()){
-            ModNetwork.sendToServer(new CRavagerRoarPacket());
+            PacketDistributor.sendToServer(new CRavagerRoarPacket());
         }
         if (ModKeybindings.keyBindings[11].isDown() && MINECRAFT.isWindowActive()){
-            ModNetwork.sendToServer(new CAutoRideablePacket());
+            PacketDistributor.sendToServer(new CAutoRideablePacket());
         }
         if (ModKeybindings.keyBindings[12].isDown() && MINECRAFT.isWindowActive()){
             if (MINECRAFT.player != null){
@@ -984,7 +988,7 @@ public class ClientEvents {
                         }
                         MINECRAFT.player.playSound(ModSounds.SOUL_EXPLODE.get(), 1.0F, 0.75F);
                     }
-                    ModNetwork.sendToServer(new CSetLichMode());
+                    PacketDistributor.sendToServer(new CSetLichMode());
                 }
             }
         }
@@ -998,10 +1002,10 @@ public class ClientEvents {
             }
         }
         if (ModKeybindings.keyBindings[14].isDown() && MINECRAFT.isWindowActive()){
-            ModNetwork.sendToServer(new CActivateCurioKeyPacket());
+            PacketDistributor.sendToServer(new CActivateCurioKeyPacket());
         }
         if (ModKeybindings.keyBindings[15].isDown() && MINECRAFT.isWindowActive()){
-            ModNetwork.sendToServer(new CDismissServantsPacket());
+            PacketDistributor.sendToServer(new CDismissServantsPacket());
         }
     }
 

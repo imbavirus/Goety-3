@@ -1,41 +1,46 @@
 package za.co.infernos.goety.common.network.server;
 
-import za.co.infernos.goety.Goety;
-import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.network.RegistryFriendlyByteBuf;
+import net.minecraft.network.codec.ByteBufCodecs;
+import net.minecraft.network.codec.StreamCodec;
+import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.entity.player.Player;
-import za.co.infernos.goety.compat.legacy.network.NetworkEvent;
+import net.neoforged.neoforge.network.handling.IPayloadContext;
+import za.co.infernos.goety.Goety;
 
-import java.util.function.Supplier;
+public record SPlayPlayerSoundPacket(ResourceLocation soundId, float volume, float pitch) implements CustomPacketPayload {
+    public static final Type<SPlayPlayerSoundPacket> TYPE =
+            new Type<>(ResourceLocation.fromNamespaceAndPath(Goety.MOD_ID, "play_player_sound"));
 
-public class SPlayPlayerSoundPacket {
-    private SoundEvent soundEvent;
-    private float volume;
-    private float pitch;
+    public static final StreamCodec<RegistryFriendlyByteBuf, SPlayPlayerSoundPacket> STREAM_CODEC = StreamCodec.composite(
+            ResourceLocation.STREAM_CODEC, SPlayPlayerSoundPacket::soundId,
+            ByteBufCodecs.FLOAT, SPlayPlayerSoundPacket::volume,
+            ByteBufCodecs.FLOAT, SPlayPlayerSoundPacket::pitch,
+            SPlayPlayerSoundPacket::new
+    );
 
-    public SPlayPlayerSoundPacket(SoundEvent soundEvent, float volume, float pitch){
-        this.soundEvent = soundEvent;
-        this.volume = volume;
-        this.pitch = pitch;
+    public SPlayPlayerSoundPacket(SoundEvent soundEvent, float volume, float pitch) {
+        this(soundEvent.getLocation(), volume, pitch);
     }
 
-    public static void encode(SPlayPlayerSoundPacket packet, FriendlyByteBuf buffer) {
-        buffer.writeResourceLocation(packet.soundEvent.getLocation());
-        buffer.writeFloat(packet.volume);
-        buffer.writeFloat(packet.pitch);
-    }
-
-    public static SPlayPlayerSoundPacket decode(FriendlyByteBuf buffer) {
-        return new SPlayPlayerSoundPacket(SoundEvent.createVariableRangeEvent(buffer.readResourceLocation()), buffer.readFloat(), buffer.readFloat());
-    }
-
-    public static void consume(SPlayPlayerSoundPacket packet, Supplier<NetworkEvent.Context> ctx) {
-        ctx.get().enqueueWork(() -> {
+    public static void handle(SPlayPlayerSoundPacket packet, IPayloadContext ctx) {
+        ctx.enqueueWork(() -> {
             Player player = Goety.PROXY.getPlayer();
-            if (player != null){
-                player.playSound(packet.soundEvent, packet.volume, packet.pitch);
+            if (player != null) {
+                SoundEvent soundEvent = BuiltInRegistries.SOUND_EVENT.get(packet.soundId);
+                if (soundEvent == null) {
+                    soundEvent = SoundEvent.createVariableRangeEvent(packet.soundId);
+                }
+                player.playSound(soundEvent, packet.volume, packet.pitch);
             }
         });
-        ctx.get().setPacketHandled(true);
+    }
+
+    @Override
+    public Type<? extends CustomPacketPayload> type() {
+        return TYPE;
     }
 }

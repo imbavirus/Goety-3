@@ -3,6 +3,8 @@ package za.co.infernos.goety.common.items.equipment;
 import za.co.infernos.goety.api.items.ISoulRepair;
 import za.co.infernos.goety.common.entities.projectiles.ScytheSlash;
 import za.co.infernos.goety.common.items.ModTiers;
+import za.co.infernos.goety.common.network.ModNetwork;
+import za.co.infernos.goety.common.network.client.CScytheStrikePacket;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.entity.player.Player;
@@ -18,7 +20,7 @@ public class DeathScytheItem extends DarkScytheItem implements ISoulRepair {
 
     public static void emptyClick(ItemStack stack) {
         if (!stack.isEmpty() && stack.getItem() instanceof DeathScytheItem){
-            // TODO (NeoForge 1.21): re-implement client->server networking via CustomPacketPayload.
+            ModNetwork.sendToServer(new CScytheStrikePacket());
         }
     }
 

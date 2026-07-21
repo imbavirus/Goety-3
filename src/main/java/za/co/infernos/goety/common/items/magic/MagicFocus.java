@@ -2,6 +2,7 @@ package za.co.infernos.goety.common.items.magic;
 
 import za.co.infernos.goety.api.items.magic.IFocus;
 import za.co.infernos.goety.api.magic.ISpell;
+import za.co.infernos.goety.utils.ItemHelper;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.Item;
@@ -62,7 +63,9 @@ public class MagicFocus extends Item implements IFocus {
         super.appendHoverText(stack, context, tooltip, flagIn);
         int cost = getSoulCost();
         tooltip.add(Component.translatable("info.goety.focus.cost", cost));
-        tooltip.add(Component.translatable("info.goety.focus.spellType", spell.getSpellType().getName()).withStyle(ChatFormatting.BLUE));
+        tooltip.add(Component.translatable("info.goety.focus.spellType", spell.getSpellType().getName()));
+        tooltip.add(Component.translatable("item.goety.focus.info").withStyle(ChatFormatting.BLUE).withStyle(ChatFormatting.UNDERLINE));
+        ItemHelper.addOnShift(tooltip, () -> addInformationAfterShift(tooltip));
     }
 
     public void addInformationAfterShift(List<Component> tooltip) {

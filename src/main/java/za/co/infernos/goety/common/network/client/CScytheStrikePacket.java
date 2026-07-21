@@ -1,30 +1,31 @@
 package za.co.infernos.goety.common.network.client;
 
-import za.co.infernos.goety.common.items.equipment.DeathScytheItem;
 import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.network.codec.StreamCodec;
+import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
-import za.co.infernos.goety.compat.legacy.network.NetworkEvent;
+import net.neoforged.neoforge.network.handling.IPayloadContext;
+import za.co.infernos.goety.Goety;
+import za.co.infernos.goety.common.items.equipment.DeathScytheItem;
 
-import java.util.function.Supplier;
+public record CScytheStrikePacket() implements CustomPacketPayload {
+    public static final Type<CScytheStrikePacket> TYPE =
+            new Type<>(ResourceLocation.fromNamespaceAndPath(Goety.MOD_ID, "scythe_strike"));
 
-public class CScytheStrikePacket {
-    public static void encode(CScytheStrikePacket packet, FriendlyByteBuf buffer) {
-    }
+    public static final StreamCodec<FriendlyByteBuf, CScytheStrikePacket> STREAM_CODEC =
+            StreamCodec.unit(new CScytheStrikePacket());
 
-    public static CScytheStrikePacket decode(FriendlyByteBuf buffer) {
-        return new CScytheStrikePacket();
-    }
-
-    public static void consume(CScytheStrikePacket packet, Supplier<NetworkEvent.Context> ctx) {
-        ctx.get().enqueueWork(() -> {
-            ServerPlayer playerEntity = za.co.infernos.goety.common.network.NetworkContextHelper.getServerPlayer(ctx);
-
-            if (playerEntity != null) {
+    public static void handle(CScytheStrikePacket packet, IPayloadContext ctx) {
+        ctx.enqueueWork(() -> {
+            if (ctx.player() instanceof ServerPlayer playerEntity) {
                 DeathScytheItem.strike(playerEntity.level(), playerEntity);
             }
         });
-        ctx.get().setPacketHandled(true);
+    }
+
+    @Override
+    public Type<? extends CustomPacketPayload> type() {
+        return TYPE;
     }
 }
-
-

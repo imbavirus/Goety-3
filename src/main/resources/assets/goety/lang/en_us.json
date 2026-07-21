@@ -2020,7 +2020,7 @@
   "info.goety.movement.stand": "Standing By",
   "info.goety.movement.guard": "Guarding",
   "info.goety.focus.cost": "§bOriginal Cost:§b %d",
-  "info.goety.focus.spellType": "§dSpell Type:§d %d",
+  "info.goety.focus.spellType": "§dSpell Type:§d %s",
   "info.goety.focus.noSummon": "§5No Summon§5",
   "info.goety.focus.noSummonType": "§5No Summon Type§5",
   "info.goety.focus.summon": "Summon:",

@@ -107,10 +107,10 @@ dependencies {
     // which blocks compilation. We'll re-enable proper AP/remapping once the mod builds cleanly.
     compileOnly 'org.spongepowered:mixin:0.8.5'
 
-    //JEI - Commented out until 1.21.1 version is available
-    //compileOnly("mezz.jei:jei-${minecraft_version}-common-api:${jei_version}")
-    //compileOnly("mezz.jei:jei-${minecraft_version}-neoforge-api:${jei_version}")
-    //runtimeOnly("mezz.jei:jei-${minecraft_version}-neoforge:${jei_version}")
+    //JEI
+    compileOnly("mezz.jei:jei-${minecraft_version}-common-api:${jei_version}")
+    compileOnly("mezz.jei:jei-${minecraft_version}-neoforge-api:${jei_version}")
+    runtimeOnly("mezz.jei:jei-${minecraft_version}-neoforge:${jei_version}")
 
     //Curios (required)
     compileOnly("top.theillusivec4.curios:curios-neoforge:${curio_version}+${minecraft_version}:api")
@@ -129,30 +129,29 @@ dependencies {
     //Serene Seasons - Commented out until 1.21.1 version is available
     //compileOnly("curse.maven:serene-seasons-291874:5790653")
 
-    //Testing Only
-    runtimeOnly("curse.maven:yeetus-635427:4680832")
-    runtimeOnly("curse.maven:jeed-532286:4599236")
-    runtimeOnly("curse.maven:worldedit-225608:4586218")
-    runtimeOnly("curse.maven:mob-battle-mod-268746:6596542")
-    runtimeOnly("curse.maven:lionfish-api-1001614:5922047")
-    runtimeOnly("maven.modrinth:l_enders-cataclysm:NvvXful4")
-    runtimeOnly("curse.maven:retro-damage-indicators-1003431:5268035")
-    runtimeOnly("curse.maven:kiwi-303657:4688568")
-    runtimeOnly("curse.maven:wiki-zoomer-383277:4576732")
-    runtimeOnly("curse.maven:geckolib-388172:5414523")
-    runtimeOnly("curse.maven:born-in-chaos-686437:6833957")
-    runtimeOnly("curse.maven:framework-549225:5180972")
-    runtimeOnly("curse.maven:configured-457570:5180900")
-    runtimeOnly("curse.maven:spark-361579:4738952")
-    runtimeOnly("curse.maven:illage-and-spillage-finally-ported-1079714:6156035")
-    runtimeOnly("curse.maven:free-cam-557076:4643128")
-    runtimeOnly("curse.maven:mob-battle-extra-853296:4810120")
-    runtimeOnly("curse.maven:puzzles-lib-495476:6918565")
-    runtimeOnly("curse.maven:illager-invasion-891324:6192869")
-    runtimeOnly("curse.maven:citadel-331936:6702068")
-    runtimeOnly("curse.maven:domestication-innovation-591149:4911955")
-    runtimeOnly("curse.maven:huge-structure-blocks-474114:4803547")
-    runtimeOnly("curse.maven:guard-villagers-360203:6793945")
+    //Testing Only — NeoForge 1.21.1 builds
+    runtimeOnly("curse.maven:yeetus-635427:5444189")
+    runtimeOnly("curse.maven:jeed-532286:7346553")
+    runtimeOnly("curse.maven:worldedit-225608:5830452")
+    runtimeOnly("curse.maven:mob-battle-mod-268746:7268415")
+    runtimeOnly("curse.maven:lionfish-api-1001614:7941057")
+    runtimeOnly("maven.modrinth:l_enders-cataclysm:RM2acghH")
+    runtimeOnly("curse.maven:kiwi-303657:7666569") // beta channel — only NF 1.21.1 release stream
+    runtimeOnly("curse.maven:geckolib-388172:7707149")
+    runtimeOnly("curse.maven:born-in-chaos-686437:7917953")
+    runtimeOnly("curse.maven:framework-549225:7530361") // beta — Crayfish ships NF as beta
+    runtimeOnly("curse.maven:configured-457570:7276577")
+    runtimeOnly("curse.maven:spark-361579:6225208")
+    runtimeOnly("curse.maven:free-cam-557076:5572364")
+    runtimeOnly("curse.maven:puzzles-lib-495476:7140307")
+    runtimeOnly("curse.maven:illager-invasion-891324:6492670")
+    runtimeOnly("curse.maven:citadel-331936:7476597")
+    runtimeOnly("curse.maven:huge-structure-blocks-474114:7065481")
+    runtimeOnly("curse.maven:guard-villagers-360203:7704203")
+    // Removed — no NeoForge 1.21.1 build available:
+    //   retro-damage-indicators-1003431, wiki-zoomer-383277,
+    //   illage-and-spillage-finally-ported-1079714, mob-battle-extra-853296,
+    //   domestication-innovation-591149
 }
 
 tasks.named('jar', Jar).configure {
@@ -164,8 +163,7 @@ tasks.named('jar', Jar).configure {
                 'Implementation-Title'    : project.name,
                 'Implementation-Version'  : project.jar.archiveVersion,
                 'Implementation-Vendor'   : mod_authors,
-                'Implementation-Timestamp': new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
-                "MixinConfigs": "goety.mixins.json"
+                'Implementation-Timestamp': new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE

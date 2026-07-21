@@ -7,6 +7,7 @@
   "mixins": [
     "AbstractArrowMixin",
     "ArrowItemMixin",
+    "AxeItemAccessor",
     "BaseFireBlockMixin",
     "BlockPlaceContextMixin",
     "EnchantRandomlyFunctionMixin",

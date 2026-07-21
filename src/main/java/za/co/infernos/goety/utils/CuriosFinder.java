@@ -8,7 +8,8 @@ import za.co.infernos.goety.common.entities.neutral.AbstractNecromancer;
 import za.co.infernos.goety.common.entities.neutral.ender.AbstractEnderling;
 import za.co.infernos.goety.common.items.ModItems;
 import za.co.infernos.goety.common.items.brew.ThrowableBrewItem;
-//import top.theillusivec4.curios.api.SlotResult;
+import top.theillusivec4.curios.api.CuriosApi;
+import top.theillusivec4.curios.api.SlotResult;
 import za.co.infernos.goety.common.items.curios.*;
 
 import za.co.infernos.goety.common.items.handler.BrewBagItemHandler;
@@ -33,8 +34,13 @@ import java.util.function.Predicate;
 public class CuriosFinder {
 
     public static ItemStack findCurio(LivingEntity livingEntity, Predicate<ItemStack> filter) {
-        // Curios integration disabled for now (no Curios dependency pinned for 1.21.1
-        // yet).
+        if (CuriosLoaded.CURIOS.isLoaded()) {
+            Optional<SlotResult> slotResult = CuriosApi.getCuriosInventory(livingEntity)
+                    .flatMap(inv -> inv.findFirstCurio(filter));
+            if (slotResult.isPresent()) {
+                return slotResult.get().stack();
+            }
+        }
         return ItemStack.EMPTY;
     }
 

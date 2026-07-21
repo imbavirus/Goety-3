@@ -1,14 +1,13 @@
 package za.co.infernos.goety.init;
 
 import net.minecraft.client.KeyMapping;
-import net.minecraft.client.Minecraft;
-import org.apache.commons.lang3.ArrayUtils;
+import net.neoforged.neoforge.client.event.RegisterKeyMappingsEvent;
 import org.lwjgl.glfw.GLFW;
 
 public class ModKeybindings {
     public static KeyMapping[] keyBindings = new KeyMapping[16];
 
-    public static void init(){
+    static {
         keyBindings[0] = new KeyMapping("key.goety.wand", GLFW.GLFW_KEY_Z, "key.goety.category");
         keyBindings[1] = new KeyMapping("key.goety.focusCircle", GLFW.GLFW_KEY_X, "key.goety.category");
         keyBindings[2] = new KeyMapping("key.goety.bag", GLFW.GLFW_KEY_C, "key.goety.category");
@@ -25,10 +24,17 @@ public class ModKeybindings {
         keyBindings[13] = new KeyMapping("key.goety.lich.laugh", GLFW.GLFW_KEY_K, "key.goety.lich.category");
         keyBindings[14] = new KeyMapping("key.goety.activate_curio", GLFW.GLFW_KEY_G, "key.goety.category");
         keyBindings[15] = new KeyMapping("key.goety.dismiss", GLFW.GLFW_KEY_KP_DECIMAL, "key.goety.category");
+    }
 
+    public static void register(RegisterKeyMappingsEvent event) {
         for (KeyMapping keyBinding : keyBindings) {
-            Minecraft.getInstance().options.keyMappings = ArrayUtils.add(Minecraft.getInstance().options.keyMappings, keyBinding);
+            event.register(keyBinding);
         }
+    }
+
+    /** @deprecated kept as a no-op for legacy callers; registration now happens via {@link #register}. */
+    @Deprecated
+    public static void init() {
     }
 
     public static KeyMapping wandSlot(){

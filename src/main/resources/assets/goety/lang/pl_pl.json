@@ -1338,7 +1338,7 @@
   "info.goety.wand.switch": "Kliknij %d podczas trzymania by zmienić skupienie",
   "info.goety.armor.discount": "Zniżka Dusz",
   "info.goety.focus.cost": "§bOryginalny Koszt:§b %d",
-  "info.goety.focus.spellType": "§dRodzaj Zaklęcia:§d %d",
+  "info.goety.focus.spellType": "§dRodzaj Zaklęcia:§d %s",
   "info.goety.focus.noSummon": "§5Brak Przywołańca§5",
   "info.goety.focus.noSummonType": "§5Brak Typu Przywołańca§5",
   "info.goety.focus.summon": "Przywołaniec:",

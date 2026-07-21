@@ -1,53 +1,57 @@
 package za.co.infernos.goety.common.network.server;
 
-import za.co.infernos.goety.Goety;
-import za.co.infernos.goety.utils.EntityFinder;
 import net.minecraft.client.multiplayer.ClientLevel;
-import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.network.RegistryFriendlyByteBuf;
+import net.minecraft.network.codec.ByteBufCodecs;
+import net.minecraft.network.codec.StreamCodec;
+import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.level.Level;
-import za.co.infernos.goety.compat.legacy.network.NetworkEvent;
+import net.neoforged.neoforge.network.handling.IPayloadContext;
+import za.co.infernos.goety.Goety;
+import za.co.infernos.goety.utils.EntityFinder;
 
 import java.util.Optional;
 import java.util.UUID;
-import java.util.function.Supplier;
 
-public class SPlayEntitySoundPacket {
-    private UUID entity;
-    private SoundEvent soundEvent;
-    private float volume;
-    private float pitch;
+public record SPlayEntitySoundPacket(UUID entity, ResourceLocation soundId, float volume, float pitch) implements CustomPacketPayload {
+    public static final Type<SPlayEntitySoundPacket> TYPE =
+            new Type<>(ResourceLocation.fromNamespaceAndPath(Goety.MOD_ID, "play_entity_sound"));
 
-    public SPlayEntitySoundPacket(UUID uuid, SoundEvent soundEvent, float volume, float pitch){
-        this.entity = uuid;
-        this.soundEvent = soundEvent;
-        this.volume = volume;
-        this.pitch = pitch;
+    public static final StreamCodec<RegistryFriendlyByteBuf, SPlayEntitySoundPacket> STREAM_CODEC = StreamCodec.composite(
+            ByteBufCodecs.STRING_UTF8.map(UUID::fromString, UUID::toString), SPlayEntitySoundPacket::entity,
+            ResourceLocation.STREAM_CODEC, SPlayEntitySoundPacket::soundId,
+            ByteBufCodecs.FLOAT, SPlayEntitySoundPacket::volume,
+            ByteBufCodecs.FLOAT, SPlayEntitySoundPacket::pitch,
+            SPlayEntitySoundPacket::new
+    );
+
+    public SPlayEntitySoundPacket(UUID uuid, SoundEvent soundEvent, float volume, float pitch) {
+        this(uuid, soundEvent.getLocation(), volume, pitch);
     }
 
-    public static void encode(SPlayEntitySoundPacket packet, FriendlyByteBuf buffer) {
-        buffer.writeUUID(packet.entity);
-        buffer.writeResourceLocation(packet.soundEvent.getLocation());
-        buffer.writeFloat(packet.volume);
-        buffer.writeFloat(packet.pitch);
-    }
-
-    public static SPlayEntitySoundPacket decode(FriendlyByteBuf buffer) {
-        return new SPlayEntitySoundPacket(buffer.readUUID(), SoundEvent.createVariableRangeEvent(buffer.readResourceLocation()), buffer.readFloat(), buffer.readFloat());
-    }
-
-    public static void consume(SPlayEntitySoundPacket packet, Supplier<NetworkEvent.Context> ctx) {
-        ctx.get().enqueueWork(() -> {
+    public static void handle(SPlayEntitySoundPacket packet, IPayloadContext ctx) {
+        ctx.enqueueWork(() -> {
             Level level = Goety.PROXY.getLevel();
-            if (level instanceof ClientLevel clientWorld) {
+            if (level instanceof ClientLevel clientLevel) {
                 Optional<? extends Entity> optionalEntity = EntityFinder.getEntityByUuiDGlobal(packet.entity);
-                if (optionalEntity.isPresent()){
+                if (optionalEntity.isPresent()) {
                     Entity entity = optionalEntity.get();
-                    clientWorld.playLocalSound(entity.blockPosition(), packet.soundEvent, entity.getSoundSource(), packet.volume, packet.pitch, false);
+                    SoundEvent soundEvent = BuiltInRegistries.SOUND_EVENT.get(packet.soundId);
+                    if (soundEvent == null) {
+                        soundEvent = SoundEvent.createVariableRangeEvent(packet.soundId);
+                    }
+                    clientLevel.playLocalSound(entity.blockPosition(), soundEvent, entity.getSoundSource(), packet.volume, packet.pitch, false);
                 }
             }
         });
-        ctx.get().setPacketHandled(true);
+    }
+
+    @Override
+    public Type<? extends CustomPacketPayload> type() {
+        return TYPE;
     }
 }

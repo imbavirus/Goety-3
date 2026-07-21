@@ -931,7 +931,7 @@ public class ModItems {
                                 || item == PEDESTAL_DUMMY.get()
                                 || item == BONE_SHARD.get()
                                 || item == COOKING_LADLE.get()
-                                || item instanceof TotemOfSouls
+                                || item == TOTEM_OF_SOULS.get()
                                 || item instanceof BrewItem;
         }
 

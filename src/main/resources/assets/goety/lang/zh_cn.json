@@ -1229,7 +1229,7 @@
   "info.goety.wand.switch": "当你持有法杖时，按%d键以切换法术聚晶",
   "info.goety.armor.discount": "灵魂折扣",
   "info.goety.focus.cost": "§b原始消耗:§b %d",
-  "info.goety.focus.spellType": "§d法术类型:§d %d",
+  "info.goety.focus.spellType": "§d法术类型:§d %s",
   "info.goety.focus.noSummon": "§5无仆人§5",
   "info.goety.focus.summon": "生成:",
   "info.goety.focus.noServant": "§5没有被选中的仆从§5",

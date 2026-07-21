@@ -1527,7 +1527,7 @@
   "info.goety.wand.switch": "Натисніть %d, тримаючи, щоб змінити фокус",
   "info.goety.armor.discount": "Знижка Душ",
   "info.goety.focus.cost": "§bПочаткова Вартість:§b %d",
-  "info.goety.focus.spellType": "§dТип Заклинання:§d %d",
+  "info.goety.focus.spellType": "§dТип Заклинання:§d %s",
   "info.goety.focus.noSummon": "§5Без Виклику§5",
   "info.goety.focus.noSummonType": "§5Без Типу Виклику§5",
   "info.goety.focus.summon": "Виклик:",

@@ -1511,7 +1511,7 @@
   "info.goety.wand.switch": "Pressione %d enquanto segura para trocar de foco",
   "info.goety.armor.discount": "Desconto de Alma",
   "info.goety.focus.cost": "§bCusto Original:§b %d",
-  "info.goety.focus.spellType": "§dTipo de Feitiço:§d %d",
+  "info.goety.focus.spellType": "§dTipo de Feitiço:§d %s",
   "info.goety.focus.noSummon": "§5Sem Invocação§5",
   "info.goety.focus.noSummonType": "§5Sem Tipo de Invocação§5",
   "info.goety.focus.summon": "Invocação:",

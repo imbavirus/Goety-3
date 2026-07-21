@@ -31,7 +31,7 @@ public class ModRecipeSerializer {
                         "cursed_infuser");
 
         public static final DeferredHolder<RecipeSerializer<?>, RecipeSerializer<CursedInfuserRecipes>> CURSED_INFUSER_RECIPES = RECIPE_SERIALIZERS
-                        .register("cursed_infuser_recipes",
+                        .register("cursed_infuser",
                                         () -> new CursedInfuserRecipeSerializer<>(CursedInfuserRecipes::new, 60));
 
         public static final DeferredHolder<RecipeType<?>, RecipeType<SoulAbsorberRecipes>> SOUL_ABSORBER = register(

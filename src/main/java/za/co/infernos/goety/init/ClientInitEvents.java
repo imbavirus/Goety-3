@@ -1,8 +1,14 @@
 package za.co.infernos.goety.init;
 
 import za.co.infernos.goety.Goety;
+import net.minecraft.client.renderer.item.ItemProperties;
+import net.minecraft.resources.ResourceLocation;
 import za.co.infernos.goety.client.render.*;
 import za.co.infernos.goety.client.render.block.ArcaRenderer;
+import za.co.infernos.goety.client.render.block.CursedInfuserRenderer;
+import za.co.infernos.goety.common.blocks.entities.ModBlockEntities;
+import za.co.infernos.goety.common.items.FlameCaptureItem;
+import za.co.infernos.goety.common.items.ModItems;
 import za.co.infernos.goety.client.render.block.BlackCrystalRenderer;
 import za.co.infernos.goety.client.render.block.LoftyChestRenderer;
 import za.co.infernos.goety.client.render.block.ModBlockLayer;
@@ -16,6 +22,17 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
+import net.neoforged.neoforge.client.event.RegisterGuiLayersEvent;
+import net.neoforged.neoforge.client.event.RegisterKeyMappingsEvent;
+import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
+import net.neoforged.neoforge.client.gui.VanillaGuiLayers;
+import za.co.infernos.goety.client.gui.overlay.CurrentFocusGui;
+import za.co.infernos.goety.client.gui.screen.inventory.BrewBagScreen;
+import za.co.infernos.goety.client.gui.screen.inventory.DarkAnvilScreen;
+import za.co.infernos.goety.client.gui.screen.inventory.FocusBagScreen;
+import za.co.infernos.goety.client.gui.screen.inventory.FocusPackScreen;
+import za.co.infernos.goety.client.gui.screen.inventory.SoulItemScreen;
+import za.co.infernos.goety.client.inventory.container.ModContainerType;
 
 @EventBusSubscriber(modid = Goety.MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ClientInitEvents {
@@ -23,8 +40,30 @@ public class ClientInitEvents {
     public static void clientInit(FMLClientSetupEvent event) {
         event.enqueueWork(() -> {
             CuriosRenderer.register();
-            ModKeybindings.init();
+            ItemProperties.register(
+                    ModItems.FLAME_CAPTURE.get(),
+                    ResourceLocation.fromNamespaceAndPath(Goety.MOD_ID, "capture"),
+                    (stack, level, entity, seed) -> FlameCaptureItem.hasEntity(stack) ? 1.0F : 0.0F);
         });
+    }
+
+    @SubscribeEvent
+    public static void registerKeyMappings(RegisterKeyMappingsEvent event) {
+        ModKeybindings.register(event);
+    }
+
+    @SubscribeEvent
+    public static void registerGuiLayers(RegisterGuiLayersEvent event) {
+        event.registerAbove(VanillaGuiLayers.EXPERIENCE_BAR, CurrentFocusGui.LAYER_ID, CurrentFocusGui.LAYER);
+    }
+
+    @SubscribeEvent
+    public static void registerMenuScreens(RegisterMenuScreensEvent event) {
+        event.register(ModContainerType.WAND.get(), SoulItemScreen::new);
+        event.register(ModContainerType.FOCUS_BAG.get(), FocusBagScreen::new);
+        event.register(ModContainerType.FOCUS_PACK.get(), FocusPackScreen::new);
+        event.register(ModContainerType.BREW_BAG.get(), BrewBagScreen::new);
+        event.register(ModContainerType.DARK_ANVIL.get(), DarkAnvilScreen::new);
     }
 
     @SubscribeEvent
@@ -196,8 +235,15 @@ public class ClientInitEvents {
 
     @SubscribeEvent
     public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
+        // Block entity renderers
+        try {
+            event.registerBlockEntityRenderer(ModBlockEntities.CURSED_INFUSER.get(), CursedInfuserRenderer::new);
+        } catch (Exception e) {
+            Goety.LOGGER.error("Failed to register CursedInfuser renderer", e);
+        }
+
         // Register all entity renderers - using try-catch for each to handle missing renderers gracefully
-        
+
         // Register Wraith and IceBouquet (already working)
         try {
             event.registerEntityRenderer(ModEntityType.WRAITH.get(), WraithRenderer::new);

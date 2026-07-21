@@ -15,7 +15,6 @@ public class TotemFinder {
 
     public static ItemStack findBag(Player playerEntity) {
         ItemStack foundStack = ItemStack.EMPTY;
-        // Curios integration disabled for now (no Curios dependency pinned for 1.21.1 yet).
         for (int i = 0; i < playerEntity.getInventory().getContainerSize(); i++) {
             ItemStack itemStack = playerEntity.getInventory().getItem(i);
             if (!itemStack.isEmpty() && isFocusBag(itemStack)) {
@@ -23,7 +22,12 @@ public class TotemFinder {
                 break;
             }
         }
-
+        if (foundStack.isEmpty()) {
+            ItemStack curioStack = CuriosFinder.findCurio(playerEntity, TotemFinder::isFocusBag);
+            if (!curioStack.isEmpty()) {
+                foundStack = curioStack;
+            }
+        }
         return foundStack;
     }
 
@@ -87,6 +91,12 @@ public class TotemFinder {
                     foundStack = itemStack;
                     break;
                 }
+            }
+        }
+        if (foundStack.isEmpty()) {
+            ItemStack curioStack = CuriosFinder.findCurio(playerEntity, TotemFinder::isTotem);
+            if (!curioStack.isEmpty()) {
+                foundStack = curioStack;
             }
         }
         return foundStack;

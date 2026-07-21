@@ -62,6 +62,7 @@ import za.co.infernos.goety.compat.fml.FMLJavaModLoadingContext;
 import za.co.infernos.goety.config.*;
 import za.co.infernos.goety.init.*;
 import za.co.infernos.goety.init.ModAttachments;
+import za.co.infernos.goety.mixin.AxeItemAccessor;
 import za.co.infernos.goety.mixin.FireBlockAccessor;
 import za.co.infernos.goety.utils.ModPotionUtil;
 import com.google.common.collect.Maps;
@@ -114,7 +115,6 @@ import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLLoadCompleteEvent;
 import net.neoforged.fml.event.lifecycle.InterModEnqueueEvent;
-import net.neoforged.fml.loading.FMLPaths;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.NeoForgeRegistries;
 import za.co.infernos.goety.compat.legacy.neoforge.registries.RegistryObject;
@@ -133,8 +133,20 @@ import static net.neoforged.fml.loading.LogMarkers.CORE;
 public class Goety {
         public static final String MOD_ID = "goety";
         public static final Logger LOGGER = LogUtils.getLogger();
-        public static ModProxy PROXY = new CommonProxy();
-        public static SidedInit SIDED_INIT = new SidedInit();
+        public static ModProxy PROXY = createProxy();
+        public static SidedInit SIDED_INIT = createSidedInit();
+
+        private static ModProxy createProxy() {
+                return net.neoforged.fml.loading.FMLEnvironment.dist == net.neoforged.api.distmarker.Dist.CLIENT
+                                ? new ClientProxy()
+                                : new CommonProxy();
+        }
+
+        private static SidedInit createSidedInit() {
+                return net.neoforged.fml.loading.FMLEnvironment.dist == net.neoforged.api.distmarker.Dist.CLIENT
+                                ? new za.co.infernos.goety.init.ClientSideInit()
+                                : new SidedInit();
+        }
 
         public static ResourceLocation location(String path) {
                 return ResourceLocation.fromNamespaceAndPath(MOD_ID, path);
@@ -172,15 +184,13 @@ public class Goety {
                 modEventBus.addListener(EventPriority.LOWEST, this::finalLoad);
                 modEventBus.addListener(ModNetwork::registerPayloadHandlers);
 
-                Path configDir = getOrCreateDirectory(FMLPaths.CONFIGDIR.get().resolve("goety"), "goety");
-                
-                // Load config files - creates config files if they don't exist and loads them
-                za.co.infernos.goety.config.MainConfig.loadConfig(za.co.infernos.goety.config.MainConfig.SPEC, configDir.resolve("main.toml").toString());
-                za.co.infernos.goety.config.MobsConfig.loadConfig(za.co.infernos.goety.config.MobsConfig.SPEC, configDir.resolve("mobs.toml").toString());
-                za.co.infernos.goety.config.SpellConfig.loadConfig(za.co.infernos.goety.config.SpellConfig.SPEC, configDir.resolve("spells.toml").toString());
-                za.co.infernos.goety.config.ItemConfig.loadConfig(za.co.infernos.goety.config.ItemConfig.SPEC, configDir.resolve("items.toml").toString());
-                za.co.infernos.goety.config.BrewConfig.loadConfig(za.co.infernos.goety.config.BrewConfig.SPEC, configDir.resolve("brews.toml").toString());
-                za.co.infernos.goety.config.AttributesConfig.loadConfig(za.co.infernos.goety.config.AttributesConfig.SPEC, configDir.resolve("attributes.toml").toString());
+                net.neoforged.fml.ModContainer container = ModLoadingContext.get().getActiveContainer();
+                container.registerConfig(ModConfig.Type.COMMON, za.co.infernos.goety.config.MainConfig.SPEC, "goety/main.toml");
+                container.registerConfig(ModConfig.Type.COMMON, za.co.infernos.goety.config.MobsConfig.SPEC, "goety/mobs.toml");
+                container.registerConfig(ModConfig.Type.COMMON, za.co.infernos.goety.config.SpellConfig.SPEC, "goety/spells.toml");
+                container.registerConfig(ModConfig.Type.COMMON, za.co.infernos.goety.config.ItemConfig.SPEC, "goety/items.toml");
+                container.registerConfig(ModConfig.Type.COMMON, za.co.infernos.goety.config.BrewConfig.SPEC, "goety/brews.toml");
+                container.registerConfig(ModConfig.Type.COMMON, za.co.infernos.goety.config.AttributesConfig.SPEC, "goety/attributes.toml");
 
                 final DeferredRegister<MapCodec<? extends BiomeModifier>> biomeModifiers = DeferredRegister
                                 .create(NeoForgeRegistries.Keys.BIOME_MODIFIER_SERIALIZERS, Goety.MOD_ID);
@@ -237,6 +247,32 @@ public class Goety {
                 ModCriteriaTriggers.register(event);
         }
 
+        @FunctionalInterface
+        private interface ProjectileFactory {
+                Projectile create(Level level, Position pos, ItemStack stack);
+        }
+
+        private static DispenseItemBehavior projectileDispense(ProjectileFactory factory, float power, float uncertainty) {
+                return new DefaultDispenseItemBehavior() {
+                        @Override
+                        protected ItemStack execute(BlockSource source, ItemStack stack) {
+                                Level level = source.level();
+                                Direction facing = source.state().getValue(DispenserBlock.FACING);
+                                Position pos = DispenserBlock.getDispensePosition(source);
+                                Projectile projectile = factory.create(level, pos, stack);
+                                projectile.shoot(facing.getStepX(), facing.getStepY() + 0.1F, facing.getStepZ(), power, uncertainty);
+                                level.addFreshEntity(projectile);
+                                stack.shrink(1);
+                                return stack;
+                        }
+
+                        @Override
+                        protected void playSound(BlockSource source) {
+                                source.level().levelEvent(1002, source.pos(), 0);
+                        }
+                };
+        }
+
         private void commonSetup(final FMLCommonSetupEvent event) {
                 // Update effect curable values from configs now that configs are loaded
                 event.enqueueWork(() -> {
@@ -291,17 +327,20 @@ public class Goety {
                                                         return stack;
                                                 }
                                         });
-                        // TODO (NeoForge 1.21): re-implement custom projectile dispense behaviors (old
-                        // AbstractProjectileDispenseBehavior no longer exists).
-                        DispenserBlock.registerBehavior(ModItems.ILL_BOMB.get(), new DefaultDispenseItemBehavior());
-                        DispenserBlock.registerBehavior(ModItems.SNAP_FUNGUS.get(), new DefaultDispenseItemBehavior());
-                        DispenserBlock.registerBehavior(ModItems.BLAST_FUNGUS.get(), new DefaultDispenseItemBehavior());
+                        DispenserBlock.registerBehavior(ModItems.ILL_BOMB.get(),
+                                        projectileDispense((level, pos, stack) -> new IllBomb(pos.x(), pos.y(), pos.z(), level), 1.1F, 6.0F));
+                        DispenserBlock.registerBehavior(ModItems.SNAP_FUNGUS.get(),
+                                        projectileDispense((level, pos, stack) -> new SnapFungus(pos.x(), pos.y(), pos.z(), level), 1.1F, 6.0F));
+                        DispenserBlock.registerBehavior(ModItems.BLAST_FUNGUS.get(),
+                                        projectileDispense((level, pos, stack) -> new BlastFungus(pos.x(), pos.y(), pos.z(), level), 1.1F, 6.0F));
                         DispenserBlock.registerBehavior(ModItems.BERSERK_FUNGUS.get(),
-                                        new DefaultDispenseItemBehavior());
-                        DispenserBlock.registerBehavior(ModItems.SPLASH_BREW.get(), new DefaultDispenseItemBehavior());
+                                        projectileDispense((level, pos, stack) -> new BerserkFungus(pos.x(), pos.y(), pos.z(), level), 1.1F, 6.0F));
+                        DispenserBlock.registerBehavior(ModItems.SPLASH_BREW.get(),
+                                        projectileDispense((level, pos, stack) -> Util.make(new ThrownBrew(level, pos.x(), pos.y(), pos.z()), b -> b.setItem(stack)), 1.375F, 3.0F));
                         DispenserBlock.registerBehavior(ModItems.LINGERING_BREW.get(),
-                                        new DefaultDispenseItemBehavior());
-                        DispenserBlock.registerBehavior(ModItems.GAS_BREW.get(), new DefaultDispenseItemBehavior());
+                                        projectileDispense((level, pos, stack) -> Util.make(new ThrownBrew(level, pos.x(), pos.y(), pos.z()), b -> b.setItem(stack)), 1.375F, 3.0F));
+                        DispenserBlock.registerBehavior(ModItems.GAS_BREW.get(),
+                                        projectileDispense((level, pos, stack) -> Util.make(new ThrownBrew(level, pos.x(), pos.y(), pos.z()), b -> b.setItem(stack)), 1.375F, 3.0F));
                         DispenserBlock.registerBehavior(ModItems.HAUNTED_ARMOR_STAND.get(),
                                         new DefaultDispenseItemBehavior() {
                                                 public ItemStack execute(BlockSource p_123461_, ItemStack p_123462_) {
@@ -501,7 +540,16 @@ public class Goety {
                                                                                         return stack;
                                                                                 }
                                                                         }));
-                        // TODO NeoForge 1.21: register custom strip interactions via modern axe-strippables API.
+                        java.util.Map<Block, Block> strippables = Maps.newHashMap(AxeItemAccessor.getStrippables());
+                        strippables.put(ModBlocks.HAUNTED_LOG.get(), ModBlocks.STRIPPED_HAUNTED_LOG.get());
+                        strippables.put(ModBlocks.HAUNTED_WOOD.get(), ModBlocks.STRIPPED_HAUNTED_WOOD.get());
+                        strippables.put(ModBlocks.ROTTEN_LOG.get(), ModBlocks.STRIPPED_ROTTEN_LOG.get());
+                        strippables.put(ModBlocks.ROTTEN_WOOD.get(), ModBlocks.STRIPPED_ROTTEN_WOOD.get());
+                        strippables.put(ModBlocks.WINDSWEPT_LOG.get(), ModBlocks.STRIPPED_WINDSWEPT_LOG.get());
+                        strippables.put(ModBlocks.WINDSWEPT_WOOD.get(), ModBlocks.STRIPPED_WINDSWEPT_WOOD.get());
+                        strippables.put(ModBlocks.PINE_LOG.get(), ModBlocks.STRIPPED_PINE_LOG.get());
+                        strippables.put(ModBlocks.PINE_WOOD.get(), ModBlocks.STRIPPED_PINE_WOOD.get());
+                        AxeItemAccessor.setStrippables(strippables);
                         ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.CHORUS_STALK.getId(),
                                         ModBlocks.POTTED_CHORUS_STALK);
                         ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.CHORUS_FERN.getId(),

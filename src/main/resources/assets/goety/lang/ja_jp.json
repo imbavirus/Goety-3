@@ -877,7 +877,7 @@
   "info.goety.wand.coolDown": "§fクールダウン:§f %ds",
   "info.goety.armor.discount": "ソウル割引",
   "info.goety.focus.cost": "§b元のコスト:§b %d",
-  "info.goety.focus.spellType": "§d呪文の種類:§d %d",
+  "info.goety.focus.spellType": "§d呪文の種類:§d %s",
   "info.goety.focus.noSummon": "§5呼び出しが未設定§5",
   "info.goety.focus.summon": "呼び出し:",
   "info.goety.focus.noServant": "§5従者が選択されていません§5",

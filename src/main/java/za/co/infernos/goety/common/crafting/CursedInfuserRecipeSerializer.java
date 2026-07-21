@@ -27,10 +27,11 @@ public class CursedInfuserRecipeSerializer<T extends CursedInfuserRecipes> imple
     public CursedInfuserRecipeSerializer(IFactory<T> pFactory, int pDefaultCookingTime) {
         this.defaultCookingTime = pDefaultCookingTime;
         this.factory = pFactory;
+        Codec<ItemStack> resultCodec = Codec.withAlternative(ItemStack.CODEC, ItemStack.SIMPLE_ITEM_CODEC);
         this.codec = RecordCodecBuilder.mapCodec(instance -> instance.group(
                 Codec.STRING.optionalFieldOf("group", "").forGetter(r -> r.group),
                 Ingredient.CODEC_NONEMPTY.fieldOf("ingredient").forGetter(r -> r.ingredient),
-                ItemStack.CODEC.fieldOf("result").forGetter(r -> r.result),
+                resultCodec.fieldOf("result").forGetter(r -> r.result),
                 Codec.FLOAT.optionalFieldOf("experience", 0.0F).forGetter(r -> 0.0F), // Experience seems unused or constant 0.0F in factory create?
                 Codec.INT.optionalFieldOf("cookingTime", defaultCookingTime).forGetter(r -> r.cookingTime),
                 Codec.BOOL.optionalFieldOf("grim", false).forGetter(r -> r.grim)

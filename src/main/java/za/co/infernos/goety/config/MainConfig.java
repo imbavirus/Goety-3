@@ -1,11 +1,8 @@
 package za.co.infernos.goety.config;
 
-import com.electronwill.nightconfig.core.file.CommentedFileConfig;
-import com.electronwill.nightconfig.core.io.WritingMode;
 import com.google.common.collect.Lists;
 import net.neoforged.neoforge.common.ModConfigSpec;
 
-import java.io.File;
 import java.util.List;
 
 /**
@@ -275,13 +272,4 @@ public class MainConfig {
         SPEC = BUILDER.build();
     }
 
-    public static void loadConfig(ModConfigSpec config, String path) {
-        final CommentedFileConfig file = CommentedFileConfig.builder(new File(path))
-                .sync()
-                .autosave()
-                .writingMode(WritingMode.REPLACE)
-                .build();
-        file.load();
-        // NeoForge 1.21: config binding is handled via registered config file path.
-    }
 }

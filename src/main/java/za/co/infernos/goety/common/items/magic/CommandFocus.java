@@ -37,13 +37,27 @@ public class CommandFocus extends MagicFocus {
     }
 
     public static LivingEntity getServant(ItemStack stack) {
-        // Server lookup by UUID is not available from ItemStack alone in 1.21 APIs.
+        // Without a Level reference we can't resolve a UUID. Use getServant(Level, stack) on the server.
         return null;
     }
 
     public static LivingEntity getServant(CompoundTag compoundTag) {
-        // Server lookup by UUID requires world/server context.
         return null;
+    }
+
+    public static LivingEntity getServant(Level level, ItemStack stack) {
+        if (level == null) {
+            return null;
+        }
+        CompoundTag tag = stack.getOrDefault(DataComponents.CUSTOM_DATA, CustomData.EMPTY).copyTag();
+        if (!tag.contains(TAG_ENTITY)) {
+            return getServantClient(level, tag);
+        }
+        if (level instanceof net.minecraft.server.level.ServerLevel sl) {
+            net.minecraft.world.entity.Entity entity = sl.getEntity(tag.getUUID(TAG_ENTITY));
+            return entity instanceof LivingEntity le ? le : null;
+        }
+        return getServantClient(level, tag);
     }
 
     public static LivingEntity getServantClient(Level level, ItemStack stack) {

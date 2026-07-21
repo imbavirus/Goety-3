@@ -1,32 +1,32 @@
 package za.co.infernos.goety.common.network.client;
 
-import za.co.infernos.goety.common.entities.neutral.IRavager;
 import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.network.codec.StreamCodec;
+import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
-import za.co.infernos.goety.compat.legacy.network.NetworkEvent;
+import net.neoforged.neoforge.network.handling.IPayloadContext;
+import za.co.infernos.goety.Goety;
+import za.co.infernos.goety.common.entities.neutral.IRavager;
 
-import java.util.function.Supplier;
+public record CRavagerRoarPacket() implements CustomPacketPayload {
+    public static final Type<CRavagerRoarPacket> TYPE =
+            new Type<>(ResourceLocation.fromNamespaceAndPath(Goety.MOD_ID, "ravager_roar"));
 
-public class CRavagerRoarPacket {
-    public static void encode(CRavagerRoarPacket packet, FriendlyByteBuf buffer) {
-    }
+    public static final StreamCodec<FriendlyByteBuf, CRavagerRoarPacket> STREAM_CODEC =
+            StreamCodec.unit(new CRavagerRoarPacket());
 
-    public static CRavagerRoarPacket decode(FriendlyByteBuf buffer) {
-        return new CRavagerRoarPacket();
-    }
-
-    public static void consume(CRavagerRoarPacket packet, Supplier<NetworkEvent.Context> ctx) {
-        ctx.get().enqueueWork(() -> {
-            ServerPlayer playerEntity = za.co.infernos.goety.common.network.NetworkContextHelper.getServerPlayer(ctx);
-
-            if (playerEntity != null) {
-                if (playerEntity.getVehicle() instanceof IRavager ravager){
-                    ravager.forceRoar();
-                }
+    public static void handle(CRavagerRoarPacket packet, IPayloadContext ctx) {
+        ctx.enqueueWork(() -> {
+            if (ctx.player() instanceof ServerPlayer playerEntity
+                    && playerEntity.getVehicle() instanceof IRavager ravager) {
+                ravager.forceRoar();
             }
         });
-        ctx.get().setPacketHandled(true);
+    }
+
+    @Override
+    public Type<? extends CustomPacketPayload> type() {
+        return TYPE;
     }
 }
-
-

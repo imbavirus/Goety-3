@@ -53,6 +53,26 @@ public class RecallFocus extends Item {
         });
     }
 
+    /**
+     * Legacy 1.20 entry point. The wand passes a CompoundTag it will then re-attach via
+     * {@code CustomData.update}; we mutate the tag directly so the same call site keeps working.
+     */
+    public static void addRecallTags(ResourceKey<Level> dimension, BlockPos pos, CompoundTag tag) {
+        if (tag == null) return;
+        ResourceKey.codec(Registries.DIMENSION).encodeStart(NbtOps.INSTANCE, dimension).result().ifPresent(n -> tag.put(TAG_DIMENSION, n));
+        tag.put(TAG_POS, net.minecraft.nbt.NbtUtils.writeBlockPos(pos));
+    }
+
+    public static void addRecallText(ItemStack stack, List<Component> tooltip) {
+        BlockPos blockPos = getRecallBlockPos(stack);
+        Optional<ResourceKey<Level>> dim = getDimension(stack);
+        if (blockPos != null && dim.isPresent()) {
+            ResourceLocation loc = dim.get().location();
+            tooltip.add(Component.translatable("info.goety.focus.Position", blockPos.getX(), blockPos.getY(), blockPos.getZ()).withStyle(ChatFormatting.GRAY));
+            tooltip.add(Component.translatable("info.goety.focus.PosDim", loc.toString()).withStyle(ChatFormatting.DARK_GRAY));
+        }
+    }
+
     public static void clearRecall(ItemStack stack) {
         CustomData.update(DataComponents.CUSTOM_DATA, stack, tag -> {
             tag.remove(TAG_DIMENSION);

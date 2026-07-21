@@ -1,35 +1,29 @@
 package za.co.infernos.goety.common.network.server;
 
-import za.co.infernos.goety.Goety;
-import za.co.infernos.goety.utils.SEHelper;
-import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.network.RegistryFriendlyByteBuf;
+import net.minecraft.network.codec.ByteBufCodecs;
+import net.minecraft.network.codec.StreamCodec;
+import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
-import za.co.infernos.goety.compat.legacy.network.NetworkEvent;
+import net.neoforged.neoforge.network.handling.IPayloadContext;
+import za.co.infernos.goety.Goety;
+import za.co.infernos.goety.utils.SEHelper;
 
-import java.util.function.Supplier;
+public record SFocusCooldownPacket(Item item, int duration) implements CustomPacketPayload {
+    public static final Type<SFocusCooldownPacket> TYPE =
+            new Type<>(ResourceLocation.fromNamespaceAndPath(Goety.MOD_ID, "focus_cooldown"));
 
-public class SFocusCooldownPacket {
-    private final Item item;
-    private final int duration;
+    public static final StreamCodec<RegistryFriendlyByteBuf, SFocusCooldownPacket> STREAM_CODEC = StreamCodec.composite(
+            ByteBufCodecs.registry(Registries.ITEM), SFocusCooldownPacket::item,
+            ByteBufCodecs.VAR_INT, SFocusCooldownPacket::duration,
+            SFocusCooldownPacket::new
+    );
 
-    public SFocusCooldownPacket(Item p_132000_, int p_132001_) {
-        this.item = p_132000_;
-        this.duration = p_132001_;
-    }
-
-    public static void encode(SFocusCooldownPacket packet, FriendlyByteBuf buffer) {
-        buffer.writeResourceLocation(BuiltInRegistries.ITEM.getKey(packet.item));
-        buffer.writeVarInt(packet.duration);
-    }
-
-    public static SFocusCooldownPacket decode(FriendlyByteBuf buffer) {
-        return new SFocusCooldownPacket(BuiltInRegistries.ITEM.get(buffer.readResourceLocation()), buffer.readVarInt());
-    }
-
-    public static void consume(SFocusCooldownPacket packet, Supplier<NetworkEvent.Context> ctx) {
-        ctx.get().enqueueWork(() -> {
+    public static void handle(SFocusCooldownPacket packet, IPayloadContext ctx) {
+        ctx.enqueueWork(() -> {
             Player player = Goety.PROXY.getPlayer();
             if (player != null) {
                 if (packet.duration == 0) {
@@ -39,6 +33,10 @@ public class SFocusCooldownPacket {
                 }
             }
         });
-        ctx.get().setPacketHandled(true);
+    }
+
+    @Override
+    public Type<? extends CustomPacketPayload> type() {
+        return TYPE;
     }
 }

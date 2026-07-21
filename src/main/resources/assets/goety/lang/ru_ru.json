@@ -1503,7 +1503,7 @@
   "info.goety.wand.switch": "Нажмите %d, держа палочку, чтобы заменить фокус",
   "info.goety.armor.discount": "скидка на энергию душ",
   "info.goety.focus.cost": "§bИзначальная стоимость:§b %d",
-  "info.goety.focus.spellType": "§dТип заклинания:§d %d",
+  "info.goety.focus.spellType": "§dТип заклинания:§d %s",
   "info.goety.focus.noSummon": "§5Призываемое существо не выбрано§5",
   "info.goety.focus.noSummonType": "§5Вид прислужников не выбран§5",
   "info.goety.focus.summon": "Призывает:",
