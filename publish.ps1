@@ -439,31 +439,24 @@ function Resolve-CurseForgeGameVersionIds([hashtable]$cf, [string]$minecraftVers
     }
     $resolved += $envIds
   } else {
-    # Auto-resolve server and client environment IDs
-    # Server-side environment type ID is 1, Client is 2 (from CurseForge API docs)
-    # Search for environment versions with these type IDs
-    $serverEnv = $all | Where-Object {
-      $_.gameVersionTypeID -eq 1 -and ($_.name -like "*server*" -or $_.slug -like "*server*" -or $_.id -eq 1)
-    } | Select-Object -First 1
+    # Auto-resolve Client/Server environment version IDs (gameVersionTypeID 75208)
     $clientEnv = $all | Where-Object {
-      $_.gameVersionTypeID -eq 1 -and ($_.name -like "*client*" -or $_.slug -like "*client*" -or $_.id -eq 2)
+      ($_.name -eq "Client" -or $_.slug -eq "client")
     } | Select-Object -First 1
-    
-    # If not found by name, try by ID (common: Server = 1, Client = 2)
-    if (-not $serverEnv) {
-      $serverEnv = $all | Where-Object { $_.id -eq 1 -and $_.gameVersionTypeID -eq 1 } | Select-Object -First 1
+    $serverEnv = $all | Where-Object {
+      ($_.name -eq "Server" -or $_.slug -eq "server")
+    } | Select-Object -First 1
+
+    if ($clientEnv -and $clientEnv.id) {
+      $resolved += [int]$clientEnv.id
+      Write-Host "Auto-resolved Client environment ID: $($clientEnv.id)"
     }
-    if (-not $clientEnv) {
-      $clientEnv = $all | Where-Object { $_.id -eq 2 -and $_.gameVersionTypeID -eq 1 } | Select-Object -First 1
-    }
-    
-    if ($serverEnv -and $serverEnv.id) { 
+    if ($serverEnv -and $serverEnv.id) {
       $resolved += [int]$serverEnv.id
       Write-Host "Auto-resolved Server environment ID: $($serverEnv.id)"
     }
-    if ($clientEnv -and $clientEnv.id) { 
-      $resolved += [int]$clientEnv.id
-      Write-Host "Auto-resolved Client environment ID: $($clientEnv.id)"
+    if (-not $clientEnv -or -not $serverEnv) {
+      Write-Warning "Could not auto-resolve Client/Server environment IDs. Set CF_ENVIRONMENT_IDS (e.g. 9638,9639)."
     }
   }
 
@@ -621,7 +614,8 @@ function Upload-ToCurseForge([string]$version, [array]$artifacts) {
   Write-Host "  ReleaseType: $releaseType"
 
   Add-Type -AssemblyName System.Net.Http
-  $client = New-Object System.Net.Http.HttpClient`n  $client.Timeout = [System.TimeSpan]::FromSeconds(120)
+  $client = New-Object System.Net.Http.HttpClient
+  $client.Timeout = [System.TimeSpan]::FromSeconds(120)
   $client.DefaultRequestHeaders.Add("X-Api-Token", $cf.Token)
 
   $multipart = New-Object System.Net.Http.MultipartFormDataContent
@@ -828,8 +822,8 @@ function Upload-ToModrinth([string]$version, [array]$artifacts) {
   Write-Host "  Release Type: $releaseType"
 
   Add-Type -AssemblyName System.Net.Http
-  $client = New-Object System.Net.Http.HttpClient`n  $client.Timeout = [System.TimeSpan]::FromSeconds(120)
-  $client.Timeout = [System.TimeSpan]::FromSeconds(60)
+  $client = New-Object System.Net.Http.HttpClient
+  $client.Timeout = [System.TimeSpan]::FromSeconds(120)
   # Modrinth uses "Authorization: <token>" header format
   $client.DefaultRequestHeaders.Add("Authorization", $mr.Token)
 
@@ -1052,7 +1046,8 @@ function Upload-ToGitHubRelease([string]$version, [array]$artifacts) {
       # Use HttpClient for reliable file uploads
       Add-Type -AssemblyName System.Net.Http
       
-      $httpClient = New-Object System.Net.Http.HttpClient`n      $httpClient.Timeout = [System.TimeSpan]::FromSeconds(120)
+      $httpClient = New-Object System.Net.Http.HttpClient
+      $httpClient.Timeout = [System.TimeSpan]::FromSeconds(120)
       $httpClient.DefaultRequestHeaders.Add("Authorization", "token $script:GitHubToken")
       $httpClient.DefaultRequestHeaders.Add("Accept", "application/vnd.github.v3+json")
       
