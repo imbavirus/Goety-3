@@ -33,7 +33,9 @@ import java.util.function.Consumer;
 
 public class CursedPaladinArmor extends ArmorItem implements IPersist {
     public CursedPaladinArmor(ArmorItem.Type p_40387_) {
-        super(ModArmorMaterials.getCURSED_PALADIN(), p_40387_, ModItems.baseProperties());
+        super(ModArmorMaterials.getCURSED_PALADIN(), p_40387_,
+                ModItems.baseProperties().durability(p_40387_.getDurability(
+                        Math.max(1, za.co.infernos.goety.utils.ConfigHelper.getInt(ItemConfig.CursedPaladinDurability, 30)))));
     }
 
     @Override

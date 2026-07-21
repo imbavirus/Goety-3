@@ -37,8 +37,8 @@ public class TotemOfSouls extends Item implements ITotem, ICurioItem {
     @Override
     public ItemStack getCraftingRemainingItem(ItemStack itemStack) {
         ItemStack container = itemStack.copy();
-        if (ITotem.currentSouls(container) > za.co.infernos.goety.utils.ConfigHelper.getInt(ItemConfig.CraftingSouls, 0)) {
-            ITotem.decreaseSouls(container, za.co.infernos.goety.utils.ConfigHelper.getInt(ItemConfig.CraftingSouls, 0));
+        if (ITotem.currentSouls(container) > za.co.infernos.goety.utils.ConfigHelper.getPositiveInt(ItemConfig.CraftingSouls, 1)) {
+            ITotem.decreaseSouls(container, za.co.infernos.goety.utils.ConfigHelper.getPositiveInt(ItemConfig.CraftingSouls, 1));
             return container;
         }
         return new ItemStack(ModItems.SPENT_TOTEM.get());

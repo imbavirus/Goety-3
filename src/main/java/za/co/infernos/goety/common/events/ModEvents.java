@@ -1055,8 +1055,8 @@ public class ModEvents {
                 if (equipmentSlot.isArmor()) {
                     ItemStack itemStack = target.getItemBySlot(equipmentSlot);
                     if (itemStack.getItem() instanceof ArmorItem armorItem) {
-                        if (armorItem.getMaterial() == ModArmorMaterials.BLACK_IRON
-                                || armorItem.getMaterial() == ModArmorMaterials.DARK) {
+                        // Compare by registry identity — never rely on a shared leather fallback Holder.
+                        if (ModArmorMaterials.isBlackIronOrDark(armorItem.getMaterial())) {
                             float reducedDamage = getReducedDamage(event, armorItem);
                             totalReduce += reducedDamage;
                         }
@@ -1106,8 +1106,19 @@ public class ModEvents {
         }
     }
 
+    /**
+     * Original Goety magic/fire/explosion mitigation for black iron and dark armor pieces.
+     * Must never return the full damage amount for every hit (that made leather invulnerable
+     * when materials incorrectly shared the leather Holder).
+     */
     public static float getReducedDamage(LivingIncomingDamageEvent event, ArmorItem armorItem) {
-        return event.getAmount();
+        float reduction = 0.0F;
+        if (event.getSource().is(DamageTypeTags.WITCH_RESISTANT_TO)) {
+            reduction = armorItem.getDefense() / 25.0F;
+        } else if (event.getSource().is(DamageTypeTags.IS_FIRE) || event.getSource().is(DamageTypeTags.IS_EXPLOSION)) {
+            reduction = armorItem.getDefense() / 10.0F;
+        }
+        return event.getAmount() * reduction;
     }
 
     @SubscribeEvent

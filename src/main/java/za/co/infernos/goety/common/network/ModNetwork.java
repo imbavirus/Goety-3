@@ -34,9 +34,11 @@ import za.co.infernos.goety.common.network.client.focus.CAddFocusToBagPacket;
 import za.co.infernos.goety.common.network.client.focus.CAddFocusToInventoryPacket;
 import za.co.infernos.goety.common.network.client.focus.CSwapFocusPacket;
 import za.co.infernos.goety.common.network.client.focus.CSwapFocusTwoPacket;
+import za.co.infernos.goety.Goety;
 import za.co.infernos.goety.common.network.server.SFocusCooldownPacket;
 import za.co.infernos.goety.common.network.server.SPlayEntitySoundPacket;
 import za.co.infernos.goety.common.network.server.SPlayPlayerSoundPacket;
+import za.co.infernos.goety.common.network.server.SPlayWorldSoundPacket;
 
 /**
  * NeoForge 1.21+ networking uses the payload system (CustomPacketPayload + StreamCodec) registered via
@@ -79,6 +81,7 @@ public class ModNetwork {
         registrar.playToClient(WBUpdatePacket.TYPE, WBUpdatePacket.STREAM_CODEC, WBUpdatePacket::handle);
         registrar.playToClient(SPlayPlayerSoundPacket.TYPE, SPlayPlayerSoundPacket.STREAM_CODEC, SPlayPlayerSoundPacket::handle);
         registrar.playToClient(SPlayEntitySoundPacket.TYPE, SPlayEntitySoundPacket.STREAM_CODEC, SPlayEntitySoundPacket::handle);
+        registrar.playToClient(SPlayWorldSoundPacket.TYPE, SPlayWorldSoundPacket.STREAM_CODEC, SPlayWorldSoundPacket::handle);
     }
 
     // ---------------------------------------------------------------------
@@ -90,42 +93,61 @@ public class ModNetwork {
     public static void sendTo(Player player, Object msg) {
         if (player instanceof ServerPlayer sp && msg instanceof CustomPacketPayload payload) {
             PacketDistributor.sendToPlayer(sp, payload);
+        } else {
+            warnBadPayload("sendTo", msg);
         }
     }
 
     public static void sendToServer(Object msg) {
         if (msg instanceof CustomPacketPayload payload) {
             PacketDistributor.sendToServer(payload);
+        } else {
+            warnBadPayload("sendToServer", msg);
         }
     }
 
     public static void sentToTrackingChunk(LevelChunk chunk, Object msg) {
         if (msg instanceof CustomPacketPayload payload && chunk.getLevel() instanceof ServerLevel sl) {
             PacketDistributor.sendToPlayersTrackingChunk(sl, chunk.getPos(), payload);
+        } else {
+            warnBadPayload("sentToTrackingChunk", msg);
         }
     }
 
     public static void sentToTrackingEntity(Entity entity, Object msg) {
         if (msg instanceof CustomPacketPayload payload && !(entity.level() instanceof Level lvl ? lvl.isClientSide : true)) {
             PacketDistributor.sendToPlayersTrackingEntity(entity, payload);
+        } else if (!(msg instanceof CustomPacketPayload)) {
+            warnBadPayload("sentToTrackingEntity", msg);
         }
     }
 
     public static void sentToTrackingEntityAndPlayer(Entity entity, Object msg) {
         if (msg instanceof CustomPacketPayload payload && !(entity.level() instanceof Level lvl ? lvl.isClientSide : true)) {
             PacketDistributor.sendToPlayersTrackingEntityAndSelf(entity, payload);
+        } else if (!(msg instanceof CustomPacketPayload)) {
+            warnBadPayload("sentToTrackingEntityAndPlayer", msg);
         }
     }
 
     public static void sendToALL(Object msg) {
         if (msg instanceof CustomPacketPayload payload) {
             PacketDistributor.sendToAllPlayers(payload);
+        } else {
+            warnBadPayload("sendToALL", msg);
         }
     }
 
     public static void sendToClient(ServerPlayer player, Object msg) {
         if (msg instanceof CustomPacketPayload payload) {
             PacketDistributor.sendToPlayer(player, payload);
+        } else {
+            warnBadPayload("sendToClient", msg);
         }
+    }
+
+    private static void warnBadPayload(String method, Object msg) {
+        Goety.LOGGER.error("ModNetwork.{} expected CustomPacketPayload, got {}", method,
+                msg == null ? "null" : msg.getClass().getName());
     }
 }

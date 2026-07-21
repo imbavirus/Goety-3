@@ -29,7 +29,10 @@ import java.util.function.Consumer;
 
 public class DarkArmor extends ArmorItem implements ISoulRepair, ISoulDiscount {
     public DarkArmor(ArmorItem.Type p_40387_) {
-        super(ModArmorMaterials.getDARK(), p_40387_, ModItems.baseProperties());
+        super(ModArmorMaterials.getDARK(), p_40387_,
+                ModItems.baseProperties().durability(p_40387_.getDurability(
+                        Math.max(1, za.co.infernos.goety.utils.ConfigHelper.getInt(
+                                za.co.infernos.goety.config.ItemConfig.DarkArmorDurability, 15)))));
     }
 
 

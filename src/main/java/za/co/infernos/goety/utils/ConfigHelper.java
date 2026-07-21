@@ -1,68 +1,67 @@
 package za.co.infernos.goety.utils;
 
-import za.co.infernos.goety.config.AttributesConfig;
 import net.neoforged.neoforge.common.ModConfigSpec;
 
 /**
  * Helper utility for safely accessing config values with default fallbacks.
- * This prevents IllegalStateException when config is accessed before it's loaded.
+ * This prevents IllegalStateException when config is accessed before it's loaded,
+ * and treats non-positive durability/level values as unloaded/broken config.
  */
 public class ConfigHelper {
-    
-    /**
-     * Safely gets a Double config value with a default fallback.
-     */
+
     public static double getDouble(ModConfigSpec.ConfigValue<Double> configValue, double defaultValue) {
         try {
-            return configValue.get();
+            Double value = configValue.get();
+            return value != null ? value : defaultValue;
         } catch (IllegalStateException e) {
             return defaultValue;
         }
     }
-    
+
     /**
-     * Safely gets an Integer config value with a default fallback.
+     * Integer config with fallback. If {@code rejectNonPositive} semantics are needed for
+     * durability, use {@link #getPositiveInt}.
      */
     public static int getInt(ModConfigSpec.ConfigValue<Integer> configValue, int defaultValue) {
         try {
-            return configValue.get();
+            Integer value = configValue.get();
+            return value != null ? value : defaultValue;
         } catch (IllegalStateException e) {
             return defaultValue;
         }
     }
-    
+
     /**
-     * Safely gets a Boolean config value with a default fallback.
+     * Like {@link #getInt}, but any loaded value {@code <= 0} is treated as invalid and replaced
+     * with {@code defaultValue}. Use for durability, mining level, enchantability multipliers, etc.
      */
+    public static int getPositiveInt(ModConfigSpec.ConfigValue<Integer> configValue, int defaultValue) {
+        int value = getInt(configValue, defaultValue);
+        return value > 0 ? value : defaultValue;
+    }
+
     public static boolean getBoolean(ModConfigSpec.ConfigValue<Boolean> configValue, boolean defaultValue) {
         try {
-            return configValue.get();
+            Boolean value = configValue.get();
+            return value != null ? value : defaultValue;
         } catch (IllegalStateException e) {
             return defaultValue;
         }
     }
-    
-    /**
-     * Safely gets a Float config value with a default fallback.
-     */
+
     public static float getFloat(ModConfigSpec.ConfigValue<Double> configValue, float defaultValue) {
         try {
-            return configValue.get().floatValue();
+            Double value = configValue.get();
+            return value != null ? value.floatValue() : defaultValue;
         } catch (IllegalStateException e) {
             return defaultValue;
         }
     }
-    
-    /**
-     * Safely gets a Float from a Double config value (convenience method).
-     */
+
     public static float getFloatFromDouble(double value) {
         return (float) value;
     }
-    
-    /**
-     * Safely gets a List config value with a default fallback.
-     */
+
     @SuppressWarnings("unchecked")
     public static <T> java.util.List<T> getList(ModConfigSpec.ConfigValue<? extends java.util.List<? extends T>> configValue, java.util.List<T> defaultValue) {
         try {

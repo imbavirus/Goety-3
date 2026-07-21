@@ -9,9 +9,12 @@ import za.co.infernos.goety.client.render.block.CursedInfuserRenderer;
 import za.co.infernos.goety.common.blocks.entities.ModBlockEntities;
 import za.co.infernos.goety.common.items.FlameCaptureItem;
 import za.co.infernos.goety.common.items.ModItems;
+import za.co.infernos.goety.common.items.magic.InfernalTome;
 import za.co.infernos.goety.client.render.block.BlackCrystalRenderer;
+import za.co.infernos.goety.client.render.block.CryptChestRenderer;
 import za.co.infernos.goety.client.render.block.LoftyChestRenderer;
 import za.co.infernos.goety.client.render.block.ModBlockLayer;
+import za.co.infernos.goety.client.render.block.ModChestRenderer;
 import za.co.infernos.goety.client.render.model.*;
 import net.minecraft.client.model.PlayerModel;
 import net.minecraft.client.model.geom.builders.CubeDeformation;
@@ -44,6 +47,10 @@ public class ClientInitEvents {
                     ModItems.FLAME_CAPTURE.get(),
                     ResourceLocation.fromNamespaceAndPath(Goety.MOD_ID, "capture"),
                     (stack, level, entity, seed) -> FlameCaptureItem.hasEntity(stack) ? 1.0F : 0.0F);
+            ItemProperties.register(
+                    ModItems.INFERNAL_TOME.get(),
+                    ResourceLocation.withDefaultNamespace("active"),
+                    (stack, level, entity, seed) -> InfernalTome.isChanting(stack) ? 1.0F : 0.0F);
         });
     }
 
@@ -235,11 +242,36 @@ public class ClientInitEvents {
 
     @SubscribeEvent
     public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
-        // Block entity renderers
+        // Block entity renderers — missing these caused invisible/crashing Black Crystal & chests (#2)
         try {
             event.registerBlockEntityRenderer(ModBlockEntities.CURSED_INFUSER.get(), CursedInfuserRenderer::new);
         } catch (Exception e) {
             Goety.LOGGER.error("Failed to register CursedInfuser renderer", e);
+        }
+        try {
+            event.registerBlockEntityRenderer(ModBlockEntities.BLACK_CRYSTAL.get(), BlackCrystalRenderer::new);
+        } catch (Exception e) {
+            Goety.LOGGER.error("Failed to register BlackCrystal renderer", e);
+        }
+        try {
+            event.registerBlockEntityRenderer(ModBlockEntities.LOFTY_CHEST.get(), LoftyChestRenderer::new);
+        } catch (Exception e) {
+            Goety.LOGGER.error("Failed to register LoftyChest renderer", e);
+        }
+        try {
+            event.registerBlockEntityRenderer(ModBlockEntities.MOD_CHEST.get(), ModChestRenderer::new);
+        } catch (Exception e) {
+            Goety.LOGGER.error("Failed to register ModChest renderer", e);
+        }
+        try {
+            event.registerBlockEntityRenderer(ModBlockEntities.MOD_TRAPPED_CHEST.get(), ModChestRenderer::new);
+        } catch (Exception e) {
+            Goety.LOGGER.error("Failed to register ModTrappedChest renderer", e);
+        }
+        try {
+            event.registerBlockEntityRenderer(ModBlockEntities.CRYPT_CHEST.get(), CryptChestRenderer::new);
+        } catch (Exception e) {
+            Goety.LOGGER.error("Failed to register CryptChest renderer", e);
         }
 
         // Register all entity renderers - using try-catch for each to handle missing renderers gracefully

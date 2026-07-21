@@ -1,9 +1,11 @@
 package za.co.infernos.goety.common.items.magic;
 
 import za.co.infernos.goety.common.magic.spells.utility.CommandSpell;
+import za.co.infernos.goety.utils.EntityFinder;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.component.CustomData;
@@ -37,12 +39,15 @@ public class CommandFocus extends MagicFocus {
     }
 
     public static LivingEntity getServant(ItemStack stack) {
-        // Without a Level reference we can't resolve a UUID. Use getServant(Level, stack) on the server.
-        return null;
+        CompoundTag tag = stack.getOrDefault(DataComponents.CUSTOM_DATA, CustomData.EMPTY).copyTag();
+        return getServant(tag);
     }
 
     public static LivingEntity getServant(CompoundTag compoundTag) {
-        return null;
+        if (compoundTag == null || !compoundTag.contains(TAG_ENTITY)) {
+            return null;
+        }
+        return EntityFinder.getLivingEntityByUuiD(compoundTag.getUUID(TAG_ENTITY));
     }
 
     public static LivingEntity getServant(Level level, ItemStack stack) {
@@ -53,7 +58,7 @@ public class CommandFocus extends MagicFocus {
         if (!tag.contains(TAG_ENTITY)) {
             return getServantClient(level, tag);
         }
-        if (level instanceof net.minecraft.server.level.ServerLevel sl) {
+        if (level instanceof ServerLevel sl) {
             net.minecraft.world.entity.Entity entity = sl.getEntity(tag.getUUID(TAG_ENTITY));
             return entity instanceof LivingEntity le ? le : null;
         }

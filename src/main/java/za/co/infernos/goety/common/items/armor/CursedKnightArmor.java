@@ -33,7 +33,9 @@ import java.util.function.Consumer;
 
 public class CursedKnightArmor extends ArmorItem implements IPersist {
     public CursedKnightArmor(ArmorItem.Type p_40387_) {
-        super(ModArmorMaterials.getCURSED_KNIGHT(), p_40387_, ModItems.baseProperties());
+        super(ModArmorMaterials.getCURSED_KNIGHT(), p_40387_,
+                ModItems.baseProperties().durability(p_40387_.getDurability(
+                        Math.max(1, za.co.infernos.goety.utils.ConfigHelper.getInt(ItemConfig.CursedKnightDurability, 15)))));
     }
 
     @Override

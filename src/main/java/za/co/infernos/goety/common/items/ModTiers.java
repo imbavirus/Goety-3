@@ -81,109 +81,63 @@ public enum ModTiers implements Tier {
         this.enchantmentValueCache = pEnchantmentValue;
     }
     
-    // Lazy getters for config values
+    // Lazy getters — always pass the real default, and reject <=0 for durability/levels
+    // so empty/broken configs cannot produce one-hit-break tools (#11).
     private static int getSpecialMiningLevel() {
-        try {
-            return za.co.infernos.goety.utils.ConfigHelper.getInt(ItemConfig.SpecialToolsMiningLevel, 0);
-        } catch (IllegalStateException e) {
-            return 2; // Default value
-        }
+        return za.co.infernos.goety.utils.ConfigHelper.getPositiveInt(ItemConfig.SpecialToolsMiningLevel, 2);
     }
-    
+
     private static int getSpecialDurability() {
-        try {
-            return za.co.infernos.goety.utils.ConfigHelper.getInt(ItemConfig.SpecialToolsDurability, 0);
-        } catch (IllegalStateException e) {
-            return 500; // Default value
-        }
+        return za.co.infernos.goety.utils.ConfigHelper.getPositiveInt(ItemConfig.SpecialToolsDurability, 500);
     }
-    
+
     private static float getSpecialBreakSpeed() {
-        try {
-            return za.co.infernos.goety.utils.ConfigHelper.getFloat(ItemConfig.SpecialToolsBreakSpeed, 1.0F);
-        } catch (IllegalStateException e) {
-            return 6.0F; // Default value
-        }
+        float value = za.co.infernos.goety.utils.ConfigHelper.getFloat(ItemConfig.SpecialToolsBreakSpeed, 6.0F);
+        return value > 0.0F ? value : 6.0F;
     }
-    
+
     private static float getSpecialDamage() {
-        try {
-            return za.co.infernos.goety.utils.ConfigHelper.getFloat(ItemConfig.SpecialToolsDamage, 1.0F);
-        } catch (IllegalStateException e) {
-            return 2.0F; // Default value
-        }
+        float value = za.co.infernos.goety.utils.ConfigHelper.getFloat(ItemConfig.SpecialToolsDamage, 2.0F);
+        return value > 0.0F ? value : 2.0F;
     }
-    
+
     private static int getSpecialEnchantability() {
-        try {
-            return za.co.infernos.goety.utils.ConfigHelper.getInt(ItemConfig.SpecialToolsEnchantability, 0);
-        } catch (IllegalStateException e) {
-            return 14; // Default value
-        }
+        return za.co.infernos.goety.utils.ConfigHelper.getPositiveInt(ItemConfig.SpecialToolsEnchantability, 14);
     }
-    
+
     private static int getDarkMiningLevel() {
-        try {
-            return za.co.infernos.goety.utils.ConfigHelper.getInt(ItemConfig.DarkToolsMiningLevel, 0);
-        } catch (IllegalStateException e) {
-            return 3; // Default value
-        }
+        return za.co.infernos.goety.utils.ConfigHelper.getPositiveInt(ItemConfig.DarkToolsMiningLevel, 3);
     }
-    
+
     private static int getDarkDurability() {
-        try {
-            return za.co.infernos.goety.utils.ConfigHelper.getInt(ItemConfig.DarkToolsDurability, 0);
-        } catch (IllegalStateException e) {
-            return 1000; // Default value
-        }
+        return za.co.infernos.goety.utils.ConfigHelper.getPositiveInt(ItemConfig.DarkToolsDurability, 1000);
     }
-    
+
     private static float getDarkBreakSpeed() {
-        try {
-            return za.co.infernos.goety.utils.ConfigHelper.getFloat(ItemConfig.DarkToolsBreakSpeed, 1.0F);
-        } catch (IllegalStateException e) {
-            return 8.0F; // Default value
-        }
+        float value = za.co.infernos.goety.utils.ConfigHelper.getFloat(ItemConfig.DarkToolsBreakSpeed, 8.0F);
+        return value > 0.0F ? value : 8.0F;
     }
-    
+
     private static float getDarkDamage() {
-        try {
-            return za.co.infernos.goety.utils.ConfigHelper.getFloat(ItemConfig.DarkToolsDamage, 1.0F);
-        } catch (IllegalStateException e) {
-            return 3.0F; // Default value
-        }
+        float value = za.co.infernos.goety.utils.ConfigHelper.getFloat(ItemConfig.DarkToolsDamage, 3.0F);
+        return value > 0.0F ? value : 3.0F;
     }
-    
+
     private static int getDarkEnchantability() {
-        try {
-            return za.co.infernos.goety.utils.ConfigHelper.getInt(ItemConfig.DarkToolsEnchantability, 0);
-        } catch (IllegalStateException e) {
-            return 15; // Default value
-        }
+        return za.co.infernos.goety.utils.ConfigHelper.getPositiveInt(ItemConfig.DarkToolsEnchantability, 15);
     }
-    
+
     private static int getDeathScytheDurability() {
-        try {
-            return za.co.infernos.goety.utils.ConfigHelper.getInt(ItemConfig.DeathScytheDurability, 0);
-        } catch (IllegalStateException e) {
-            return 2031; // Default value
-        }
+        return za.co.infernos.goety.utils.ConfigHelper.getPositiveInt(ItemConfig.DeathScytheDurability, 2031);
     }
-    
+
     private static float getDeathScytheDamage() {
-        try {
-            return za.co.infernos.goety.utils.ConfigHelper.getFloat(ItemConfig.DeathScytheDamage, 1.0F);
-        } catch (IllegalStateException e) {
-            return 4.0F; // Default value
-        }
+        float value = za.co.infernos.goety.utils.ConfigHelper.getFloat(ItemConfig.DeathScytheDamage, 4.0F);
+        return value > 0.0F ? value : 4.0F;
     }
-    
+
     private static int getDeathScytheEnchantability() {
-        try {
-            return za.co.infernos.goety.utils.ConfigHelper.getInt(ItemConfig.DeathScytheEnchantability, 0);
-        } catch (IllegalStateException e) {
-            return 15; // Default value
-        }
+        return za.co.infernos.goety.utils.ConfigHelper.getPositiveInt(ItemConfig.DeathScytheEnchantability, 15);
     }
 
     public int getUses() {

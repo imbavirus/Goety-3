@@ -203,6 +203,8 @@ public class Goety {
                 structureModifiers.register("mob_structure_spawns", ModMobSpawnStructureModifier::makeCodec);
 
                 NeoForge.EVENT_BUS.register(this);
+                // Armor materials must register before armor items consume their holders.
+                za.co.infernos.goety.common.items.armor.ModArmorMaterials.init();
                 ModItems.init();
                 ModAttributes.init();
                 ModBlocks.init();

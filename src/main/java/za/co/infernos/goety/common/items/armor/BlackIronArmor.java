@@ -33,7 +33,9 @@ import java.util.function.Consumer;
 
 public class BlackIronArmor extends ArmorItem implements ISoulDiscount, IPersist {
     public BlackIronArmor(ArmorItem.Type p_40387_) {
-        super(ModArmorMaterials.getBLACK_IRON(), p_40387_, ModItems.baseProperties());
+        super(ModArmorMaterials.getBLACK_IRON(), p_40387_,
+                ModItems.baseProperties().durability(p_40387_.getDurability(
+                        Math.max(1, za.co.infernos.goety.utils.ConfigHelper.getInt(ItemConfig.BlackIronDurability, 15)))));
     }
 
     public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String layer) {
