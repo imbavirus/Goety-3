@@ -5,18 +5,20 @@ import za.co.infernos.goety.utils.ColorUtil;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.particle.*;
 import net.minecraft.client.renderer.LightTexture;
-import net.neoforged.api.distmarker.Dist;
-import net.neoforged.api.distmarker.OnlyIn;
 import net.neoforged.neoforge.client.event.RegisterParticleProvidersEvent;
 import za.co.infernos.goety.compat.fml.FMLJavaModLoadingContext;
 import net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent;
-import net.neoforged.neoforge.client.extensions.common.IClientItemExtensions;
 import net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer;
 import za.co.infernos.goety.common.items.ModItems;
 import za.co.infernos.goety.common.items.magic.DarkWand;
 import za.co.infernos.goety.client.render.item.CustomItemsRenderer;
 
-@OnlyIn(Dist.CLIENT)
+/**
+ * Client-only init (particles, item renderers). Must only be constructed when
+ * {@code FMLEnvironment.dist == Dist.CLIENT}. Do not mark with {@code @OnlyIn}:
+ * that turns accidental server classloads into hard crashes; the call site in
+ * {@link za.co.infernos.goety.Goety} is the dist gate.
+ */
 public class ClientSideInit extends SidedInit {
 
     public void init() {

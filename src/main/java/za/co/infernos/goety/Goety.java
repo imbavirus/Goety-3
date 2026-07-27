@@ -1,7 +1,6 @@
 package za.co.infernos.goety;
 
 import java.util.function.Supplier;
-import za.co.infernos.goety.client.ClientProxy;
 import za.co.infernos.goety.client.inventory.container.ModContainerType;
 import za.co.infernos.goety.client.particles.ModParticleTypes;
 import za.co.infernos.goety.common.CommonProxy;
@@ -108,6 +107,7 @@ import net.neoforged.neoforge.event.server.ServerStoppedEvent;
 import net.neoforged.bus.api.EventPriority;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.api.distmarker.Dist;
 import net.neoforged.fml.InterModComms;
 import net.neoforged.fml.ModLoadingContext;
 import net.neoforged.fml.common.Mod;
@@ -115,6 +115,8 @@ import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLLoadCompleteEvent;
 import net.neoforged.fml.event.lifecycle.InterModEnqueueEvent;
+import net.neoforged.fml.loading.FMLEnvironment;
+import net.neoforged.fml.loading.FMLPaths;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.NeoForgeRegistries;
 import za.co.infernos.goety.compat.legacy.neoforge.registries.RegistryObject;
@@ -133,20 +135,11 @@ import static net.neoforged.fml.loading.LogMarkers.CORE;
 public class Goety {
         public static final String MOD_ID = "goety";
         public static final Logger LOGGER = LogUtils.getLogger();
-        public static ModProxy PROXY = createProxy();
-        public static SidedInit SIDED_INIT = createSidedInit();
-
-        private static ModProxy createProxy() {
-                return net.neoforged.fml.loading.FMLEnvironment.dist == net.neoforged.api.distmarker.Dist.CLIENT
-                                ? new ClientProxy()
-                                : new CommonProxy();
-        }
-
-        private static SidedInit createSidedInit() {
-                return net.neoforged.fml.loading.FMLEnvironment.dist == net.neoforged.api.distmarker.Dist.CLIENT
-                                ? new za.co.infernos.goety.init.ClientSideInit()
-                                : new SidedInit();
-        }
+        // Defaults are common-safe. Client overrides via ClientBootstrap (never
+        // construct ClientProxy / ClientSideInit from this class — that loads
+        // client-only types on dedicated servers and hard-crashes).
+        public static ModProxy PROXY = new CommonProxy();
+        public static SidedInit SIDED_INIT = new SidedInit();
 
         public static ResourceLocation location(String path) {
                 return ResourceLocation.fromNamespaceAndPath(MOD_ID, path);
@@ -154,6 +147,14 @@ public class Goety {
 
         public Goety(IEventBus modEventBus) {
                 FMLJavaModLoadingContext.setModEventBus(modEventBus);
+
+                // Client-only types live in ClientBootstrap so this common class never
+                // hard-references ClientProxy / ClientSideInit. Do not use ternaries
+                // like `dist == CLIENT ? new ClientSideInit() : ...` here — the client
+                // type stays in this class's constant pool and can still load on server.
+                if (FMLEnvironment.dist == Dist.CLIENT) {
+                        za.co.infernos.goety.client.ClientBootstrap.bootstrap();
+                }
 
                 // Register in order: fluids -> blocks -> block entities -> items
                 // This ensures dependencies are available when needed
