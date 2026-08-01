@@ -89,8 +89,8 @@ Goetied is a comprehensive magic mod for Minecraft that adds a unique spellcasti
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/imbavirus/Goetied-3.git
-   cd Goetied-3
+   git clone https://github.com/imbavirus/Goetied.git
+   cd Goetied
    ```
 
 2. Build the mod:
@@ -156,8 +156,8 @@ This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.t
 
 ## Links
 
-- **GitHub**: [https://github.com/imbavirus/Goetied-3](https://github.com/imbavirus/Goetied-3)
-- **Issues**: [Report bugs or request features](https://github.com/imbavirus/Goetied-3/issues)
+- **GitHub**: [https://github.com/imbavirus/Goetied](https://github.com/imbavirus/Goetied)
+- **Issues**: [Report bugs or request features](https://github.com/imbavirus/Goetied/issues)
 
 ## Version History
 

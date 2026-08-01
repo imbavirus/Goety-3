@@ -75,6 +75,6 @@ Goetied includes extensive configuration options for customizing spell damage, m
 
 #### Support & Links
 
-- **GitHub**: https://github.com/imbavirus/Goetied-3
+- **GitHub**: https://github.com/imbavirus/Goetied
 - **Issues**: Report bugs or request features on GitHub
 - **License**: MIT License
