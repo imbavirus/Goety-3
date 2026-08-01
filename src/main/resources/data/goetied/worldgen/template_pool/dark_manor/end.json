@@ -1,0 +1,21 @@
+{
+  "name": "goetied:dark_manor/end",
+
+  "fallback": "goetied:dark_manor/end",
+
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+
+        "location": "goetied:dark_manor/end",
+
+        "processors": "goetied:no_waterlogging",
+
+        "projection": "rigid",
+
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "goetied:block/template_dungeon_torch_wall",
+	"textures": {
+		"torch": "goetied:block/iron_dungeon_torch"
+	}
+}

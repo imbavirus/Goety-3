@@ -1,0 +1,27 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "item": "goetied:flame_capture"
+  },
+  "craftType": "forge",
+  "soulCost": 10,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "minecraft:respawn_anchor"
+    },
+    {
+      "item": "goetied:troop_focus"
+    },
+    {
+      "item": "goetied:recall_focus"
+    },
+    {
+      "tag": "c:stone"
+    }
+  ],
+  "result": {
+    "id": "goetied:esoteric_tesseract"
+  }
+}

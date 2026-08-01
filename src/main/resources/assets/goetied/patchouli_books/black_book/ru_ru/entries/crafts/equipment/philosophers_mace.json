@@ -1,0 +1,23 @@
+{
+  "name": "Философская булава",
+  "icon": "goetied:philosophers_mace",
+  "category": "goetied:crafts/equipment",
+  "advancement": "goetied:goetied/kill_a_apostle",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Философская булава — это непревзойденное оружие/инструмент, поскольку она может не только разбивать врагов в щепки, но и добывать блоки, как кирка или лопата. Когда жертва получает удар булавой, на неё накладывается эффект золотого касания, и после смерти из неё выпадут кусочки золота."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:philosophers_mace"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Незерит, использованный для изготовления этого оружия/инструмента, сделал булаву устойчивой к огню или лаве."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:philosophers_mace": 1
+  }
+}

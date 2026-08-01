@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "#$#",
+    "$O$",
+    "#$#"
+  ],
+  "key":
+  {
+    "#":
+    {
+      "item": "minecraft:firework_star"
+    },
+    "$":
+    {
+      "item": "minecraft:chain"
+    },
+    "O":
+    {
+      "item": "goetied:ominous_orb"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:ill_bomb",
+    "count": 4
+  }
+}

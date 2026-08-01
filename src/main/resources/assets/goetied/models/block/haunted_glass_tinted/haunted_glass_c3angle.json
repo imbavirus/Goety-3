@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "goetied:block/haunted_glass_tinted/haunted_glass_solo",
+    "down": "goetied:block/haunted_glass_tinted/haunted_glass_ne",
+    "up": "goetied:block/haunted_glass_tinted/haunted_glass_news",
+    "north": "goetied:block/haunted_glass_tinted/haunted_glass_nw",
+    "south": "goetied:block/haunted_glass_tinted/haunted_glass_news",
+    "west": "goetied:block/haunted_glass_tinted/haunted_glass_ne",
+    "east": "goetied:block/haunted_glass_tinted/haunted_glass_news"
+  },
+  "render_type": "translucent"
+}

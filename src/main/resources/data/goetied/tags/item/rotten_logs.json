@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "goetied:rotten_log",
+    "goetied:rotten_wood",
+    "goetied:stripped_rotten_log",
+    "goetied:stripped_rotten_wood"
+  ]
+}

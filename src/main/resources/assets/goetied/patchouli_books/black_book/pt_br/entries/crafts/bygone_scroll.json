@@ -1,0 +1,20 @@
+{
+  "name": "Pergaminho do Passado",
+  "icon": "goetied:bygone_scroll",
+  "category": "goetied:crafts",
+  "advancement": "goetied:goetied/get_withered_manuscript",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você conseguiu obter um manuscrito que detalha o funcionamento e a magia dos habitantes da fortaleza. Infelizmente, o manuscrito é quase ilegível, mas você encontrou uma maneira de invocar os mortos para preencher as lacunas."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:bygone_scroll"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:withered_manuscript": 0,
+    "goetied:bygone_scroll": 1
+  }
+}

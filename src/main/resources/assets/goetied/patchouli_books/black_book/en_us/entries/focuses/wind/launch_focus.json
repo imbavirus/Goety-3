@@ -1,0 +1,22 @@
+{
+  "name": "Launch Focus",
+  "icon": "goetied:launch_focus",
+  "category": "goetied:focuses/wind",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "After some tinkering and experimentation, you've managed to create a spell that propels you into the air, allowing you to fly in a crude yet effective manner."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/launch_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Casting with $(l:crafts/staff/wind_staff)Wind Staff$() launches you further."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:launch_focus": 1
+  }
+}

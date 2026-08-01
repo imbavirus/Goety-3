@@ -1,0 +1,22 @@
+{
+  "name": "火山のフォーカス",
+  "icon": "goetied:eruption_focus",
+  "category": "goetied:focuses/geomancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "このフォーカスにより、小さな火山を召喚して、いくつかの火砕岩を空に噴き出させることができます。この火砕岩は火山の周囲に落ち、爆発して敵を傷つけることになります。"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/eruption_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:crafts/staff/geo_staff)地の杖$()で唱えると、小さな火山を3個召喚します。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:eruption_focus": 1
+  }
+}

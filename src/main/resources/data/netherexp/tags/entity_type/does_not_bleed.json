@@ -1,18 +1,18 @@
 {
   "replace": false,
   "values": [
-    "#goety:wraiths",
-    "#goety:reapers",
-    "#goety:bound_illagers",
-    "#goety:slime_servants",
-    "#goety:golems",
-    "#goety:enderlings",
-    "goety:endersent",
-    "goety:ender_keeper",
-    "goety:haunt",
-    "goety:crypt_slime",
-    "goety:irk_servant",
-    "goety:vex_servant",
-    "goety:irk"
+    "#goetied:wraiths",
+    "#goetied:reapers",
+    "#goetied:bound_illagers",
+    "#goetied:slime_servants",
+    "#goetied:golems",
+    "#goetied:enderlings",
+    "goetied:endersent",
+    "goetied:ender_keeper",
+    "goetied:haunt",
+    "goetied:crypt_slime",
+    "goetied:irk_servant",
+    "goetied:vex_servant",
+    "goetied:irk"
   ]
 }

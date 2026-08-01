@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "goetied:block/end_growth_vines"
+  },
+  "render_type": "cutout"
+}

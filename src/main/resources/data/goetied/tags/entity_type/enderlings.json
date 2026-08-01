@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "goetied:watchling",
+    "goetied:blastling",
+    "goetied:snareling",
+    "#goetied:enderling_servants"
+  ]
+}

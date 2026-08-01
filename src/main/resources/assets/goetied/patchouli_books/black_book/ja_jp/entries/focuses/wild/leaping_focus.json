@@ -1,0 +1,23 @@
+{
+  "name": "リープリーフのフォーカス",
+  "icon": "goetied:leaping_focus",
+  "category": "goetied:focuses/wild",
+  "advancement": "goetied:goetied/read_floral_scroll",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "この呪文は、高くジャンプして召喚者の敵に激しく打ち勝つことができる強力な従者、$(l:summons/leapleaves)リープリーフ$()を召喚します。"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/leaping_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:crafts/staff/wild_staff)野生の杖$()で唱えると、追加のリープリーフを召喚する可能性があります。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:leaping_focus": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "goetied:night_beacon"
+    },
+    "title": {
+      "translate": "advancements.goetied.gain_night_beacon.title"
+    },
+    "description": {
+      "translate": "advancements.goetied.gain_night_beacon.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "goetied:goetied/kill_a_apostle",
+  "criteria": {
+    "night_beacon": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:night_beacon"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "night_beacon"
+    ]
+  ]
+}

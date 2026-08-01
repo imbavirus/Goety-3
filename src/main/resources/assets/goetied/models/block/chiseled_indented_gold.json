@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "goetied:block/indented_gold",
+    "bottom": "goetied:block/indented_gold",
+    "side": "goetied:block/chiseled_indented_gold"
+  }
+}

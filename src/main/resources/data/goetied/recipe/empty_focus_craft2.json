@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "iqr",
+    "qtq",
+    "rqi"
+  ],
+  "key":
+  {
+    "i":
+    {
+      "tag": "c:rods/wooden"
+    },
+    "q":
+    {
+      "tag": "c:gems/quartz"
+    },
+    "r":
+    {
+      "tag": "c:dusts/redstone"
+    },
+    "t":
+    {
+      "tag": "goetied:totems"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:empty_focus",
+    "count": 4
+  }
+}

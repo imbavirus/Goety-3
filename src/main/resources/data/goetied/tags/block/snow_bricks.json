@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "goetied:snow_bricks",
+    "goetied:snow_brick_slab",
+    "goetied:snow_brick_stairs",
+    "goetied:snow_brick_wall"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "goetied:worn_slate_marble"
+  },
+  "result": "goetied:weathered_slate_marble"
+}

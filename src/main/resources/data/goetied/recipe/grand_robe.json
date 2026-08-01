@@ -1,0 +1,36 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "item": "goetied:soul_ruby"
+  },
+  "craftType": "magic",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goetied:occult_fabric"
+    },
+    {
+      "item": "goetied:occult_fabric"
+    },
+    {
+      "item": "goetied:occult_fabric"
+    },
+    {
+      "item": "goetied:occult_fabric"
+    },
+    {
+      "item": "goetied:dark_robe"
+    },
+    {
+      "item": "goetied:magic_fabric"
+    },
+    {
+      "item": "goetied:magic_fabric"
+    }
+  ],
+  "result": {
+    "id": "goetied:grand_robe"
+  }
+}

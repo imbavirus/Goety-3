@@ -1,0 +1,27 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "item": "goetied:stellar_focus"
+  },
+  "craftType": "end",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "tag": "c:ender_pearls"
+    },
+    {
+      "item": "goetied:void_echo"
+    },
+    {
+      "item": "goetied:void_bucket"
+    },
+    {
+      "item": "goetied:void_echo"
+    }
+  ],
+  "result": {
+    "id": "goetied:void_flash_focus"
+  }
+}

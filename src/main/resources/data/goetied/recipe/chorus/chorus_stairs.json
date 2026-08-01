@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_stairs",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "goetied:chorus_planks"
+    }
+  },
+  "result": {
+    "id": "goetied:chorus_stairs",
+    "count": 4
+  }
+}

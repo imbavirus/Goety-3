@@ -1,0 +1,540 @@
+{
+  "name": "Catalysts",
+  "icon": "goetied:brew",
+  "category": "goetied:brewing",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Here are the catalysts to give your brew an effect! As you may have noticed, some of these effects are unfamiliar and most of those effects are exclusive to good ol' witch brewing!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "But don't worry! Ol' Granny will explain what some of them do since I'm feeling nice today! If the catalyst is a spawn egg, it means you gotta boil whatever spawns from that egg in your cauldron! Oh, and some of these effects take up more than 1 capacity, so that's another thing to look out for when brewing! Hehahaha!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.absorption"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.arrowmantic",
+      "text": "Those arrows sure are annoying! Here! Now those arrows will annoy you instead! Hahahaha!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.bats",
+      "text": "Fly my pretties! Fly and eat the faces of my foes!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.bees",
+      "text": "Buzzing bumbles, flying rumbles, sting my foe, honey my toes!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.blind_jump",
+      "text": "Teleports the affected to a random location! The higher the level, the more further they can teleport to!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.blindness"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.bottling",
+      "text": "Be better at brewing by brewing a brew that makes you brew better!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.brew_dye",
+      "text": "Changes the Brew's colors into whatever dyes you throw in! Careful though! The color will change if you add another Catalyst or dye!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.chop_tree",
+      "text": "With Axe of Stone, I cast my brew! I see a tree and it's wood I hew!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.climbing"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.combust",
+      "text": "FIRE! HAHAHAHAHA!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.corpse_eater",
+      "text": "Ever wish to feast on the last breath of your kills? Well now you can! Tasty too!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.corrosion",
+      "text": "See those blocks? Not anymore (Unless its Obsidian)! I see your armor, and I think it could be a little more damaged! Hahahaha!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.cursed",
+      "text": "A Curse upon you! No healing for you! I just rhymed you with you! What ya gonna do?"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.darkness"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.deflective",
+      "text": "Why block a projectile when you can have said projectile shoot back at the shooter!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.drought",
+      "text": "Too much water! With this brew, there will be no water!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.ender_ground",
+      "text": "Teaches those Enderman to not disappear when getting slashed or splashed on!"
+    },
+    {
+      "type": "goetied:sacrifice",
+      "recipe": "effect.goetied.ender_flux",
+      "text": "You know the old tale of cats jumping and clawing at the ceiling when surprised? Well, what if they end up jumping to whole new location instead, and the surprise is a knife to the face?"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.evil_eye",
+      "text": "The glare of evil attracts all kinds of folks, perfect for having a party!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.explode",
+      "text": "See that house over there? Ta-da! Now it's got a hole on it!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.explosive",
+      "text": "Careful hurting creatures with this effect ya guttersnipe! Last I've heard, they may have an EXPLOSIVE temper! Hahahaha!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.extinguish",
+      "text": "Aww... The flames are gone..."
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.fertility",
+      "text": "What do you mean you're not feeling it? Get to breeding! Granny needs some new pair of Leather Boots!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.fiery_aura",
+      "text": "Don't get too close to me! I'm too hot for ya!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.fire_resistance"
+    },{
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.fire_trail",
+      "text": "Catch me if you can if you can handle my hot boots!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.flammable",
+      "text": "The fires stings a lot more than usual! Almost like you're made of grass!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.flame_hands",
+      "text": "Talk to these hands and you'll be burning!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.flaying",
+      "text": "Rips the skin, feathers and wool from Animals! Leaves the meat and flesh behind, though don't think they'll be fine! Hahaha!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.flimsy",
+      "text": "Makes even the sturdiest of fools bend to the winds!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.flood",
+      "text": "Too little water! With this brew, there will be water!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.fortunate",
+      "text": "Bah! Who needs Enchantments when you have brews! Ol'Granny needs some extra diamonds, and she's all out of Lapis!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.freeze",
+      "text": "Sometimes Ol' Granny wants to skate in their Swamp on their hag-made frozen pond!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.freezing",
+      "text": "Hey kiddies! Wanna BE a Snowman? Hehehahaha!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.frog_leg",
+      "text": "Why just jump off the ground when you can also jump off the air as well?"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.frosty_aura",
+      "text": "Don't get too close to me! I'm too cold for ya!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.glowing"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.gold_touched",
+      "text": "While not fully gold, they sure do drop them dead!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.gravity_pulse",
+      "text": "Hey, don't be shy! These hands aren't gonna punch themselves! Get over here!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.grow_cactus",
+      "text": "Bringing the green dye to the sandy beaches of my home!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.grow_cave_vines",
+      "text": "Those vines from those lushes caves can be pretty when hanging in my own cave! Unfortunately, these vines don't come glowing!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.growth",
+      "text": "For when my herbs aren't growing fast enough! Granny's not gonna Bone Meal each and everyone of ya!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.grow_tree",
+      "text": "What's a Witch that don't surround themselves with trees? The Catalyst can be any Sapling!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.haste"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.harvest",
+      "text": "A bucket of water breaks the seeds! With this brew, the ground retains its treats!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.health_boost"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.hunger"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.infest",
+      "text": "Makes certain Stones and Stone Bricks infested with those adorable Silverfishes!"
+    },
+    {
+      "type": "goetied:sacrifice",
+      "recipe": "effect.goetied.infest",
+      "text": "Boil a Silverfish in your cauldron if you can't get any infested stone around!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.insight",
+      "text": "I'm becoming SMARTER!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.instant_damage"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.instant_health"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.invisibility"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.jump_boost"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.launch",
+      "text": "Up, Up and Away!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.leaf_shell",
+      "text": "Better light those matches! Those leaves aren't so easy to break by hand!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.leeching",
+      "text": "Hitting a ruffian with your fist or stick will heal you a tiny percent of their max health."
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.levitation"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.love",
+      "text": "It's breedin time!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.luck"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.mossify",
+      "text": "Granny needs to bring the Lush out of the caves sometimes! Also some Mossy Cobblestones and Bricks!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.mining_fatigue"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.nausea"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.night_vision"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.nyctophobia",
+      "text": "Grab a night light kiddies! You're gonna need it!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.part_lava",
+      "text": "Forgot to bring my Strider with me. Looks like I gotta part the lava lakes to go to places!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.part_water",
+      "text": "Left my spinning blade at home, now how am I gonna cross this sea? Oh, good thing I got me brews with me!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.photosynthesis",
+      "text": "Bask in the sunlight my darlings! Take a good look at that ball of fire! I'm sure you won't get blinded!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.plunge",
+      "text": "Seems like you've been eating a lot of Granny's cookies! Here, have some more!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.poison"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.pressure",
+      "text": "Feel like everyone's looking at ya weirdly? Good thing it doesn't actually hurt ya! Or can it? Hehahaha!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.pruning",
+      "text": "Get those dang floating Leaves out of my property!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.pulverize",
+      "text": "Stone to Cobble to Gravel to Sand! Get me some coal and make me a glass!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.purify_buff",
+      "text": "Removes all non harmful effects from those dang kids!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.purify_debuff",
+      "text": "Removes all harmful effects from those dang kids!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.radiance",
+      "text": "Here's a secret from Ol' Granny! Sometimes I feel younger after smacking a brat with my old sandal!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.raise_dead",
+      "text": "Wake up sleepy heads! Granny can't carry all these bags herself!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.rallying",
+      "text": "Get those brats to hit harder when you're near them!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.regeneration"
+    },
+    {
+      "type": "goetied:sacrifice",
+      "recipe": "effect.minecraft.regeneration",
+      "text": "Ever wonder where those stories of witches making people stew comes from?! Hehehahaha!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.repulsive",
+      "text": "What? Don't like my perfume after trying to get to know Ol' Granny?!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.resistance"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.sapped",
+      "text": "My fists feels harder, only because your face is softer!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.saturation"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.save_effects",
+      "text": "Got the idea from eating those Echoey Shards! Makes the effects stick even after drinking some Milk, and apparently death? Must be useful to those darn immortal types, like that blue compass thing!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.shear",
+      "text": "My arms are too old to be shearing those Sheeps! My brews will do it for Ol' Granny!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.shielding",
+      "text": "It seems being near Ol'Granny makes those hits a bit less painful!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.slow_falling"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.slowness"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.snow",
+      "text": "When Granny feels like she wants to play in the snow!"
+    },
+    {
+      "type": "goetied:sacrifice",
+      "recipe": "effect.goetied.snow_skin",
+      "text": "Wanna BE a snow man?! Well you gotta boil one first!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.speed"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.storms_wrath",
+      "text": "It's either wrath from the clouds or love from the very lightning itself. Either way, you're getting a new hairstyle!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.strength"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.strip",
+      "text": "Oh no, I ain't prude enough to rip your clothes off! Just your armor! I could tear off most of them if my brew is higher level *wink*."
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.sun_allergy",
+      "text": "Hey kiddies! You want to BE a Skeleton? Or Zombie? Or Phantom? Or..."
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.sweet_thorns",
+      "text": "Granny wants to make Sweet Berry Pie, but my poor legs are too tired to go to the Taiga. Meh, just make my own Berry Bushes then!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.swift_swim",
+      "text": "No one expects an Ol' Granny like me to skedaddle quickly in water!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.swirling",
+      "text": "Better not gang up on someone with this effect, else you'll get sliced up as they punch someone's face!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.thorn_trap",
+      "text": "You're surrounded brat! You should stop walking unless you get a face full of thorns! Hahahaha!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.transpose",
+      "text": "Gathers all kinds of entity, including Items, to the location where the brew was landed or drunk!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.tripping",
+      "text": "Careful where you walk kids! You might trip and be thrown off to a random direction! If the levels higher, you'll be tripping constantly!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.unluck"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.venomous_hands",
+      "text": "My hands are made of Spiders! Hahahaha!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.void_touched",
+      "text": "Get in touch with the void, brat! Make sure you don't get touched by anything else!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.water_breathing"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.weakness"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.webbed",
+      "text": "Those spiders sure work fast! Though they seemed to only make webs when the brew hits a creature instead of on solid land..."
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.goetied.wild_rage",
+      "text": "Let the hate flow through you!"
+    },
+    {
+      "type": "goetied:catalyst",
+      "recipe": "effect.minecraft.wither"
+    }
+  ]
+}

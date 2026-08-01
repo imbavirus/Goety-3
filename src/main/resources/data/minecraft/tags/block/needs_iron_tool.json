@@ -1,11 +1,11 @@
 {
   "replace": false,
   "values": [
-    "#goety:jade_ores",
-    "#goety:indented_gold_blocks",
-    "#goety:dark_alloy_blocks",
-    "goety:awakened_emerald_block",
-    "goety:diamond_mold_block",
-    "goety:jade_block"
+    "#goetied:jade_ores",
+    "#goetied:indented_gold_blocks",
+    "#goetied:dark_alloy_blocks",
+    "goetied:awakened_emerald_block",
+    "goetied:diamond_mold_block",
+    "goetied:jade_block"
   ]
 }

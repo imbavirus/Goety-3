@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "goetied:windswept_planks"
+    }
+  },
+  "result": {
+    "id": "goetied:windswept_boat"
+  }
+}

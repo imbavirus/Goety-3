@@ -1,0 +1,29 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:enchant",
+  "activation_item": {
+    "item": "minecraft:book"
+  },
+  "craftType": "magic",
+  "soulCost": 25,
+  "duration": 10,
+  "enchantment": "vanillatweaks:siphon",
+  "xpLevelCost": 10,
+  "ingredients": [
+    {
+      "item": "goetied:eerie_pickaxe"
+    },
+    {
+      "tag": "c:gems/lapis"
+    }
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book"
+  },
+  "conditions": [
+    {
+      "type": "c:mod_loaded",
+      "modid": "vanillatweaks"
+    }
+  ]
+}

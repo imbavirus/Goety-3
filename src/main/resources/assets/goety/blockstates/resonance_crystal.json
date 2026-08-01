@@ -1,6 +1,0 @@
-{
-  "variants": {
-    "powered=true": { "model": "goety:block/resonance_crystal_on" },
-    "powered=false": { "model": "goety:block/resonance_crystal_off" }
-  }
-}

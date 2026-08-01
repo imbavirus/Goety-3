@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "goety:vex_servant",
-    "goety:irk_servant",
-    "goety:irk",
-    "goety:tormentor"
+    "goetied:vex_servant",
+    "goetied:irk_servant",
+    "goetied:irk",
+    "goetied:tormentor"
   ]
 }

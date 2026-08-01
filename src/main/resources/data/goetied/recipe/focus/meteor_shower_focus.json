@@ -1,0 +1,24 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "item": "goetied:arrow_rain_focus"
+  },
+  "craftType": "expert_nether",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goetied:lavaball_focus"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    {
+      "item": "minecraft:lava_bucket"
+    }
+  ],
+  "result": {
+    "id": "goetied:meteor_shower_focus"
+  }
+}

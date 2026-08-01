@@ -1,0 +1,29 @@
+{
+  "name": "反神聖なローブ",
+  "icon": "goetied:unholy_robe",
+  "category": "goetied:crafts/garment",
+  "advancement": "goetied:goetied/kill_a_apostle",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l)純正な$() 反神聖な血 $(l)を使って、$()彼らの衣服のレプリカを作れます。ローブは火と炎の呪いに対する耐性を与え、ローブと帽子の両方で、いくつかの呪文を地獄の炎に強化します。"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:unholy_fabric"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:unholy_robe"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:unholy_hat"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:unholy_fabric": 1,
+    "goetied:unholy_robe": 2,
+    "goetied:unholy_hat": 3
+  }
+}

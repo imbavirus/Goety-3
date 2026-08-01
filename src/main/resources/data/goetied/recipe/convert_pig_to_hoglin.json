@@ -1,0 +1,26 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:convert",
+  "activation_item": {
+    "item": "goetied:savage_tooth"
+  },
+  "craftType": "adept_nether",
+  "entity_to_convert": {
+    "tag": "goetied:pigs",
+    "display_name": "entity.minecraft.pig"
+  },
+  "entity_to_convert_into": "minecraft:hoglin",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "minecraft:nether_wart_block"
+    },
+    {
+      "item": "minecraft:nether_wart_block"
+    }
+  ],
+  "result": {
+    "id": "goetied:jei_dummy/none"
+  }
+}

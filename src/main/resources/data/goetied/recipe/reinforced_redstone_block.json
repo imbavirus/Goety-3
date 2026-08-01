@@ -1,0 +1,40 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "tag": "c:stone"
+  },
+  "craftType": "forge",
+  "soulCost": 1,
+  "duration": 10,
+  "research": "terminus",
+  "ingredients": [
+    {
+      "tag": "c:stone"
+    },
+    {
+      "item": "goetied:cursed_metal_block"
+    },
+    {
+      "tag": "c:stone"
+    },
+    {
+      "item": "goetied:cursed_metal_block"
+    },
+    {
+      "tag": "c:stone"
+    },
+    {
+      "item": "goetied:cursed_metal_block"
+    },
+    {
+      "tag": "c:stone"
+    },
+    {
+      "item": "goetied:cursed_metal_block"
+    }
+  ],
+  "result": {
+    "id": "goetied:reinforced_redstone_block"
+  }
+}

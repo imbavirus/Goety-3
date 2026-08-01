@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "goetied:block/crypt_stone_polished",
+    "top": "goetied:block/crypt_stone_polished",
+    "side": "goetied:block/crypt_stone_polished"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#goetied:has_windswept_tree",
+  "features": "goetied:windswept_tree",
+  "step": "vegetal_decoration"
+}

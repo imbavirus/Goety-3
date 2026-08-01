@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " a ",
+    "aea",
+    " s "
+  ],
+  "key":
+  {
+    "a":
+    {
+      "tag": "minecraft:arrows"
+    },
+    "e":
+    {
+      "item": "goetied:soul_light_focus"
+    },
+    "s":
+    {
+      "item": "goetied:ectoplasm"
+    }
+  },
+  "result": {
+    "id": "goetied:soul_bolt_focus"
+  }
+}

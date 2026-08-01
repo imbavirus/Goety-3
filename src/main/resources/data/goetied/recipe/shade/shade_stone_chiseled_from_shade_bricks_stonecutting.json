@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "goetied:shade_bricks"
+  },
+  "result": "goetied:shade_stone_chiseled",
+  "count": 1
+}

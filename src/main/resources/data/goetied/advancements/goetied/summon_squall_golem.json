@@ -1,0 +1,39 @@
+{
+  "parent": "goetied:goetied/craft_resonance_crystal",
+  "criteria": {
+    "summoned_golem": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "goetied:squall_golem"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.goetied.summon_squall_golem.description"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "item": "goetied:jade_block"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.goetied.summon_squall_golem.title"
+    }
+  },
+  "requirements": [
+    [
+      "summoned_golem"
+    ]
+  ]
+}

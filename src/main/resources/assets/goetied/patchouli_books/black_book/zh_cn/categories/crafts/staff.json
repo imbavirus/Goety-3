@@ -1,0 +1,7 @@
+{
+  "name": "法杖",
+  "description": "黑暗巫师释放法术的方式",
+  "icon": "goetied:necro_staff",
+  "parent": "goetied:crafts",
+  "sortnum": 4
+}

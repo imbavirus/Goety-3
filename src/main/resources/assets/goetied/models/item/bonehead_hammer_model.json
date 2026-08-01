@@ -1,0 +1,6 @@
+{
+	"parent": "goetied:item/template_hammer",
+	"textures": {
+		"hammer": "goetied:item/bonehead_hammer_model"
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "goetied:block/grim_infuser" },
+    "lit=false": { "model": "goetied:block/grim_infuser_litdown" }
+  }
+}

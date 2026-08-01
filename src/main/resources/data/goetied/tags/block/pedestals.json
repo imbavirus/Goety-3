@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "goetied:pedestal",
+    "goetied:pedestal_stone",
+    "goetied:pedestal_deepslate",
+    "goetied:pedestal_nether_brick",
+    "goetied:pedestal_blackstone",
+    "goetied:pedestal_end_stone",
+    "goetied:pedestal_highrock",
+    "goetied:pedestal_marble"
+  ]
+}

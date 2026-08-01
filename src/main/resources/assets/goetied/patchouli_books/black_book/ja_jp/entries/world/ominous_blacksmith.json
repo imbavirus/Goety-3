@@ -1,0 +1,16 @@
+{
+  "name": "不気味な鍛冶屋",
+  "icon": "goetied:highrock_bricks",
+  "category": "goetied:world",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "イリジャーの部族が山の頂上に鍛冶屋を建築し、その中にイリジャーの宝物が隠されているかもしれないという噂があります。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["goetied:textures/gui/entries/ominous_blacksmith.png"],
+      "border": true
+    }
+  ]
+}

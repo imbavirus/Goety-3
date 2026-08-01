@@ -1,0 +1,6 @@
+{
+    "parent": "goetied:item/hunters_bow",
+    "textures": {
+        "layer0": "goetied:item/hunters_bow_pulling_0"
+    }
+}

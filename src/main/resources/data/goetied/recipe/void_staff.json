@@ -1,0 +1,39 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "item": "goetied:dark_wand"
+  },
+  "craftType": "end",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "tag": "c:ender_pearls"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "goetied:void_block"
+    },
+    {
+      "item": "minecraft:crying_obsidian"
+    },
+    {
+      "item": "minecraft:crying_obsidian"
+    },
+    {
+      "tag": "c:rods/wooden"
+    },
+    {
+      "item": "goetied:occult_fabric"
+    }
+  ],
+  "result": {
+    "id": "goetied:void_staff"
+  }
+}

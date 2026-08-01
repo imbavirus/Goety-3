@@ -1,0 +1,9 @@
+{
+  "type": "goetied:pulverize",
+  "ingredient": [
+    {
+      "item": "goetied:marble"
+    }
+  ],
+  "block_result": "goetied:cracked_marble"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "lbl",
+    "lll",
+    "lbl"
+  ],
+  "key":
+  {
+    "l":
+    {
+      "tag": "c:rods/wooden"
+    },
+    "b":
+    {
+      "item": "goetied:focus_bag"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:focus_pack",
+    "count": 1
+  }
+}

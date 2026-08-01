@@ -1,0 +1,24 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "item": "goetied:night_beacon"
+  },
+  "craftType": "magic",
+  "soulCost": 10,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goetied:ectoplasm"
+    },
+    {
+      "item": "goetied:ectoplasm"
+    },
+    {
+      "item": "goetied:ectoplasm"
+    }
+  ],
+  "result": {
+    "id": "goetied:corruption_focus"
+  }
+}

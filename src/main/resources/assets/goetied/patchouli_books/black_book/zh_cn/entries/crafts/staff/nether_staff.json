@@ -1,0 +1,17 @@
+{
+  "name": "下界魔杖",
+  "icon": "goetied:nether_staff",
+  "category": "goetied:crafts/staff",
+  "advancement": "goetied:goetied/read_bygone_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "在学习了凋灵死灵法师的力量后，你可以试着制作他们的杖，用于增强你的下界系法术."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:nether_staff"
+    }
+  ]
+}

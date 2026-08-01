@@ -1,0 +1,21 @@
+{
+  "name": "goetied:final_terminal/bridge2",
+
+  "fallback": "goetied:final_terminal/bridge2",
+
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+
+        "location": "goetied:final_terminal/bridge2",
+
+        "processors": "minecraft:empty",
+
+        "projection": "rigid",
+
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

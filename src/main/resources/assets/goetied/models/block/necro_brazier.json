@@ -1,0 +1,6 @@
+{
+	"parent": "goetied:block/template_necro_brazier",
+	"textures": {
+		"fire": "goetied:block/necro_brazier_fire"
+	}
+}

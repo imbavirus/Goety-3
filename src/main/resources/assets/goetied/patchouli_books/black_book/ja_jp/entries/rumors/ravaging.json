@@ -1,0 +1,17 @@
+{
+  "name": "ラヴェジャーの秘密",
+  "icon": "goetied:savage_tooth",
+  "category": "goetied:rumors",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "あなたはラヴェジャーについて、そしてイラジャーがそれらをどのように入手しているのかについて考えてきました。 噂によれば、それらは忌まわしい闇の魔術の結果であるという。 おそらく $(l)森の洋館$() がこの質問に対する答えを持っています。"
+    },
+    {
+      "type": "patchouli:quest",
+      "trigger": "goetied:goetied/read_ravaging_scroll",
+      "text": "$(l)森の洋館$() で情報を検索してください。"
+    }
+  ]
+}

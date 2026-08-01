@@ -1,0 +1,15 @@
+{
+  "name": "Freezing Lamps",
+  "icon": "goetied:freezing_lamp",
+  "category": "goetied:crafts/artifice",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Redstone Lamp infused with never-ending frost, that slowly freezes the area around itself. When powered, the lamp turns off and stops working."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:freezing_lamp"
+    }
+  ]
+}

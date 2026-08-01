@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "goetied:smooth_end_stone"
+  },
+  "result": "goetied:smooth_end_stone_slab"
+}

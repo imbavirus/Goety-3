@@ -1,10 +1,10 @@
-# Goety
+# Goetied
 
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-green.svg)](https://www.minecraft.net/)
 [![NeoForge](https://img.shields.io/badge/NeoForge-21.1.34-orange.svg)](https://neoforged.net/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.txt)
 
-Goety is a comprehensive magic mod for Minecraft that adds a unique spellcasting system, powerful mobs, and mystical structures to enhance your gameplay experience.
+Goetied is a comprehensive magic mod for Minecraft that adds a unique spellcasting system, powerful mobs, and mystical structures to enhance your gameplay experience.
 
 ## Features
 
@@ -75,7 +75,7 @@ Goety is a comprehensive magic mod for Minecraft that adds a unique spellcasting
 
 1. Install [NeoForge](https://neoforged.net/) for Minecraft 1.21.1
 2. Download and install [Curios API](https://www.curseforge.com/minecraft/mc-mods/curios)
-3. Download the latest Goety mod JAR file
+3. Download the latest Goetied mod JAR file
 4. Place the JAR file in your `mods` folder
 5. Launch Minecraft and enjoy!
 
@@ -89,8 +89,8 @@ Goety is a comprehensive magic mod for Minecraft that adds a unique spellcasting
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/imbavirus/Goety-3.git
-   cd Goety-3
+   git clone https://github.com/imbavirus/Goetied-3.git
+   cd Goetied-3
    ```
 
 2. Build the mod:
@@ -108,14 +108,14 @@ Goety is a comprehensive magic mod for Minecraft that adds a unique spellcasting
 
 ## Configuration
 
-Goety includes extensive configuration options accessible through the config files:
+Goetied includes extensive configuration options accessible through the config files:
 - Spell damage and cooldown settings
 - Mob spawn rates and behavior
 - Structure generation settings
 - Lich mode settings
 - And much more
 
-Configuration files are located in your Minecraft instance's `config/goety/` directory.
+Configuration files are located in your Minecraft instance's `config/goetied/` directory.
 
 ## Credits
 
@@ -156,8 +156,8 @@ This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.t
 
 ## Links
 
-- **GitHub**: [https://github.com/imbavirus/Goety-3](https://github.com/imbavirus/Goety-3)
-- **Issues**: [Report bugs or request features](https://github.com/imbavirus/Goety-3/issues)
+- **GitHub**: [https://github.com/imbavirus/Goetied-3](https://github.com/imbavirus/Goetied-3)
+- **Issues**: [Report bugs or request features](https://github.com/imbavirus/Goetied-3/issues)
 
 ## Version History
 
@@ -178,4 +178,4 @@ If you encounter any issues or have questions, please open an issue on the GitHu
 
 ---
 
-**Note**: This mod requires Curios API to function properly. Make sure to install it alongside Goety.
+**Note**: This mod requires Curios API to function properly. Make sure to install it alongside Goetied.

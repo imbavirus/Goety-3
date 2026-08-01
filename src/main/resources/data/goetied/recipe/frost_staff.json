@@ -1,0 +1,39 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "item": "goetied:dark_wand"
+  },
+  "craftType": "frost",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "minecraft:snow_block"
+    },
+    {
+      "tag": "c:rods/wooden"
+    },
+    {
+      "item": "goetied:chill_fabric"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "goetied:cursed_ingot"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "tag": "c:rods/wooden"
+    },
+    {
+      "item": "goetied:chill_fabric"
+    }
+  ],
+  "result": {
+    "id": "goetied:frost_staff"
+  }
+}

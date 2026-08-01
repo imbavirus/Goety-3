@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "goetied:block/chorus_grass_block_top"
+  }
+}

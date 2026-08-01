@@ -1,0 +1,34 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "item": "goetied:blazing_focus"
+  },
+  "craftType": "expert_nether",
+  "soulCost": 5,
+  "duration": 10,
+  "research": "bygone",
+  "ingredients": [
+    {
+      "item": "goetied:cursed_cage"
+    },
+    {
+      "item": "goetied:ectoplasm"
+    },
+    {
+      "tag": "c:ingots/netherite"
+    },
+    {
+      "tag": "c:gems/lapis"
+    },
+    {
+      "item": "minecraft:nether_bricks"
+    },
+    {
+      "item": "minecraft:nether_bricks"
+    }
+  ],
+  "result": {
+    "id": "goetied:blazing_cage"
+  }
+}

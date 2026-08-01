@@ -1,0 +1,41 @@
+{
+  "parent": "goetied:goetied/root",
+  "criteria": {
+    "crypt": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "goetied:crypt"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.goetied.find_crypt.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "goetied:crypt_stone_chiseled"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.goetied.find_crypt.title"
+    }
+  },
+  "requirements": [
+    [
+      "crypt"
+    ]
+  ]
+}

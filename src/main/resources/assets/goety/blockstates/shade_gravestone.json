@@ -1,6 +1,0 @@
-{
-  "variants": {
-    "powered=true": { "model": "goety:block/shade_gravestone_active" },
-    "powered=false": { "model": "goety:block/shade_gravestone" }
-  }
-}

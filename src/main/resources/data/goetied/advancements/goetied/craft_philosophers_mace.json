@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "goetied:philosophers_mace"
+    },
+    "title": {
+      "translate": "advancements.goetied.craft_philosophers_mace.title"
+    },
+    "description": {
+      "translate": "advancements.goetied.craft_philosophers_mace.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "goetied:goetied/kill_a_apostle",
+  "criteria": {
+    "philosophers_mace": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:philosophers_mace"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "philosophers_mace"
+    ]
+  ]
+}

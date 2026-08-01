@@ -1,0 +1,15 @@
+{
+  "name": "Фокус исцеления душ",
+  "icon": "goetied:soul_heal_focus",
+  "category": "goetied:focuses",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Этот фокус позволяет вам исцеляться с помощью энергии душ. Однако степень исцеления рознится, и вы можете восстановить много сердец, а можете — мало."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/soul_heal_focus"
+    }
+  ]
+}

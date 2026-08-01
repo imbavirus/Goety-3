@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "ded",
+    "ese",
+    "ded"
+  ],
+  "key":
+  {
+    "d":
+    {
+      "item": "goetied:grave_dust"
+    },
+    "e":
+    {
+      "item": "goetied:ectoplasm"
+    },
+    "s":
+    {
+      "item": "goetied:shadow_essence"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:shadow_essence",
+    "count": 2
+  }
+}

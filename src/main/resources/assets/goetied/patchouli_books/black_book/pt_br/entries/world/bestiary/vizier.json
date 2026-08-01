@@ -1,0 +1,38 @@
+{
+  "name": "Vizires",
+  "icon": "goetied:soul_ruby",
+  "category": "goetied:world/bestiary",
+  "advancement": "goetied:goetied/kill_a_vizier",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Entre os Illagers de mais alto escalão, os Vizires possuem um rubi que amplifica magias."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goetied:vizier",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Em batalha, atacam com uma Espada de Ferro e invocam Presas sob os pés do alvo. Quando feridos, invocam Irks (primos dos Vex) para defesa."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goetied:irk"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Gravemente feridos ou com muitos Irks, os Vizires drenam a vida deles para se regenerar."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goetied:soul_ruby",
+      "title": "Rubi das Almas",
+      "text": "Ao morrer, infligem Mau Presságio no nível máximo. Rumores dizem que concedem fragmentos do rubi a Evocadores."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:soul_ruby": 5
+  }
+}

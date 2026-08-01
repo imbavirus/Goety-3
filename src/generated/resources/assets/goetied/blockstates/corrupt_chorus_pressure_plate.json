@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "goetied:block/corrupt_chorus_pressure_plate"
+    },
+    "powered=true": {
+      "model": "goetied:block/corrupt_chorus_pressure_plate_down"
+    }
+  }
+}

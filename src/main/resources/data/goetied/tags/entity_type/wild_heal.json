@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "__comment": "servants that heals and lose limited lifespan through Wild set.",
+  "values": [
+    "goetied:jungle_zombie_servant",
+    "goetied:mossy_skeleton_servant",
+    "goetied:muck_wraith_servant",
+    "goetied:mossy_necromancer_servant",
+    {
+      "id": "iceandfire:cockatrice",
+      "required": false
+    }
+  ]
+}

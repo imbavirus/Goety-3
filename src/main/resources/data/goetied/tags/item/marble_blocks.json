@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "goetied:marble",
+    "goetied:cracked_marble",
+    "goetied:slate_marble",
+    "goetied:worn_slate_marble",
+    "goetied:weathered_slate_marble",
+    "goetied:washed_slate_marble",
+    "goetied:slate_connected_marble",
+    "goetied:slate_patterned_marble",
+    "goetied:slate_cornered_marble",
+    "goetied:slate_glazed_marble",
+    "goetied:gold_arch_marble",
+    "goetied:gold_banded_marble",
+    "goetied:gold_holder_marble",
+    "goetied:gold_covered_marble",
+    "goetied:gold_plated_marble",
+    "goetied:silt_slate_marble",
+    "goetied:silt_marble_slight",
+    "goetied:silt_marble",
+    "goetied:silt_marble_heavy",
+    "goetied:marble_slab",
+    "goetied:smooth_marble_slab",
+    "goetied:cracked_marble_slab",
+    "goetied:slate_marble_slab",
+    "goetied:marble_stairs",
+    "goetied:slate_marble_stairs",
+    "goetied:dark_altar_marble",
+    "goetied:pedestal_marble",
+    "goetied:marble_wind_blower"
+  ]
+}

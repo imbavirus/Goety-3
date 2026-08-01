@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "#goetied:shade_stone",
+    "goetied:shade_stone_slab",
+    "goetied:shade_stone_stairs",
+    "goetied:shade_stone_polished",
+    "goetied:shade_stone_polished_slab",
+    "goetied:shade_stone_polished_stairs",
+    "goetied:shade_stone_bricks_slab",
+    "goetied:shade_stone_bricks_stairs",
+    "goetied:shade_stone_bricks_wall",
+    "goetied:shade_bricks_slab",
+    "goetied:shade_bricks_stairs",
+    "goetied:shade_bricks_wall",
+    "goetied:shade_tiles_slab",
+    "goetied:shade_tiles_stairs",
+    "goetied:dark_altar",
+    "goetied:pedestal",
+    "goetied:shade_brazier",
+    "goetied:soul_absorber",
+    "goetied:ice_bouquet_trap",
+    "goetied:wind_blower",
+    "goetied:sculk_devourer",
+    "goetied:shade_gravestone"
+  ]
+}

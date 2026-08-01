@@ -1,0 +1,27 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "item": "goetied:osseous_focus"
+  },
+  "craftType": "necroturgy",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "tag": "minecraft:soul_fire_base_blocks"
+    },
+    {
+      "item": "goetied:spirit_fabric"
+    },
+    {
+      "item": "goetied:spirit_fabric"
+    },
+    {
+      "item": "goetied:ghost_fire_focus"
+    }
+  ],
+  "result": {
+    "id": "goetied:spooky_focus"
+  }
+}

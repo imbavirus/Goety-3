@@ -1,0 +1,30 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "item": "goetied:poison_dart_focus"
+  },
+  "craftType": "overgrown",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goetied:overgrown_roots"
+    },
+    {
+      "item": "goetied:animation_core"
+    },
+    {
+      "tag": "c:rods/wooden"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "goetied:corpse_blossom"
+    }
+  ],
+  "result": {
+    "id": "goetied:blossoming_focus"
+  }
+}

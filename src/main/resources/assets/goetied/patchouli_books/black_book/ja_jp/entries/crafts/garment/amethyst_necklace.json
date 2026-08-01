@@ -1,0 +1,15 @@
+{
+  "name": "アメジストのネックレス",
+  "icon": "goetied:amethyst_necklace",
+  "category": "goetied:crafts/garment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "アメジストは風水術への強力な導管です。このネックレスを作成して身に着けると、ジオマンシー呪文にかかるソウルコストが半減します。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:amethyst_necklace"
+    }
+  ]
+}

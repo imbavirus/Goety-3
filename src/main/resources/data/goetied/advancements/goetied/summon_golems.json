@@ -1,0 +1,90 @@
+{
+  "parent": "goetied:goetied/read_warred_scroll",
+  "criteria": {
+    "summoned_ice": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "goetied:ice_golem"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    },
+    "summoned_squall": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "goetied:squall_golem"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    },
+    "summoned_redstone": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "goetied:redstone_golem"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    },
+    "summoned_grave": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "goetied:grave_golem"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.goetied.summon_golems.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:diamond_block"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.goetied.summon_golems.title"
+    }
+  },
+  "requirements": [
+    [
+      "summoned_ice"
+    ],
+    [
+      "summoned_squall"
+    ],
+    [
+      "summoned_redstone"
+    ],
+    [
+      "summoned_grave"
+    ]
+  ]
+}

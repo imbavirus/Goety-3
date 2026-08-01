@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "goety:great_hammer",
-    "goety:bonehead_hammer",
-    "goety:stormlander"
+    "goetied:great_hammer",
+    "goetied:bonehead_hammer",
+    "goetied:stormlander"
   ]
 }

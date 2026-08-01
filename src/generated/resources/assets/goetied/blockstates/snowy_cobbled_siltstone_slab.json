@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "goetied:block/snowy_cobbled_siltstone_slab"
+    },
+    "type=double": {
+      "model": "goetied:block/snowy_cobbled_siltstone"
+    },
+    "type=top": {
+      "model": "goetied:block/snowy_cobbled_siltstone_slab_top"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:summon_tamed",
+  "activation_item": {
+    "tag": "c:bones"
+  },
+  "craftType": "necroturgy",
+  "entity_to_summon": "goetied:skeleton_wolf",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "tag": "c:bones"
+    },
+    {
+      "tag": "c:bones"
+    }
+  ],
+  "result": {
+    "id": "goetied:jei_dummy/none"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "goetied:block/slate_marble_slab"
+    },
+    "type=double": {
+      "model": "goetied:block/slate_marble"
+    },
+    "type=top": {
+      "model": "goetied:block/slate_marble_slab_top"
+    }
+  }
+}

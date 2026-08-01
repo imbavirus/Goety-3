@@ -1,0 +1,22 @@
+{
+  "name": "Foco Assustador",
+  "icon": "goetied:spooky_focus",
+  "category": "goetied:focuses/necromancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Espectros não são exatamente as criaturas mortas-vivas mais comuns, só recentemente começaram a aparecer. Com alguns Tecidos Espirituais, você pode invocar e subjugar um ao seu comando."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/spooky_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com $(l:crafts/staff/necro_staff)Cajado Necro$() invoca mais espectros de uma vez."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:spooky_focus": 1
+  }
+}

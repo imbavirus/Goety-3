@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "goetied:crag_pavement"
+  },
+  "result": "goetied:cracked_crag_pavement"
+}

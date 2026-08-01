@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "goetied:void_block",
+    "goetied:void_flame",
+    "goetied:void_fluid"
+  ]
+}

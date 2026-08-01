@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "#goety:chests",
-    "goety:crypt_chest",
-    "goety:lofty_chest"
+    "#goetied:chests",
+    "goetied:crypt_chest",
+    "goetied:lofty_chest"
   ]
 }

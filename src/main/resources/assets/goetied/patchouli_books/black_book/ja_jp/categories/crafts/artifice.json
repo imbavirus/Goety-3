@@ -1,0 +1,7 @@
+{
+  "name": "作為",
+  "description": "魂のエネルギーを利用し、操作する。",
+  "icon": "goetied:soul_absorber",
+  "parent": "goetied:crafts",
+  "sortnum": 3
+}

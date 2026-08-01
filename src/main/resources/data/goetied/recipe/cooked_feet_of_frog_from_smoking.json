@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "goetied:feet_of_frog"
+  },
+  "result": "goetied:cooked_feet_of_frog"
+}

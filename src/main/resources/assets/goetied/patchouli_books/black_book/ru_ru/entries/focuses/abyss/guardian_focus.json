@@ -1,0 +1,22 @@
+{
+  "name": "Фокус стражи",
+  "icon": "goetied:guardian_focus",
+  "category": "goetied:focuses/abyss",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Каким-то образом вам удалось создать фокус, который вызывает и подчиняет вашей воле подводных стражей."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/guardian_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Использование $(l:crafts/staff/abyss_staff)глубоководного посоха$() позволяет вызывать двух стражей за раз."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:guardian_focus": 1
+  }
+}

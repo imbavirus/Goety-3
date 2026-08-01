@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "goetied:item/waystone"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "store": 0.00000
+      },
+      "model": "goetied:item/waystone_empty"
+    },
+    {
+      "predicate": {
+        "store": 1.00000
+      },
+      "model": "goetied:item/waystone_store"
+    }
+  ]
+}

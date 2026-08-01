@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "goety:block/snowy_siltstone_bricks_slight",
-    "side": "goety:block/snowy_siltstone_bricks_slight",
-    "top": "goety:block/snowy_siltstone_bricks_slight"
-  }
-}

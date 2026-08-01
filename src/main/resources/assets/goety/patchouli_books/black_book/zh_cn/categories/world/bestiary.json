@@ -1,7 +1,0 @@
-{
-  "name": "图鉴",
-  "description": "记载了这个世界的原住民的信息。",
-  "icon": "minecraft:spawner",
-  "parent": "goety:world",
-  "sortnum": 1
-}

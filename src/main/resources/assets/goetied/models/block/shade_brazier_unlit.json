@@ -1,0 +1,7 @@
+{
+	"parent": "goetied:block/template_brazier",
+	"textures": {
+		"brazier": "goetied:block/shade_brazier",
+		"fire": "goetied:block/brazier_fireless"
+	}
+}

@@ -1,6 +1,0 @@
-{
-  "name": "Wind",
-  "description": "The power over the winds and gales.",
-  "icon": "goety:whirlwind_focus",
-  "parent": "goety:focuses"
-}

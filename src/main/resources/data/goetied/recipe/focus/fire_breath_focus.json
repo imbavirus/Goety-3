@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "sfs",
+    "fef",
+    "sfs"
+  ],
+  "key":
+  {
+    "e":
+    {
+      "item": "goetied:empty_focus"
+    },
+    "f":
+    {
+      "tag": "minecraft:coals"
+    },
+    "s":
+    {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:fire_breath_focus",
+    "count": 1
+  }
+}

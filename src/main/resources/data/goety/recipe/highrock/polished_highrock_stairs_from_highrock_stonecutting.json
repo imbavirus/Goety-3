@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "goety:highrock"
-  },
-  "result": "goety:polished_highrock_stairs",
-  "count": 1
-}

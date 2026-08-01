@@ -1,0 +1,22 @@
+{
+  "name": "Фокус вьюги",
+  "icon": "goetied:blizzard_focus",
+  "category": "goetied:focuses/frost",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Наполнив фокус града стрел силой мороза, вы вызываете град из ледяных шипов вместо стрел."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/blizzard_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Использование $(l:crafts/staff/frost_staff)морозного посоха$() позволит поливать врагов градом ледяных копий, увеличенных и усиленных шипов."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:blizzard_focus": 1
+  }
+}

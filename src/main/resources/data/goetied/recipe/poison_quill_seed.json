@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " B ",
+    "V#V",
+    " B "
+  ],
+  "key":
+  {
+    "#":
+    {
+      "item": "goetied:quick_growing_seed"
+    },
+    "B":
+    {
+      "item": "goetied:corpse_blossom"
+    },
+    "V":
+    {
+      "item": "goetied:venomous_fang"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:poison_quill_seed",
+    "count": 4
+  }
+}

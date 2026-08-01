@@ -1,0 +1,22 @@
+{
+  "name": "ゴーストファイアのフォーカス",
+  "icon": "goetied:ghost_fire_focus",
+  "category": "goetied:focuses/necromancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "死者の炎は非常に恐ろしいです。エクトプラズムを使えば、特定の場所や敵の足元に死者の冷たい炎を呼び出すことができるらしい..."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/ghost_fire_focus"
+    },
+	{
+      "type": "patchouli:text",
+      "text": "$(l:crafts/staff/necro_staff)ネクロの杖$()で唱えると、2x2ではなく3x3ブロックと、でより多くの氷の炎を召喚できます。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:ghost_fire_focus": 1
+  }
+}

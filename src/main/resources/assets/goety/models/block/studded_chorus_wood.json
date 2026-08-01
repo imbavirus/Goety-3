@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "goety:block/studded_chorus_log",
-    "side": "goety:block/studded_chorus_log"
-  }
-}

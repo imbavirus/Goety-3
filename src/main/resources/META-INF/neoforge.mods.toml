@@ -2,11 +2,11 @@ modLoader="javafml"
 loaderVersion="[4,)"
 license="MIT License"
 [[mods]]
-modId="goety"
+modId="goetied"
 version="${mod_version}"
-displayName="Goety"
-displayURL="https://github.com/imbavirus/Goety-3"
-logoFile="Goety.png" #optional
+displayName="Goetied"
+displayURL="https://github.com/imbavirus/Goetied-3"
+logoFile="Goetied.png" #optional
 credits='''Tutorial/Help: GentlemanRevvnar, Technovision, Cy4's Modding, TelepathicGrunt, diesieben07.
 
 Major Bug Testing: Mich705, pantman687, glacial_flower, Mephodio.
@@ -18,9 +18,9 @@ Blighted Shack, Graveyard, Ominous Blacksmith and Buried Ritual build by boxman.
 Chinese Translation: NUTTAR, Player_7, Japanese Translation: SAGA, 坂上駒子, Russian Translation: .cool_nickname, Ukrainian Translation: catvasilthefirst, Polish Translation: darknetherlord, Português Translation: crougamer.exe'''
 authors="Infernos"
 description='''
-Goety adds a bunch of new Mobs that can help or hinder players and a magic system that can provides a player a different way of combat!
+Goetied adds a bunch of new Mobs that can help or hinder players and a magic system that can provides a player a different way of combat!
 '''
-[[dependencies.goety]] #optional
+[[dependencies.goetied]] #optional
 modId="neoforge" #mandatory
 
 mandatory=true #mandatory
@@ -31,14 +31,14 @@ ordering="NONE"
 
 side="BOTH"
 
-[[dependencies.goety]]
+[[dependencies.goetied]]
 modId="curios"
 mandatory=true
 versionRange="[9.5.1,)"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.goety]]
+[[dependencies.goetied]]
 modId="minecraft"
 
 mandatory=true
@@ -50,4 +50,4 @@ ordering="NONE"
 side="BOTH"
 
 [[mixins]]
-config="goety.mixins.json"
+config="goetied.mixins.json"

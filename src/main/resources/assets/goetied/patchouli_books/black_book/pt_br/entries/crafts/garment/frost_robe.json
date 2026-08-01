@@ -1,0 +1,28 @@
+{
+  "name": "Túnica Gélida",
+  "icon": "goetied:frost_robe",
+  "category": "goetied:crafts/garment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Túnica Gélida concede ao usuário o poder de tudo que é frio. Quem a veste nunca congelará, terá resistência a ataques de congelamento e poderá se mover livremente pela Neve em Pó. A túnica também reduz o custo de Feitiços Gélidos."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:frost_robe"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:frost_crown"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A Coroa Gélida reduz pela metade o tempo de conjuração de feitiços gélidos e impede que certos servos do gelo, como Vexes, morram."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:frost_robe": 1,
+    "goetied:frost_robe_cryo": 1,
+    "goetied:frost_crown": 2
+  }
+}

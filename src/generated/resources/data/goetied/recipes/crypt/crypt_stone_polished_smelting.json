@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "goetied:crypt_stone"
+  },
+  "result": "goetied:crypt_stone_polished"
+}

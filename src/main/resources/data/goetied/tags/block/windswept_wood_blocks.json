@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "goetied:windswept_log",
+    "goetied:windswept_wood",
+    "goetied:windswept_planks",
+    "goetied:compacted_windswept_planks",
+    "goetied:compacted_windswept_slab",
+    "goetied:windswept_lamp",
+    "goetied:windswept_door",
+    "goetied:windswept_fence",
+    "goetied:windswept_fence_gate",
+    "goetied:windswept_slab",
+    "goetied:windswept_stairs",
+    "goetied:windswept_trapdoor",
+    "goetied:windswept_button",
+    "goetied:windswept_pressure_plate",
+    "goetied:windswept_bookshelf",
+    "goetied:windswept_sign",
+    "goetied:windswept_wall_sign",
+    "goetied:windswept_hanging_sign",
+    "goetied:windswept_wall_hanging_sign",
+    "goetied:stripped_windswept_log",
+    "goetied:stripped_windswept_wood",
+    "goetied:windswept_plank_wall",
+    "goetied:snowy_windswept_plank_wall"
+  ]
+}

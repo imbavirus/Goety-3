@@ -1,0 +1,1796 @@
+{
+  "parent": "goetied:goetied/craft_empty_focus",
+  "criteria": {
+    "item.goetied.arrow_rain_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:arrow_rain_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.banish_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:banish_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.barricade_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:barricade_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.biomine_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:biomine_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.biting_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:biting_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.blackguard_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:blackguard_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.blasting_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:blasting_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.blazing_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:blazing_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.blink_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:blink_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.blizzard_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:blizzard_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.blossoming_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:blossoming_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.bolting_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:bolting_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.bombardment_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:bombardment_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.bouncy_bubble_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:bouncy_bubble_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.bubble_stream_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:bubble_stream_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.bulwark_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:bulwark_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.burrowing_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:burrowing_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.call_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:call_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.carrion_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:carrion_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.charge_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:charge_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.chilling_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:chilling_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.command_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:command_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.corruption_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:corruption_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.crafting_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:crafting_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.cushion_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:cushion_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.cyclone_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:cyclone_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.discharge_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:discharge_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.earth_punch_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:earth_punch_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.electrocute_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:electrocute_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.end_walk_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:end_walk_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.ender_chest_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:ender_chest_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.entangling_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:entangling_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.eruption_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:eruption_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.feast_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:feast_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.fire_blast_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:fire_blast_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.fire_breath_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:fire_breath_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.fireball_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:fireball_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.flame_strike_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:flame_strike_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.flying_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:flying_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.frost_breath_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:frost_breath_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.frost_nova_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:frost_nova_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.frostborn_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:frostborn_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.ghastly_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:ghastly_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.ghost_fire_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:ghost_fire_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.glow_light_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:glow_light_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.grapple_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:grapple_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.guardian_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:guardian_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.hail_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:hail_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.hunting_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:hunting_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.ice_spike_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:ice_spike_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.ice_storm_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:ice_storm_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.iceology_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:iceology_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.ignite_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:ignite_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.illuminate_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:illuminate_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.illusion_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:illusion_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.iron_hide_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:iron_hide_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.killing_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:killing_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.launch_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:launch_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.lavaball_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:lavaball_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.leaping_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:leaping_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.leeching_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:leeching_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.lightning_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:lightning_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.magic_bolt_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:magic_bolt_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.magma_bomb_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:magma_bomb_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.mauling_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:mauling_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.meteor_shower_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:meteor_shower_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.monsoon_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:monsoon_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.order_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:order_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.osseous_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:osseous_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.overgrowth_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:overgrowth_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.phantasm_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:phantasm_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.poison_dart_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:poison_dart_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.prisma_beam_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:prisma_beam_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.pulverize_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:pulverize_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.quaking_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:quaking_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.razor_wind_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:razor_wind_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.reaping_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:reaping_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.recall_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:recall_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.rotation_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:rotation_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.rotting_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:rotting_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.rupture_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:rupture_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.scatter_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:scatter_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.sensing_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:sensing_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.shocking_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:shocking_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.shockwave_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:shockwave_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.shredding_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:shredding_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.skull_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:skull_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.slimy_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:slimy_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.snaring_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:snaring_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.sonic_boom_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:sonic_boom_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.soul_bolt_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:soul_bolt_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.soul_heal_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:soul_heal_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.soul_light_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:soul_light_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.spooky_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:spooky_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.steaming_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:steaming_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.stellar_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:stellar_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.swarm_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:swarm_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.sword_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:sword_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.teeth_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:teeth_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.telekinesis_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:telekinesis_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.thunderbolt_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:thunderbolt_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.thunderstorm_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:thunderstorm_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.tidal_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:tidal_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.trembling_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:trembling_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.trident_storm_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:trident_storm_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.troop_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:troop_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.tunnel_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:tunnel_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.updraft_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:updraft_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.vanguard_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:vanguard_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.vexing_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:vexing_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.void_flash_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:void_flash_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.watching_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:watching_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.water_whip_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:water_whip_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.weakening_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:weakening_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.whirlwind_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:whirlwind_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.whispering_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:whispering_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.wind_blast_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:wind_blast_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "item.goetied.wither_skull_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:wither_skull_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.goetied.craft_all_focus.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "goetied:focus_pack"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.goetied.craft_all_focus.title"
+    }
+  },
+  "requirements": [
+    [
+      "item.goetied.vexing_focus"
+    ],
+    [
+      "item.goetied.biting_focus"
+    ],
+    [
+      "item.goetied.feast_focus"
+    ],
+    [
+      "item.goetied.teeth_focus"
+    ],
+    [
+      "item.goetied.shredding_focus"
+    ],
+    [
+      "item.goetied.illusion_focus"
+    ],
+    [
+      "item.goetied.ignite_focus"
+    ],
+    [
+      "item.goetied.fire_breath_focus"
+    ],
+    [
+      "item.goetied.soul_bolt_focus"
+    ],
+    [
+      "item.goetied.magic_bolt_focus"
+    ],
+    [
+      "item.goetied.sword_focus"
+    ],
+    [
+      "item.goetied.soul_light_focus"
+    ],
+    [
+      "item.goetied.glow_light_focus"
+    ],
+    [
+      "item.goetied.illuminate_focus"
+    ],
+    [
+      "item.goetied.crafting_focus"
+    ],
+    [
+      "item.goetied.iron_hide_focus"
+    ],
+    [
+      "item.goetied.bulwark_focus"
+    ],
+    [
+      "item.goetied.soul_heal_focus"
+    ],
+    [
+      "item.goetied.shockwave_focus"
+    ],
+    [
+      "item.goetied.weakening_focus"
+    ],
+    [
+      "item.goetied.arrow_rain_focus"
+    ],
+    [
+      "item.goetied.telekinesis_focus"
+    ],
+    [
+      "item.goetied.command_focus"
+    ],
+    [
+      "item.goetied.order_focus"
+    ],
+    [
+      "item.goetied.sonic_boom_focus"
+    ],
+    [
+      "item.goetied.corruption_focus"
+    ],
+    [
+      "item.goetied.rotting_focus"
+    ],
+    [
+      "item.goetied.osseous_focus"
+    ],
+    [
+      "item.goetied.ghost_fire_focus"
+    ],
+    [
+      "item.goetied.reaping_focus"
+    ],
+    [
+      "item.goetied.spooky_focus"
+    ],
+    [
+      "item.goetied.phantasm_focus"
+    ],
+    [
+      "item.goetied.vanguard_focus"
+    ],
+    [
+      "item.goetied.blackguard_focus"
+    ],
+    [
+      "item.goetied.leeching_focus"
+    ],
+    [
+      "item.goetied.killing_focus"
+    ],
+    [
+      "item.goetied.skull_focus"
+    ],
+    [
+      "item.goetied.barricade_focus"
+    ],
+    [
+      "item.goetied.quaking_focus"
+    ],
+    [
+      "item.goetied.earth_punch_focus"
+    ],
+    [
+      "item.goetied.pulverize_focus"
+    ],
+    [
+      "item.goetied.rotation_focus"
+    ],
+    [
+      "item.goetied.burrowing_focus"
+    ],
+    [
+      "item.goetied.sensing_focus"
+    ],
+    [
+      "item.goetied.scatter_focus"
+    ],
+    [
+      "item.goetied.eruption_focus"
+    ],
+    [
+      "item.goetied.frost_breath_focus"
+    ],
+    [
+      "item.goetied.ice_spike_focus"
+    ],
+    [
+      "item.goetied.ice_storm_focus"
+    ],
+    [
+      "item.goetied.hail_focus"
+    ],
+    [
+      "item.goetied.iceology_focus"
+    ],
+    [
+      "item.goetied.blizzard_focus"
+    ],
+    [
+      "item.goetied.chilling_focus"
+    ],
+    [
+      "item.goetied.frost_nova_focus"
+    ],
+    [
+      "item.goetied.frostborn_focus"
+    ],
+    [
+      "item.goetied.swarm_focus"
+    ],
+    [
+      "item.goetied.poison_dart_focus"
+    ],
+    [
+      "item.goetied.blossoming_focus"
+    ],
+    [
+      "item.goetied.grapple_focus"
+    ],
+    [
+      "item.goetied.hunting_focus"
+    ],
+    [
+      "item.goetied.mauling_focus"
+    ],
+    [
+      "item.goetied.slimy_focus"
+    ],
+    [
+      "item.goetied.carrion_focus"
+    ],
+    [
+      "item.goetied.overgrowth_focus"
+    ],
+    [
+      "item.goetied.entangling_focus"
+    ],
+    [
+      "item.goetied.whispering_focus"
+    ],
+    [
+      "item.goetied.leaping_focus"
+    ],
+    [
+      "item.goetied.launch_focus"
+    ],
+    [
+      "item.goetied.flying_focus"
+    ],
+    [
+      "item.goetied.cushion_focus"
+    ],
+    [
+      "item.goetied.whirlwind_focus"
+    ],
+    [
+      "item.goetied.cyclone_focus"
+    ],
+    [
+      "item.goetied.updraft_focus"
+    ],
+    [
+      "item.goetied.wind_blast_focus"
+    ],
+    [
+      "item.goetied.razor_wind_focus"
+    ],
+    [
+      "item.goetied.trembling_focus"
+    ],
+    [
+      "item.goetied.charge_focus"
+    ],
+    [
+      "item.goetied.shocking_focus"
+    ],
+    [
+      "item.goetied.thunderbolt_focus"
+    ],
+    [
+      "item.goetied.electrocute_focus"
+    ],
+    [
+      "item.goetied.monsoon_focus"
+    ],
+    [
+      "item.goetied.discharge_focus"
+    ],
+    [
+      "item.goetied.bolting_focus"
+    ],
+    [
+      "item.goetied.lightning_focus"
+    ],
+    [
+      "item.goetied.thunderstorm_focus"
+    ],
+    [
+      "item.goetied.bubble_stream_focus"
+    ],
+    [
+      "item.goetied.bouncy_bubble_focus"
+    ],
+    [
+      "item.goetied.steaming_focus"
+    ],
+    [
+      "item.goetied.trident_storm_focus"
+    ],
+    [
+      "item.goetied.prisma_beam_focus"
+    ],
+    [
+      "item.goetied.guardian_focus"
+    ],
+    [
+      "item.goetied.biomine_focus"
+    ],
+    [
+      "item.goetied.water_whip_focus"
+    ],
+    [
+      "item.goetied.tidal_focus"
+    ],
+    [
+      "item.goetied.fireball_focus"
+    ],
+    [
+      "item.goetied.lavaball_focus"
+    ],
+    [
+      "item.goetied.bombardment_focus"
+    ],
+    [
+      "item.goetied.meteor_shower_focus"
+    ],
+    [
+      "item.goetied.magma_bomb_focus"
+    ],
+    [
+      "item.goetied.fire_blast_focus"
+    ],
+    [
+      "item.goetied.flame_strike_focus"
+    ],
+    [
+      "item.goetied.wither_skull_focus"
+    ],
+    [
+      "item.goetied.ghastly_focus"
+    ],
+    [
+      "item.goetied.blazing_focus"
+    ],
+    [
+      "item.goetied.call_focus"
+    ],
+    [
+      "item.goetied.troop_focus"
+    ],
+    [
+      "item.goetied.recall_focus"
+    ],
+    [
+      "item.goetied.ender_chest_focus"
+    ],
+    [
+      "item.goetied.end_walk_focus"
+    ],
+    [
+      "item.goetied.blink_focus"
+    ],
+    [
+      "item.goetied.banish_focus"
+    ],
+    [
+      "item.goetied.tunnel_focus"
+    ],
+    [
+      "item.goetied.rupture_focus"
+    ],
+    [
+      "item.goetied.stellar_focus"
+    ],
+    [
+      "item.goetied.void_flash_focus"
+    ],
+    [
+      "item.goetied.watching_focus"
+    ],
+    [
+      "item.goetied.blasting_focus"
+    ],
+    [
+      "item.goetied.snaring_focus"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Invocar Tempestade",
+  "icon": "minecraft:netherrack",
+  "category": "goetied:summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Um ritual simples, mas poderoso, que conjura uma Tempestade. Útil para quem deseja se esconder do sol."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:summon_storm"
+    }
+  ]
+}

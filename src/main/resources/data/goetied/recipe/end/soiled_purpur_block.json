@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:purpur_block"
+    },
+    {
+      "item": "goetied:end_soil"
+    }
+  ],
+  "result": {
+    "id": "goetied:soiled_purpur_block"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "gui_light": "front",
+  "base": {
+    "parent": "goetied:item/great_hammer_model"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "goetied:item/great_hammer_inventory"
+    },
+    "fixed": {
+      "parent": "goetied:item/great_hammer_inventory"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "goetied:crypt/urn",
+
+  "fallback": "goetied:crypt/urn",
+
+  "elements": [
+    {
+
+      "weight": 15,
+      "element": {
+
+        "location": "goetied:crypt/urn",
+
+        "processors": "goetied:no_waterlogging",
+
+        "projection": "rigid",
+
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+
+      "weight": 1,
+      "element": {
+
+        "location": "goetied:crypt/urn_empty",
+
+        "processors": "goetied:no_waterlogging",
+
+        "projection": "rigid",
+
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

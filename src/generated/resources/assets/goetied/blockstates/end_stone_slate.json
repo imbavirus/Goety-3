@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "goetied:block/end_stone_slate_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "goetied:block/end_stone_slate"
+    },
+    "axis=z": {
+      "model": "goetied:block/end_stone_slate_horizontal",
+      "x": 90
+    }
+  }
+}

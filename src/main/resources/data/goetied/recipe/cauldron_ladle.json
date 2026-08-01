@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "  p",
+    " s ",
+    "s  "
+  ],
+  "key":
+  {
+    "s":
+    {
+      "tag": "c:stone"
+    },
+    "p":
+    {
+      "item": "goetied:shade_stone"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:cauldron_ladle",
+    "count": 1
+  }
+}

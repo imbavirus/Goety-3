@@ -1,0 +1,30 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "item": "minecraft:iron_shovel"
+  },
+  "craftType": "forge",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "minecraft:bone_block"
+    },
+    {
+      "tag": "c:gems/lapis"
+    },
+    {
+      "item": "goetied:cursed_ingot"
+    },
+    {
+      "tag": "c:gems/diamond"
+    },
+    {
+      "tag": "goetied:haunted_logs"
+    }
+  ],
+  "result": {
+    "id": "goetied:graverobber_shovel"
+  }
+}

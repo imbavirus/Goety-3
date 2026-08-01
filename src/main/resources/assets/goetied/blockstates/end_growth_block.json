@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "goetied:block/end_growth_block"
+      },
+      {
+        "model": "goetied:block/end_growth_block",
+        "y": 90
+      },
+      {
+        "model": "goetied:block/end_growth_block",
+        "y": 180
+      },
+      {
+        "model": "goetied:block/end_growth_block",
+        "y": 270
+      }
+    ]
+  }
+}

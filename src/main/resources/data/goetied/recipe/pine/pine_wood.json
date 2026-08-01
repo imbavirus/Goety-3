@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "goetied:pine_log"
+    }
+  },
+  "result": {
+    "id": "goetied:pine_wood",
+    "count": 3
+  }
+}

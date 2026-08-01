@@ -1,0 +1,18 @@
+{
+  "name": "Foco da Caminhada do End",
+  "icon": "goetied:end_walk_focus",
+  "category": "goetied:focuses/void",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O foco aproveita as energias do End, concedendo-lhe invisibilidade verdadeira que esconde até sua armadura por um curto período. No entanto, interagir com qualquer criatura ou bloco não apenas quebrará a invisibilidade, mas também o teleportará de volta para onde conjurou o feitiço."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/end_walk_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:end_walk_focus": 1
+  }
+}

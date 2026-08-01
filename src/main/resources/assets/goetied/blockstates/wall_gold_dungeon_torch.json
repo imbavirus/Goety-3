@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "goetied:block/wall_gold_dungeon_torch"
+    },
+    "facing=north": {
+      "model": "goetied:block/wall_gold_dungeon_torch",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "goetied:block/wall_gold_dungeon_torch",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "goetied:block/wall_gold_dungeon_torch",
+      "y": 180
+    }
+  }
+}

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "top": "goety:block/gold_plated_marble_top",
-    "bottom": "goety:block/marble",
-    "side": "goety:block/gold_arch_marble"
-  }
-}

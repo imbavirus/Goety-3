@@ -1,0 +1,9 @@
+{
+  "parent": "goetied:block/template_vault",
+  "textures": {
+    "bottom": "goetied:block/void_vault/bottom",
+    "front": "goetied:block/void_vault/front_on",
+    "side": "goetied:block/void_vault/side_on",
+    "top": "goetied:block/void_vault/top"
+  }
+}

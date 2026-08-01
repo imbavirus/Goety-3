@@ -1,11 +1,11 @@
 {
   "replace": false,
   "values": [
-    "goety:haunted_wall_sign",
-    "goety:rotten_wall_sign",
-    "goety:windswept_wall_sign",
-    "goety:pine_wall_sign",
-    "goety:chorus_wall_sign",
-    "goety:corrupt_chorus_wall_sign"
+    "goetied:haunted_wall_sign",
+    "goetied:rotten_wall_sign",
+    "goetied:windswept_wall_sign",
+    "goetied:pine_wall_sign",
+    "goetied:chorus_wall_sign",
+    "goetied:corrupt_chorus_wall_sign"
   ]
 }

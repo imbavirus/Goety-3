@@ -1,0 +1,39 @@
+{
+  "parent": "goetied:goetied/read_warred_scroll",
+  "criteria": {
+    "summoned_golem": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "goetied:grave_golem"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.goetied.summon_grave_golem.description"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "item": "goetied:skull_pile"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.goetied.summon_grave_golem.title"
+    }
+  },
+  "requirements": [
+    [
+      "summoned_golem"
+    ]
+  ]
+}

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "goety:block/chorus_log",
-    "side": "goety:block/chorus_log",
-    "top": "goety:block/chorus_log"
-  }
-}

@@ -1,0 +1,36 @@
+{
+  "name": "goetied:crypt/down_false",
+
+  "fallback": "goetied:crypt/down_false",
+
+  "elements": [
+    {
+
+      "weight": 1,
+      "element": {
+
+        "location": "goetied:crypt/down_false",
+
+        "processors": "goetied:no_waterlogging",
+
+        "projection": "rigid",
+
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+
+      "weight": 1,
+      "element": {
+
+        "location": "goetied:crypt/down_false_staircase",
+
+        "processors": "goetied:no_waterlogging",
+
+        "projection": "rigid",
+
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

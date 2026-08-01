@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "goetied:item/taglock"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "tagged": 0.00000
+      },
+      "model": "goetied:item/taglock_jar_empty"
+    },
+    {
+      "predicate": {
+        "tagged": 1.00000
+      },
+      "model": "goetied:item/taglock_jar_tagged"
+    }
+  ]
+}

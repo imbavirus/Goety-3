@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " s ",
+    "sds",
+    " s "
+  ],
+  "key":
+  {
+    "s":
+    {
+      "tag": "c:stone"
+    },
+    "d":
+    {
+      "tag": "c:stone"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:diamond_mold_block",
+    "count": 4
+  }
+}

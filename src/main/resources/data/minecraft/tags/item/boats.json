@@ -1,11 +1,11 @@
 {
   "replace": false,
   "values": [
-    "goety:haunted_boat",
-    "goety:rotten_boat",
-    "goety:windswept_boat",
-    "goety:pine_boat",
-    "goety:chorus_boat",
-    "goety:corrupt_chorus_boat"
+    "goetied:haunted_boat",
+    "goetied:rotten_boat",
+    "goetied:windswept_boat",
+    "goetied:pine_boat",
+    "goetied:chorus_boat",
+    "goetied:corrupt_chorus_boat"
   ]
 }

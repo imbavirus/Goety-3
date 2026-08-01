@@ -1,0 +1,39 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "item": "goetied:animation_core"
+  },
+  "craftType": "overgrown",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "tag": "c:rods/wooden"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "tag": "c:rods/wooden"
+    },
+    {
+      "item": "goetied:venomous_fang"
+    },
+    {
+      "tag": "c:rods/wooden"
+    },
+    {
+      "item": "goetied:overgrown_roots"
+    },
+    {
+      "tag": "c:rods/wooden"
+    }
+  ],
+  "result": {
+    "id": "goetied:entangling_focus"
+  }
+}

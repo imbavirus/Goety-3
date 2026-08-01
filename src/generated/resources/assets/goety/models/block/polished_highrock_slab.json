@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "goety:block/polished_highrock",
-    "side": "goety:block/polished_highrock",
-    "top": "goety:block/polished_highrock"
-  }
-}

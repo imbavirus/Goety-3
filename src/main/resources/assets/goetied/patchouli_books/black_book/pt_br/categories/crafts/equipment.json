@@ -1,0 +1,7 @@
+{
+  "name": "Ferramentas e equipamentos",
+  "description": "Ferramentas poderosas e sombrias para um feiticeiro das Trevas.",
+  "icon": "goetied:eerie_pickaxe",
+  "parent": "goetied:crafts",
+  "sortnum": 1
+}

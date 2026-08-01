@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "goetied:mistral_scroll"
+    },
+    "title": {
+      "translate": "advancements.goetied.mistral_scroll.title"
+    },
+    "description": {
+      "translate": "advancements.goetied.mistral_scroll.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "goetied:goetied/root",
+  "criteria": {
+    "mistral_scroll": {
+      "conditions": {
+        "item": {
+          "items": [
+            "goetied:mistral_scroll"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "requirements": [
+    ["mistral_scroll"]
+  ]
+}

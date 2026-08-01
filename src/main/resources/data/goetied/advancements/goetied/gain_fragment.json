@@ -1,0 +1,35 @@
+{
+  "parent": "goetied:goetied/root",
+  "criteria": {
+    "forbidden_piece": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:forbidden_piece"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "forbidden_fragment": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:forbidden_fragment"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "forbidden_piece",
+      "forbidden_fragment"
+    ]
+  ]
+}

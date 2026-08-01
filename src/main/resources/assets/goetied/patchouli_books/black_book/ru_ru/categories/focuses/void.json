@@ -1,0 +1,6 @@
+{
+  "name": "Пустотные",
+  "description": "Власть над пустотами.",
+  "icon": "goetied:ender_chest_focus",
+  "parent": "goetied:focuses"
+}

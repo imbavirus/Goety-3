@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " m ",
+    "mlm",
+    " m "
+  ],
+  "key":
+  {
+    "m":
+    {
+      "item": "goetied:end_growth_vines"
+    },
+    "l":
+    {
+      "item": "goetied:cobbled_end_stone"
+    }
+  },
+  "result": {
+    "id": "goetied:grown_cobbled_end_stone"
+  }
+}

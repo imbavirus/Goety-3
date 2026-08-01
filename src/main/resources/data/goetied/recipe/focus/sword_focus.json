@@ -1,0 +1,27 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "item": "goetied:soul_bolt_focus"
+  },
+  "craftType": "magic",
+  "soulCost": 5,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goetied:soul_ruby"
+    },
+    {
+      "item": "goetied:fireball_focus"
+    },
+    {
+      "item": "goetied:vexing_focus"
+    },
+    {
+      "item": "minecraft:book"
+    }
+  ],
+  "result": {
+    "id": "goetied:sword_focus"
+  }
+}

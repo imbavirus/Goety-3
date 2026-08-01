@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "goetied:block/studded_chorus_log",
+    "side": "goetied:block/studded_chorus_log"
+  }
+}

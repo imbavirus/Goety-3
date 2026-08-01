@@ -1,0 +1,8 @@
+{
+  "parent": "goetied:block/cube_bottom_top_inner_faces",
+  "textures": {
+    "bottom": "goetied:block/void_spawner/void_spawner_bottom",
+    "side": "goetied:block/void_spawner/void_spawner_side_active",
+    "top": "goetied:block/void_spawner/void_spawner_top_ejecting_award"
+  }
+}

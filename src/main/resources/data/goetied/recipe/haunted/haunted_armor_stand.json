@@ -1,0 +1,31 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "item": "minecraft:armor_stand"
+  },
+  "craftType": "necroturgy",
+  "soulCost": 1,
+  "duration": 10,
+  "research": "haunting",
+  "ingredients": [
+    {
+      "tag": "goetied:shade_stone"
+    },
+    {
+      "item": "goetied:haunted_planks"
+    },
+    {
+      "item": "goetied:haunted_planks"
+    },
+    {
+      "item": "goetied:haunted_planks"
+    },
+    {
+      "item": "goetied:ectoplasm"
+    }
+  ],
+  "result": {
+    "id": "goetied:haunted_armor_stand"
+  }
+}

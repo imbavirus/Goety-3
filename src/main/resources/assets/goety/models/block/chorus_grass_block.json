@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "top": "goety:block/chorus_grass_block_top",
-    "bottom": "goety:block/smooth_end_stone",
-    "side": "goety:block/chorus_grass_block"
-  }
-}

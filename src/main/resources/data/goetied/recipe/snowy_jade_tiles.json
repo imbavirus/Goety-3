@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "#S",
+    "S#"
+  ],
+  "key":
+  {
+    "#":
+    {
+      "item": "goetied:jade_tiles"
+    },
+    "S":
+    {
+      "item": "minecraft:snowball"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:snowy_jade_tiles",
+    "count": 2
+  }
+}

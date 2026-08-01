@@ -1,0 +1,7 @@
+{
+  "name": "制服",
+  "description": "黑暗巫师的饰品和服装。",
+  "icon": "goetied:dark_hat",
+  "parent": "goetied:crafts",
+  "sortnum": 2
+}

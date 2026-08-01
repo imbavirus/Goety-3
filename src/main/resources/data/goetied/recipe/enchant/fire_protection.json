@@ -1,0 +1,26 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:enchant",
+  "activation_item": {
+    "item": "minecraft:book"
+  },
+  "craftType": "magic",
+  "soulCost": 10,
+  "duration": 10,
+  "enchantment": "minecraft:fire_protection",
+  "xpLevelCost": 5,
+  "ingredients": [
+    {
+      "item": "minecraft:iron_trapdoor"
+    },
+    {
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "tag": "c:gems/lapis"
+    }
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book"
+  }
+}

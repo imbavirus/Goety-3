@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "goetied:spider_servant",
+    "goetied:cave_spider_servant",
+    "goetied:web_spider_servant",
+    "goetied:icy_spider_servant",
+    "goetied:bone_spider_servant"
+  ]
+}

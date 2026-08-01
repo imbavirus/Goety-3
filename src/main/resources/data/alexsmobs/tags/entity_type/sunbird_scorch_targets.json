@@ -1,17 +1,17 @@
 {
   "replace": false,
   "values": [
-    "goety:apostle",
-    "goety:wraith",
-    "goety:border_wraith",
-    "goety:muck_wraith",
-    "goety:reaper",
-    "goety:crypt_slime",
-    "goety:necromancer",
-    "goety:cairn_necromancer",
-    "goety:haunted_armor",
-    "goety:skull_lord",
-    "goety:bone_lord",
-    "goety:wither_necromancer"
+    "goetied:apostle",
+    "goetied:wraith",
+    "goetied:border_wraith",
+    "goetied:muck_wraith",
+    "goetied:reaper",
+    "goetied:crypt_slime",
+    "goetied:necromancer",
+    "goetied:cairn_necromancer",
+    "goetied:haunted_armor",
+    "goetied:skull_lord",
+    "goetied:bone_lord",
+    "goetied:wither_necromancer"
   ]
 }

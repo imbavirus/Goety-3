@@ -1,0 +1,18 @@
+{
+  "name": "Монокль наводки",
+  "icon": "goetied:targeting_monocle",
+  "category": "goetied:crafts/garment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Попасть во врагов заклинаниями бывает непростой задачей, поскольку им достаточно сделать один шаг, чтобы избежать попадания. С помощью этого монокля при использовании заклинания, ваша палочка или посох автоматически нацеливаются на существо, на которое вы смотрите, что позволяет вам более точно попасть в него."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:targeting_monocle"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:targeting_monocle": 1
+  }
+}

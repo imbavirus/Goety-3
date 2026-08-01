@@ -1,0 +1,58 @@
+{
+  "name": "エンドストン&プルプァの亜種",
+  "icon": "goetied:end_stone_tiles",
+  "category": "goetied:crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "闇の魔術を探求すると、エンドストーンやパープルブロックの新しいブロックバリアントを作成する知識が得られるようです。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:end/chiseled_end_stone",
+      "recipe2": "goetied:end/chiseled_end_stone_bricks"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:end/end_stone_pillar",
+      "recipe2": "goetied:end/chorus_end_stone_pillar"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:end/end_stone_tiles",
+      "recipe2": "goetied:end/end_stone_tile_slab"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:end/end_stone_tile_stairs"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "goetied:end/smooth_end_stone"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:end/smooth_end_stone_slab",
+      "recipe2": "goetied:end/smooth_end_stone_stairs"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:end/smooth_end_stone_fence",
+      "recipe2": "goetied:end/smooth_end_stone_wall"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:end/end_stone_slate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:end/end_rod_block",
+      "recipe2": "goetied:purpur_end_rod_block"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:purpur_lamp",
+      "recipe2": "goetied:purpur_end_rod_block"
+    }
+  ]
+}

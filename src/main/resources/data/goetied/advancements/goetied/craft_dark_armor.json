@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "item": "goetied:dark_helmet"
+    },
+    "title": {
+      "translate": "advancements.goetied.craft_dark_armor.title"
+    },
+    "description": {
+      "translate": "advancements.goetied.craft_dark_armor.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "goetied:goetied/craft_dark_ingot",
+  "criteria": {
+    "dark_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:dark_helmet"
+            ]
+          },
+          {
+            "items": [
+              "goetied:dark_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "goetied:dark_leggings"
+            ]
+          },
+          {
+            "items": [
+              "goetied:dark_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "dark_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

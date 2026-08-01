@@ -1,0 +1,23 @@
+{
+  "name": "ウィスパラーのフォーカス",
+  "icon": "goetied:whispering_focus",
+  "category": "goetied:focuses/wild",
+  "advancement": "goetied:goetied/read_floral_scroll",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "しばらくジャングルを調査した後、あなたはウィスパラーを忠実な従者として呼び出す方法を編み出しました。この呪文を水中で唱えると、代わりにウェーブウィスパラーが呼び出されます。"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/whispering_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:crafts/staff/wild_staff)野生の杖$()で唱えると、一度に召喚されるウィスパラーの数が増えます。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:whispering_focus": 1
+  }
+}

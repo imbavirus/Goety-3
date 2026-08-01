@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " g ",
+    "gmg"
+  ],
+  "key":
+  {
+    "m":
+    {
+      "item": "goetied:marble"
+    },
+    "g":
+    {
+      "tag": "c:ingots/gold"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:gold_arch_marble",
+    "count": 1
+  }
+}

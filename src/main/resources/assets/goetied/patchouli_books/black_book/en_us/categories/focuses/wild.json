@@ -1,0 +1,6 @@
+{
+  "name": "Wild",
+  "description": "The power over the wild.",
+  "icon": "goetied:overgrowth_focus",
+  "parent": "goetied:focuses"
+}

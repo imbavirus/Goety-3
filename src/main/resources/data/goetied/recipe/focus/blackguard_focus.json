@@ -1,0 +1,40 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "tag": "goetied:rotting_focus"
+  },
+  "craftType": "necroturgy",
+  "soulCost": 1,
+  "duration": 10,
+  "research": "front",
+  "ingredients": [
+    {
+      "item": "minecraft:shield"
+    },
+    {
+      "item": "minecraft:anvil"
+    },
+    {
+      "item": "goetied:cursed_metal_block"
+    },
+    {
+      "item": "goetied:dark_fabric"
+    },
+    {
+      "item": "goetied:black_iron_helmet"
+    },
+    {
+      "item": "goetied:black_iron_chestplate"
+    },
+    {
+      "item": "goetied:black_iron_boots"
+    },
+    {
+      "item": "goetied:soul_ruby"
+    }
+  ],
+  "result": {
+    "id": "goetied:blackguard_focus"
+  }
+}

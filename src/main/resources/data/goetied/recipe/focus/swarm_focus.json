@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "sfs",
+    "fef",
+    "sfs"
+  ],
+  "key":
+  {
+    "e":
+    {
+      "item": "goetied:empty_focus"
+    },
+    "s":
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    "f":
+    {
+      "item": "goetied:corpse_blossom"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:swarm_focus",
+    "count": 1
+  }
+}

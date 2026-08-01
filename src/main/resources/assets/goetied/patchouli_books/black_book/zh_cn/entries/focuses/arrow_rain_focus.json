@@ -1,0 +1,18 @@
+{
+  "name": "箭雨聚晶",
+  "icon": "goetied:arrow_rain_focus",
+  "category": "goetied:focuses",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "凭借灵魂之力，你在某个地点或目标上召唤出了一场被遗忘弥久的箭雨。"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/arrow_rain_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:arrow_rain_focus": 1
+  }
+}

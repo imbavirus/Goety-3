@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "goetied:block/soiled_end_rock_bricks",
+    "side": "goetied:block/soiled_end_rock_bricks"
+  }
+}

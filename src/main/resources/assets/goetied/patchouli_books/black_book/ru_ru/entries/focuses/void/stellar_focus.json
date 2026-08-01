@@ -1,0 +1,23 @@
+{
+  "name": "Фокус звёзд",
+  "icon": "goetied:stellar_focus",
+  "category": "goetied:focuses/void",
+  "advancement": "goetied:goetied/kill_an_ender_keeper",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эхо пустоты позволило вам создать заклинание, которое, при концентрации, непрерывно вызывает снаряды. Через секунду после призыва, они полетят в сторону врага и взорвутся пустотной энергией."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/stellar_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Использование $(l:crafts/staff/void_staff)пустотного посоха$() позволяет призвать ещё больше снарядов."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:stellar_focus": 1
+  }
+}

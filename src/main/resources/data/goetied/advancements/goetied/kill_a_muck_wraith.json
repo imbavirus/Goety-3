@@ -1,0 +1,24 @@
+{
+  "parent": "goetied:goetied/root",
+  "criteria": {
+    "kill_a_wraith": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "goetied:muck_wraith"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_a_wraith"
+    ]
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "リーパーのフォーカス",
+  "icon": "goetied:reaping_focus",
+  "category": "goetied:focuses/necromancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "これらの魂を飢えた亡霊は、複数の敵をなぎ倒すのに役立つだけでなく、死霊術師の主人のために魂のエネルギーを集めるのにも役立ちます。"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/reaping_focus"
+    },
+	{
+      "type": "patchouli:text",
+      "text": "$(l:crafts/staff/necro_staff)ネクロの杖$()で唱えると、一度に召喚されるリーパーの数が増えます。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:reaping_focus": 1
+  }
+}

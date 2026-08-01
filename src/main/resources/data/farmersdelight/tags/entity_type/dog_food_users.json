@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "goety:black_wolf",
-    "goety:skeleton_wolf",
-    "goety:black_beast"
+    "goetied:black_wolf",
+    "goetied:skeleton_wolf",
+    "goetied:black_beast"
   ]
 }

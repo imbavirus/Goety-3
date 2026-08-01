@@ -38,10 +38,10 @@
             ],
             "palette_key": "trims/color_palettes/trim_palette",
             "permutations": {
-                "cursed": "goety:trims/color_palettes/cursed",
-                "dark": "goety:trims/color_palettes/dark",
-                "ecto": "goety:trims/color_palettes/ecto",
-                "jade": "goety:trims/color_palettes/jade"
+                "cursed": "goetied:trims/color_palettes/cursed",
+                "dark": "goetied:trims/color_palettes/dark",
+                "ecto": "goetied:trims/color_palettes/ecto",
+                "jade": "goetied:trims/color_palettes/jade"
             }
         }
     ]

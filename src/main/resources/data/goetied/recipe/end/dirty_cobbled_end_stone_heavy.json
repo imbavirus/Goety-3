@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "lml",
+    "m m",
+    "lml"
+  ],
+  "key":
+  {
+    "m":
+    {
+      "item": "goetied:cobbled_end_stone"
+    },
+    "l":
+    {
+      "item": "goetied:end_dirt"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:dirty_cobbled_end_stone_heavy",
+    "count": 4
+  }
+}

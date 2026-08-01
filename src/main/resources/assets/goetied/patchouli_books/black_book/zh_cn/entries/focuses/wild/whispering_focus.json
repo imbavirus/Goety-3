@@ -1,0 +1,23 @@
+{
+  "name": "唤藤聚晶",
+  "icon": "goetied:whispering_focus",
+  "category": "goetied:focuses/wild",
+  "advancement": "goetied:goetied/read_floral_scroll",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "在你研究了丛林一段时间后，你想出了一种方法，把唤藤者制作成为你忠诚的仆人。如果你在水下施法会产生水生的唤浪者。"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/whispering_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "使用$(l:crafts/staff/wild_staff)荒野魔杖$()施法可以额外召唤一个唤藤者。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:whispering_focus": 1
+  }
+}

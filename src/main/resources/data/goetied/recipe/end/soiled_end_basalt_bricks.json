@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "goetied:end_basalt_bricks"
+    },
+    {
+      "item": "goetied:end_soil"
+    }
+  ],
+  "result": {
+    "id": "goetied:soiled_end_basalt_bricks"
+  }
+}

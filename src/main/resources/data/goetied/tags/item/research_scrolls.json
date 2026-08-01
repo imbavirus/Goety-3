@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "goetied:ravaging_scroll",
+    "goetied:warred_scroll",
+    "goetied:buried_scroll",
+    "goetied:haunting_scroll",
+    "goetied:front_scroll",
+    "goetied:mistral_scroll",
+    "goetied:floral_scroll",
+    "goetied:bygone_scroll",
+    "goetied:terminus_scroll"
+  ]
+}

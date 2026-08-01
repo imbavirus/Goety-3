@@ -1,0 +1,6 @@
+{
+  "name": "Vento",
+  "description": "O poder sobre os ventos e as ventanias.",
+  "icon": "goetied:whirlwind_focus",
+  "parent": "goetied:focuses"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Фокус создания",
+  "icon": "goetied:crafting_focus",
+  "category": "goetied:focuses",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Иногда кто-то забывает взять с собой или не может разместить верстак, поэтому наличие такого фокуса делает создание предметов более удобным!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:focus/crafting_focus"
+    }
+  ]
+}

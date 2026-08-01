@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "goetied:highrock_bricks"
+  },
+  "result": "goetied:highrock_brick_slab",
+  "count": 2
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "goetied:block/steep_slab"
+    },
+    "type=double": {
+      "model": "goetied:block/steep_planks"
+    },
+    "type=top": {
+      "model": "goetied:block/steep_slab_top"
+    }
+  }
+}

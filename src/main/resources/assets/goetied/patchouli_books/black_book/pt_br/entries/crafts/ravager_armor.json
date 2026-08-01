@@ -1,0 +1,39 @@
+{
+  "name": "Armadura de Devastador",
+  "icon": "goetied:iron_ravager_armor",
+  "category": "goetied:crafts",
+  "advancement": "goetied:goetied/read_ravaging_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ao ler o pergaminho sobre os segredos dos $(l:mutations/ravaged)Devastadores$(), você teve a ideia de criar uma armadura especializada que complementa suas $(l:crafts/ominous_saddle)selas blindadas$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Criar armadura para a besta massiva requer muito Ferro e metal, mas proporcionará uma grande proteção para o $(l:mutations/ravaged)Devastador$() recém-transformado. No entanto, o $(l:mutations/ravaged)Devastador$() deve estar $(l:crafts/ominous_saddle)selado$() antes de equipar a armadura. Há rumores de que você não foi o primeiro a pensar em blindar Devastadores..."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:iron_ravager_armor"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:gold_ravager_armor"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:diamond_ravager_armor"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:netherite_ravager_armor"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:iron_ravager_armor": 2,
+    "goetied:gold_ravager_armor": 3,
+    "goetied:diamond_ravager_armor": 4,
+    "goetied:netherite_ravager_armor": 5
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "goetied:shade_stone"
+    }
+  },
+  "result": {
+    "id": "goetied:shade_stone_slab",
+    "count": 6
+  }
+}

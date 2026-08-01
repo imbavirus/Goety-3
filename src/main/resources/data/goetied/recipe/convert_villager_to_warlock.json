@@ -1,0 +1,23 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:convert_tamed",
+  "activation_item": {
+    "item": "goetied:mystic_core"
+  },
+  "craftType": "adept_nether",
+  "entity_to_convert": {
+    "tag": "goetied:villagers",
+    "display_name": "entity.minecraft.villager"
+  },
+  "entity_to_convert_into": "goetied:warlock_servant",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "minecraft:crying_obsidian"
+    }
+  ],
+  "result": {
+    "id": "goetied:jei_dummy/none"
+  }
+}

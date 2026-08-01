@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "goetied:block/compacted_pine_planks",
+    "side": "goetied:block/compacted_pine_planks",
+    "top": "goetied:block/compacted_pine_planks"
+  }
+}

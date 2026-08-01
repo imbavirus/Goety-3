@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "rgr",
+    "geg",
+    "rgr"
+  ],
+  "key":
+  {
+    "e":
+    {
+      "item": "goetied:empty_focus"
+    },
+    "r":
+    {
+      "tag": "c:rods/wooden"
+    },
+    "g":
+    {
+      "tag": "c:gunpowder"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:scatter_focus",
+    "count": 1
+  }
+}

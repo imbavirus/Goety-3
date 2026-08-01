@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "mmm",
+    "ggg",
+    "mmm"
+  ],
+  "key":
+  {
+    "m":
+    {
+      "item": "goetied:highrock_bricks"
+    },
+    "g":
+    {
+      "tag": "c:ingots/gold"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:gold_chiseled_highrock_bricks",
+    "count": 3
+  }
+}

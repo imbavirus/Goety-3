@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "goetied:block/snowy_crag_bricks",
+    "side": "goetied:block/snowy_crag_bricks",
+    "top": "goetied:block/snowy_crag_bricks"
+  }
+}

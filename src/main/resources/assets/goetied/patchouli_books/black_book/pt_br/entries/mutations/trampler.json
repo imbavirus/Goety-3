@@ -1,0 +1,30 @@
+{
+  "name": "Pisoteador",
+  "icon": "minecraft:saddle",
+  "category": "goetied:mutations",
+  "advancement": "goetied:goetied/read_ravaging_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Você descobriu como criar montarias violentas a partir de Illagers. Diferente de Devoradores, já nascem prontos para serem montados."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:convert_pillager_to_trampler"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Como camelos, segurar o pulo carrega uma investida para atropelar inimigos."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goetied:trampler_servant",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Pisoteador podem fazer parte de um $(l:goetied:mutations/illager_servants)grupo de ataque$(), embora não possam ser líderes."
+    }
+  ]
+}

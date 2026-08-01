@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " dc",
+    " sd",
+    "s  "
+  ],
+  "key":
+  {
+    "d":
+    {
+      "tag": "c:gems/diamond"
+    },
+    "c":
+    {
+      "item": "goetied:pale_steel_ingot"
+    },
+    "s":
+    {
+      "tag": "c:stone"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:diamond_ice_axe"
+  }
+}

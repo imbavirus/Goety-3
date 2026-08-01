@@ -1,0 +1,9 @@
+{
+  "parent": "goetied:block/template_animator",
+  "textures": {
+    "top": "goetied:block/animator_top_activate",
+    "bottom": "goetied:block/animator_bottom",
+    "side": "goetied:block/animator_side_activate"
+  },
+  "render_type": "cutout"
+}

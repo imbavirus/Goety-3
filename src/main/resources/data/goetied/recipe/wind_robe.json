@@ -1,0 +1,38 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "item": "goetied:wind_core"
+  },
+  "craftType": "sky",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goetied:gale_fabric"
+    },
+    {
+      "item": "goetied:gale_fabric"
+    },
+    {
+      "item": "goetied:gale_fabric"
+    },
+    {
+      "item": "goetied:magic_fabric"
+    },
+    {
+      "item": "goetied:magic_fabric"
+    },
+    {
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "type": "c:nbt",
+      "item": "minecraft:potion",
+      "nbt": "{\"Potion\": \"minecraft:slow_falling\"}"
+    }
+  ],
+  "result": {
+    "id": "goetied:wind_robe"
+  }
+}

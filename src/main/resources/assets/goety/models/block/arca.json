@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "goety:block/arca"
-  },
-  "render_type": "cutout"
-}

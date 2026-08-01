@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "goetied:empty_focus"
+    },
+    "title": {
+      "translate": "advancements.goetied.craft_empty_focus.title"
+    },
+    "description": {
+      "translate": "advancements.goetied.craft_empty_focus.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "goetied:goetied/craft_totem_roots",
+  "criteria": {
+    "empty_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:empty_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "empty_focus"
+    ]
+  ],
+  "rewards": {
+    "experience": 5
+  }
+}

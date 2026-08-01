@@ -1,0 +1,15 @@
+{
+  "name": "まばたきのフォーカス",
+  "icon": "goetied:blink_focus",
+  "category": "goetied:focuses/void",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "このフォーカスを使用すると、範囲内にある場合、見ている場所に向かってテレポートできます。"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/blink_focus"
+    }
+  ]
+}

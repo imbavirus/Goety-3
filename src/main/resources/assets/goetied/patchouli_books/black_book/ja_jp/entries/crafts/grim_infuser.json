@@ -1,0 +1,17 @@
+{
+  "name": "グリムインフューザー",
+  "icon": "goetied:grim_infuser",
+  "category": "goetied:crafts",
+  "advancement": "goetied:goetied/read_haunting_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:intro/cursed_infuser)呪われたインフューザー(注入器)$()のアップグレード版です。基本的には変わりませんが、 黒曜石をクリプトストーンにすることができるほか、複数のアイテムを入れることができます。"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:grim_infuser"
+    }
+  ]
+}

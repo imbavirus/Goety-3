@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "void_spawner_state=active": {
+      "model": "goetied:block/void_spawner_active"
+    },
+    "void_spawner_state=cooldown": {
+      "model": "goetied:block/void_spawner"
+    },
+    "void_spawner_state=ejecting_reward": {
+      "model": "goetied:block/void_spawner_ejecting_reward"
+    },
+    "void_spawner_state=inactive": {
+      "model": "goetied:block/void_spawner"
+    },
+    "void_spawner_state=waiting_for_players": {
+      "model": "goetied:block/void_spawner_active"
+    },
+    "void_spawner_state=waiting_for_reward_ejection": {
+      "model": "goetied:block/void_spawner_active"
+    }
+  }
+}

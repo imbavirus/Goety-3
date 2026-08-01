@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "goety:snow_bricks"
-  },
-  "result": "goety:snow_brick_stairs",
-  "count": 1
-}

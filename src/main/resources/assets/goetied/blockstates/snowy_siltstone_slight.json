@@ -1,0 +1,78 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "goetied:block/snowy_siltstone_slight"
+      },
+      {
+        "model": "goetied:block/snowy_siltstone_slight",
+        "x": 90
+      },
+      {
+        "model": "goetied:block/snowy_siltstone_slight",
+        "x": 180
+      },
+      {
+        "model": "goetied:block/snowy_siltstone_slight",
+        "x": 270
+      },
+      {
+        "model": "goetied:block/snowy_siltstone_slight",
+        "y": 90
+      },
+      {
+        "model": "goetied:block/snowy_siltstone_slight",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "goetied:block/snowy_siltstone_slight",
+        "x": 180,
+        "y": 90
+      },
+      {
+        "model": "goetied:block/snowy_siltstone_slight",
+        "x": 270,
+        "y": 90
+      },
+      {
+        "model": "goetied:block/snowy_siltstone_slight",
+        "y": 180
+      },
+      {
+        "model": "goetied:block/snowy_siltstone_slight",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "goetied:block/snowy_siltstone_slight",
+        "x": 180,
+        "y": 180
+      },
+      {
+        "model": "goetied:block/snowy_siltstone_slight",
+        "x": 270,
+        "y": 180
+      },
+      {
+        "model": "goetied:block/snowy_siltstone_slight",
+        "y": 270
+      },
+      {
+        "model": "goetied:block/snowy_siltstone_slight",
+        "x": 90,
+        "y": 270
+      },
+      {
+        "model": "goetied:block/snowy_siltstone_slight",
+        "x": 180,
+        "y": 270
+      },
+      {
+        "model": "goetied:block/snowy_siltstone_slight",
+        "x": 270,
+        "y": 270
+      }
+    ]
+  }
+}

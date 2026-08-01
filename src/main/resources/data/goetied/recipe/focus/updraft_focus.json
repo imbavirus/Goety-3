@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "sfs",
+    "fef",
+    "sfs"
+  ],
+  "key":
+  {
+    "e":
+    {
+      "item": "goetied:empty_focus"
+    },
+    "f":
+    {
+      "tag": "c:gems/jade"
+    },
+    "s":
+    {
+      "item": "goetied:savage_tooth"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:updraft_focus",
+    "count": 1
+  }
+}

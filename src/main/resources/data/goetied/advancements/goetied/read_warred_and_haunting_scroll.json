@@ -1,0 +1,29 @@
+{
+  "parent": "goetied:goetied/root",
+  "criteria": {
+    "warred_scroll": {
+      "conditions": {
+        "item": {
+          "items": [
+            "goetied:warred_scroll"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "haunting_scroll": {
+      "conditions": {
+        "item": {
+          "items": [
+            "goetied:haunting_scroll"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "requirements": [
+    ["warred_scroll"],
+    ["haunting_scroll"]
+  ]
+}

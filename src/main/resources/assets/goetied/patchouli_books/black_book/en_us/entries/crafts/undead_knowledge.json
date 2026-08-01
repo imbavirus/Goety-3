@@ -1,0 +1,24 @@
+{
+  "name": "Odd Parchment",
+  "icon": "goetied:forbidden_piece",
+  "category": "goetied:crafts",
+  "advancement": "goetied:goetied/gain_fragment",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The echoes of the dead and the remnant thoughts within the Nether could hold some secrets towards a dark power. With the power of echo shards and some necroturgy, you are able to create a piece of a dark, and sinister power."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:forbidden_piece"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:forbidden_fragment"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:forbidden_piece": 1
+  }
+}

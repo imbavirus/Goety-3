@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "facing=down": { "model": "goetied:block/corpse_blossom_bottom" },
+    "facing=up": { "model": "goetied:block/corpse_blossom_top" }
+  }
+}

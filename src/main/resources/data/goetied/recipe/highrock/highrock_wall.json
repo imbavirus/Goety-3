@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "goetied:highrock"
+    }
+  },
+  "result": {
+    "id": "goetied:highrock_wall",
+    "count": 6
+  }
+}

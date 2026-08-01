@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "goetied:block/silt_jade_tiles",
+    "top": "goetied:block/silt_jade_tiles",
+    "side": "goetied:block/silt_jade_tiles"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:purpur_block"
+    },
+    {
+      "item": "goetied:chorus_growth"
+    }
+  ],
+  "result": {
+    "id": "goetied:grassy_purpur_block"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Spider Den",
+  "icon": "goetied:spider_sac",
+  "category": "goetied:world",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "There had been legends and rumors about great trees that are hollowed and infested with spiders, and that they might've been planted atop of an old abandoned mine..."
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["goetied:textures/gui/entries/spider_den.png"],
+      "border": true
+    }
+  ]
+}

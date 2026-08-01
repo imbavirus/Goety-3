@@ -1,0 +1,28 @@
+{
+  "name": "反響するクリスタル",
+  "icon": "goetied:resonance_crystal",
+  "category": "goetied:crafts/artifice",
+  "advancement": "goetied:goetied/read_mistral_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "強い風が吹くとパワーアップする神秘的なブロックです。$(l:goetied:crafts/artifice/wind_blower)ウィンドブロワー$() が作ったものとよく似ています。クリスタルは左クリックすると $(l:goetied:summons/squall_golem)スコールゴーレム$() を自身に保存でき、電源が投入されるとアクティブになります。"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:resonance_crystal"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "スコールゴーレムに力を与えるだけでなく、他の反響するクリスタルにも力を与えることができます。別のクリスタルを持つ場所を登録した $(l:goetied:crafts/waystone)ウェイストーン$() で右クリックすると、その場所が保存されます。ウェイストーンを使い果たさず、一度に複数のクリスタルの場所を保存できますが、そのクリスタルがそこから64ブロック以内にある場合に限ります。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "位置が保存されている場合は、何も持っていない手でクリスタルを右クリックすると、接続されている位置が表示されますが、Shiftキーを押しながら右クリックすると、クリスタルからすべての位置が削除されます。クリスタルを破壊すると、記録された場所もすべて削除されます。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:resonance_crystal": 1
+  }
+}

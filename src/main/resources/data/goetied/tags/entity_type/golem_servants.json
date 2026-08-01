@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "goetied:ice_golem",
+    "goetied:whisperer",
+    "goetied:wavewhisperer",
+    "goetied:leapleaf",
+    "goetied:squall_golem",
+    "goetied:redstone_golem",
+    "goetied:grave_golem",
+    "goetied:redstone_monstrosity",
+    "goetied:redstone_cube"
+  ]
+}

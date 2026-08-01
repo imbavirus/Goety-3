@@ -1,0 +1,21 @@
+{
+  "name": "goetied:final_terminal/arena4",
+
+  "fallback": "goetied:final_terminal/arena4",
+
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+
+        "location": "goetied:final_terminal/arena4",
+
+        "processors": "minecraft:empty",
+
+        "projection": "rigid",
+
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

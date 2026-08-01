@@ -1,0 +1,22 @@
+{
+  "name": "生物质聚晶",
+  "icon": "goetied:biomine_focus",
+  "category": "goetied:focuses/abyss",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "该聚晶允许你召唤生物质地雷，这是一团蛋状物，在被非友方生物踩上时爆裂并向周围溅射酸液"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/biomine_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "使用 $(l:crafts/staff/abyss_staff)深渊魔杖$() 施法时，可提升单次施法召唤生物质的数量"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:biomine_focus": 1
+  }
+}

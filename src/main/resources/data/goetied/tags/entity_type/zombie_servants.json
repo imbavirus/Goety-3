@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "goetied:zpiglin_servant",
+    "goetied:zpiglin_brute_servant",
+    "goetied:zombie_servant",
+    "goetied:husk_servant",
+    "goetied:drowned_servant",
+    "goetied:frozen_zombie_servant",
+    "goetied:jungle_zombie_servant",
+    "goetied:zombie_ravager",
+    "goetied:zombie_vindicator",
+    "goetied:blackguard_servant",
+    "goetied:drowned_necromancer_servant"
+  ]
+}

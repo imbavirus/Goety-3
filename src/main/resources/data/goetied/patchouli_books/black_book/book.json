@@ -1,0 +1,12 @@
+{
+  "name": "info.goetied.black_book.title",
+  "landing_text": "info.goetied.black_book.landing",
+  "book_texture": "goetied:textures/gui/black_book.png",
+  "version": 1,
+  "model": "goetied:black_book",
+  "show_toasts": true,
+  "creative_tab": "goetied",
+  "text_overflow_mode": "resize",
+  "use_resource_pack": true,
+  "i18n": true
+}

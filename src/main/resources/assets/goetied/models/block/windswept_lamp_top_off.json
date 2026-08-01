@@ -1,0 +1,7 @@
+{
+	"parent": "goetied:block/template_lamp_top",
+	"textures": {
+		"lamp": "goetied:block/windswept_lamp",
+		"light": "goetied:block/lamp_off"
+	}
+}

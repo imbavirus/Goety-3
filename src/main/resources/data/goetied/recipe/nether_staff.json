@@ -1,0 +1,40 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "item": "goetied:dark_wand"
+  },
+  "craftType": "expert_nether",
+  "soulCost": 5,
+  "duration": 10,
+  "research": "bygone",
+  "ingredients": [
+    {
+      "tag": "c:ingots/netherite"
+    },
+    {
+      "tag": "c:rods/wooden"
+    },
+    {
+      "item": "goetied:spirit_fabric"
+    },
+    {
+      "tag": "c:rods/wooden"
+    },
+    {
+      "item": "goetied:cursed_ingot"
+    },
+    {
+      "tag": "c:rods/wooden"
+    },
+    {
+      "tag": "c:rods/wooden"
+    },
+    {
+      "item": "goetied:occult_fabric"
+    }
+  ],
+  "result": {
+    "id": "goetied:nether_staff"
+  }
+}

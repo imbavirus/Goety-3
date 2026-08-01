@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "goetied:shade_glass"
+    }
+  },
+  "result": {
+    "id": "goetied:shade_glass_pane",
+    "count": 16
+  }
+}

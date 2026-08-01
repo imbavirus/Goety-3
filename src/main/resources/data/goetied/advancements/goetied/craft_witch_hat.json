@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "goetied:witch_hat"
+    },
+    "title": {
+      "translate": "advancements.goetied.craft_witch_hat.title"
+    },
+    "description": {
+      "translate": "advancements.goetied.craft_witch_hat.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "goetied:goetied/root",
+  "criteria": {
+    "witch_hat": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:witch_hat"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "witch_hat"
+    ]
+  ]
+}

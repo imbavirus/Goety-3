@@ -1,0 +1,30 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "item": "goetied:cursed_ingot"
+  },
+  "craftType": "geoturgy",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "minecraft:sculk_catalyst"
+    },
+    {
+      "tag": "c:gems/lapis"
+    },
+    {
+      "tag": "c:ender_pearls"
+    },
+    {
+      "item": "goetied:ectoplasm"
+    },
+    {
+      "item": "goetied:soul_emerald"
+    }
+  ],
+  "result": {
+    "id": "goetied:ring_of_thirst"
+  }
+}

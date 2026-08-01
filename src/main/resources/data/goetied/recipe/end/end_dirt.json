@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "goetied:void_bottle"
+    }
+  ],
+  "result": {
+    "id": "goetied:end_dirt"
+  }
+}

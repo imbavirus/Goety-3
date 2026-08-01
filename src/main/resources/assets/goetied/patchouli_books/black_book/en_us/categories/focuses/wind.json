@@ -1,0 +1,6 @@
+{
+  "name": "Wind",
+  "description": "The power over the winds and gales.",
+  "icon": "goetied:whirlwind_focus",
+  "parent": "goetied:focuses"
+}

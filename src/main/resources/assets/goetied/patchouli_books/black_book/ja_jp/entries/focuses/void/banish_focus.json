@@ -1,0 +1,15 @@
+{
+  "name": "追放のフォーカス",
+  "icon": "goetied:banish_focus",
+  "category": "goetied:focuses/void",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "術者が生きているターゲットを直接右クリックし、そのターゲットを術者から離れた場所にテレポートさせる呪文です。特定の敵や厄介者を排除するのに最適です。"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/banish_focus"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Фокус железной кожи",
+  "icon": "goetied:iron_hide_focus",
+  "category": "goetied:focuses",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Фокус укрепляет вашу кожу, временно увеличивая броню против физических атак."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:focus/iron_hide_focus"
+    }
+  ]
+}

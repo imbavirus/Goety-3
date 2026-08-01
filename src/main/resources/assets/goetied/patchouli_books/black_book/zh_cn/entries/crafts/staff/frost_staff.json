@@ -1,0 +1,15 @@
+{
+  "name": "霜冻魔杖",
+  "icon": "goetied:frost_staff",
+  "category": "goetied:crafts/staff",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "通过冰霜魔杖的极寒之力，霜冻法术的力量得到增强."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:frost_staff"
+    }
+  ]
+}

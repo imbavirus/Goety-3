@@ -1,0 +1,9 @@
+{
+  "type": "goetied:pulverize",
+  "ingredient": [
+    {
+      "item": "goetied:smooth_siltstone_wall"
+    }
+  ],
+  "block_result": "goetied:cobbled_siltstone_wall"
+}

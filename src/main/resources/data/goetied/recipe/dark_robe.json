@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "f f",
+    "yyy",
+    "fff"
+  ],
+  "key":
+  {
+    "f":
+    {
+      "item": "goetied:dark_fabric"
+    },
+    "y":
+    {
+      "item": "goetied:magic_fabric"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:dark_robe",
+    "count": 1
+  }
+}

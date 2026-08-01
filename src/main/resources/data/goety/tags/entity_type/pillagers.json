@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "minecraft:pillager",
-    "goety:piker",
-    "goety:pillager_servant",
-    "goety:piker_servant"
-  ]
-}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "goetied:end_growth_block",
+    "goetied:grown_end_rock",
+    "goetied:grown_cobbled_end_stone"
+  ]
+}

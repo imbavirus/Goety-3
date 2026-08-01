@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "goetied:polished_highrock"
+    }
+  },
+  "result": {
+    "id": "goetied:polished_highrock_stairs",
+    "count": 4
+  }
+}

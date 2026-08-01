@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "goety:block/snowy_cobbled_siltstone",
-    "side": "goety:block/snowy_cobbled_siltstone",
-    "top": "goety:block/snowy_cobbled_siltstone"
-  }
-}

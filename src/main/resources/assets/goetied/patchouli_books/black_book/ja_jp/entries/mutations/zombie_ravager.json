@@ -1,0 +1,21 @@
+{
+  "name": "ゾンビラヴェジャー",
+  "icon": "minecraft:rotten_flesh",
+  "category": "goetied:mutations",
+  "advancement": "goetied:goetied/read_ravaging_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "通常のラヴェジャーより何が優れているか知っていますか? アンデッドだ！ まあ...ちょっと。 ほとんどのアンデッドと同じように、ゾンビラヴェジャーは太陽光で燃えてしまい、水の中を泳ぐことができません。 ゾンビラヴェジャーも生きているものより遅いですが、アーマー ポイントがわずかに増加します。 全体として、ネクロマンサーや日光が嫌いで腐った死体が好きな人にとっては完璧な乗り物です。"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:convert_zombify_ravager"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goetied:zombie_ravager"
+    }
+  ]
+}

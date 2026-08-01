@@ -1,0 +1,22 @@
+{
+  "name": "Reaping Focus",
+  "icon": "goetied:reaping_focus",
+  "category": "goetied:focuses/necromancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "These soul hungering apparitions are not only useful at mowing down multiple foes, but also gather soul energy for their necromantic master."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/reaping_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Casting with $(l:crafts/staff/necro_staff)Necro Staff$() summons more reapers at once."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:reaping_focus": 1
+  }
+}

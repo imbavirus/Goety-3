@@ -1,0 +1,28 @@
+{
+  "name": "Фокус гаста",
+  "icon": "goetied:ghastly_focus",
+  "category": "goetied:focuses/nether",
+  "advancement": "minecraft:story/enter_the_nether",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Фокус позволяет вам вызывать маленьких гастов, которые, пусть и менее разрушительны, но всё равно мощные бойцы."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/ghastly_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Использование $(l:crafts/staff/nether_staff)незерского посоха$() позволяет вызывать больше гастов."
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "goetied:goetied/read_bygone_scroll",
+      "text": "Незерская мантия позволит призывать гастов-прислужников вместо маленьких гастов, хотя и в меньшем количестве, даже если использовать незерский посох."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:ghastly_focus": 1
+  }
+}

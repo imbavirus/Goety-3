@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "goety:block/snowy_jade_tiles",
-    "top": "goety:block/snowy_jade_tiles",
-    "side": "goety:block/snowy_jade_tiles"
-  }
-}

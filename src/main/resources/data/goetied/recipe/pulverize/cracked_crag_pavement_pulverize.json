@@ -1,0 +1,9 @@
+{
+  "type": "goetied:pulverize",
+  "ingredient": [
+    {
+      "item": "goetied:crag_pavement"
+    }
+  ],
+  "block_result": "goetied:cracked_crag_pavement"
+}

@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "goetied:pine_log",
+    "goetied:pine_wood",
+    "goetied:pine_planks",
+    "goetied:compacted_pine_planks",
+    "goetied:compacted_pine_slab",
+    "goetied:thatched_pine_planks",
+    "goetied:pine_door",
+    "goetied:pine_fence",
+    "goetied:pine_fence_gate",
+    "goetied:pine_slab",
+    "goetied:pine_stairs",
+    "goetied:pine_trapdoor",
+    "goetied:pine_button",
+    "goetied:pine_pressure_plate",
+    "goetied:pine_bookshelf",
+    "goetied:pine_sign",
+    "goetied:pine_wall_sign",
+    "goetied:pine_hanging_sign",
+    "goetied:pine_wall_hanging_sign",
+    "goetied:stripped_pine_log",
+    "goetied:stripped_pine_wood",
+    "goetied:pine_lantern"
+  ]
+}

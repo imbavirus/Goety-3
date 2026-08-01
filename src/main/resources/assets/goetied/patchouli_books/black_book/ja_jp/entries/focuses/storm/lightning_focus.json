@@ -1,0 +1,15 @@
+{
+  "name": "ライトニングのフォーカス",
+  "icon": "goetied:lightning_focus",
+  "category": "goetied:focuses",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "ついに、このフォーカスを手に入れて、敵や場所に天の怒りを呼び起こすことができるようになりました。 ストームスタッフからキャストされていない場合、召喚された稲妻は避雷針の影響を受けます。"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/lightning_focus"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Мрачный инфузор",
+  "icon": "goetied:grim_infuser",
+  "category": "goetied:crafts",
+  "advancement": "goetied:goetied/read_haunting_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Усовершенствованная версия $(l:intro/cursed_infuser)проклятого инфузора$(), который может не только превращать обсидиан в склепный камень, но и принимать более одного предмета за раз. Работает так же, как и его предшественник."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:grim_infuser"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:grim_infuser": 1
+  }
+}

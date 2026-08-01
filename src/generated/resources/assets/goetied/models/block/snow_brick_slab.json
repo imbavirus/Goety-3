@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "goetied:block/snow_bricks",
+    "side": "goetied:block/snow_bricks",
+    "top": "goetied:block/snow_bricks"
+  }
+}

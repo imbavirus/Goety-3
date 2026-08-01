@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "goety:graverobber_shovel",
-    "goety:dark_shovel"
+    "goetied:graverobber_shovel",
+    "goetied:dark_shovel"
   ]
 }

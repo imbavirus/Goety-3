@@ -1,8 +1,0 @@
-{
-  "type": "goety:cursed_infuser",
-  "ingredient": {
-    "item": "goety:illusion_robe"
-  },
-  "result": "goety:illusion_robe_mirror",
-  "cookingTime": 60
-}

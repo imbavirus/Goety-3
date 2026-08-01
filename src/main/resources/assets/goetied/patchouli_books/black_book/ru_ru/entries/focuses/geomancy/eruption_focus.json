@@ -1,0 +1,22 @@
+{
+  "name": "Фокус извержения",
+  "icon": "goetied:eruption_focus",
+  "category": "goetied:focuses/geomancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Позволяет вам вызвать небольшой вулкан, который выбросит в небо несколько пирокластических глыб, которые будут падать вокруг него, взрываясь и, возможно, нанося урон вашим врагам."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/eruption_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Использование $(l:crafts/staff/geo_staff)гео-посоха$() позволит создать три вулкана вместо одного."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:eruption_focus": 1
+  }
+}

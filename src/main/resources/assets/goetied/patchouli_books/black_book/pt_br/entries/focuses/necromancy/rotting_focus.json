@@ -1,0 +1,22 @@
+{
+  "name": "Foco da Decomposição",
+  "icon": "goetied:rotting_focus",
+  "category": "goetied:focuses/necromancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O verdadeiro primeiro passo da Necroturgia é invocar e comandar um Zumbi. Zumbis vêm em várias variantes, e o foco permite invocar uma variante dependendo do local e ambiente onde o feitiço é conjurado."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/rotting_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com $(l:crafts/staff/necro_staff)Cajado Necro$() invoca mais zumbis de uma vez."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:rotting_focus": 1
+  }
+}

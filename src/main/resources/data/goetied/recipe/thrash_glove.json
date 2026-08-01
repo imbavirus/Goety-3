@@ -1,0 +1,27 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "item": "minecraft:rotten_flesh"
+  },
+  "craftType": "forge",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "tag": "c:stone"
+    },
+    {
+      "item": "goetied:magic_emerald"
+    },
+    {
+      "item": "goetied:pale_steel_ingot"
+    },
+    {
+      "item": "goetied:pale_steel_ingot"
+    }
+  ],
+  "result": {
+    "id": "goetied:thrash_glove"
+  }
+}

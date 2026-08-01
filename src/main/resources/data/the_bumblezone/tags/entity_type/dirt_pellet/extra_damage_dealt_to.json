@@ -1,17 +1,17 @@
 {
   "replace": false,
   "values": [
-    "#goety:bound_illagers",
-    "#goety:reapers",
-    "goety:vex_servant",
-    "goety:irk_servant",
-    "goety:irk",
-    "goety:blaze_servant",
-    "goety:wildfire",
-    "goety:inferno",
-    "goety:mini_ghast",
-    "goety:ghast_servant",
-    "goety:malghast",
-    "goety:haunted_skull"
+    "#goetied:bound_illagers",
+    "#goetied:reapers",
+    "goetied:vex_servant",
+    "goetied:irk_servant",
+    "goetied:irk",
+    "goetied:blaze_servant",
+    "goetied:wildfire",
+    "goetied:inferno",
+    "goetied:mini_ghast",
+    "goetied:ghast_servant",
+    "goetied:malghast",
+    "goetied:haunted_skull"
   ]
 }

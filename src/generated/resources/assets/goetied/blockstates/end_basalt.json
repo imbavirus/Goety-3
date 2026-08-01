@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "goetied:block/end_basalt_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "goetied:block/end_basalt"
+    },
+    "axis=z": {
+      "model": "goetied:block/end_basalt_horizontal",
+      "x": 90
+    }
+  }
+}

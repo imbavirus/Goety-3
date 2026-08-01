@@ -1,11 +1,11 @@
 {
   "replace": false,
   "values": [
-    "goety:haunted_door",
-    "goety:rotten_door",
-    "goety:windswept_door",
-    "goety:pine_door",
-    "goety:chorus_door",
-    "goety:corrupt_chorus_door"
+    "goetied:haunted_door",
+    "goetied:rotten_door",
+    "goetied:windswept_door",
+    "goetied:pine_door",
+    "goetied:chorus_door",
+    "goetied:corrupt_chorus_door"
   ]
 }

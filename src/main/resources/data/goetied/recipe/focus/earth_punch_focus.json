@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "sps",
+    "fef",
+    "sgs"
+  ],
+  "key":
+  {
+    "e":
+    {
+      "item": "goetied:empty_focus"
+    },
+    "f":
+    {
+      "tag": "c:rods/wooden"
+    },
+    "p":
+    {
+      "item": "minecraft:piston"
+    },
+    "g":
+    {
+      "tag": "c:gunpowder"
+    },
+    "s":
+    {
+      "item": "goetied:magic_emerald"
+    }
+  },
+  "result": {
+    "id": "goetied:earth_punch_focus"
+  }
+}

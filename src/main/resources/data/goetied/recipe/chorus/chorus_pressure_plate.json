@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_pressure_plate",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "goetied:chorus_planks"
+    }
+  },
+  "result": {
+    "id": "goetied:chorus_pressure_plate"
+  }
+}

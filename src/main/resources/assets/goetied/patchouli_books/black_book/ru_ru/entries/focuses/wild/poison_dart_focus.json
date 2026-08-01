@@ -1,0 +1,19 @@
+{
+  "name": "Фокус ядовитых дротиков",
+  "icon": "goetied:poison_dart_focus",
+  "category": "goetied:focuses/wild",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Позволяет стрелять ядовитыми дротиками по направлению взгляда. Поражённые существа отравляются."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:focus/poison_dart_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Использование $(l:crafts/staff/wild_staff)дикого посоха$() позволяет стрелять иглой, которая пробивает жертв насквозь."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "#goetied:crypt_stone",
+    "goetied:crypt_stone_slab",
+    "goetied:crypt_stone_stairs",
+    "goetied:crypt_stone_polished_slab",
+    "goetied:crypt_stone_polished_stairs",
+    "goetied:crypt_stone_polished_wall",
+    "goetied:crypt_bricks_slab",
+    "goetied:crypt_bricks_stairs",
+    "goetied:crypt_bricks_wall",
+    "goetied:crypt_tiles_slab",
+    "goetied:crypt_tiles_stairs",
+    "goetied:crypt_tiles_wall",
+    "goetied:crypt_plinth",
+    "goetied:crypt_pillar",
+    "goetied:crypt_bookshelf",
+    "goetied:crypt_chest"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+    "parent": "goetied:block/template_loot_urn",
+    "loader": "neoforge:composite",
+    "textures": {
+        "urn": "goetied:block/stash_urn",
+        "particle": "minecraft:block/terracotta"
+    },
+    "item_render_order": [
+        "urn",
+        "emission"
+    ],
+    "children": {
+        "urn": {
+            "parent": "goetied:block/template_loot_urn",
+            "textures": {
+                "urn": "goetied:block/stash_urn"
+            }
+        },
+        "emission": {
+            "parent": "goetied:block/template_loot_urn_glow",
+            "textures": {
+                "glow": "goetied:block/stash_urn_emission"
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "goetied:crypt_stone_polished"
+  },
+  "result": "goetied:crypt_pillar"
+}

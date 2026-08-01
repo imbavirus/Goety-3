@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "goety:block/end_basalt_top",
-    "side": "goety:block/end_basalt"
-  }
-}

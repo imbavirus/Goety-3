@@ -1,0 +1,159 @@
+{
+  "name": "儀式で魅惑する",
+  "icon": "minecraft:enchanted_book",
+  "category": "goetied:rituals",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "ダーク アルターは、特定の材料、魂のエネルギー、および儀式を行う者自身の経験レベルを使用してアイテムをエンチャントできます。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "儀式は、アイテムのエンチャントがエンチャントと互換性がある限り、エンチャントされたアイテムにもエンチャントすることができ、エンチャントのレベルを上げることもできます。ただし、エンチャントのレベルを上げる場合、必要な経験レベルは 2 倍になります。"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/sharpness"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/smite"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/bane_of_arthropods"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/fire_aspect"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/knockback"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/sweeping_edge"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/looting"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/efficiency"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/fortune"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/silk_touch"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/power"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/punch"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/flame"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/infinity"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/piercing"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/quick_charge"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/multishot"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/impaling"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/riptide"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/loyalty"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/channeling"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/lure"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/luck_of_the_sea"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/protection"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/projectile_protection"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/fire_protection"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/blast_protection"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/feather_falling"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/aqua_affinity"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/respiration"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/depth_strider"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/thorns"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/binding_curse"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/vanishing_curse"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/unbreaking"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:enchant/mending"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "goetied:haunted_glass"
+    }
+  ],
+  "result": {
+    "id": "goetied:haunted_glass_mob"
+  }
+}

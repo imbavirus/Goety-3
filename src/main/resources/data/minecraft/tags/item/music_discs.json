@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "goety:music_disc_enderman",
-    "goety:music_disc_rm",
-    "goety:music_disc_vizier",
-    "goety:music_disc_keeper",
-    "goety:music_disc_apostle"
+    "goetied:music_disc_enderman",
+    "goetied:music_disc_rm",
+    "goetied:music_disc_vizier",
+    "goetied:music_disc_keeper",
+    "goetied:music_disc_apostle"
   ]
 }

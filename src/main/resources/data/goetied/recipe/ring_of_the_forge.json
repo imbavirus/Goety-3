@@ -1,0 +1,30 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "item": "minecraft:chain"
+  },
+  "craftType": "geoturgy",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:anvil"
+    },
+    {
+      "item": "goetied:ectoplasm"
+    },
+    {
+      "item": "goetied:shadow_essence"
+    },
+    {
+      "item": "goetied:soul_emerald"
+    }
+  ],
+  "result": {
+    "id": "goetied:ring_of_the_forge"
+  }
+}

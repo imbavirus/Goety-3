@@ -1,0 +1,18 @@
+{
+  "type": "goetied:brazier",
+  "soulCost": 2000,
+  "ingredients": [
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    {
+      "item": "minecraft:sculk"
+    },
+    {
+      "item": "goetied:cursed_ingot"
+    }
+  ],
+  "result": {
+    "id": "goetied:dark_ingot"
+  }
+}

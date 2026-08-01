@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "b b",
+    "b b",
+    "bbb"
+  ],
+  "key":
+  {
+    "b":
+    {
+      "item": "goetied:cursed_ingot"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:witch_cauldron",
+    "count": 1
+  }
+}

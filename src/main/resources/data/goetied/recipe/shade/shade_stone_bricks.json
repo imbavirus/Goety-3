@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "goetied:shade_stone_polished"
+    }
+  },
+  "result": {
+    "id": "goetied:shade_stone_bricks",
+    "count": 4
+  }
+}

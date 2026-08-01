@@ -1,0 +1,22 @@
+{
+  "name": "上昇気流のフォーカス",
+  "icon": "goetied:updraft_focus",
+  "category": "goetied:focuses/wind",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "このフォーカスを使用すると、ある場所またはクリーチャーの足元に強力な突風を召喚し、1秒後にクリーチャーを空中に投げ上げてダメージ+落下ダメージを与えることができます。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:focus/updraft_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:crafts/staff/wind_staff)風の杖$()で唱えると、効果範囲を拡大します。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:updraft_focus": 1
+  }
+}

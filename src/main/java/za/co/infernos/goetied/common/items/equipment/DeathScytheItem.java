@@ -1,0 +1,55 @@
+package za.co.infernos.goetied.common.items.equipment;
+
+import za.co.infernos.goetied.api.items.ISoulRepair;
+import za.co.infernos.goetied.common.entities.projectiles.ScytheSlash;
+import za.co.infernos.goetied.common.items.ModTiers;
+import za.co.infernos.goetied.common.network.ModNetwork;
+import za.co.infernos.goetied.common.network.client.CScytheStrikePacket;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.phys.Vec3;
+
+public class DeathScytheItem extends DarkScytheItem implements ISoulRepair {
+
+    public DeathScytheItem() {
+        super(ModTiers.DEATH);
+    }
+
+    public static void emptyClick(ItemStack stack) {
+        if (!stack.isEmpty() && stack.getItem() instanceof DeathScytheItem){
+            ModNetwork.sendToServer(new CScytheStrikePacket());
+        }
+    }
+
+    public static void entityClick(Player player, Level world) {
+        if (player.getMainHandItem().getItem() instanceof DeathScytheItem) {
+            if (!player.level().isClientSide && !player.isSpectator()) {
+                strike(world, player);
+            }
+        }
+    }
+
+    public static void strike(Level pLevel, Player pPlayer){
+        if (pPlayer.getAttackStrengthScale(0.5F) > 0.9F) {
+            pLevel.playSound((Player) null, pPlayer.getX(), pPlayer.getY(), pPlayer.getZ(), SoundEvents.PLAYER_ATTACK_SWEEP, SoundSource.NEUTRAL, 2.0F, 0.4F / (pLevel.random.nextFloat() * 0.4F + 0.8F));
+            if (!pLevel.isClientSide) {
+                Vec3 vector3d = pPlayer.getViewVector(1.0F);
+                ScytheSlash scytheSlash = new ScytheSlash(pPlayer.getMainHandItem(),
+                        pLevel,
+                        pPlayer.getX() + vector3d.x / 2,
+                        pPlayer.getEyeY() - 0.2,
+                        pPlayer.getZ() + vector3d.z / 2,
+                        vector3d.x,
+                        vector3d.y,
+                        vector3d.z);
+                scytheSlash.setOwner(pPlayer);
+                scytheSlash.setDamage(getInitialDamage());
+                scytheSlash.setTotalLife(300);
+                pLevel.addFreshEntity(scytheSlash);
+            }
+        }
+    }
+}

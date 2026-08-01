@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "goety:cursed_knight_helmet",
-    "goety:cursed_paladin_helmet",
-    "goety:black_iron_helmet",
-    "goety:dark_helmet"
+    "goetied:cursed_knight_helmet",
+    "goetied:cursed_paladin_helmet",
+    "goetied:black_iron_helmet",
+    "goetied:dark_helmet"
   ]
 }

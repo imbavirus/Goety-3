@@ -1,9 +1,0 @@
-{
-  "parent": "goety:block/template_animator",
-  "textures": {
-    "top": "goety:block/animator_top",
-    "bottom": "goety:block/animator_bottom",
-    "side": "goety:block/animator_side"
-  },
-  "render_type": "cutout"
-}

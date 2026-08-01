@@ -1,0 +1,22 @@
+{
+  "name": "goetied:crypt/staircase",
+
+  "fallback": "goetied:crypt/staircase",
+
+  "elements": [
+    {
+
+      "weight": 1,
+      "element": {
+
+        "location": "goetied:crypt/staircase",
+
+        "processors": "goetied:no_waterlogging",
+
+        "projection": "rigid",
+
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

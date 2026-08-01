@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "goetied:haunted_pressure_plate"
+    },
+    {
+      "item": "goetied:ectoplasm"
+    }
+  ],
+  "result": {
+    "id": "goetied:dark_pressure_plate"
+  }
+}

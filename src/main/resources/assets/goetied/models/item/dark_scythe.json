@@ -1,0 +1,6 @@
+{
+  "parent": "goetied:item/scythe",
+  "textures": {
+    "layer0": "goetied:item/ominous_scythe"
+  }
+}

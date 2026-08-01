@@ -1,0 +1,172 @@
+{
+  "display": {
+    "icon": {
+      "item": "goetied:magic_fabric"
+    },
+    "title": {
+      "translate": "advancements.goetied.craft_all_robes.title"
+    },
+    "description": {
+      "translate": "advancements.goetied.craft_all_robes.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "goetied:goetied/craft_dark_robe",
+  "criteria": {
+    "goetied:dark_robe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:dark_robe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "goetied:illusion_robe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:illusion_robe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "goetied:frost_robe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:frost_robe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "goetied:witch_robe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:witch_robe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "goetied:warlock_robe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:warlock_robe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "goetied:nether_robe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:nether_robe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "goetied:wind_robe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:wind_robe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "goetied:storm_robe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:storm_robe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "goetied:wild_robe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:wild_robe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "goetied:grand_robe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:grand_robe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "goetied:dark_robe"
+    ],
+    [
+      "goetied:illusion_robe"
+    ],
+    [
+      "goetied:frost_robe"
+    ],
+    [
+      "goetied:witch_robe"
+    ],
+    [
+      "goetied:warlock_robe"
+    ],
+    [
+      "goetied:nether_robe"
+    ],
+    [
+      "goetied:wind_robe"
+    ],
+    [
+      "goetied:storm_robe"
+    ],
+    [
+      "goetied:wild_robe"
+    ],
+    [
+      "goetied:grand_robe"
+    ]
+  ]
+}

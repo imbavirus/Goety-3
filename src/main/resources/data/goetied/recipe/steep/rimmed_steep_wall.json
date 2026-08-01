@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "goetied:rimmed_steep_wood"
+    }
+  },
+  "result": {
+    "id": "goetied:rimmed_steep_wall",
+    "count": 6
+  }
+}

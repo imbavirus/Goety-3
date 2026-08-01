@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "goetied:cracked_marble"
+    }
+  },
+  "result": {
+    "id": "goetied:cracked_marble_slab",
+    "count": 6
+  }
+}

@@ -1,6 +1,0 @@
-{
-  "parent": "goety:block/template_dark_anvil",
-  "textures": {
-    "top": "goety:block/damaged_dark_anvil_top"
-  }
-}

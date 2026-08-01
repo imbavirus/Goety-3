@@ -1,0 +1,18 @@
+{
+  "type": "goetied:pulverize",
+  "ingredient": [
+    {
+      "item": "goetied:crag_tile_slab"
+    },
+    {
+      "item": "goetied:crag_brick_slab"
+    },
+    {
+      "item": "goetied:snowy_crag_brick_slab"
+    },
+    {
+      "item": "goetied:cracked_crag_pavement_slab"
+    }
+  ],
+  "block_result": "goetied:cragrocks_slab"
+}

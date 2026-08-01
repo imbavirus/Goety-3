@@ -1,0 +1,22 @@
+{
+  "name": "ブリザードのフォーカス",
+  "icon": "goetied:blizzard_focus",
+  "category": "goetied:focuses/frost",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "弾雨のフォーカスに凍結の力を注入すると、矢の代わりにアイススパイクの雨が降ります。"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/blizzard_focus"
+    },
+	{
+      "type": "patchouli:text",
+      "text": "$(l:crafts/staff/frost_staff)氷の杖$()で唱えると代わりに、アイススパイクのより大きくて鋭いバージョンであるアイススピアを降らせます。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:blizzard_focus": 1
+  }
+}

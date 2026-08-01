@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "goetied:dark_altar",
+    "goetied:dark_altar_stone",
+    "goetied:dark_altar_deepslate",
+    "goetied:dark_altar_nether_brick",
+    "goetied:dark_altar_blackstone",
+    "goetied:dark_altar_end_stone",
+    "goetied:dark_altar_highrock",
+    "goetied:dark_altar_marble"
+  ]
+}

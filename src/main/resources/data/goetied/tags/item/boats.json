@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:boats",
+    "goetied:haunted_boat",
+    "goetied:rotten_boat",
+    "goetied:windswept_boat",
+    "goetied:pine_boat",
+    "goetied:chorus_boat",
+    "goetied:corrupt_chorus_boat"
+  ]
+}

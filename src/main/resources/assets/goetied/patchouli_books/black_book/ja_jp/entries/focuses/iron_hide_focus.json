@@ -1,0 +1,15 @@
+{
+  "name": "アイアンハイドフォーカス",
+  "icon": "goetied:iron_hide_focus",
+  "category": "goetied:focuses",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "集中すると物理攻撃に対する皮膚が強化され、一時的にアーマーポイントが増加します。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:focus/iron_hide_focus"
+    }
+  ]
+}

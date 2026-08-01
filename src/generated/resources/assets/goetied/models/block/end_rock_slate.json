@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "goetied:block/end_stone_slate_top",
+    "east": "goetied:block/end_rock_slate",
+    "north": "goetied:block/end_rock_slate",
+    "particle": "goetied:block/end_rock_slate",
+    "south": "goetied:block/end_rock_slate",
+    "up": "goetied:block/end_rock_top",
+    "west": "goetied:block/end_rock_slate"
+  }
+}

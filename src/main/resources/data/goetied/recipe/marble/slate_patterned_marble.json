@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "$"
+  ],
+  "key": {
+    "#": {
+      "item": "goetied:slate_marble_slab"
+    },
+    "$": {
+      "tag": "goetied:marble_slabs"
+    }
+  },
+  "result": {
+    "id": "goetied:slate_patterned_marble",
+    "count": 1
+  }
+}

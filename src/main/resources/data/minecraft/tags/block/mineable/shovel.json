@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "goety:forbidden_grass",
-    "goety:end_soil",
-    "goety:end_soil_debris",
-    "goety:end_mud",
-    "goety:end_mud_slab"
+    "goetied:forbidden_grass",
+    "goetied:end_soil",
+    "goetied:end_soil_debris",
+    "goetied:end_mud",
+    "goetied:end_mud_slab"
   ]
 }

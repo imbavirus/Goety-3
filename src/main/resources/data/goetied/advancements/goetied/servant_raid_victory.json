@@ -1,0 +1,29 @@
+{
+  "parent": "goetied:goetied/convert_neollager",
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald_block"
+    },
+    "title": {
+      "translate": "advancements.goetied.servant_raid_victory.title"
+    },
+    "description": {
+      "translate": "advancements.goetied.servant_raid_victory.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "win": {
+      "conditions": {},
+      "trigger": "goetied:servant_raid_victory"
+    }
+  },
+  "requirements": [
+    [
+      "win"
+    ]
+  ]
+}

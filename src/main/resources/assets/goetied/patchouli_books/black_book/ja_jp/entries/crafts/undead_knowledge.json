@@ -1,0 +1,17 @@
+{
+  "name": "奇妙な羊皮紙",
+  "icon": "goetied:forbidden_piece",
+  "category": "goetied:crafts",
+  "advancement": "goetied:goetied/gain_fragment",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "死者の残響とネザー内の残留思念には、闇の力に関する秘密が隠されている可能性があります。 エコーの破片の力といくつかの壊死術を使えば、暗く邪悪な力の一部を作り出すことができます。"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:forbidden_piece"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "goetied:jade_block"
+    }
+  ],
+  "result": {
+    "id": "goetied:jade",
+    "count": 9
+  }
+}

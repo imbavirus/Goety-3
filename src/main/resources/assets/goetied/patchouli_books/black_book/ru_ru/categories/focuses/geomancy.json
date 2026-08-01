@@ -1,0 +1,6 @@
+{
+  "name": "Геомантия",
+  "description": "Власть над землёй.",
+  "icon": "goetied:barricade_focus",
+  "parent": "goetied:focuses"
+}

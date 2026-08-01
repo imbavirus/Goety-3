@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "goetied:block/highrock_bricks",
+    "side": "goetied:block/highrock_bricks",
+    "top": "goetied:block/highrock_bricks"
+  }
+}

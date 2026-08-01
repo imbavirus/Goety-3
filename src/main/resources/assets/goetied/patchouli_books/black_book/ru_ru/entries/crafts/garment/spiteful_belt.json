@@ -1,0 +1,18 @@
+{
+  "name": "Пояс ехидности",
+  "icon": "goetied:spiteful_belt",
+  "category": "goetied:crafts/garment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вы создали пояс, который наносит урон нападающим. Хотя он и не теряет прочность, как это происходит с бронёй с «шипами», но при этом использует энергию душ владельца. Его можно зачаровать на «шипы», чтобы увеличить урон."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:spiteful_belt"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:spiteful_belt": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Soprador de Vento",
+  "icon": "goetied:wind_blower",
+  "category": "goetied:crafts/artifice",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O poder do Núcleo do Vento permite a criação de sopradores poderosos, que empurram todas as criaturas, exceto as mais resistentes, à sua frente. Agachar-se reduzirá o empurrão sobre você, permitindo que você avance contra o vento. A força do soprador depende da energia de redstone que recebe; quanto maior a energia, mais forte será o sopro."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:wind_blower",
+      "recipe2": "goetied:marble_wind_blower"
+    }
+  ]
+}

@@ -1,7 +1,0 @@
-{
-  "name": "Staffs",
-  "description": "A Dark Wizard's way to perform spells.",
-  "icon": "goety:necro_staff",
-  "parent": "goety:crafts",
-  "sortnum": 4
-}

@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "goety:block/slate_patterned_marble_top"
-  }
-}

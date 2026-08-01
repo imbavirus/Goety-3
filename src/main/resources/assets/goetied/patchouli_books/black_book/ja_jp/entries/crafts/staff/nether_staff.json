@@ -1,0 +1,17 @@
+{
+  "name": "ネザーの杖",
+  "icon": "goetied:nether_staff",
+  "category": "goetied:crafts/staff",
+  "advancement": "goetied:goetied/read_bygone_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "ウィザー ネクロマンサーの力を習得すると、その杖を複製してネザー スペルを強化できるようになります。"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:nether_staff"
+    }
+  ]
+}

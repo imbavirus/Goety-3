@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "goetied:bonehead_hammer"
+    },
+    "title": {
+      "translate": "advancements.goetied.get_bonehead_hammer.title"
+    },
+    "description": {
+      "translate": "advancements.goetied.get_bonehead_hammer.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "goetied:goetied/get_hammer",
+  "criteria": {
+    "hammer": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:bonehead_hammer"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "hammer"
+    ]
+  ]
+}

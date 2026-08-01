@@ -1,0 +1,7 @@
+{
+  "parent": "goetied:block/template_mcd_leaves",
+  "textures": {
+    "leaves": "goetied:block/chorus_leaves",
+    "outer": "goetied:block/chorus_leaves_outer"
+  }
+}

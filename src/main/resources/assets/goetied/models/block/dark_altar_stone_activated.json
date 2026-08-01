@@ -1,0 +1,25 @@
+{
+	"parent": "goetied:block/template_altar",
+	"loader": "neoforge:composite",
+	"textures": {
+		"particle": "goetied:block/dark_altar_stone"
+	},
+	"item_render_order": [
+		"base",
+		"eyes"
+	],
+	"children": {
+		"base": {
+			"parent": "goetied:block/template_altar",
+			"textures": {
+				"altar": "goetied:block/dark_altar_stone"
+			}
+		},
+		"eyes": {
+			"parent": "goetied:block/template_altar",
+			"textures": {
+				"altar": "goetied:block/dark_altar_activated"
+			}
+		}
+	}
+}

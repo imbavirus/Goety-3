@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    " S",
+    " L"
+  ],
+  "key": {
+    "#": {
+      "item": "goetied:pine_log"
+    },
+    "S": {
+      "tag": "c:string"
+    },
+    "L": {
+      "item": "minecraft:lantern"
+    }
+  },
+  "result": {
+    "id": "goetied:pine_lantern"
+  }
+}

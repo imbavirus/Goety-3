@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "goetied:siltstone"
+  },
+  "result": "goetied:chiseled_siltstone_bricks"
+}

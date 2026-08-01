@@ -1,0 +1,6 @@
+{
+	"parent": "goetied:block/template_altar",
+	"textures": {
+		"altar": "goetied:block/dark_altar_highrock"
+	}
+}

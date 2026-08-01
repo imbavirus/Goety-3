@@ -1,6 +1,0 @@
-{
-  "parent": "goety:block/template_soul_absorber",
-  "textures": {
-    "flame": "goety:block/soul_absorber_litup"
-  }
-}

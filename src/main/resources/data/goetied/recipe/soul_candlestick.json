@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "c",
+    "b",
+    "i"
+  ],
+  "key": {
+    "c": {
+      "tag": "minecraft:candles"
+    },
+    "b": {
+      "item": "goetied:cursed_bars"
+    },
+    "i": {
+      "item": "goetied:cursed_ingot"
+    }
+  },
+  "result": {
+    "id": "goetied:soul_candlestick"
+  }
+}

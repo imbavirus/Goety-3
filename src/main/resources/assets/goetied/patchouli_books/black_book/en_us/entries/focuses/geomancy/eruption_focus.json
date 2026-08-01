@@ -1,0 +1,22 @@
+{
+  "name": "Eruption Focus",
+  "icon": "goetied:eruption_focus",
+  "category": "goetied:focuses/geomancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The focus allows you to summon forth a small volcano that would spew several pyroclastic rocks to the sky, which would fall around it, exploding and hopefully hurting your foes."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/eruption_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Casting with $(l:crafts/staff/geo_staff)Geo Staff$() summon three small volcanoes instead of one."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:eruption_focus": 1
+  }
+}

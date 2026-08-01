@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=true": { "model": "goetied:block/ominous_pyre" },
+    "powered=false": { "model": "goetied:block/ominous_pyre_off" }
+  }
+}

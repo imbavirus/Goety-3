@@ -1,0 +1,39 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "item": "goetied:dark_wand"
+  },
+  "craftType": "necroturgy",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goetied:ectoplasm"
+    },
+    {
+      "item": "goetied:ectoplasm"
+    },
+    {
+      "item": "goetied:cursed_ingot"
+    },
+    {
+      "item": "goetied:cursed_ingot"
+    },
+    {
+      "item": "goetied:cursed_ingot"
+    },
+    {
+      "item": "goetied:cursed_ingot"
+    },
+    {
+      "tag": "c:rods/wooden"
+    },
+    {
+      "item": "goetied:spirit_fabric"
+    }
+  ],
+  "result": {
+    "id": "goetied:necro_staff"
+  }
+}

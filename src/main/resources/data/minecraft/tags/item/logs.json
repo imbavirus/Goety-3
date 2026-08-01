@@ -1,12 +1,12 @@
 {
   "replace": false,
   "values": [
-    "#goety:haunted_logs",
-    "#goety:rotten_logs",
-    "#goety:windswept_logs",
-    "#goety:pine_logs",
-    "#goety:chorus_logs",
-    "#goety:corrupt_chorus_logs",
-    "goety:steep_wood"
+    "#goetied:haunted_logs",
+    "#goetied:rotten_logs",
+    "#goetied:windswept_logs",
+    "#goetied:pine_logs",
+    "#goetied:chorus_logs",
+    "#goetied:corrupt_chorus_logs",
+    "goetied:steep_wood"
   ]
 }

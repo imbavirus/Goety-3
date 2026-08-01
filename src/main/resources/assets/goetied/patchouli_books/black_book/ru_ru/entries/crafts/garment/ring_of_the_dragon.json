@@ -1,0 +1,19 @@
+{
+  "name": "Кольцо дракона",
+  "icon": "goetied:ring_of_the_dragon",
+  "category": "goetied:crafts/garment",
+  "advancement": "minecraft:end/dragon_breath",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Кольцо дракона усиливает фокусы $(l:focuses/fire_breath_focus)огненного$() и $(l:focuses/frost/frost_breath_focus)ледяного$() дыхания, что не только увеличивает урон, но и заставляет их изменять ландшафт!"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:ring_of_the_dragon"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:ring_of_the_dragon": 1
+  }
+}

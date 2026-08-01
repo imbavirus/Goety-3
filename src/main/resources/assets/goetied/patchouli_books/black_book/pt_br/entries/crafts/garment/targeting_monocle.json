@@ -1,0 +1,18 @@
+{
+  "name": "Monóculo de Mira",
+  "icon": "goetied:targeting_monocle",
+  "category": "goetied:crafts/garment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Acertar seus inimigos com feitiços pode ser difícil, pois eles podem desviar de suas Presas Mágicas com um simples passo. Com este monóculo, ao lançar um feitiço através de uma varinha ou cajado, sua cabeça irá automaticamente travar na criatura que você está mirando, permitindo acertá-la com mais precisão."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:targeting_monocle"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:targeting_monocle": 1
+  }
+}

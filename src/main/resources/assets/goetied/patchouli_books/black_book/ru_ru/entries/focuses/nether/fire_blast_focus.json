@@ -1,0 +1,22 @@
+{
+  "name": "Фокус огненного взрыва",
+  "icon": "goetied:fire_blast_focus",
+  "category": "goetied:focuses/nether",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Вы испускаете огненный взрыв, нанося урон всем находящимся поблизости существам и поджигая их. Взрыв наносит огненный урон и не причиняет вам вреда."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/fire_blast_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Использование $(l:crafts/staff/nether_staff)незерского посоха$() увеличивает радиус взрыва."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:fire_blast_focus": 1
+  }
+}

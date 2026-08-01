@@ -1,0 +1,28 @@
+{
+  "name": "Ghastly Focus",
+  "icon": "goetied:ghastly_focus",
+  "category": "goetied:focuses/nether",
+  "advancement": "minecraft:story/enter_the_nether",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The focus allows you to summon forth miniature Ghasts that, while less destructive, are still potent fire spewers."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/ghastly_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Casting with $(l:crafts/staff/nether_staff)Nether Staff$() summons more ghasts at once."
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "goetied:goetied/read_bygone_scroll",
+      "text": "Wearing a Nether Robes will casting this spell will summon forth Ghast Servants instead of Mini-Ghasts, though in smaller amounts even when cast with Nether Staff."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:ghastly_focus": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "goetied:pulverize",
+  "ingredient": [
+    {
+      "item": "goetied:marble_slab"
+    },
+    {
+      "item": "goetied:smooth_marble_slab"
+    }
+  ],
+  "block_result": "goetied:cracked_marble_slab"
+}

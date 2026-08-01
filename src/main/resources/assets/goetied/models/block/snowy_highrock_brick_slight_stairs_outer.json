@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "goetied:block/snowy_highrock_bricks_slight_top",
+    "top": "goetied:block/snowy_highrock_bricks_slight_top",
+    "side": "goetied:block/snowy_highrock_bricks_slight"
+  }
+}

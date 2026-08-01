@@ -1,0 +1,22 @@
+{
+  "name": "Picareta Assustadora",
+  "icon": "goetied:eerie_pickaxe",
+  "category": "goetied:crafts/equipment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A Picareta Assustadora é uma ferramenta poderosa que permite ao usuário alcançar 3 blocos a mais. Quebrar um bloco com esta picareta fará com que os itens sejam imediatamente transferidos para o usuário, assim como quaisquer orbes de experiência próximos. No entanto, há uma razão para a picareta ser chamada de Assustadora..."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:eerie_pickaxe"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A picareta pode ser reparada em uma bigorna com um $(l:intro/magical_components)Lingote de Metal Amaldiçoado$()."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:eerie_pickaxe": 1
+  }
+}

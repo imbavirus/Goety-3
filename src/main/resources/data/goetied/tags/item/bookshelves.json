@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "goetied:haunted_bookshelf",
+    "goetied:rotten_bookshelf",
+    "goetied:windswept_bookshelf",
+    "goetied:pine_bookshelf",
+    "goetied:chorus_bookshelf",
+    "goetied:corrupt_chorus_bookshelf"
+  ]
+}

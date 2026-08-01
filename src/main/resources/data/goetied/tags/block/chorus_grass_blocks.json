@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "goetied:grassy_end_basalt",
+    "goetied:grassy_end_rock",
+    "goetied:grassy_end_rock_bricks",
+    "goetied:grassy_end_stone_bricks",
+    "goetied:grassy_end_stone_bricks_heavy",
+    "goetied:grassy_end_stone_tiles",
+    "goetied:grassy_smooth_end_stone",
+    "goetied:grassy_smooth_end_stone_heavy",
+    "goetied:grassy_cobbled_end_stone",
+    "goetied:grassy_purpur_block",
+    "goetied:chorus_grass_block",
+    "goetied:chorus_grass_block_slab",
+    "goetied:chorus_grass_slab",
+    "goetied:cobbled_chorus_grass_block"
+  ]
+}

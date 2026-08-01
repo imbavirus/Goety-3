@@ -1,0 +1,6 @@
+{
+  "name": "野生",
+  "description": "野生の力を支配する",
+  "icon": "goetied:overgrowth_focus",
+  "parent": "goetied:focuses"
+}

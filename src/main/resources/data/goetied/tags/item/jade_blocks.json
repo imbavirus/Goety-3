@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "goetied:jade_tiles",
+    "goetied:jade_pillar",
+    "goetied:jade_stairs",
+    "goetied:jade_slab",
+    "goetied:silt_jade_tiles",
+    "goetied:silt_jade_slab",
+    "goetied:silt_jade_stairs",
+    "goetied:resonance_crystal"
+  ]
+}

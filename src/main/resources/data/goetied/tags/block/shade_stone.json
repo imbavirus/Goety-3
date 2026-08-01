@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "goetied:shade_stone",
+    "goetied:shade_stone_polished",
+    "goetied:shade_stone_bricks",
+    "goetied:shade_bricks",
+    "goetied:shade_stone_chiseled",
+    "goetied:shade_tiles",
+    "goetied:shade_pillar"
+  ]
+}

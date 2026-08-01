@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "sfs",
+    "fef",
+    "sfs"
+  ],
+  "key":
+  {
+    "e":
+    {
+      "item": "goetied:empty_focus"
+    },
+    "f":
+    {
+      "item": "minecraft:note_block"
+    },
+    "s":
+    {
+      "item": "goetied:waystone"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:command_focus",
+    "count": 1
+  }
+}

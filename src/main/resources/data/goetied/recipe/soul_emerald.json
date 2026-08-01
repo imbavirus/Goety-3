@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "eee",
+    "eie",
+    "eee"
+  ],
+  "key":
+  {
+    "e":
+    {
+      "item": "goetied:magic_emerald"
+    },
+    "i":
+    {
+      "item": "goetied:empty_focus"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:soul_emerald",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " c ",
+    "beb",
+    "bbb"
+  ],
+  "key":
+  {
+    "c":
+    {
+      "item": "minecraft:sculk_catalyst"
+    },
+    "e":
+    {
+      "item": "goetied:magic_emerald"
+    },
+    "b":
+    {
+      "tag": "goetied:shade_stone"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:sculk_devourer",
+    "count": 1
+  }
+}

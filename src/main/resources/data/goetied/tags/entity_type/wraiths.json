@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#goetied:wraith_servants",
+    "goetied:wraith",
+    "goetied:border_wraith",
+    "goetied:muck_wraith"
+  ]
+}

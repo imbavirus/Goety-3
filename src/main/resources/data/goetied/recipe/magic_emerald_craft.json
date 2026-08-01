@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "lsl",
+    "sts",
+    "lsl"
+  ],
+  "key":
+  {
+    "s":
+    {
+      "item": "minecraft:emerald"
+    },
+    "l":
+    {
+      "tag": "c:gems/lapis"
+    },
+    "t":
+    {
+      "tag": "goetied:totems"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:magic_emerald",
+    "count": 4
+  }
+}

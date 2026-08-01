@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "cec",
+    "chc",
+    " c "
+  ],
+  "key":
+  {
+    "e":
+    {
+      "item": "goetied:command_focus"
+    },
+    "c":
+    {
+      "item": "goetied:cursed_ingot"
+    },
+    "h":
+    {
+      "item": "minecraft:goat_horn"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:command_horn",
+    "count": 1
+  }
+}

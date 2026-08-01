@@ -1,0 +1,36 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:convert_tamed",
+  "activation_item": {
+    "item": "goetied:shadow_essence"
+  },
+  "craftType": "overgrown",
+  "entity_to_convert": {
+    "tag": "goetied:black_wolves",
+    "display_name": "entity.goetied.black_wolf"
+  },
+  "entity_to_convert_into": "goetied:black_beast",
+  "soulCost": 5,
+  "duration": 30,
+  "research": "haunting",
+  "ingredients": [
+    {
+      "item": "goetied:spirit_fabric"
+    },
+    {
+      "item": "goetied:savage_tooth"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    {
+      "item": "goetied:ectoplasm"
+    }
+  ],
+  "result": {
+    "id": "goetied:jei_dummy/none"
+  }
+}

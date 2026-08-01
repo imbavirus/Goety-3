@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "goetied:swarm_focus"
+    },
+    "title": {
+      "translate": "advancements.goetied.craft_swarm_focus.title"
+    },
+    "description": {
+      "translate": "advancements.goetied.craft_swarm_focus.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "goetied:goetied/craft_dark_wand",
+  "criteria": {
+    "swarm_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:swarm_focus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "swarm_focus"
+    ]
+  ],
+  "rewards": {
+    "experience": 1
+  }
+}

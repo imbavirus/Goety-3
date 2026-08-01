@@ -1,0 +1,25 @@
+{
+  "name": "Reapers",
+  "icon": "goetied:spirit_fabric",
+  "category": "goetied:world/bestiary",
+  "advancement": "goetied:goetied/kill_a_reaper",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Hooded apparitions that are proficient at wielding scythes with a hunger for souls."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goetied:reaper"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goetied:grave_dust",
+      "title": "Grave Dust",
+      "text": "Reapers have a chance of dropping Grave Dusts, which are useful for crafting certain necromantic objects."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:grave_dust": 2
+  }
+}

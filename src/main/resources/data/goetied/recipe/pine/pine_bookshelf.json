@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "XBX",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "goetied:pine_planks"
+    },
+    "B": {
+      "item": "minecraft:bookshelf"
+    },
+    "X": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "id": "goetied:pine_bookshelf",
+    "count": 2
+  }
+}

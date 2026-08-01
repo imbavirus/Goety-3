@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "goety:smooth_siltstone"
-  },
-  "result": "goety:smooth_siltstone_wall"
-}

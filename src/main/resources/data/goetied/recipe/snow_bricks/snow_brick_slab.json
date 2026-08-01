@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "goetied:snow_bricks"
+    }
+  },
+  "result": {
+    "id": "goetied:snow_brick_slab",
+    "count": 6
+  }
+}

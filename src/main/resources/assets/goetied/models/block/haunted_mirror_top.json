@@ -1,0 +1,6 @@
+{
+	"parent": "goetied:block/template_mirror_top",
+	"textures": {
+		"presence": "goetied:block/haunted_mirror_empty"
+	}
+}

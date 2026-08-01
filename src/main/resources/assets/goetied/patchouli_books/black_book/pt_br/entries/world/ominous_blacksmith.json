@@ -1,0 +1,16 @@
+{
+  "name": "Ferreiro Sinistro",
+  "icon": "goetied:highrock_bricks",
+  "category": "goetied:world",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Há rumores de que tribos de Illagers montaram ferrarias no topo de montanhas, possivelmente guardando tesouros valiosos."
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["goetied:textures/gui/entries/ominous_blacksmith.png"],
+      "border": true
+    }
+  ]
+}

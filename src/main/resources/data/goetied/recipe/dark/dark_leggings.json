@@ -1,0 +1,33 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "item": "goetied:black_iron_leggings"
+  },
+  "craftType": "forge",
+  "soulCost": 5,
+  "duration": 30,
+  "ingredients": [
+    {
+      "item": "goetied:spirit_fabric"
+    },
+    {
+      "item": "goetied:dark_ingot"
+    },
+    {
+      "item": "goetied:dark_ingot"
+    },
+    {
+      "item": "goetied:cursed_ingot"
+    },
+    {
+      "item": "goetied:spirit_fabric"
+    },
+    {
+      "item": "goetied:cursed_ingot"
+    }
+  ],
+  "result": {
+    "id": "goetied:dark_leggings"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "__comment": "entities that cannot be affected by Wind Blowers. (Mobs/Players/Arrows are only things affected)",
+  "values": [
+    "goetied:death_arrow",
+    "goetied:soul_light",
+    "goetied:glow_light",
+    "goetied:mountaineer_servant"
+  ]
+}

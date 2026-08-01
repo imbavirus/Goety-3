@@ -1,6 +1,0 @@
-{
-  "parent": "goety:block/template_void_shrine",
-  "textures": {
-    "side": "goety:block/void_shrine_side4"
-  }
-}

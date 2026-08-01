@@ -1,0 +1,27 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "item": "minecraft:sculk_shrieker"
+  },
+  "craftType": "forge",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goetied:alarming_charm"
+    },
+    {
+      "item": "goetied:tall_skull"
+    },
+    {
+      "item": "goetied:cursed_ingot"
+    },
+    {
+      "item": "minecraft:sculk_sensor"
+    }
+  ],
+  "result": {
+    "id": "goetied:shriek_obelisk"
+  }
+}

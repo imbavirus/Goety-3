@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence",
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "goetied:corrupt_chorus_planks"
+    }
+  },
+  "result": {
+    "id": "goetied:corrupt_chorus_fence",
+    "count": 3
+  }
+}

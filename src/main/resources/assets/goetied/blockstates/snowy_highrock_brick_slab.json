@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "goetied:block/snowy_highrock_brick_slab"
+    },
+    "type=double": {
+      "model": "goetied:block/snowy_highrock_bricks"
+    },
+    "type=top": {
+      "model": "goetied:block/snowy_highrock_brick_slab_top"
+    }
+  }
+}

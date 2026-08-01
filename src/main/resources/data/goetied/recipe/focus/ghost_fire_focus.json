@@ -1,0 +1,36 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "item": "goetied:soul_bolt_focus"
+  },
+  "craftType": "necroturgy",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goetied:ectoplasm"
+    },
+    {
+      "item": "goetied:chill_fabric"
+    },
+    {
+      "item": "goetied:chill_fabric"
+    },
+    {
+      "item": "goetied:ectoplasm"
+    },
+    {
+      "item": "minecraft:powder_snow_bucket"
+    },
+    {
+      "tag": "c:ender_pearls"
+    },
+    {
+      "item": "goetied:magic_emerald"
+    }
+  ],
+  "result": {
+    "id": "goetied:ghost_fire_focus"
+  }
+}

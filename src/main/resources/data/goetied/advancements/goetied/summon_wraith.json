@@ -1,0 +1,54 @@
+{
+  "parent": "goetied:goetied/craft_animation_core",
+  "display": {
+    "icon": {
+      "item": "goetied:ectoplasm"
+    },
+    "title": {
+      "translate": "advancements.goetied.summon_wraith.title"
+    },
+    "description": {
+      "translate": "advancements.goetied.summon_wraith.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "wraith": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "goetied:wraith_servant"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    },
+    "border_wraith": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "goetied:border_wraith_servant"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "requirements": [
+    [
+      "wraith",
+      "border_wraith"
+    ]
+  ]
+}

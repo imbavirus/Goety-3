@@ -1,6 +1,0 @@
-{
-	"parent": "goety:item/template_hammer",
-	"textures": {
-		"hammer": "goety:item/bonehead_hammer_model"
-	}
-}

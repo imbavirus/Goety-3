@@ -1,0 +1,8 @@
+{
+  "type": "goetied:soul_absorber_recipes",
+  "ingredient": {
+    "item": "goetied:ectoplasm"
+  },
+  "soulIncrease": 5,
+  "cookingtime": 50
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Black Iron Armor",
+  "icon": "goetied:black_iron_chestplate",
+  "category": "goetied:crafts/equipment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Cursed Metal Ingots seems to have the same properties as regular Iron Ingots, making it redundant to make an armor set based on it. However, with some tinkering, the ingots can be used to upgrade the regular Iron Armor to something better."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Not only does it provide toughness, but each piece somewhat mitigates magic, fire and explosive damage. Each pieces also provides a discount on using Soul Energy, whether it's used to cast spells, heal servants and repairing certain items. It doesn't discount usage in crafting or rituals unfortunately. Wearing allows summons to grant Soul Energy when they kill a mob."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:black_iron/black_iron_helmet"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:black_iron/black_iron_chestplate"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:black_iron/black_iron_leggings"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:black_iron/black_iron_boots"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:black_iron_helmet": 2,
+    "goetied:black_iron_chestplate": 3,
+    "goetied:black_iron_leggings": 4,
+    "goetied:black_iron_boots": 5
+  }
+}

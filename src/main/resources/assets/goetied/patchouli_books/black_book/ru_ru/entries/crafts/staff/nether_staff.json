@@ -1,0 +1,20 @@
+{
+  "name": "Незерский посох",
+  "icon": "goetied:nether_staff",
+  "category": "goetied:crafts/staff",
+  "advancement": "goetied:goetied/read_bygone_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Изучив способности визер-некромантов, вы смогли воссоздать их посохи, усиливающие незерские заклинания."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:nether_staff"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:nether_staff": 1
+  }
+}

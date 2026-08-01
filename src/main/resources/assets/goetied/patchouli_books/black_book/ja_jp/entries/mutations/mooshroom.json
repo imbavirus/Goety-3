@@ -1,0 +1,19 @@
+{
+  "name": "ムーシュルーム",
+  "icon": "minecraft:red_mushroom",
+  "category": "goetied:mutations",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "赤いキノコと牛があれば、牛を赤いムーシュルームに変えることができます。"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:convert_cow_to_mooshroom"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:mooshroom"
+    }
+  ]
+}

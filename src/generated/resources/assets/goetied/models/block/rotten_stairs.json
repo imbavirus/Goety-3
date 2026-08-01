@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "goetied:block/rotten_planks",
+    "side": "goetied:block/rotten_planks",
+    "top": "goetied:block/rotten_planks"
+  }
+}

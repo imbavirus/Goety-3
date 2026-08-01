@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "goetied:nether_robe"
+    },
+    "title": {
+      "translate": "advancements.goetied.craft_nether_robe.title"
+    },
+    "description": {
+      "translate": "advancements.goetied.craft_nether_robe.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "goetied:goetied/read_bygone_scroll",
+  "criteria": {
+    "nether_robe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:nether_robe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "nether_robe"
+    ]
+  ]
+}

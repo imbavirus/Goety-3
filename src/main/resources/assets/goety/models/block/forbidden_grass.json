@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "top": "goety:block/forbidden_grass_top",
-    "bottom": "minecraft:block/dirt",
-    "side": "goety:block/forbidden_grass_side"
-  }
-}

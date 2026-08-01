@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "goetied:crag_pavement"
+  },
+  "result": "goetied:crag_pavement_slab",
+  "count": 2
+}

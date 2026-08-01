@@ -1,0 +1,8 @@
+{
+  "processors": [
+    {
+      "processor_type": "goetied:waterlogging_stop_processor",
+      "processor": {}
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "goetied:block/pithos_locked",
+    "bottom": "goetied:block/pithos_bottom",
+    "side": "goetied:block/pithos_locked_side"
+  }
+}

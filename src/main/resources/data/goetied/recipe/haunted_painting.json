@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "goetied:haunted_planks"
+    },
+    {
+      "item": "minecraft:painting"
+    }
+  ],
+  "result": {
+    "id": "goetied:haunted_painting"
+  }
+}

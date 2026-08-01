@@ -1,0 +1,36 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "item": "goetied:fanged_dagger"
+  },
+  "craftType": "forge",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goetied:shadow_essence"
+    },
+    {
+      "item": "goetied:dark_ingot"
+    },
+    {
+      "item": "goetied:hunger_core"
+    },
+    {
+      "tag": "c:gems/diamond"
+    },
+    {
+      "item": "goetied:shadow_essence"
+    },
+    {
+      "item": "goetied:shadow_essence"
+    },
+    {
+      "item": "goetied:shadow_essence"
+    }
+  ],
+  "result": {
+    "id": "goetied:hungry_dagger"
+  }
+}

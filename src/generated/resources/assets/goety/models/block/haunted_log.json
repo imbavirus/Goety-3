@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "goety:block/haunted_log_top",
-    "side": "goety:block/haunted_log"
-  }
-}

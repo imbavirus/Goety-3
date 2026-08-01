@@ -1,6 +1,0 @@
-{
-    "parent": "goety:item/hunters_bow",
-    "textures": {
-        "layer0": "goety:item/hunters_bow_pulling_1"
-    }
-}

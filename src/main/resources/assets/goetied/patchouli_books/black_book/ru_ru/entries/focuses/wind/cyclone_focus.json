@@ -1,0 +1,18 @@
+{
+  "name": "Фокус циклона",
+  "icon": "goetied:cyclone_focus",
+  "category": "goetied:focuses/wind",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Фокус создаёт мощный циклон, который притягивает всех ближайших существ и разбрасывает по сторонам. Ветряной посох позволит циклону наносить небольшой постоянный урон."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/cyclone_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:cyclone_focus": 1
+  }
+}

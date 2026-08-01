@@ -1,0 +1,6 @@
+{
+	"parent": "goetied:block/template_pedestal",
+	"textures": {
+		"pedestal": "goetied:block/pedestal_nether_brick"
+	}
+}

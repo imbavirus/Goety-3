@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "sfs",
+    "fef",
+    "sfs"
+  ],
+  "key":
+  {
+    "e":
+    {
+      "item": "goetied:shocking_focus"
+    },
+    "f":
+    {
+      "tag": "c:rods/wooden"
+    },
+    "s":
+    {
+      "tag": "c:gems/diamond"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:thunderbolt_focus",
+    "count": 1
+  }
+}

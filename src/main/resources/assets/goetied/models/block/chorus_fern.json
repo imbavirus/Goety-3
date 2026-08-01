@@ -1,0 +1,26 @@
+{
+  "parent": "block/block",
+  "loader": "neoforge:composite",
+  "textures": {
+    "particle": "goetied:block/chorus_fern"
+  },
+  "item_render_order": [
+    "block",
+    "emission"
+  ],
+  "children": {
+    "block": {
+      "parent": "block/cross",
+      "textures": {
+        "cross": "goetied:block/chorus_fern"
+      },
+      "render_type": "cutout"
+    },
+    "emission": {
+      "parent": "goetied:block/glow_cross",
+      "textures": {
+        "cross": "goetied:block/chorus_fern_glow"
+      }
+    }
+  }
+}

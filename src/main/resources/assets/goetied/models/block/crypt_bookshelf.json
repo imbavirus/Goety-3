@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "goetied:block/crypt_bookshelf_end",
+    "side": "goetied:block/crypt_bookshelf"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "goetied:block/siltstone_tiles",
+    "side": "goetied:block/siltstone_tiles",
+    "top": "goetied:block/siltstone_tiles"
+  }
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "goetied:block/template_gravestone",
+	"textures": {
+		"grave": "goetied:block/shriek_obelisk_off"
+	}
+}

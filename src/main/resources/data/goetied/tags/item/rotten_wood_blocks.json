@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "goetied:rotten_log",
+    "goetied:rotten_wood",
+    "goetied:rotten_planks",
+    "goetied:rotten_door",
+    "goetied:rotten_fence",
+    "goetied:rotten_fence_gate",
+    "goetied:rotten_slab",
+    "goetied:rotten_stairs",
+    "goetied:rotten_trapdoor",
+    "goetied:rotten_button",
+    "goetied:rotten_pressure_plate",
+    "goetied:rotten_bookshelf",
+    "goetied:rotten_sign",
+    "goetied:stripped_rotten_log",
+    "goetied:stripped_rotten_wood"
+  ]
+}

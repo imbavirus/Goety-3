@@ -1,0 +1,35 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:enchant",
+  "activation_item": {
+    "item": "minecraft:book"
+  },
+  "craftType": "magic",
+  "soulCost": 10,
+  "duration": 10,
+  "enchantment": "cyclic:launch",
+  "xpLevelCost": 5,
+  "ingredients": [
+    {
+      "item": "goetied:feet_of_frog"
+    },
+    {
+      "item": "goetied:feet_of_frog"
+    },
+    {
+      "tag": "c:rods/wooden"
+    },
+    {
+      "tag": "c:gems/lapis"
+    }
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book"
+  },
+  "conditions": [
+    {
+      "type": "c:mod_loaded",
+      "modid": "cyclic"
+    }
+  ]
+}

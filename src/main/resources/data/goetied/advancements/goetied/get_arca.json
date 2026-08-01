@@ -1,0 +1,22 @@
+{
+  "parent": "goetied:goetied/root",
+  "criteria": {
+    "arca": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goetied:arca"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "arca"
+    ]
+  ]
+}

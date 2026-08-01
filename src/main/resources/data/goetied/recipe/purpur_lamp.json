@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "R",
+    "G",
+    "R"
+  ],
+  "key": {
+    "G": {
+      "item": "goetied:end_rod_block"
+    },
+    "R": {
+      "item": "minecraft:purpur_slab"
+    }
+  },
+  "result": {
+    "id": "goetied:purpur_lamp",
+    "count": 1
+  }
+}

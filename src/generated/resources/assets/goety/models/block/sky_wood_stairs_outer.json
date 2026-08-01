@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "goety:block/sky_wood_planks",
-    "side": "goety:block/sky_wood_planks",
-    "top": "goety:block/sky_wood_planks"
-  }
-}

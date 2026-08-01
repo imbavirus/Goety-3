@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "goety:stripped_haunted_log",
-    "goety:stripped_rotten_log",
-    "goety:stripped_windswept_log",
-    "goety:stripped_pine_log",
-    "goety:corrupt_chorus_log"
+    "goetied:stripped_haunted_log",
+    "goetied:stripped_rotten_log",
+    "goetied:stripped_windswept_log",
+    "goetied:stripped_pine_log",
+    "goetied:corrupt_chorus_log"
   ]
 }

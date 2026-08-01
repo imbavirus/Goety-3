@@ -1,0 +1,28 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "tag": "minecraft:soul_fire_base_blocks"
+  },
+  "craftType": "geoturgy",
+  "entity_to_sacrifice": {
+    "tag": "goetied:cats",
+    "display_name": "entity.minecraft.cat"
+  },
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "minecraft:lead"
+    },
+    {
+      "item": "minecraft:lead"
+    },
+    {
+      "tag": "c:gems/lapis"
+    }
+  ],
+  "result": {
+    "id": "goetied:feline_amulet"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "item": "goetied:empty_focus"
+  },
+  "craftType": "end",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "tag": "c:ender_pearls"
+    },
+    {
+      "item": "goetied:shadow_essence"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "goetied:shadow_essence"
+    },
+    {
+      "tag": "c:ender_pearls"
+    },
+    {
+      "item": "goetied:shadow_essence"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "goetied:shadow_essence"
+    }
+  ],
+  "result": {
+    "id": "goetied:end_walk_focus"
+  }
+}

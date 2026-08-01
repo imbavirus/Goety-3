@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "sfs",
+    "fef",
+    "sfs"
+  ],
+  "key":
+  {
+    "e":
+    {
+      "item": "goetied:swarm_focus"
+    },
+    "s":
+    {
+      "item": "goetied:venomous_fang"
+    },
+    "f":
+    {
+      "item": "minecraft:arrow"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:poison_dart_focus",
+    "count": 1
+  }
+}

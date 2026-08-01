@@ -1,0 +1,25 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:summon_tamed",
+  "activation_item": {
+    "item": "minecraft:rotten_flesh"
+  },
+  "craftType": "end",
+  "entity_to_summon": "goetied:watchling_servant",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "minecraft:chorus_fruit"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    }
+  ],
+  "result": {
+    "id": "goetied:jei_dummy/none"
+  }
+}

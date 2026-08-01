@@ -1,0 +1,18 @@
+{
+  "name": "Фокус призыва",
+  "icon": "goetied:call_focus",
+  "category": "goetied:focuses/void",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "У некоторых прислужников нет собственного фокуса. Фокус призыва позволяет вам вызывать даже их. Просто нажмите ПКМ по прислужнику, и фокус запомнит его, позволяя вам телепортировать его к себе. Чтобы сбросить сохранение, просто нажмите ПКМ по воздуху, присев."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/call_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:call_focus": 1
+  }
+}

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "goety:block/crypt_tiles",
-    "top": "goety:block/crypt_tiles",
-    "side": "goety:block/crypt_tiles"
-  }
-}

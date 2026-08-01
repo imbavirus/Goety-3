@@ -1,0 +1,6 @@
+{
+  "parent": "goetied:block/template_void_shrine",
+  "textures": {
+    "side": "goetied:block/void_shrine_side2"
+  }
+}

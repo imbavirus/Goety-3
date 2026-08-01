@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "goetied:corrupt_chorus_planks"
+    }
+  },
+  "result": {
+    "id": "goetied:corrupt_chorus_slab",
+    "count": 6
+  }
+}

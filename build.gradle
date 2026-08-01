@@ -65,8 +65,8 @@ neoForge {
 
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 sourceSets.main.java {
-    exclude 'za/co/infernos/goety/data/**'
-    exclude 'za/co/infernos/goety/init/ModLootInject.java'
+    exclude 'za/co/infernos/goetied/data/**'
+    exclude 'za/co/infernos/goetied/init/ModLootInject.java'
 }
 
 repositories {

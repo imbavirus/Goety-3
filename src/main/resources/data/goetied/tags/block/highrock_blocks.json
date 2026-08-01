@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "goetied:highrock",
+    "goetied:polished_highrock",
+    "goetied:highrock_bricks",
+    "goetied:highrock_indented_bricks",
+    "goetied:snowy_highrock_bricks_slight",
+    "goetied:snowy_highrock_bricks",
+    "goetied:gold_indented_highrock_bricks",
+    "goetied:gold_chiseled_highrock_bricks",
+    "goetied:highrock_slab",
+    "goetied:polished_highrock_slab",
+    "goetied:highrock_brick_slab",
+    "goetied:snowy_highrock_brick_slight_slab",
+    "goetied:snowy_highrock_brick_slab",
+    "goetied:highrock_stairs",
+    "goetied:polished_highrock_stairs",
+    "goetied:highrock_brick_stairs",
+    "goetied:snowy_highrock_brick_slight_stairs",
+    "goetied:snowy_highrock_brick_stairs",
+    "goetied:highrock_wall",
+    "goetied:polished_highrock_wall",
+    "goetied:highrock_brick_wall",
+    "goetied:snowy_highrock_brick_slight_wall",
+    "goetied:snowy_highrock_brick_wall",
+    "goetied:dark_altar_highrock",
+    "goetied:pedestal_highrock"
+  ]
+}

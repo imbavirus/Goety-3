@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "bfb",
+    "ehe",
+    "crc"
+  ],
+  "key":
+  {
+    "b":
+    {
+      "item": "goetied:cursed_bars"
+    },
+    "f":
+    {
+      "item": "minecraft:fire_charge"
+    },
+    "e":
+    {
+      "item": "goetied:ectoplasm"
+    },
+    "h":
+    {
+      "item": "goetied:magic_emerald"
+    },
+    "c":
+    {
+      "item": "goetied:shade_stone_chiseled"
+    },
+    "r":
+    {
+      "tag": "c:dusts/redstone"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:ice_bouquet_trap",
+    "count": 1
+  }
+}

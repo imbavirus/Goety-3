@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "goetied:pale_steel_ingot"
+    }
+  ],
+  "result": {
+    "id": "goetied:cross_banner_pattern"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "goetied:end_stone_slate"
+    },
+    {
+      "item": "goetied:chorus_growth"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "goetied:end_soil_debris"
+    }
+  ],
+  "result": {
+    "id": "goetied:chorus_grass_block",
+    "count": 2
+  }
+}

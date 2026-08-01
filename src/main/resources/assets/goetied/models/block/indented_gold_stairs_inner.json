@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "goetied:block/indented_gold",
+    "top": "goetied:block/indented_gold",
+    "side": "goetied:block/indented_gold"
+  }
+}

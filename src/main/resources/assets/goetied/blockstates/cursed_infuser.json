@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "goetied:block/cursed_infuser" },
+    "lit=false": { "model": "goetied:block/cursed_infuser_litdown" }
+  }
+}

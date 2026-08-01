@@ -1,0 +1,22 @@
+{
+  "name": "Wind Staff",
+  "icon": "goetied:wind_staff",
+  "category": "goetied:crafts/staff",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "You've learned tales of a sanctum and their control and experimentation of winds and how they can control it to an extant through their staffs. After some research and experimentation, you've discovered a way to replicate their ancient staffs."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:wind_staff"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Wind Staff obviously powers up Wind spells, granting greater control over the winds themselves."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:wind_staff": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Armadura de Pisoteador",
+  "icon": "goetied:iron_trampler_armor",
+  "category": "goetied:crafts",
+  "advancement": "goetied:goetied/read_ravaging_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Embora $(l:crafts/ravager_armor)blindar$() $(l:mutations/ravaged)Devastadores$() seja um bom passo, você percebeu que suas contrapartes desengonçadas também se beneficiariam em ser blindadas."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Criar armadura para estas bestas é mais barato do que fazer armadura de Devastador. Sua forma e método de locomoção exigem o uso de armadura de cavalo para fazer sua própria versão. Você ouviu que, assim como os Devastadores, você não é o primeiro a ter esta ideia..."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:iron_trampler_armor"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:gold_trampler_armor"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:diamond_trampler_armor"
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:netherite_trampler_armor"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:iron_trampler_armor": 2,
+    "goetied:gold_trampler_armor": 3,
+    "goetied:diamond_trampler_armor": 4,
+    "goetied:netherite_trampler_armor": 5
+  }
+}

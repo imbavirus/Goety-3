@@ -1,0 +1,32 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:convert_complete_tamed",
+  "activation_item": {
+    "tag": "c:bones"
+  },
+  "craftType": "necroturgy",
+  "entity_to_convert": {
+    "tag": "c:horses",
+    "display_name": "entity.minecraft.horse"
+  },
+  "entity_to_convert_into": "minecraft:skeleton_horse",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "tag": "c:bones"
+    },
+    {
+      "tag": "c:bones"
+    },
+    {
+      "tag": "c:bones"
+    },
+    {
+      "tag": "c:bones"
+    }
+  ],
+  "result": {
+    "id": "goetied:jei_dummy/none"
+  }
+}

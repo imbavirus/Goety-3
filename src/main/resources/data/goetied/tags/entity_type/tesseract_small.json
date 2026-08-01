@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "__comment": "ownable entities that takes up 2 spaces in Esoteric Tesseracts",
+  "values": [
+    "goetied:black_beast",
+    "goetied:brood_mother_servant",
+    "goetied:wildfire",
+    "goetied:ravager",
+    "goetied:zombie_ravager",
+    "goetied:squall_golem"
+  ]
+}

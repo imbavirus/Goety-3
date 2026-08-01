@@ -1,0 +1,8501 @@
+{
+  "apostle_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:apostle/idle1"
+      },
+      {
+        "name": "goetied:apostle/idle2"
+      },
+      {
+        "name": "goetied:apostle/idle3"
+      },
+      {
+        "name": "goetied:apostle/idle4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.apostle_ambient"
+  },
+  "apostle_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:apostle/new_hurt_1"
+      },
+      {
+        "name": "goetied:apostle/new_hurt_2"
+      },
+      {
+        "name": "goetied:apostle/new_hurt_3"
+      },
+      {
+        "name": "goetied:apostle/new_hurt_4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.apostle_hurt"
+  },
+  "apostle_shoot": {
+    "sounds": [
+      {
+        "name": "goetied:apostle/shoot"
+      }
+    ],
+    "subtitle": "subtitle.goetied.apostle_shoot"
+  },
+  "apostle_prepare_spell": {
+    "sounds": [
+      {
+        "name": "goetied:apostle/prepare_spell1",
+        "volume": 0.25
+      },
+      {
+        "name": "goetied:apostle/prepare_spell2",
+        "volume": 0.25
+      }
+    ],
+    "subtitle": "subtitle.goetied.apostle_prepare_spell"
+  },
+  "apostle_prepare_summon": {
+    "sounds": [
+      {
+        "name": "goetied:apostle/prepare_summon",
+        "volume": 0.25
+      }
+    ],
+    "subtitle": "subtitle.goetied.apostle_prepare_summon"
+  },
+  "apostle_cast_spell": {
+    "sounds": [
+      {
+        "name": "goetied:apostle/cast1",
+        "volume": 0.75
+      },
+      {
+        "name": "goetied:apostle/cast2",
+        "volume": 0.75
+      }
+    ],
+    "subtitle": "subtitle.goetied.apostle_cast_spell"
+  },
+  "apostle_teleport": {
+    "sounds": [
+      {
+        "name": "mob/endermen/portal",
+        "pitch": 0.5
+      },
+      {
+        "name": "mob/endermen/portal2",
+        "pitch": 0.5
+      }
+    ],
+    "subtitle": "subtitle.goetied.apostle_teleport"
+  },
+  "apostle_shade": {
+    "sounds": [
+      {
+        "name": "goetied:apostle/shade"
+      }
+    ]
+  },
+  "apostle_predeath": {
+    "sounds": [
+      {
+        "name": "goetied:apostle/predeath"
+      }
+    ],
+    "subtitle": "subtitle.goetied.apostle_predeath"
+  },
+  "apostle_death": {
+    "sounds": [
+      {
+        "name": "goetied:apostle/death1"
+      }
+    ],
+    "subtitle": "subtitle.goetied.apostle_death"
+  },
+  "inferno_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:inferno/idle1"
+      },
+      {
+        "name": "goetied:inferno/idle2"
+      },
+      {
+        "name": "goetied:inferno/idle3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.inferno_ambient"
+  },
+  "inferno_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:inferno/hurt1"
+      },
+      {
+        "name": "goetied:inferno/hurt2"
+      },
+      {
+        "name": "goetied:inferno/hurt3"
+      },
+      {
+        "name": "goetied:inferno/hurt4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.inferno_hurt"
+  },
+  "inferno_pre_attack": {
+    "sounds": [
+      {
+        "name": "goetied:inferno/pre_attack1"
+      },
+      {
+        "name": "goetied:inferno/pre_attack2"
+      },
+      {
+        "name": "goetied:inferno/pre_attack3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.inferno_pre_attack"
+  },
+  "inferno_loop": {
+    "sounds": [
+      {
+        "name": "goetied:inferno/loop"
+      }
+    ]
+  },
+  "inferno_death": {
+    "sounds": [
+      {
+        "name": "goetied:inferno/death1"
+      },
+      {
+        "name": "goetied:inferno/death2"
+      },
+      {
+        "name": "goetied:inferno/death3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.inferno_death"
+  },
+  "wildfire_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:wildfire/idle1"
+      },
+      {
+        "name": "goetied:wildfire/idle2"
+      },
+      {
+        "name": "goetied:wildfire/idle3"
+      },
+      {
+        "name": "goetied:wildfire/idle4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wildfire_ambient"
+  },
+  "wildfire_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:wildfire/hurt1"
+      },
+      {
+        "name": "goetied:wildfire/hurt2"
+      },
+      {
+        "name": "goetied:wildfire/hurt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wildfire_hurt"
+  },
+  "wildfire_pre_attack": {
+    "sounds": [
+      {
+        "name": "goetied:wildfire/pre_attack1"
+      },
+      {
+        "name": "goetied:wildfire/pre_attack2"
+      },
+      {
+        "name": "goetied:wildfire/pre_attack3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wildfire_pre_attack"
+  },
+  "wildfire_shoot": {
+    "sounds": [
+      {
+        "name": "goetied:wildfire/shoot1"
+      },
+      {
+        "name": "goetied:wildfire/shoot2"
+      },
+      {
+        "name": "goetied:wildfire/shoot3"
+      },
+      {
+        "name": "goetied:wildfire/shoot4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wildfire_shoot"
+  },
+  "wildfire_shockwave": {
+    "sounds": [
+      {
+        "name": "goetied:wildfire/shockwave1"
+      },
+      {
+        "name": "goetied:wildfire/shockwave2"
+      },
+      {
+        "name": "goetied:wildfire/shockwave3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wildfire_shockwave"
+  },
+  "wildfire_shield_break": {
+    "sounds": [
+      {
+        "name": "goetied:wildfire/shield_break1"
+      },
+      {
+        "name": "goetied:wildfire/shield_break2"
+      },
+      {
+        "name": "goetied:wildfire/shield_break3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wildfire_shield_break"
+  },
+  "wildfire_shield_break_vocal": {
+    "sounds": [
+      {
+        "name": "goetied:wildfire/shield_break_vocal1"
+      },
+      {
+        "name": "goetied:wildfire/shield_break_vocal2"
+      },
+      {
+        "name": "goetied:wildfire/shield_break_vocal3"
+      }
+    ]
+  },
+  "wildfire_shield_regen": {
+    "sounds": [
+      {
+        "name": "goetied:wildfire/shield_regen1"
+      },
+      {
+        "name": "goetied:wildfire/shield_regen2"
+      },
+      {
+        "name": "goetied:wildfire/shield_regen3"
+      },
+      {
+        "name": "goetied:wildfire/shield_regen4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wildfire_shield_regen"
+  },
+  "wildfire_loop": {
+    "sounds": [
+      {
+        "name": "goetied:wildfire/loop"
+      }
+    ]
+  },
+  "wildfire_step": {
+    "sounds": [
+      {
+        "name": "goetied:wildfire/step1"
+      },
+      {
+        "name": "goetied:wildfire/step2"
+      },
+      {
+        "name": "goetied:wildfire/step3"
+      },
+      {
+        "name": "goetied:wildfire/step4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wildfire_step"
+  },
+  "wildfire_death": {
+    "sounds": [
+      {
+        "name": "goetied:wildfire/death1"
+      },
+      {
+        "name": "goetied:wildfire/death2"
+      },
+      {
+        "name": "goetied:wildfire/death3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wildfire_death"
+  },
+  "nether_spread": {
+    "sounds": [
+      {
+        "name": "goetied:obsidian_monolith/spread1"
+      },
+      {
+        "name": "goetied:obsidian_monolith/spread2"
+      },
+      {
+        "name": "goetied:obsidian_monolith/spread3"
+      },
+      {
+        "name": "goetied:obsidian_monolith/spread4"
+      },
+      {
+        "name": "goetied:obsidian_monolith/spread5"
+      },
+      {
+        "name": "goetied:obsidian_monolith/spread6"
+      }
+    ]
+  },
+  "warlock_ambient": {
+    "sounds": [
+      {
+        "name": "mob/wandering_trader/no1",
+        "pitch": 0.75
+      },
+      {
+        "name": "mob/wandering_trader/no2",
+        "pitch": 0.75
+      },
+      {
+        "name": "mob/wandering_trader/no3",
+        "pitch": 0.75
+      },
+      {
+        "name": "mob/wandering_trader/no4",
+        "pitch": 0.75
+      },
+      {
+        "name": "mob/wandering_trader/no5",
+        "pitch": 0.75
+      }
+    ],
+    "subtitle": "subtitle.goetied.warlock_ambient"
+  },
+  "warlock_hurt": {
+    "sounds": [
+      {
+        "name": "mob/wandering_trader/hurt1",
+        "pitch": 0.75
+      },
+      {
+        "name": "mob/wandering_trader/hurt2",
+        "pitch": 0.75
+      },
+      {
+        "name": "mob/wandering_trader/hurt3",
+        "pitch": 0.75
+      },
+      {
+        "name": "mob/wandering_trader/hurt4",
+        "pitch": 0.75
+      }
+    ],
+    "subtitle": "subtitle.goetied.warlock_hurt"
+  },
+  "warlock_celebrate": {
+    "sounds": [
+      {
+        "name": "mob/wandering_trader/yes1",
+        "pitch": 0.75
+      },
+      {
+        "name": "mob/wandering_trader/yes2",
+        "pitch": 0.75
+      },
+      {
+        "name": "mob/wandering_trader/yes3",
+        "pitch": 0.75
+      },
+      {
+        "name": "mob/wandering_trader/yes4",
+        "pitch": 0.75
+      }
+    ],
+    "subtitle": "subtitle.goetied.warlock_celebrate"
+  },
+  "warlock_death": {
+    "sounds": [
+      {
+        "name": "mob/wandering_trader/death",
+        "pitch": 0.75
+      }
+    ],
+    "subtitle": "subtitle.goetied.warlock_death"
+  },
+  "heretic_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:heretic/idle1"
+      },
+      {
+        "name": "goetied:heretic/idle2"
+      },
+      {
+        "name": "goetied:heretic/idle3"
+      },
+      {
+        "name": "goetied:heretic/idle4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.heretic_ambient"
+  },
+  "heretic_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:heretic/hurt1"
+      },
+      {
+        "name": "goetied:heretic/hurt2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.heretic_hurt"
+  },
+  "heretic_chant": {
+    "sounds": [
+      {
+        "name": "goetied:heretic/chant1"
+      },
+      {
+        "name": "goetied:heretic/chant2"
+      },
+      {
+        "name": "goetied:heretic/chant3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.heretic_chant"
+  },
+  "heretic_celebrate": {
+    "sounds": [
+      {
+        "name": "goetied:heretic/celebrate"
+      }
+    ],
+    "subtitle": "subtitle.goetied.heretic_celebrate"
+  },
+  "heretic_death": {
+    "sounds": [
+      {
+        "name": "goetied:heretic/death1"
+      },
+      {
+        "name": "goetied:heretic/death2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.heretic_death"
+  },
+  "maverick_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:maverick/idle1"
+      },
+      {
+        "name": "goetied:maverick/idle2"
+      },
+      {
+        "name": "goetied:maverick/idle3"
+      },
+      {
+        "name": "goetied:maverick/idle4"
+      },
+      {
+        "name": "goetied:maverick/idle5"
+      }
+    ],
+    "subtitle": "subtitle.goetied.maverick_ambient"
+  },
+  "maverick_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:maverick/hurt1"
+      },
+      {
+        "name": "goetied:maverick/hurt2"
+      },
+      {
+        "name": "goetied:maverick/hurt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.maverick_hurt"
+  },
+  "maverick_celebrate": {
+    "sounds": [
+      {
+        "name": "goetied:maverick/celebrate"
+      }
+    ],
+    "subtitle": "subtitle.goetied.maverick_celebrate"
+  },
+  "maverick_death": {
+    "sounds": [
+      {
+        "name": "goetied:maverick/death1"
+      },
+      {
+        "name": "goetied:maverick/death2"
+      },
+      {
+        "name": "goetied:maverick/death3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.maverick_death"
+  },
+  "crone_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:crone/crone1"
+      },
+      {
+        "name": "goetied:crone/crone2"
+      },
+      {
+        "name": "goetied:crone/crone3"
+      },
+      {
+        "name": "goetied:crone/crone4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.crone_ambient"
+  },
+  "crone_laugh": {
+    "sounds": [
+      {
+        "name": "goetied:crone/crone_laugh"
+      }
+    ],
+    "subtitle": "subtitle.goetied.crone_laugh"
+  },
+  "crone_death": {
+    "sounds": [
+      {
+        "name": "goetied:crone/crone_death"
+      }
+    ],
+    "subtitle": "subtitle.goetied.crone_death"
+  },
+  "wight_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:wight/idle1"
+      },
+      {
+        "name": "goetied:wight/idle2"
+      },
+      {
+        "name": "goetied:wight/idle3"
+      },
+      {
+        "name": "goetied:wight/idle4"
+      },
+      {
+        "name": "goetied:wight/idle5"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wight_ambient"
+  },
+  "wight_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:wight/hurt1"
+      },
+      {
+        "name": "goetied:wight/hurt2"
+      },
+      {
+        "name": "goetied:wight/hurt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wight_hurt"
+  },
+  "wight_scream": {
+    "sounds": [
+      {
+        "name": "goetied:wight/scream1"
+      },
+      {
+        "name": "goetied:wight/scream2"
+      },
+      {
+        "name": "goetied:wight/scream3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wight_scream"
+  },
+  "wight_summon": {
+    "sounds": [
+      {
+        "name": "goetied:wight/summon"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wight_summon"
+  },
+  "wight_pre_swing": {
+    "sounds": [
+      {
+        "name": "goetied:wight/pre_swing1"
+      },
+      {
+        "name": "goetied:wight/pre_swing2"
+      },
+      {
+        "name": "goetied:wight/pre_swing3"
+      }
+    ]
+  },
+  "wight_swing": {
+    "sounds": [
+      {
+        "name": "goetied:wight/swing"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wight_swing"
+  },
+  "wight_teleport_scream": {
+    "sounds": [
+      {
+        "name": "goetied:wight/teleport_scream1"
+      },
+      {
+        "name": "goetied:wight/teleport_scream2"
+      },
+      {
+        "name": "goetied:wight/teleport_scream3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wight_teleport_scream"
+  },
+  "wight_teleport": {
+    "sounds": [
+      {
+        "name": "goetied:wraith/teleport1"
+      },
+      {
+        "name": "goetied:wraith/teleport2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wight_teleport"
+  },
+  "wight_loop": {
+    "sounds": [
+      {
+        "name": "goetied:wight/loop"
+      }
+    ]
+  },
+  "wight_death": {
+    "sounds": [
+      {
+        "name": "goetied:wight/death"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wight_death"
+  },
+  "maggot_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:maggot/idle1"
+      },
+      {
+        "name": "goetied:maggot/idle2"
+      },
+      {
+        "name": "goetied:maggot/idle3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.maggot_ambient"
+  },
+  "maggot_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:maggot/hurt1"
+      },
+      {
+        "name": "goetied:maggot/hurt2"
+      },
+      {
+        "name": "goetied:maggot/hurt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.maggot_hurt"
+  },
+  "maggot_attack": {
+    "sounds": [
+      {
+        "name": "goetied:maggot/attack1"
+      },
+      {
+        "name": "goetied:maggot/attack2"
+      },
+      {
+        "name": "goetied:maggot/attack3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.maggot_attack"
+  },
+  "maggot_step": {
+    "sounds": [
+      {
+        "name": "goetied:maggot/step1"
+      },
+      {
+        "name": "goetied:maggot/step2"
+      },
+      {
+        "name": "goetied:maggot/step3"
+      },
+      {
+        "name": "goetied:maggot/step4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.maggot_step"
+  },
+  "maggot_death": {
+    "sounds": [
+      {
+        "name": "goetied:maggot/death1"
+      },
+      {
+        "name": "goetied:maggot/death2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.maggot_death"
+  },
+  "fly_loop": {
+    "sounds": [
+      {
+        "name": "mob/bee/loop1",
+        "attenuation_distance": 6,
+        "volume": 0.6
+      },
+      {
+        "name": "mob/bee/loop2",
+        "attenuation_distance": 6,
+        "volume": 0.6
+      },
+      {
+        "name": "mob/bee/loop3",
+        "attenuation_distance": 6,
+        "volume": 0.65
+      },
+      {
+        "name": "mob/bee/loop4",
+        "attenuation_distance": 6,
+        "volume": 0.65
+      },
+      {
+        "name": "mob/bee/loop5",
+        "attenuation_distance": 6,
+        "volume": 0.7
+      },
+      {
+        "name": "mob/bee/loop5",
+        "attenuation_distance": 6,
+        "volume": 0.75
+      }
+    ],
+    "subtitle": "subtitle.goetied.fly_loop"
+  },
+  "fly_hurt": {
+    "sounds": [
+      {
+        "name": "mob/bee/hurt1"
+      },
+      {
+        "name": "mob/bee/hurt1",
+        "pitch": 1.2
+      },
+      {
+        "name": "mob/bee/hurt2"
+      },
+      {
+        "name": "mob/bee/hurt2",
+        "pitch": 1.2
+      },
+      {
+        "name": "mob/bee/hurt3"
+      },
+      {
+        "name": "mob/bee/hurt3",
+        "pitch": 1.2
+      }
+    ],
+    "subtitle": "subtitle.goetied.fly_hurt"
+  },
+  "fly_death": {
+    "sounds": [
+      {
+        "name": "mob/bee/death1"
+      },
+      {
+        "name": "mob/bee/death2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.fly_death"
+  },
+  "skull_lord_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:skull_lord/idle1"
+      },
+      {
+        "name": "goetied:skull_lord/idle2"
+      },
+      {
+        "name": "goetied:skull_lord/idle3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.skull_lord_ambient"
+  },
+  "skull_lord_hurt": {
+    "sounds": [
+      {
+        "name": "mob/wither/hurt1",
+        "pitch": 0.5
+      },
+      {
+        "name": "mob/wither/hurt2",
+        "pitch": 0.5
+      },
+      {
+        "name": "mob/wither/hurt3",
+        "pitch": 0.5
+      },
+      {
+        "name": "mob/wither/hurt4",
+        "pitch": 0.5
+      }
+    ],
+    "subtitle": "subtitle.goetied.skull_lord_hurt"
+  },
+  "skull_lord_charge": {
+    "sounds": [
+      {
+        "name": "mob/endermen/scream1",
+        "pitch": 0.5
+      },
+      {
+        "name": "mob/endermen/scream2",
+        "pitch": 0.5
+      },
+      {
+        "name": "mob/endermen/scream3",
+        "pitch": 0.5
+      },
+      {
+        "name": "mob/endermen/scream4",
+        "pitch": 0.5
+      }
+    ],
+    "subtitle": "subtitle.goetied.skull_lord_charge"
+  },
+  "skull_lord_shoot": {
+    "sounds": [
+      {
+        "name": "mob/wither/shoot"
+      }
+    ],
+    "subtitle": "subtitle.goetied.skull_lord_shoot"
+  },
+  "skull_lord_laser_begin": {
+    "sounds": [
+      {
+        "name": "goetied:skull_lord/laser_gather"
+      }
+    ],
+    "subtitle": "subtitle.goetied.skull_lord_laser_begin"
+  },
+  "skull_lord_laser_start": {
+    "sounds": [
+      {
+        "name": "goetied:skull_lord/laser_start"
+      }
+    ],
+    "subtitle": "subtitle.goetied.skull_lord_laser_start"
+  },
+  "skull_lord_fly": {
+    "sounds": [
+      {
+        "name": "goetied:skull_lord/fly1"
+      },
+      {
+        "name": "goetied:skull_lord/fly2"
+      },
+      {
+        "name": "goetied:skull_lord/fly3"
+      },
+      {
+        "name": "goetied:skull_lord/fly4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.skull_lord_fly"
+  },
+  "skull_lord_death": {
+    "sounds": [
+      {
+        "name": "mob/endermen/death",
+        "pitch": 0.15
+      }
+    ],
+    "subtitle": "subtitle.goetied.skull_lord_death"
+  },
+  "sorcerer_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:enchanter/idle1"
+      },
+      {
+        "name": "goetied:enchanter/idle2"
+      },
+      {
+        "name": "goetied:enchanter/idle3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.sorcerer_ambient"
+  },
+  "sorcerer_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:enchanter/hurt1"
+      },
+      {
+        "name": "goetied:enchanter/hurt2"
+      },
+      {
+        "name": "goetied:enchanter/hurt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.sorcerer_hurt"
+  },
+  "sorcerer_death": {
+    "sounds": [
+      {
+        "name": "goetied:enchanter/death1"
+      },
+      {
+        "name": "goetied:enchanter/death2"
+      },
+      {
+        "name": "goetied:enchanter/death3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.sorcerer_death"
+  },
+  "tormentor_ambient": {
+    "sounds": [
+      {
+        "name": "mob/vindication_illager/idle1",
+        "pitch": 0.15
+      },
+      {
+        "name": "mob/vindication_illager/idle2",
+        "pitch": 0.15
+      },
+      {
+        "name": "mob/vindication_illager/idle3",
+        "pitch": 0.15
+      },
+      {
+        "name": "mob/vindication_illager/idle4",
+        "pitch": 0.15
+      },
+      {
+        "name": "mob/vindication_illager/idle5",
+        "pitch": 0.15
+      }
+    ],
+    "subtitle": "subtitle.goetied.tormentor_ambient"
+  },
+  "tormentor_hurt": {
+    "sounds": [
+      {
+        "name": "mob/vindication_illager/hurt1",
+        "pitch": 0.15
+      },
+      {
+        "name": "mob/vindication_illager/hurt2",
+        "pitch": 0.15
+      },
+      {
+        "name": "mob/vindication_illager/hurt3",
+        "pitch": 0.15
+      }
+    ],
+    "subtitle": "subtitle.goetied.tormentor_hurt"
+  },
+  "tormentor_charge": {
+    "sounds": [
+      {
+        "name": "mob/vindication_illager/celebrate1",
+        "pitch": 0.15
+      },
+      {
+        "name": "mob/vindication_illager/celebrate2",
+        "pitch": 0.15
+      }
+    ],
+    "subtitle": "subtitle.goetied.tormentor_charge"
+  },
+  "tormentor_celebrate": {
+    "sounds": [
+      {
+        "name": "mob/vindication_illager/celebrate1",
+        "pitch": 0.15
+      },
+      {
+        "name": "mob/vindication_illager/celebrate2",
+        "pitch": 0.15
+      }
+    ],
+    "subtitle": "subtitle.goetied.tormentor_celebrate"
+  },
+  "tormentor_death": {
+    "sounds": [
+      {
+        "name": "mob/vindication_illager/death1",
+        "pitch": 0.15
+      },
+      {
+        "name": "mob/vindication_illager/death2",
+        "pitch": 0.15
+      }
+    ],
+    "subtitle": "subtitle.goetied.tormentor_death"
+  },
+  "inquillager_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:inquillager/idle1",
+        "pitch": 1.5
+      },
+      {
+        "name": "goetied:inquillager/idle2",
+        "pitch": 1.5
+      },
+      {
+        "name": "goetied:inquillager/idle3",
+        "pitch": 1.5
+      },
+      {
+        "name": "goetied:inquillager/idle4",
+        "pitch": 1.5
+      }
+    ],
+    "subtitle": "subtitle.goetied.inquillager_ambient"
+  },
+  "inquillager_hurt": {
+    "sounds": [
+      {
+        "name": "mob/vindication_illager/hurt1",
+        "pitch": 1.5
+      },
+      {
+        "name": "mob/vindication_illager/hurt2",
+        "pitch": 1.5
+      },
+      {
+        "name": "mob/vindication_illager/hurt3",
+        "pitch": 1.5
+      }
+    ],
+    "subtitle": "subtitle.goetied.inquillager_hurt"
+  },
+  "inquillager_celebrate": {
+    "sounds": [
+      {
+        "name": "mob/vindication_illager/celebrate1",
+        "pitch": 1.5
+      },
+      {
+        "name": "mob/vindication_illager/celebrate2",
+        "pitch": 1.5
+      }
+    ],
+    "subtitle": "subtitle.goetied.inquillager_celebrate"
+  },
+  "inquillager_death": {
+    "sounds": [
+      {
+        "name": "mob/vindication_illager/death1",
+        "pitch": 1.5
+      },
+      {
+        "name": "mob/vindication_illager/death2",
+        "pitch": 1.5
+      }
+    ],
+    "subtitle": "subtitle.goetied.inquillager_death"
+  },
+  "conquillager_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:conquillager/idle1",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:conquillager/idle2",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:conquillager/idle3",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:conquillager/idle4",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:conquillager/idle5",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:conquillager/idle6",
+        "pitch": 1.25
+      }
+    ],
+    "subtitle": "subtitle.goetied.conquillager_ambient"
+  },
+  "conquillager_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:conquillager/hurt1",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:conquillager/hurt2",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:conquillager/hurt3",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:conquillager/hurt4",
+        "pitch": 1.25
+      }
+    ],
+    "subtitle": "subtitle.goetied.conquillager_hurt"
+  },
+  "conquillager_celebrate": {
+    "sounds": [
+      {
+        "name": "mob/pillager/celebrate1",
+        "pitch": 1.25
+      },
+      {
+        "name": "mob/pillager/celebrate2",
+        "pitch": 1.25
+      },
+      {
+        "name": "mob/pillager/celebrate3",
+        "pitch": 1.25
+      },
+      {
+        "name": "mob/pillager/celebrate4",
+        "pitch": 1.25
+      }
+    ],
+    "subtitle": "subtitle.goetied.conquillager_celebrate"
+  },
+  "conquillager_death": {
+    "sounds": [
+      {
+        "name": "goetied:conquillager/death1",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:conquillager/death2",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:conquillager/death3",
+        "pitch": 1.25
+      }
+    ],
+    "subtitle": "subtitle.goetied.conquillager_death"
+  },
+  "piker_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:conquillager/idle1",
+        "pitch": 0.75
+      },
+      {
+        "name": "goetied:conquillager/idle2",
+        "pitch": 0.75
+      },
+      {
+        "name": "goetied:conquillager/idle3",
+        "pitch": 0.75
+      },
+      {
+        "name": "goetied:conquillager/idle4",
+        "pitch": 0.75
+      },
+      {
+        "name": "goetied:conquillager/idle5",
+        "pitch": 0.75
+      },
+      {
+        "name": "goetied:conquillager/idle6",
+        "pitch": 0.75
+      }
+    ],
+    "subtitle": "subtitle.goetied.piker_ambient"
+  },
+  "piker_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:conquillager/hurt1",
+        "pitch": 0.75
+      },
+      {
+        "name": "goetied:conquillager/hurt2",
+        "pitch": 0.75
+      },
+      {
+        "name": "goetied:conquillager/hurt3",
+        "pitch": 0.75
+      },
+      {
+        "name": "goetied:conquillager/hurt4",
+        "pitch": 0.75
+      }
+    ],
+    "subtitle": "subtitle.goetied.piker_hurt"
+  },
+  "piker_swing": {
+    "sounds": [
+      {
+        "name": "goetied:piker/swing1"
+      },
+      {
+        "name": "goetied:piker/swing2"
+      },
+      {
+        "name": "goetied:piker/swing3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.piker_swing"
+  },
+  "piker_pike": {
+    "sounds": [
+      {
+        "name": "goetied:piker/pike"
+      }
+    ],
+    "subtitle": "subtitle.goetied.piker_pike"
+  },
+  "piker_celebrate": {
+    "sounds": [
+      {
+        "name": "mob/pillager/celebrate1",
+        "pitch": 0.75
+      },
+      {
+        "name": "mob/pillager/celebrate2",
+        "pitch": 0.75
+      },
+      {
+        "name": "mob/pillager/celebrate3",
+        "pitch": 0.75
+      },
+      {
+        "name": "mob/pillager/celebrate4",
+        "pitch": 0.75
+      }
+    ],
+    "subtitle": "subtitle.goetied.piker_celebrate"
+  },
+  "piker_step": {
+    "sounds": [
+      {
+        "name": "item/armor/equip_iron1"
+      },
+      {
+        "name": "item/armor/equip_iron2"
+      },
+      {
+        "name": "item/armor/equip_iron3"
+      },
+      {
+        "name": "item/armor/equip_iron4"
+      },
+      {
+        "name": "item/armor/equip_iron5"
+      },
+      {
+        "name": "item/armor/equip_iron6"
+      }
+    ],
+    "subtitle": "subtitle.goetied.piker_step"
+  },
+  "piker_death": {
+    "sounds": [
+      {
+        "name": "goetied:conquillager/death1",
+        "pitch": 0.75
+      },
+      {
+        "name": "goetied:conquillager/death2",
+        "pitch": 0.75
+      },
+      {
+        "name": "goetied:conquillager/death3",
+        "pitch": 0.75
+      }
+    ],
+    "subtitle": "subtitle.goetied.piker_death"
+  },
+  "trampler_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:trampler/idle1"
+      },
+      {
+        "name": "goetied:trampler/idle2"
+      },
+      {
+        "name": "goetied:trampler/idle3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.trampler_ambient"
+  },
+  "trampler_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:trampler/hurt1"
+      },
+      {
+        "name": "goetied:trampler/hurt2"
+      },
+      {
+        "name": "goetied:trampler/hurt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.trampler_hurt"
+  },
+  "trampler_celebrate": {
+    "sounds": [
+      {
+        "name": "goetied:trampler/celebrate"
+      }
+    ],
+    "subtitle": "subtitle.goetied.trampler_celebrate"
+  },
+  "trampler_death": {
+    "sounds": [
+      {
+        "name": "goetied:trampler/death1"
+      },
+      {
+        "name": "goetied:trampler/death2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.trampler_death"
+  },
+  "storm_caster_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:wind_caller/idle1",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:wind_caller/idle2",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:wind_caller/idle3",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:wind_caller/idle4",
+        "pitch": 1.25
+      }
+    ],
+    "subtitle": "subtitle.goetied.storm_caster_ambient"
+  },
+  "storm_caster_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:wind_caller/hurt1",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:wind_caller/hurt2",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:wind_caller/hurt3",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:wind_caller/hurt4",
+        "pitch": 1.25
+      }
+    ],
+    "subtitle": "subtitle.goetied.storm_caster_hurt"
+  },
+  "storm_caster_monsoon": {
+    "sounds": [
+      {
+        "name": "goetied:wind_caller/lift1",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:wind_caller/lift2",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:wind_caller/lift3",
+        "pitch": 1.25
+      }
+    ],
+    "subtitle": "subtitle.goetied.storm_caster_monsoon"
+  },
+  "storm_caster_discharge": {
+    "sounds": [
+      {
+        "name": "goetied:wind_caller/blast1",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:wind_caller/blast2",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:wind_caller/blast3",
+        "pitch": 1.25
+      }
+    ],
+    "subtitle": "subtitle.goetied.storm_caster_discharge"
+  },
+  "storm_caster_celebrate": {
+    "sounds": [
+      {
+        "name": "goetied:wind_caller/idle1",
+        "pitch": 1.5
+      }
+    ],
+    "subtitle": "subtitle.goetied.storm_caster_celebrate"
+  },
+  "storm_caster_death": {
+    "sounds": [
+      {
+        "name": "goetied:wind_caller/death1",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:wind_caller/death2",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:wind_caller/death3",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:wind_caller/death4",
+        "pitch": 1.25
+      }
+    ],
+    "subtitle": "subtitle.goetied.storm_caster_death"
+  },
+  "cryologer_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:cryologer/idle1"
+      },
+      {
+        "name": "goetied:cryologer/idle2"
+      },
+      {
+        "name": "goetied:cryologer/idle3"
+      },
+      {
+        "name": "goetied:cryologer/idle4"
+      },
+      {
+        "name": "goetied:cryologer/idle5"
+      }
+    ],
+    "subtitle": "subtitle.goetied.cryologer_ambient"
+  },
+  "cryologer_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:cryologer/hurt1"
+      },
+      {
+        "name": "goetied:cryologer/hurt2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.cryologer_hurt"
+  },
+  "cryologer_hail": {
+    "sounds": [
+      {
+        "name": "goetied:cryologer/hail1"
+      },
+      {
+        "name": "goetied:cryologer/hail2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.cryologer_hail"
+  },
+  "cryologer_wall": {
+    "sounds": [
+      {
+        "name": "goetied:cryologer/wall1"
+      },
+      {
+        "name": "goetied:cryologer/wall2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.cryologer_wall"
+  },
+  "cryologer_chunk": {
+    "sounds": [
+      {
+        "name": "goetied:cryologer/chunk1"
+      },
+      {
+        "name": "goetied:cryologer/chunk2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.cryologer_chunk"
+  },
+  "cryologer_celebrate": {
+    "sounds": [
+      {
+        "name": "goetied:cryologer/celebrate1"
+      },
+      {
+        "name": "goetied:cryologer/celebrate2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.cryologer_celebrate"
+  },
+  "cryologer_death": {
+    "sounds": [
+      {
+        "name": "goetied:cryologer/death1"
+      },
+      {
+        "name": "goetied:cryologer/death2"
+      },
+      {
+        "name": "goetied:cryologer/death3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.cryologer_death"
+  },
+  "preacher_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:preacher/idle1"
+      },
+      {
+        "name": "goetied:preacher/idle2"
+      },
+      {
+        "name": "goetied:preacher/idle3"
+      },
+      {
+        "name": "goetied:preacher/idle4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.preacher_ambient"
+  },
+  "preacher_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:preacher/hurt1"
+      },
+      {
+        "name": "goetied:preacher/hurt2"
+      },
+      {
+        "name": "goetied:preacher/hurt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.preacher_hurt"
+  },
+  "preacher_cast": {
+    "sounds": [
+      {
+        "name": "goetied:preacher/cast1"
+      },
+      {
+        "name": "goetied:preacher/cast2"
+      },
+      {
+        "name": "goetied:preacher/cast3"
+      },
+      {
+        "name": "goetied:preacher/cast4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.preacher_cast"
+  },
+  "preacher_death": {
+    "sounds": [
+      {
+        "name": "goetied:preacher/death1"
+      },
+      {
+        "name": "goetied:preacher/death2"
+      },
+      {
+        "name": "goetied:preacher/death3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.preacher_death"
+  },
+  "minister_ambient": {
+    "sounds": [
+      {
+        "name": "mob/evocation_illager/idle1",
+        "pitch": 1.25
+      },
+      {
+        "name": "mob/evocation_illager/idle2",
+        "pitch": 1.25
+      },
+      {
+        "name": "mob/evocation_illager/idle3",
+        "pitch": 1.25
+      },
+      {
+        "name": "mob/evocation_illager/idle4",
+        "pitch": 1.25
+      }
+    ],
+    "subtitle": "subtitle.goetied.minister_ambient"
+  },
+  "minister_hurt": {
+    "sounds": [
+      {
+        "name": "mob/evocation_illager/hurt1",
+        "pitch": 1.25
+      },
+      {
+        "name": "mob/evocation_illager/hurt2",
+        "pitch": 1.25
+      }
+    ],
+    "subtitle": "subtitle.goetied.minister_hurt"
+  },
+  "minister_laugh": {
+    "sounds": [
+      {
+        "name": "goetied:minister/laugh1"
+      },
+      {
+        "name": "goetied:minister/laugh2"
+      },
+      {
+        "name": "goetied:minister/laugh3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.minister_laugh"
+  },
+  "minister_command": {
+    "sounds": [
+      {
+        "name": "mob/pillager/idle4",
+        "pitch": 1.25
+      }
+    ],
+    "subtitle": "subtitle.goetied.minister_command"
+  },
+  "minister_cast": {
+    "sounds": [
+      {
+        "name": "mob/evocation_illager/celebrate",
+        "pitch": 1.25
+      }
+    ],
+    "subtitle": "subtitle.goetied.minister_cast"
+  },
+  "minister_speech": {
+    "sounds": [
+      {
+        "name": "goetied:minister/speech"
+      }
+    ],
+    "subtitle": "subtitle.goetied.minister_speech"
+  },
+  "minister_celebrate": {
+    "sounds": [
+      {
+        "name": "goetied:minister/laugh1"
+      },
+      {
+        "name": "goetied:minister/laugh2"
+      },
+      {
+        "name": "goetied:minister/laugh3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.minister_celebrate"
+  },
+  "minister_death": {
+  "sounds": [
+    {
+      "name": "goetied:minister/death"
+    }
+  ],
+    "subtitle": "subtitle.goetied.minister_death"
+  },
+  "reaper_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:reaper/idle1"
+      },
+      {
+        "name": "goetied:reaper/idle2"
+      },
+      {
+        "name": "goetied:reaper/idle3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.reaper_ambient"
+  },
+  "reaper_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:reaper/hurt1"
+      },
+      {
+        "name": "goetied:reaper/hurt2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.reaper_hurt"
+  },
+  "reaper_fly": {
+    "sounds": [
+      {
+        "name": "goetied:wraith/fly1",
+        "pitch": 0.5
+      },
+      {
+        "name": "goetied:wraith/fly2",
+        "pitch": 0.5
+      },
+      {
+        "name": "goetied:wraith/fly3",
+        "pitch": 0.5
+      },
+      {
+        "name": "goetied:wraith/fly4",
+        "pitch": 0.5
+      },
+      {
+        "name": "goetied:wraith/fly5",
+        "pitch": 0.5
+      }
+    ],
+    "subtitle": "subtitle.goetied.reaper_fly"
+  },
+  "reaper_swing": {
+    "sounds": [
+      {
+        "name": "goetied:reaper/swing"
+      }
+    ],
+    "subtitle": "subtitle.goetied.reaper_swing"
+  },
+  "reaper_death": {
+    "sounds": [
+      {
+        "name": "goetied:reaper/death1"
+      },
+      {
+        "name": "goetied:reaper/death2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.reaper_death"
+  },
+  "wraith_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:wraith/idle1"
+      },
+      {
+        "name": "goetied:wraith/idle2"
+      },
+      {
+        "name": "goetied:wraith/idle3"
+      },
+      {
+        "name": "goetied:wraith/idle4"
+      },
+      {
+        "name": "goetied:wraith/idle5"
+      },
+      {
+        "name": "goetied:wraith/idle6"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wraith_ambient"
+  },
+  "wraith_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:wraith/hurt1"
+      },
+      {
+        "name": "goetied:wraith/hurt2"
+      },
+      {
+        "name": "goetied:wraith/hurt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wraith_hurt"
+  },
+  "wraith_fly": {
+    "sounds": [
+      {
+        "name": "goetied:wraith/fly1"
+      },
+      {
+        "name": "goetied:wraith/fly2"
+      },
+      {
+        "name": "goetied:wraith/fly3"
+      },
+      {
+        "name": "goetied:wraith/fly4"
+      },
+      {
+        "name": "goetied:wraith/fly5"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wraith_fly"
+  },
+  "wraith_attack": {
+    "sounds": [
+      {
+        "name": "goetied:wraith/attack"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wraith_attack"
+  },
+  "wraith_puke": {
+    "sounds": [
+      {
+        "name": "goetied:wraith/puke"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wraith_puke"
+  },
+  "wraith_fire": {
+    "sounds": [
+      {
+        "name": "goetied:wraith/fire"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wraith_fire"
+  },
+  "wraith_teleport": {
+    "sounds": [
+      {
+        "name": "goetied:wraith/teleport1"
+      },
+      {
+        "name": "goetied:wraith/teleport2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wraith_teleport"
+  },
+  "wraith_death": {
+    "sounds": [
+      {
+        "name": "goetied:wraith/death1"
+      },
+      {
+        "name": "goetied:wraith/death2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wraith_death"
+  },
+  "tower_wraith_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:tower_wraith/idle1"
+      },
+      {
+        "name": "goetied:tower_wraith/idle2"
+      },
+      {
+        "name": "goetied:tower_wraith/idle3"
+      },
+      {
+        "name": "goetied:tower_wraith/idle4"
+      },
+      {
+        "name": "goetied:tower_wraith/idle5"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wraith_ambient"
+  },
+  "tower_wraith_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:tower_wraith/hurt1"
+      },
+      {
+        "name": "goetied:tower_wraith/hurt2"
+      },
+      {
+        "name": "goetied:tower_wraith/hurt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wraith_hurt"
+  },
+  "tower_wraith_fly": {
+    "sounds": [
+      {
+        "name": "goetied:tower_wraith/fly1"
+      },
+      {
+        "name": "goetied:tower_wraith/fly2"
+      },
+      {
+        "name": "goetied:tower_wraith/fly3"
+      },
+      {
+        "name": "goetied:tower_wraith/fly4"
+      },
+      {
+        "name": "goetied:tower_wraith/fly5"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wraith_fly"
+  },
+  "tower_wraith_attack": {
+    "sounds": [
+      {
+        "name": "goetied:tower_wraith/attack1"
+      },
+      {
+        "name": "goetied:tower_wraith/attack2"
+      },
+      {
+        "name": "goetied:tower_wraith/attack3"
+      },
+      {
+        "name": "goetied:tower_wraith/attack4"
+      },
+      {
+        "name": "goetied:tower_wraith/attack5"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wraith_attack"
+  },
+  "tower_wraith_acid": {
+    "sounds": [
+      {
+        "name": "goetied:tower_wraith/acid1"
+      },
+      {
+        "name": "goetied:tower_wraith/acid2"
+      },
+      {
+        "name": "goetied:tower_wraith/acid3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wraith_acid"
+  },
+  "tower_wraith_acid_vocal": {
+    "sounds": [
+      {
+        "name": "goetied:tower_wraith/acid_vocal1"
+      },
+      {
+        "name": "goetied:tower_wraith/acid_vocal2"
+      }
+    ]
+  },
+  "tower_wraith_teleport_in": {
+    "sounds": [
+      {
+        "name": "goetied:tower_wraith/teleport_in1"
+      },
+      {
+        "name": "goetied:tower_wraith/teleport_in2"
+      },
+      {
+        "name": "goetied:tower_wraith/teleport_in3"
+      },
+      {
+        "name": "goetied:tower_wraith/teleport_in4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wraith_teleport"
+  },
+  "tower_wraith_teleport_out": {
+    "sounds": [
+      {
+        "name": "goetied:tower_wraith/teleport_out1"
+      },
+      {
+        "name": "goetied:tower_wraith/teleport_out2"
+      },
+      {
+        "name": "goetied:tower_wraith/teleport_out3"
+      },
+      {
+        "name": "goetied:tower_wraith/teleport_out4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wraith_teleport"
+  },
+  "tower_wraith_death": {
+    "sounds": [
+      {
+        "name": "goetied:tower_wraith/death1"
+      },
+      {
+        "name": "goetied:tower_wraith/death2"
+      },
+      {
+        "name": "goetied:tower_wraith/death3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wraith_death"
+  },
+  "frozen_zombie_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:frozen_zombie/idle1"
+      },
+      {
+        "name": "goetied:frozen_zombie/idle2"
+      },
+      {
+        "name": "goetied:frozen_zombie/idle3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.frozen_zombie_ambient"
+  },
+  "frozen_zombie_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:frozen_zombie/hurt1"
+      },
+      {
+        "name": "goetied:frozen_zombie/hurt2"
+      },
+      {
+        "name": "goetied:frozen_zombie/hurt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.frozen_zombie_hurt"
+  },
+  "frozen_zombie_snowball": {
+    "sounds": [
+      {
+        "name": "goetied:frozen_zombie/snowball1"
+      },
+      {
+        "name": "goetied:frozen_zombie/snowball2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.frozen_zombie_snowball"
+  },
+  "frozen_zombie_death": {
+    "sounds": [
+      {
+        "name": "goetied:frozen_zombie/death1"
+      },
+      {
+        "name": "goetied:frozen_zombie/death2"
+      },
+      {
+        "name": "goetied:frozen_zombie/death3"
+      },
+      {
+        "name": "goetied:frozen_zombie/death4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.frozen_zombie_death"
+  },
+  "jungle_zombie_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:jungle_zombie/idle1"
+      },
+      {
+        "name": "goetied:jungle_zombie/idle2"
+      },
+      {
+        "name": "goetied:jungle_zombie/idle3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.jungle_zombie_ambient"
+  },
+  "jungle_zombie_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:jungle_zombie/hurt1"
+      },
+      {
+        "name": "goetied:jungle_zombie/hurt2"
+      },
+      {
+        "name": "goetied:jungle_zombie/hurt3"
+      },
+      {
+        "name": "goetied:jungle_zombie/hurt4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.jungle_zombie_hurt"
+  },
+  "jungle_zombie_step": {
+    "sounds": [
+      {
+        "name": "goetied:jungle_zombie/step1"
+      },
+      {
+        "name": "goetied:jungle_zombie/step2"
+      },
+      {
+        "name": "goetied:jungle_zombie/step3"
+      },
+      {
+        "name": "goetied:jungle_zombie/step4"
+      },
+      {
+        "name": "goetied:jungle_zombie/step5"
+      }
+    ],
+    "subtitle": "subtitle.goetied.jungle_zombie_step"
+  },
+  "jungle_zombie_death": {
+    "sounds": [
+      {
+        "name": "goetied:jungle_zombie/death1"
+      },
+      {
+        "name": "goetied:jungle_zombie/death2"
+      },
+      {
+        "name": "goetied:jungle_zombie/death3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.jungle_zombie_death"
+  },
+  "blackguard_pre_attack": {
+    "sounds": [
+      {
+        "name": "goetied:blackguard/pre_attack1"
+      },
+      {
+        "name": "goetied:blackguard/pre_attack2"
+      },
+      {
+        "name": "goetied:blackguard/pre_attack3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.blackguard_pre_attack"
+  },
+  "blackguard_smash": {
+    "sounds": [
+      {
+        "name": "goetied:blackguard/smash1"
+      },
+      {
+        "name": "goetied:blackguard/smash2"
+      },
+      {
+        "name": "goetied:blackguard/smash3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.blackguard_smash"
+  },
+  "blackguard_step": {
+    "sounds": [
+      {
+        "name": "goetied:blackguard/step1"
+      },
+      {
+        "name": "goetied:blackguard/step2"
+      },
+      {
+        "name": "goetied:blackguard/step3"
+      },
+      {
+        "name": "goetied:blackguard/step4"
+      },
+      {
+        "name": "goetied:blackguard/step5"
+      },
+      {
+        "name": "goetied:blackguard/step6"
+      }
+    ],
+    "subtitle": "subtitle.goetied.blackguard_step"
+  },
+  "mossy_skeleton_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:mossy_skeleton/idle1"
+      },
+      {
+        "name": "goetied:mossy_skeleton/idle2"
+      },
+      {
+        "name": "goetied:mossy_skeleton/idle3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.mossy_skeleton_ambient"
+  },
+  "mossy_skeleton_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:mossy_skeleton/hurt1"
+      },
+      {
+        "name": "goetied:mossy_skeleton/hurt2"
+      },
+      {
+        "name": "goetied:mossy_skeleton/hurt3"
+      },
+      {
+        "name": "goetied:mossy_skeleton/hurt4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.mossy_skeleton_hurt"
+  },
+  "mossy_skeleton_shoot": {
+    "sounds": [
+      {
+        "name": "goetied:mossy_skeleton/shoot1"
+      },
+      {
+        "name": "goetied:mossy_skeleton/shoot2"
+      },
+      {
+        "name": "goetied:mossy_skeleton/shoot3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.mossy_skeleton_shoot"
+  },
+  "mossy_skeleton_step": {
+    "sounds": [
+      {
+        "name": "goetied:mossy_skeleton/step1"
+      },
+      {
+        "name": "goetied:mossy_skeleton/step2"
+      },
+      {
+        "name": "goetied:mossy_skeleton/step3"
+      },
+      {
+        "name": "goetied:mossy_skeleton/step4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.mossy_skeleton_step"
+  },
+  "mossy_skeleton_death": {
+    "sounds": [
+      {
+        "name": "goetied:mossy_skeleton/death1"
+      },
+      {
+        "name": "goetied:mossy_skeleton/death2"
+      },
+      {
+        "name": "goetied:mossy_skeleton/death3"
+      },
+      {
+        "name": "goetied:mossy_skeleton/death4"
+      },
+      {
+        "name": "goetied:mossy_skeleton/death5"
+      },
+      {
+        "name": "goetied:mossy_skeleton/death6"
+      },
+      {
+        "name": "goetied:mossy_skeleton/death7"
+      }
+    ],
+    "subtitle": "subtitle.goetied.mossy_skeleton_death"
+  },
+  "sunken_skeleton_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:sunken_skeleton/idle1"
+      },
+      {
+        "name": "goetied:sunken_skeleton/idle2"
+      },
+      {
+        "name": "goetied:sunken_skeleton/idle3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.sunken_skeleton_ambient"
+  },
+  "sunken_skeleton_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:sunken_skeleton/hurt1"
+      },
+      {
+        "name": "goetied:sunken_skeleton/hurt2"
+      },
+      {
+        "name": "goetied:sunken_skeleton/hurt3"
+      },
+      {
+        "name": "goetied:sunken_skeleton/hurt4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.sunken_skeleton_hurt"
+  },
+  "sunken_skeleton_shoot": {
+    "sounds": [
+      {
+        "name": "goetied:sunken_skeleton/shoot1"
+      },
+      {
+        "name": "goetied:sunken_skeleton/shoot2"
+      },
+      {
+        "name": "goetied:sunken_skeleton/shoot3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.sunken_skeleton_shoot"
+  },
+  "sunken_skeleton_step": {
+    "sounds": [
+      {
+        "name": "goetied:sunken_skeleton/step1"
+      },
+      {
+        "name": "goetied:sunken_skeleton/step2"
+      },
+      {
+        "name": "goetied:sunken_skeleton/step3"
+      },
+      {
+        "name": "goetied:sunken_skeleton/step4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.sunken_skeleton_step"
+  },
+  "sunken_skeleton_death": {
+    "sounds": [
+      {
+        "name": "goetied:sunken_skeleton/death1"
+      },
+      {
+        "name": "goetied:sunken_skeleton/death2"
+      },
+      {
+        "name": "goetied:sunken_skeleton/death3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.sunken_skeleton_death"
+  },
+  "necromancer_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:necromancer/idle1"
+      },
+      {
+        "name": "goetied:necromancer/idle2"
+      },
+      {
+        "name": "goetied:necromancer/idle3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.necromancer_ambient"
+  },
+  "necromancer_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:necromancer/hurt1"
+      },
+      {
+        "name": "goetied:necromancer/hurt2"
+      },
+      {
+        "name": "goetied:necromancer/hurt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.necromancer_hurt"
+  },
+  "necromancer_laugh": {
+    "sounds": [
+      {
+        "name": "goetied:necromancer/laugh1"
+      },
+      {
+        "name": "goetied:necromancer/laugh2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.necromancer_laugh"
+  },
+  "necromancer_summon": {
+    "sounds": [
+      {
+        "name": "goetied:spell/cast_spell1"
+      },
+      {
+        "name": "goetied:spell/cast_spell2"
+      },
+      {
+        "name": "mob/evocation_illager/cast1"
+      },
+      {
+        "name": "mob/evocation_illager/cast2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.summon_spell"
+  },
+  "necromancer_step": {
+    "sounds": [
+      {
+        "name": "goetied:necromancer/step1"
+      },
+      {
+        "name": "goetied:necromancer/step2"
+      },
+      {
+        "name": "goetied:necromancer/step3"
+      },
+      {
+        "name": "goetied:necromancer/step4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.necromancer_step"
+  },
+  "necromancer_death": {
+    "sounds": [
+      {
+        "name": "goetied:necromancer/death1"
+      },
+      {
+        "name": "goetied:necromancer/death2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.necromancer_death"
+  },
+  "mossy_necromancer_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:mossy_necromancer/idle1"
+      },
+      {
+        "name": "goetied:mossy_necromancer/idle2"
+      },
+      {
+        "name": "goetied:mossy_necromancer/idle3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.necromancer_ambient"
+  },
+  "mossy_necromancer_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:mossy_necromancer/hurt1"
+      },
+      {
+        "name": "goetied:mossy_necromancer/hurt2"
+      },
+      {
+        "name": "goetied:mossy_necromancer/hurt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.necromancer_hurt"
+  },
+  "mossy_necromancer_laugh": {
+    "sounds": [
+      {
+        "name": "goetied:mossy_necromancer/laugh1"
+      },
+      {
+        "name": "goetied:mossy_necromancer/laugh2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.necromancer_laugh"
+  },
+  "mossy_necromancer_step": {
+    "sounds": [
+      {
+        "name": "goetied:mossy_necromancer/step1"
+      },
+      {
+        "name": "goetied:mossy_necromancer/step2"
+      },
+      {
+        "name": "goetied:mossy_necromancer/step3"
+      },
+      {
+        "name": "goetied:mossy_necromancer/step4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.necromancer_step"
+  },
+  "mossy_necromancer_death": {
+    "sounds": [
+      {
+        "name": "goetied:mossy_necromancer/death1"
+      },
+      {
+        "name": "goetied:mossy_necromancer/death2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.necromancer_death"
+  },
+  "drowned_necromancer_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:drowned_necromancer/idle1"
+      },
+      {
+        "name": "goetied:drowned_necromancer/idle2"
+      },
+      {
+        "name": "goetied:drowned_necromancer/idle3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.drowned_necromancer_ambient"
+  },
+  "drowned_necromancer_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:drowned_necromancer/hurt1"
+      },
+      {
+        "name": "goetied:drowned_necromancer/hurt2"
+      },
+      {
+        "name": "goetied:drowned_necromancer/hurt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.drowned_necromancer_hurt"
+  },
+  "drowned_necromancer_prepare": {
+    "sounds": [
+      {
+        "name": "goetied:drowned_necromancer/prepare_summon1"
+      },
+      {
+        "name": "goetied:drowned_necromancer/prepare_summon2"
+      },
+      {
+        "name": "goetied:drowned_necromancer/prepare_summon3"
+      },
+      {
+        "name": "goetied:drowned_necromancer/prepare_summon4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.prepare_summon"
+  },
+  "drowned_necromancer_summon": {
+    "sounds": [
+      {
+        "name": "goetied:drowned_necromancer/summon1"
+      },
+      {
+        "name": "goetied:drowned_necromancer/summon2"
+      },
+      {
+        "name": "goetied:drowned_necromancer/summon3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.summon_spell"
+  },
+  "drowned_necromancer_swim": {
+    "sounds": [
+      {
+        "name": "goetied:drowned_necromancer/swim1"
+      },
+      {
+        "name": "goetied:drowned_necromancer/swim2"
+      },
+      {
+        "name": "goetied:drowned_necromancer/swim3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.drowned_necromancer_swim"
+  },
+  "drowned_necromancer_death": {
+    "sounds": [
+      {
+        "name": "goetied:drowned_necromancer/death1"
+      },
+      {
+        "name": "goetied:drowned_necromancer/death2"
+      },
+      {
+        "name": "goetied:drowned_necromancer/death3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.drowned_necromancer_death"
+  },
+  "wither_necromancer_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:wither_necromancer/idle1"
+      },
+      {
+        "name": "goetied:wither_necromancer/idle2"
+      },
+      {
+        "name": "goetied:wither_necromancer/idle3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.necromancer_ambient"
+  },
+  "wither_necromancer_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:wither_necromancer/hurt1"
+      },
+      {
+        "name": "goetied:wither_necromancer/hurt2"
+      },
+      {
+        "name": "goetied:wither_necromancer/hurt3"
+      },
+      {
+        "name": "goetied:wither_necromancer/hurt4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.necromancer_hurt"
+  },
+  "wither_necromancer_death": {
+    "sounds": [
+      {
+        "name": "goetied:wither_necromancer/death1"
+      },
+      {
+        "name": "goetied:wither_necromancer/death2"
+      },
+      {
+        "name": "goetied:wither_necromancer/death3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.necromancer_death"
+  },
+  "haunted_armor_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:haunted_armor/idle1"
+      },
+      {
+        "name": "goetied:haunted_armor/idle2"
+      },
+      {
+        "name": "goetied:haunted_armor/idle3"
+      },
+      {
+        "name": "goetied:haunted_armor/idle4"
+      },
+      {
+        "name": "goetied:haunted_armor/idle5"
+      }
+    ],
+    "subtitle": "subtitle.goetied.haunted_armor_ambient"
+  },
+  "haunted_armor_hurt": {
+    "sounds": [
+      {
+        "name": "mob/zombie/metal1",
+        "pitch": 0.75
+      },
+      {
+        "name": "mob/zombie/metal2",
+        "pitch": 0.75
+      },
+      {
+        "name": "mob/zombie/metal3",
+        "pitch": 0.75
+      }
+    ],
+    "subtitle": "subtitle.goetied.haunted_armor_hurt"
+  },
+  "haunted_armor_step": {
+    "sounds": [
+      {
+        "name": "goetied:haunted_armor/step"
+      }
+    ],
+    "subtitle": "subtitle.goetied.haunted_armor_step"
+  },
+  "haunted_armor_death": {
+    "sounds": [
+      {
+        "name": "goetied:haunted_armor/death"
+      }
+    ],
+    "subtitle": "subtitle.goetied.haunted_armor_death"
+  },
+  "vanguard_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:vanguard/idle1"
+      },
+      {
+        "name": "goetied:vanguard/idle2"
+      },
+      {
+        "name": "goetied:vanguard/idle3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.vanguard_ambient"
+  },
+  "vanguard_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:vanguard/hurt1"
+      },
+      {
+        "name": "goetied:vanguard/hurt2"
+      },
+      {
+        "name": "goetied:vanguard/hurt3"
+      },
+      {
+        "name": "goetied:vanguard/hurt4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.vanguard_hurt"
+  },
+  "vanguard_spear": {
+    "sounds": [
+      {
+        "name": "goetied:vanguard/spear"
+      }
+    ],
+    "subtitle": "subtitle.goetied.vanguard_spear"
+  },
+  "vanguard_step": {
+    "sounds": [
+      {
+        "name": "goetied:vanguard/step1"
+      },
+      {
+        "name": "goetied:vanguard/step2"
+      },
+      {
+        "name": "goetied:vanguard/step3"
+      },
+      {
+        "name": "goetied:vanguard/step4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.vanguard_step"
+  },
+  "vanguard_death": {
+    "sounds": [
+      {
+        "name": "goetied:vanguard/death1"
+      },
+      {
+        "name": "goetied:vanguard/death2"
+      },
+      {
+        "name": "goetied:vanguard/death3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.vanguard_death"
+  },
+  "zombie_ravager_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:zombie_ravager/idle1"
+      },
+      {
+        "name": "goetied:zombie_ravager/idle2"
+      },
+      {
+        "name": "goetied:zombie_ravager/idle3"
+      },
+      {
+        "name": "goetied:zombie_ravager/idle4"
+      },
+      {
+        "name": "goetied:zombie_ravager/idle5"
+      },
+      {
+        "name": "goetied:zombie_ravager/idle6"
+      },
+      {
+        "name": "goetied:zombie_ravager/idle7"
+      },
+      {
+        "name": "goetied:zombie_ravager/idle8"
+      }
+    ],
+    "subtitle": "subtitle.goetied.zombie_ravager_ambient"
+  },
+  "zombie_ravager_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:zombie_ravager/hurt1"
+      },
+      {
+        "name": "goetied:zombie_ravager/hurt2"
+      },
+      {
+        "name": "goetied:zombie_ravager/hurt3"
+      },
+      {
+        "name": "goetied:zombie_ravager/hurt4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.zombie_ravager_hurt"
+  },
+  "zombie_ravager_bite": {
+    "sounds": [
+      {
+        "name": "goetied:zombie_ravager/bite1"
+      },
+      {
+        "name": "goetied:zombie_ravager/bite2"
+      },
+      {
+        "name": "goetied:zombie_ravager/bite3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.zombie_ravager_bite"
+  },
+  "zombie_ravager_stun": {
+    "sounds": [
+      {
+        "name": "goetied:zombie_ravager/stun1"
+      },
+      {
+        "name": "goetied:zombie_ravager/stun2"
+      },
+      {
+        "name": "goetied:zombie_ravager/stun3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.zombie_ravager_stun"
+  },
+  "zombie_ravager_roar": {
+    "sounds": [
+      {
+        "name": "goetied:zombie_ravager/roar1"
+      },
+      {
+        "name": "goetied:zombie_ravager/roar2"
+      },
+      {
+        "name": "goetied:zombie_ravager/roar3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.zombie_ravager_roar"
+  },
+  "zombie_ravager_step": {
+    "sounds": [
+      {
+        "name": "goetied:zombie_ravager/step1"
+      },
+      {
+        "name": "goetied:zombie_ravager/step2"
+      },
+      {
+        "name": "goetied:zombie_ravager/step3"
+      },
+      {
+        "name": "goetied:zombie_ravager/step4"
+      },
+      {
+        "name": "goetied:zombie_ravager/step5"
+      }
+    ],
+    "subtitle": "subtitle.goetied.zombie_ravager_step"
+  },
+  "zombie_ravager_death": {
+    "sounds": [
+      {
+        "name": "goetied:zombie_ravager/death1"
+      },
+      {
+        "name": "goetied:zombie_ravager/death2"
+      },
+      {
+        "name": "goetied:zombie_ravager/death3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.zombie_ravager_death"
+  },
+  "ravaged_ambient": {
+    "sounds": [
+      {
+        "name": "mob/zombie_villager/say1"
+      },
+      {
+        "name": "mob/zombie_villager/say2"
+      },
+      {
+        "name": "mob/zombie_villager/say3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.ravaged_ambient"
+  },
+  "ravaged_hurt": {
+    "sounds": [
+      {
+        "name": "mob/zombie_villager/hurt1"
+      },
+      {
+        "name": "mob/zombie_villager/hurt2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.ravaged_hurt"
+  },
+  "ravaged_bite": {
+    "sounds": [
+      {
+        "name": "mob/phantom/bite1"
+      },
+      {
+        "name": "mob/phantom/bite2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.ravaged_bite"
+  },
+  "ravaged_eat": {
+    "sounds": [
+      {
+        "name": "random/eat1"
+      },
+      {
+        "name": "random/eat2"
+      },
+      {
+        "name": "random/eat3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.ravaged_eat"
+  },
+  "ravaged_step": {
+    "sounds": [
+      {
+        "name": "mob/zombie/step1"
+      },
+      {
+        "name": "mob/zombie/step2"
+      },
+      {
+        "name": "mob/zombie/step3"
+      },
+      {
+        "name": "mob/zombie/step4"
+      },
+      {
+        "name": "mob/zombie/step5"
+      }
+    ],
+    "subtitle": "subtitle.goetied.ravaged_step"
+  },
+  "ravaged_big_step": {
+    "sounds": [
+      {
+        "name": "mob/polarbear/step1"
+      },
+      {
+        "name": "mob/polarbear/step2"
+      },
+      {
+        "name": "mob/polarbear/step3"
+      },
+      {
+        "name": "mob/polarbear/step4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.ravaged_step"
+  },
+  "ravaged_death": {
+    "sounds": [
+      {
+        "name": "mob/zombie_villager/death"
+      }
+    ],
+    "subtitle": "subtitle.goetied.ravaged_death"
+  },
+  "bone_spider_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:bone_spider/idle1"
+      },
+      {
+        "name": "goetied:bone_spider/idle2"
+      },
+      {
+        "name": "goetied:bone_spider/idle3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.bone_spider_ambient"
+  },
+  "bone_spider_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:bone_spider/idle1"
+      },
+      {
+        "name": "goetied:bone_spider/idle2"
+      },
+      {
+        "name": "goetied:bone_spider/idle3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.bone_spider_hurt"
+  },
+  "bone_spider_spit": {
+    "sounds": [
+      {
+        "name": "goetied:bone_spider/spit1"
+      },
+      {
+        "name": "goetied:bone_spider/spit2"
+      },
+      {
+        "name": "goetied:bone_spider/spit3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.bone_spider_spit"
+  },
+  "bone_spider_step": {
+    "sounds": [
+      {
+        "name": "goetied:bone_spider/step1"
+      },
+      {
+        "name": "goetied:bone_spider/step2"
+      },
+      {
+        "name": "goetied:bone_spider/step3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.bone_spider_step"
+  },
+  "bone_spider_death": {
+    "sounds": [
+      {
+        "name": "goetied:bone_spider/death1"
+      },
+      {
+        "name": "goetied:bone_spider/death2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.bone_spider_death"
+  },
+  "mountaineer_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:mountaineer/idle1"
+      },
+      {
+        "name": "goetied:mountaineer/idle2"
+      },
+      {
+        "name": "goetied:mountaineer/idle3"
+      },
+      {
+        "name": "goetied:mountaineer/idle4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.mountaineer_ambient"
+  },
+  "mountaineer_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:mountaineer/hurt1"
+      },
+      {
+        "name": "goetied:mountaineer/hurt2"
+      },
+      {
+        "name": "goetied:mountaineer/hurt3"
+      },
+      {
+        "name": "goetied:mountaineer/hurt4"
+      },
+      {
+        "name": "goetied:mountaineer/hurt5"
+      }
+    ],
+    "subtitle": "subtitle.goetied.mountaineer_hurt"
+  },
+  "mountaineer_attack": {
+    "sounds": [
+      {
+        "name": "goetied:mountaineer/attack1"
+      },
+      {
+        "name": "goetied:mountaineer/attack2"
+      },
+      {
+        "name": "goetied:mountaineer/attack3"
+      },
+      {
+        "name": "goetied:mountaineer/attack4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.mountaineer_attack"
+  },
+  "mountaineer_celebrate": {
+    "sounds": [
+      {
+        "name": "goetied:mountaineer/idle1"
+      },
+      {
+        "name": "goetied:mountaineer/idle2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.mountaineer_celebrate"
+  },
+  "mountaineer_death": {
+    "sounds": [
+      {
+        "name": "goetied:mountaineer/death1"
+      },
+      {
+        "name": "goetied:mountaineer/death2"
+      },
+      {
+        "name": "goetied:mountaineer/death3"
+      },
+      {
+        "name": "goetied:mountaineer/death4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.mountaineer_death"
+  },
+  "geomancer_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:geomancer/idle1"
+      },
+      {
+        "name": "goetied:geomancer/idle2"
+      },
+      {
+        "name": "goetied:geomancer/idle3"
+      },
+      {
+        "name": "goetied:geomancer/idle4"
+      },
+      {
+        "name": "goetied:geomancer/idle5"
+      },
+      {
+        "name": "goetied:geomancer/idle6"
+      }
+    ],
+    "subtitle": "subtitle.goetied.geomancer_ambient"
+  },
+  "geomancer_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:geomancer/hurt1"
+      },
+      {
+        "name": "goetied:geomancer/hurt2"
+      },
+      {
+        "name": "goetied:geomancer/hurt3"
+      },
+      {
+        "name": "goetied:geomancer/hurt4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.geomancer_hurt"
+  },
+  "geomancer_pre_attack": {
+    "sounds": [
+      {
+        "name": "goetied:geomancer/pre_attack1"
+      },
+      {
+        "name": "goetied:geomancer/pre_attack2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.geomancer_pre_attack"
+  },
+  "geomancer_attack": {
+    "sounds": [
+      {
+        "name": "goetied:geomancer/attack1"
+      },
+      {
+        "name": "goetied:geomancer/attack2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.geomancer_attack"
+  },
+  "geomancer_death": {
+    "sounds": [
+      {
+        "name": "goetied:geomancer/death1"
+      },
+      {
+        "name": "goetied:geomancer/death2"
+      },
+      {
+        "name": "goetied:geomancer/death3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.geomancer_death"
+  },
+  "iceologer_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:iceologer/idle1"
+      },
+      {
+        "name": "goetied:iceologer/idle2"
+      },
+      {
+        "name": "goetied:iceologer/idle3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.iceologer_ambient"
+  },
+  "iceologer_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:iceologer/hurt1"
+      },
+      {
+        "name": "goetied:iceologer/hurt2"
+      },
+      {
+        "name": "goetied:iceologer/hurt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.iceologer_hurt"
+  },
+  "iceologer_attack": {
+    "sounds": [
+      {
+        "name": "goetied:iceologer/attack1"
+      },
+      {
+        "name": "goetied:iceologer/attack2"
+      },
+      {
+        "name": "goetied:iceologer/attack3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.iceologer_attack"
+  },
+  "iceologer_death": {
+    "sounds": [
+      {
+        "name": "goetied:iceologer/death1"
+      },
+      {
+        "name": "goetied:iceologer/death2"
+      },
+      {
+        "name": "goetied:iceologer/death3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.iceologer_death"
+  },
+  "wind_caller_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:wind_caller/idle1"
+      },
+      {
+        "name": "goetied:wind_caller/idle2"
+      },
+      {
+        "name": "goetied:wind_caller/idle3"
+      },
+      {
+        "name": "goetied:wind_caller/idle4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wind_caller_ambient"
+  },
+  "wind_caller_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:wind_caller/hurt1"
+      },
+      {
+        "name": "goetied:wind_caller/hurt2"
+      },
+      {
+        "name": "goetied:wind_caller/hurt3"
+      },
+      {
+        "name": "goetied:wind_caller/hurt4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wind_caller_hurt"
+  },
+  "wind_caller_blast": {
+    "sounds": [
+      {
+        "name": "goetied:wind_caller/blast1"
+      },
+      {
+        "name": "goetied:wind_caller/blast2"
+      },
+      {
+        "name": "goetied:wind_caller/blast3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wind_caller_blast"
+  },
+  "wind_caller_updraft": {
+    "sounds": [
+      {
+        "name": "goetied:wind_caller/lift1"
+      },
+      {
+        "name": "goetied:wind_caller/lift2"
+      },
+      {
+        "name": "goetied:wind_caller/lift3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wind_caller_updraft"
+  },
+  "wind_caller_death": {
+    "sounds": [
+      {
+        "name": "goetied:wind_caller/death1"
+      },
+      {
+        "name": "goetied:wind_caller/death2"
+      },
+      {
+        "name": "goetied:wind_caller/death3"
+      },
+      {
+        "name": "goetied:wind_caller/death4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wind_caller_death"
+  },
+  "skeleton_wolf_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:skeleton_wolf/idle1"
+      },
+      {
+        "name": "goetied:skeleton_wolf/idle2"
+      },
+      {
+        "name": "goetied:skeleton_wolf/idle3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.skeleton_wolf_ambient"
+  },
+  "skeleton_wolf_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:skeleton_wolf/hurt1"
+      },
+      {
+        "name": "goetied:skeleton_wolf/hurt2"
+      },
+      {
+        "name": "goetied:skeleton_wolf/hurt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.skeleton_wolf_hurt"
+  },
+  "skeleton_wolf_growl": {
+    "sounds": [
+      {
+        "name": "goetied:skeleton_wolf/growl1"
+      },
+      {
+        "name": "goetied:skeleton_wolf/growl2"
+      },
+      {
+        "name": "goetied:skeleton_wolf/growl3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.skeleton_wolf_growl"
+  },
+  "skeleton_wolf_howl": {
+    "sounds": [
+      {
+        "name": "goetied:skeleton_wolf/howl1"
+      },
+      {
+        "name": "goetied:skeleton_wolf/howl2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.skeleton_wolf_howl"
+  },
+  "skeleton_wolf_pant": {
+    "sounds": [
+      {
+        "name": "goetied:skeleton_wolf/pant"
+      }
+    ],
+    "subtitle": "subtitle.goetied.skeleton_wolf_ambient"
+  },
+  "skeleton_wolf_shake": {
+    "sounds": [
+      {
+        "name": "goetied:skeleton_wolf/shake"
+      }
+    ],
+    "subtitle": "subtitle.goetied.skeleton_wolf_shake"
+  },
+  "skeleton_wolf_whine": {
+    "sounds": [
+      {
+        "name": "goetied:skeleton_wolf/whine"
+      }
+    ],
+    "subtitle": "subtitle.goetied.skeleton_wolf_ambient"
+  },
+  "skeleton_wolf_step": {
+    "sounds": [
+      {
+        "name": "goetied:skeleton_wolf/step1"
+      },
+      {
+        "name": "goetied:skeleton_wolf/step2"
+      },
+      {
+        "name": "goetied:skeleton_wolf/step3"
+      },
+      {
+        "name": "goetied:skeleton_wolf/step4"
+      },
+      {
+        "name": "goetied:skeleton_wolf/step5"
+      }
+    ],
+    "subtitle": "subtitle.goetied.skeleton_wolf_step"
+  },
+  "skeleton_wolf_death": {
+    "sounds": [
+      {
+        "name": "goetied:skeleton_wolf/death"
+      }
+    ],
+    "subtitle": "subtitle.goetied.skeleton_wolf_death"
+  },
+  "black_beast_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:black_beast/idle1"
+      },
+      {
+        "name": "goetied:black_beast/idle2"
+      },
+      {
+        "name": "goetied:black_beast/idle3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.black_beast_ambient"
+  },
+  "black_beast_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:black_beast/hurt1"
+      },
+      {
+        "name": "goetied:black_beast/hurt2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.black_beast_hurt"
+  },
+  "black_beast_roar": {
+    "sounds": [
+      {
+        "name": "goetied:black_beast/roar1"
+      },
+      {
+        "name": "goetied:black_beast/roar2"
+      },
+      {
+        "name": "goetied:black_beast/roar3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.black_beast_roar"
+  },
+  "black_beast_claw": {
+    "sounds": [
+      {
+        "name": "goetied:black_beast/claw1"
+      },
+      {
+        "name": "goetied:black_beast/claw2"
+      },
+      {
+        "name": "goetied:black_beast/claw3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.black_beast_claw"
+  },
+  "black_beast_step": {
+    "sounds": [
+      {
+        "name": "goetied:black_beast/step1"
+      },
+      {
+        "name": "goetied:black_beast/step2"
+      },
+      {
+        "name": "goetied:black_beast/step3"
+      },
+      {
+        "name": "goetied:black_beast/step4"
+      },
+      {
+        "name": "goetied:black_beast/step5"
+      }
+    ],
+    "subtitle": "subtitle.goetied.black_beast_step"
+  },
+  "black_beast_death": {
+    "sounds": [
+      {
+        "name": "goetied:black_beast/death1"
+      },
+      {
+        "name": "goetied:black_beast/death2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.black_beast_death"
+  },
+  "whisperer_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:whisperer/idle1"
+      },
+      {
+        "name": "goetied:whisperer/idle2"
+      },
+      {
+        "name": "goetied:whisperer/idle3"
+      },
+      {
+        "name": "goetied:whisperer/idle4"
+      },
+      {
+        "name": "goetied:whisperer/idle5"
+      },
+      {
+        "name": "goetied:whisperer/idle6"
+      }
+    ],
+    "subtitle": "subtitle.goetied.whisperer_ambient"
+  },
+  "whisperer_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:whisperer/hurt1"
+      },
+      {
+        "name": "goetied:whisperer/hurt2"
+      },
+      {
+        "name": "goetied:whisperer/hurt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.whisperer_hurt"
+  },
+  "whisperer_attack": {
+    "sounds": [
+      {
+        "name": "goetied:whisperer/attack1"
+      },
+      {
+        "name": "goetied:whisperer/attack2"
+      },
+      {
+        "name": "goetied:whisperer/attack3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.whisperer_attack"
+  },
+  "whisperer_summon": {
+    "sounds": [
+      {
+        "name": "goetied:whisperer/summon"
+      }
+    ],
+    "subtitle": "subtitle.goetied.whisperer_summon"
+  },
+  "whisperer_summon_poison": {
+    "sounds": [
+      {
+        "name": "goetied:whisperer/summon_poison"
+      }
+    ],
+    "subtitle": "subtitle.goetied.whisperer_summon_poison"
+  },
+  "whisperer_cast_thorns": {
+    "sounds": [
+      {
+        "name": "goetied:whisperer/cast_thorns"
+      }
+    ],
+    "subtitle": "subtitle.goetied.whisperer_cast_thorns"
+  },
+  "whisperer_summon_thorns": {
+    "sounds": [
+      {
+        "name": "goetied:whisperer/summon_thorns"
+      }
+    ],
+    "subtitle": "subtitle.goetied.whisperer_summon_thorns"
+  },
+  "whisperer_step": {
+    "sounds": [
+      {
+        "name": "goetied:whisperer/step1"
+      },
+      {
+        "name": "goetied:whisperer/step2"
+      },
+      {
+        "name": "goetied:whisperer/step3"
+      },
+      {
+        "name": "goetied:whisperer/step4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.whisperer_step"
+  },
+  "whisperer_death": {
+    "sounds": [
+      {
+        "name": "goetied:whisperer/hurt1",
+        "pitch": 0.5
+      },
+      {
+        "name": "goetied:whisperer/hurt2",
+        "pitch": 0.5
+      },
+      {
+        "name": "goetied:whisperer/hurt3",
+        "pitch": 0.5
+      }
+    ],
+    "subtitle": "subtitle.goetied.whisperer_death"
+  },
+  "wavewhisperer_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:wavewhisperer/idle1"
+      },
+      {
+        "name": "goetied:wavewhisperer/idle2"
+      },
+      {
+        "name": "goetied:wavewhisperer/idle3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wavewhisperer_ambient"
+  },
+  "wavewhisperer_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:wavewhisperer/hurt1"
+      },
+      {
+        "name": "goetied:wavewhisperer/hurt2"
+      },
+      {
+        "name": "goetied:wavewhisperer/hurt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wavewhisperer_hurt"
+  },
+  "wavewhisperer_attack": {
+    "sounds": [
+      {
+        "name": "goetied:wavewhisperer/attack1"
+      },
+      {
+        "name": "goetied:wavewhisperer/attack2"
+      },
+      {
+        "name": "goetied:wavewhisperer/attack3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wavewhisperer_attack"
+  },
+  "wavewhisperer_summon": {
+    "sounds": [
+      {
+        "name": "goetied:wavewhisperer/summon"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wavewhisperer_summon"
+  },
+  "wavewhisperer_summon_poison": {
+    "sounds": [
+      {
+        "name": "goetied:wavewhisperer/summon_poison"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wavewhisperer_summon_poison"
+  },
+  "wavewhisperer_cast_thorns": {
+    "sounds": [
+      {
+        "name": "goetied:whisperer/cast_thorns"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wavewhisperer_cast_thorns"
+  },
+  "wavewhisperer_summon_thorns": {
+    "sounds": [
+      {
+        "name": "goetied:wavewhisperer/summon_thorns"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wavewhisperer_summon_thorns"
+  },
+  "wavewhisperer_step": {
+    "sounds": [
+      {
+        "name": "goetied:wavewhisperer/step1"
+      },
+      {
+        "name": "goetied:wavewhisperer/step2"
+      },
+      {
+        "name": "goetied:wavewhisperer/step3"
+      },
+      {
+        "name": "goetied:wavewhisperer/step4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wavewhisperer_step"
+  },
+  "wavewhisperer_death": {
+    "sounds": [
+      {
+        "name": "goetied:wavewhisperer/hurt1",
+        "pitch": 0.5
+      },
+      {
+        "name": "goetied:wavewhisperer/hurt2",
+        "pitch": 0.5
+      },
+      {
+        "name": "goetied:wavewhisperer/hurt3",
+        "pitch": 0.5
+      }
+    ],
+    "subtitle": "subtitle.goetied.wavewhisperer_death"
+  },
+  "leapleaf_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:leapleaf/idle1"
+      },
+      {
+        "name": "goetied:leapleaf/idle2"
+      },
+      {
+        "name": "goetied:leapleaf/idle3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.leapleaf_ambient"
+  },
+  "leapleaf_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:leapleaf/hurt1"
+      },
+      {
+        "name": "goetied:leapleaf/hurt2"
+      },
+      {
+        "name": "goetied:leapleaf/hurt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.leapleaf_hurt"
+  },
+  "leapleaf_smash": {
+    "sounds": [
+      {
+        "name": "goetied:leapleaf/smash1"
+      },
+      {
+        "name": "goetied:leapleaf/smash2"
+      },
+      {
+        "name": "goetied:leapleaf/smash3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.leapleaf_smash"
+  },
+  "leapleaf_charge": {
+    "sounds": [
+      {
+        "name": "goetied:leapleaf/charge1"
+      },
+      {
+        "name": "goetied:leapleaf/charge2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.leapleaf_charge"
+  },
+  "leapleaf_leap": {
+    "sounds": [
+      {
+        "name": "goetied:leapleaf/leap1"
+      },
+      {
+        "name": "goetied:leapleaf/leap2"
+      },
+      {
+        "name": "goetied:leapleaf/leap3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.leapleaf_leap"
+  },
+  "leapleaf_rest": {
+    "sounds": [
+      {
+        "name": "goetied:leapleaf/rest1"
+      },
+      {
+        "name": "goetied:leapleaf/rest2"
+      },
+      {
+        "name": "goetied:leapleaf/rest3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.leapleaf_rest"
+  },
+  "leapleaf_alert": {
+    "sounds": [
+      {
+        "name": "goetied:leapleaf/alert1"
+      },
+      {
+        "name": "goetied:leapleaf/alert2"
+      },
+      {
+        "name": "goetied:leapleaf/alert3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.leapleaf_ambient"
+  },
+  "leapleaf_step": {
+    "sounds": [
+      {
+        "name": "goetied:leapleaf/walk1"
+      },
+      {
+        "name": "goetied:leapleaf/walk2"
+      },
+      {
+        "name": "goetied:leapleaf/walk3"
+      },
+      {
+        "name": "goetied:leapleaf/walk4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.leapleaf_step"
+  },
+  "leapleaf_death": {
+    "sounds": [
+      {
+        "name": "goetied:leapleaf/death"
+      }
+    ],
+    "subtitle": "subtitle.goetied.leapleaf_death"
+  },
+  "ice_golem_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:ice_golem/hurt1",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:ice_golem/hurt2",
+        "pitch": 1.25
+      }
+    ],
+    "subtitle": "subtitle.goetied.ice_golem_hurt"
+  },
+  "ice_golem_swing": {
+    "sounds": [
+      {
+        "name": "goetied:ice_golem/swing1",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:ice_golem/swing2",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:ice_golem/swing3",
+        "pitch": 1.25
+      }
+    ],
+    "subtitle": "subtitle.goetied.ice_golem_attack"
+  },
+  "ice_golem_attack": {
+    "sounds": [
+      {
+        "name": "goetied:ice_golem/attack1",
+        "pitch": 1.25
+      },
+      {
+        "name": "goetied:ice_golem/attack2",
+        "pitch": 1.25
+      }
+    ],
+    "subtitle": "subtitle.goetied.ice_golem_attack"
+  },
+  "ice_golem_pre_smash": {
+    "sounds": [
+      {
+        "name": "goetied:ice_golem/pre_smash"
+      }
+    ],
+    "subtitle": "subtitle.goetied.ice_golem_pre_smash"
+  },
+  "ice_golem_step": {
+    "sounds": [
+      {
+        "name": "mob/irongolem/walk1",
+        "pitch": 1.25
+      },
+      {
+        "name": "mob/irongolem/walk2",
+        "pitch": 1.25
+      },
+      {
+        "name": "mob/irongolem/walk3",
+        "pitch": 1.25
+      },
+      {
+        "name": "mob/irongolem/walk4",
+        "pitch": 1.25
+      }
+    ],
+    "subtitle": "subtitle.goetied.ice_golem_step"
+  },
+  "ice_golem_death": {
+    "sounds": [
+      {
+        "name": "mob/irongolem/death",
+        "pitch": 1.25
+      }
+    ],
+    "subtitle": "subtitle.goetied.ice_golem_death"
+  },
+  "squall_golem_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:squall_golem/hurt1"
+      },
+      {
+        "name": "goetied:squall_golem/hurt2"
+      },
+      {
+        "name": "goetied:squall_golem/hurt3"
+      },
+      {
+        "name": "goetied:squall_golem/hurt4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.squall_golem_hurt"
+  },
+  "squall_golem_activate": {
+    "sounds": [
+      {
+        "name": "goetied:squall_golem/activate1"
+      },
+      {
+        "name": "goetied:squall_golem/activate2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.squall_golem_activate"
+  },
+  "squall_golem_deactivate": {
+    "sounds": [
+      {
+        "name": "goetied:squall_golem/deactivate1"
+      },
+      {
+        "name": "goetied:squall_golem/deactivate2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.squall_golem_deactivate"
+  },
+  "squall_golem_wind_start": {
+    "sounds": [
+      {
+        "name": "goetied:squall_golem/wind_start"
+      }
+    ]
+  },
+  "squall_golem_wind_slow": {
+    "sounds": [
+      {
+        "name": "goetied:squall_golem/wind_slow1"
+      },
+      {
+        "name": "goetied:squall_golem/wind_slow2"
+      },
+      {
+        "name": "goetied:squall_golem/wind_slow3"
+      },
+      {
+        "name": "goetied:squall_golem/wind_slow4"
+      },
+      {
+        "name": "goetied:squall_golem/wind_slow5"
+      },
+      {
+        "name": "goetied:squall_golem/wind_slow6"
+      },
+      {
+        "name": "goetied:squall_golem/wind_slow7"
+      },
+      {
+        "name": "goetied:squall_golem/wind_slow8"
+      }
+    ]
+  },
+  "squall_golem_wind_fast": {
+    "sounds": [
+      {
+        "name": "goetied:squall_golem/wind_fast1"
+      },
+      {
+        "name": "goetied:squall_golem/wind_fast2"
+      },
+      {
+        "name": "goetied:squall_golem/wind_fast3"
+      },
+      {
+        "name": "goetied:squall_golem/wind_fast4"
+      },
+      {
+        "name": "goetied:squall_golem/wind_fast5"
+      },
+      {
+        "name": "goetied:squall_golem/wind_fast6"
+      },
+      {
+        "name": "goetied:squall_golem/wind_fast7"
+      },
+      {
+        "name": "goetied:squall_golem/wind_fast8"
+      }
+    ]
+  },
+  "squall_golem_alert": {
+    "sounds": [
+      {
+        "name": "goetied:squall_golem/alert1"
+      },
+      {
+        "name": "goetied:squall_golem/alert2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.squall_golem_alert"
+  },
+  "squall_golem_attack": {
+    "sounds": [
+      {
+        "name": "goetied:squall_golem/attack1"
+      },
+      {
+        "name": "goetied:squall_golem/attack2"
+      },
+      {
+        "name": "goetied:squall_golem/attack3"
+      },
+      {
+        "name": "goetied:squall_golem/attack4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.squall_golem_attack"
+  },
+  "squall_golem_step": {
+    "sounds": [
+      {
+        "name": "goetied:squall_golem/step_left1"
+      },
+      {
+        "name": "goetied:squall_golem/step_right1"
+      },
+      {
+        "name": "goetied:squall_golem/step_left2"
+      },
+      {
+        "name": "goetied:squall_golem/step_right2"
+      },
+      {
+        "name": "goetied:squall_golem/step_left3"
+      },
+      {
+        "name": "goetied:squall_golem/step_right3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.squall_golem_step"
+  },
+  "squall_golem_death": {
+    "sounds": [
+      {
+        "name": "goetied:squall_golem/death1"
+      },
+      {
+        "name": "goetied:squall_golem/death2"
+      },
+      {
+        "name": "goetied:squall_golem/death3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.squall_golem_death"
+  },
+  "redstone_golem_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_golem/idle1"
+      },
+      {
+        "name": "goetied:redstone_golem/idle2"
+      },
+      {
+        "name": "goetied:redstone_golem/idle3"
+      },
+      {
+        "name": "goetied:redstone_golem/idle4"
+      },
+      {
+        "name": "goetied:redstone_golem/idle5"
+      }
+    ],
+    "subtitle": "subtitle.goetied.redstone_golem_ambient"
+  },
+  "redstone_golem_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_golem/hurt1"
+      },
+      {
+        "name": "goetied:redstone_golem/hurt2"
+      },
+      {
+        "name": "goetied:redstone_golem/hurt3"
+      },
+      {
+        "name": "goetied:redstone_golem/hurt4"
+      },
+      {
+        "name": "goetied:redstone_golem/hurt5"
+      },
+      {
+        "name": "goetied:redstone_golem/hurt6"
+      },
+      {
+        "name": "goetied:redstone_golem/hurt7"
+      },
+      {
+        "name": "goetied:redstone_golem/hurt8"
+      }
+    ],
+    "subtitle": "subtitle.goetied.redstone_golem_hurt"
+  },
+  "redstone_golem_summon": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_golem/summon"
+      }
+    ],
+    "subtitle": "subtitle.goetied.redstone_golem_summon"
+  },
+  "redstone_golem_pre_attack": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_golem/pre_attack1"
+      },
+      {
+        "name": "goetied:redstone_golem/pre_attack2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.redstone_golem_pre_attack"
+  },
+  "redstone_golem_attack": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_golem/attack1"
+      },
+      {
+        "name": "goetied:redstone_golem/attack2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.redstone_golem_attack"
+  },
+  "redstone_golem_chest": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_golem/chest1"
+      },
+      {
+        "name": "goetied:redstone_golem/chest2"
+      },
+      {
+        "name": "goetied:redstone_golem/chest3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.redstone_golem_chest"
+  },
+  "redstone_golem_growl": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_golem/growl1"
+      },
+      {
+        "name": "goetied:redstone_golem/growl2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.redstone_golem_growl"
+  },
+  "redstone_golem_electric_sparks": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_golem/sparks1"
+      },
+      {
+        "name": "goetied:redstone_golem/sparks2"
+      },
+      {
+        "name": "goetied:redstone_golem/sparks3"
+      },
+      {
+        "name": "goetied:redstone_golem/sparks4"
+      },
+      {
+        "name": "goetied:redstone_golem/sparks5"
+      }
+    ]
+  },
+  "redstone_golem_step": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_golem/step1"
+      },
+      {
+        "name": "goetied:redstone_golem/step2"
+      },
+      {
+        "name": "goetied:redstone_golem/step3"
+      },
+      {
+        "name": "goetied:redstone_golem/step4"
+      },
+      {
+        "name": "goetied:redstone_golem/step5"
+      }
+    ],
+    "subtitle": "subtitle.goetied.redstone_golem_step"
+  },
+  "redstone_golem_death": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_golem/death1"
+      },
+      {
+        "name": "goetied:redstone_golem/death2"
+      },
+      {
+        "name": "goetied:redstone_golem/death3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.redstone_golem_death"
+  },
+  "grave_golem_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:grave_golem/idle1"
+      },
+      {
+        "name": "goetied:grave_golem/idle2"
+      },
+      {
+        "name": "goetied:grave_golem/idle3"
+      },
+      {
+        "name": "goetied:grave_golem/idle4"
+      },
+      {
+        "name": "goetied:grave_golem/idle5"
+      },
+      {
+        "name": "goetied:grave_golem/idle6"
+      },
+      {
+        "name": "goetied:grave_golem/idle7"
+      }
+    ],
+    "subtitle": "subtitle.goetied.grave_golem_ambient"
+  },
+  "grave_golem_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:grave_golem/hurt1"
+      },
+      {
+        "name": "goetied:grave_golem/hurt2"
+      },
+      {
+        "name": "goetied:grave_golem/hurt3"
+      },
+      {
+        "name": "goetied:grave_golem/hurt4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.grave_golem_hurt"
+  },
+  "grave_golem_awaken": {
+    "sounds": [
+      {
+        "name": "goetied:grave_golem/awaken",
+        "pitch": 0.75
+      }
+    ],
+    "subtitle": "subtitle.goetied.grave_golem_awaken"
+  },
+  "grave_golem_arm": {
+    "sounds": [
+      {
+        "name": "goetied:grave_golem/arm1",
+        "pitch": 0.75
+      },
+      {
+        "name": "goetied:grave_golem/arm2",
+        "pitch": 0.75
+      }
+    ]
+  },
+  "grave_golem_blast": {
+    "sounds": [
+      {
+        "name": "goetied:grave_golem/belch1",
+        "pitch": 0.75
+      },
+      {
+        "name": "goetied:grave_golem/belch2",
+        "pitch": 0.75
+      },
+      {
+        "name": "goetied:grave_golem/belch3",
+        "pitch": 0.75
+      }
+    ],
+    "subtitle": "subtitle.goetied.grave_golem_blast"
+  },
+  "grave_golem_growl": {
+    "sounds": [
+      {
+        "name": "goetied:grave_golem/short_growl"
+      }
+    ],
+    "subtitle": "subtitle.goetied.grave_golem_growl"
+  },
+  "grave_golem_step": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_golem/step1",
+        "pitch": 0.75
+      },
+      {
+        "name": "goetied:redstone_golem/step2",
+        "pitch": 0.75
+      },
+      {
+        "name": "goetied:redstone_golem/step3",
+        "pitch": 0.75
+      },
+      {
+        "name": "goetied:redstone_golem/step4",
+        "pitch": 0.75
+      },
+      {
+        "name": "goetied:redstone_golem/step5",
+        "pitch": 0.75
+      }
+    ],
+    "subtitle": "subtitle.goetied.grave_golem_step"
+  },
+  "grave_golem_death": {
+    "sounds": [
+      {
+        "name": "goetied:grave_golem/death",
+        "pitch": 0.75
+      }
+    ],
+    "subtitle": "subtitle.goetied.grave_golem_death"
+  },
+  "haunt_ambient": {
+    "sounds": [
+      {
+        "name": "enchant/soulspeed/soulspeed1",
+        "pitch": 0.75
+      },
+      {
+        "name": "enchant/soulspeed/soulspeed2",
+        "pitch": 0.75
+      },
+      {
+        "name": "enchant/soulspeed/soulspeed3",
+        "pitch": 0.75
+      },
+      {
+        "name": "enchant/soulspeed/soulspeed4",
+        "pitch": 0.75
+      },
+      {
+        "name": "enchant/soulspeed/soulspeed5",
+        "pitch": 0.75
+      },
+      {
+        "name": "enchant/soulspeed/soulspeed6",
+        "pitch": 0.75
+      },
+      {
+        "name": "enchant/soulspeed/soulspeed7",
+        "pitch": 0.75
+      },
+      {
+        "name": "enchant/soulspeed/soulspeed8",
+        "pitch": 0.75
+      },
+      {
+        "name": "enchant/soulspeed/soulspeed9",
+        "pitch": 0.75
+      },
+      {
+        "name": "enchant/soulspeed/soulspeed10",
+        "pitch": 0.75
+      },
+      {
+        "name": "enchant/soulspeed/soulspeed11",
+        "pitch": 0.75
+      },
+      {
+        "name": "enchant/soulspeed/soulspeed12",
+        "pitch": 0.75
+      },
+      {
+        "name": "enchant/soulspeed/soulspeed13",
+        "pitch": 0.75
+      }
+    ],
+    "subtitle": "subtitle.goetied.haunt_ambient"
+  },
+  "haunt_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:haunt/hurt1",
+        "pitch": 0.75
+      },
+      {
+        "name": "goetied:haunt/hurt2",
+        "pitch": 0.75
+      },
+      {
+        "name": "goetied:haunt/hurt3",
+        "pitch": 0.75
+      }
+    ],
+    "subtitle": "subtitle.goetied.haunt_hurt"
+  },
+  "haunt_fly": {
+    "sounds": [
+      {
+        "name": "goetied:wraith/fly1",
+        "pitch": 0.75
+      },
+      {
+        "name": "goetied:wraith/fly2",
+        "pitch": 0.75
+      },
+      {
+        "name": "goetied:wraith/fly3",
+        "pitch": 0.75
+      },
+      {
+        "name": "goetied:wraith/fly4",
+        "pitch": 0.75
+      },
+      {
+        "name": "goetied:wraith/fly5",
+        "pitch": 0.75
+      }
+    ],
+    "subtitle": "subtitle.goetied.haunt_fly"
+  },
+  "redstone_monstrosity_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_monstrosity/idle1"
+      },
+      {
+        "name": "goetied:redstone_monstrosity/idle2"
+      },
+      {
+        "name": "goetied:redstone_monstrosity/idle3"
+      },
+      {
+        "name": "goetied:redstone_monstrosity/idle4"
+      },
+      {
+        "name": "goetied:redstone_monstrosity/idle5"
+      },
+      {
+        "name": "goetied:redstone_monstrosity/idle6"
+      },
+      {
+        "name": "goetied:redstone_monstrosity/idle7"
+      }
+    ],
+    "subtitle": "subtitle.goetied.redstone_monstrosity_ambient"
+  },
+  "redstone_monstrosity_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_monstrosity/hurt1"
+      },
+      {
+        "name": "goetied:redstone_monstrosity/hurt2"
+      },
+      {
+        "name": "goetied:redstone_monstrosity/hurt3"
+      },
+      {
+        "name": "goetied:redstone_monstrosity/hurt4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.redstone_monstrosity_hurt"
+  },
+  "redstone_monstrosity_awaken": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_monstrosity/awaken"
+      }
+    ],
+    "subtitle": "subtitle.goetied.redstone_monstrosity_awaken"
+  },
+  "redstone_monstrosity_arm": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_monstrosity/arm1"
+      },
+      {
+        "name": "goetied:redstone_monstrosity/arm2"
+      }
+    ]
+  },
+  "redstone_monstrosity_charge": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_monstrosity/charge1"
+      },
+      {
+        "name": "goetied:redstone_monstrosity/charge2"
+      },
+      {
+        "name": "goetied:redstone_monstrosity/charge3"
+      }
+    ]
+  },
+  "redstone_monstrosity_smash": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_monstrosity/smash"
+      }
+    ]
+  },
+  "redstone_monstrosity_belch": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_monstrosity/belch1"
+      },
+      {
+        "name": "goetied:redstone_monstrosity/belch2"
+      },
+      {
+        "name": "goetied:redstone_monstrosity/belch3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.redstone_monstrosity_belch"
+  },
+  "redstone_monstrosity_growl": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_monstrosity/short_growl"
+      }
+    ],
+    "subtitle": "subtitle.goetied.redstone_monstrosity_growl"
+  },
+  "redstone_monstrosity_chase": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_monstrosity/chase1"
+      },
+      {
+        "name": "goetied:redstone_monstrosity/chase2"
+      },
+      {
+        "name": "goetied:redstone_monstrosity/chase3"
+      },
+      {
+        "name": "goetied:redstone_monstrosity/chase4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.redstone_monstrosity_step"
+  },
+  "redstone_monstrosity_step": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_monstrosity/step1"
+      },
+      {
+        "name": "goetied:redstone_monstrosity/step2"
+      },
+      {
+        "name": "goetied:redstone_monstrosity/step3"
+      },
+      {
+        "name": "goetied:redstone_monstrosity/step4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.redstone_monstrosity_step"
+  },
+  "redstone_monstrosity_death": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_monstrosity/death"
+      }
+    ],
+    "subtitle": "subtitle.goetied.redstone_monstrosity_death"
+  },
+  "redstone_cube_burst": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_cube/burst1"
+      },
+      {
+        "name": "goetied:redstone_cube/burst2"
+      },
+      {
+        "name": "goetied:redstone_cube/burst3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.redstone_cube_burst"
+  },
+  "redstone_cube_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_cube/hurt1"
+      },
+      {
+        "name": "goetied:redstone_cube/hurt2"
+      },
+      {
+        "name": "goetied:redstone_cube/hurt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.redstone_cube_hurt"
+  },
+  "redstone_cube_walk": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_cube/walk1"
+      },
+      {
+        "name": "goetied:redstone_cube/walk2"
+      },
+      {
+        "name": "goetied:redstone_cube/walk3"
+      },
+      {
+        "name": "goetied:redstone_cube/walk4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.redstone_cube_walk"
+  },
+  "redstone_cube_attack": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_cube/attack1"
+      },
+      {
+        "name": "goetied:redstone_cube/attack2"
+      },
+      {
+        "name": "goetied:redstone_cube/attack3"
+      },
+      {
+        "name": "goetied:redstone_cube/attack4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.redstone_cube_attack"
+  },
+  "watchling_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:watchling/idle1"
+      },
+      {
+        "name": "goetied:watchling/idle2"
+      },
+      {
+        "name": "goetied:watchling/idle3"
+      },
+      {
+        "name": "goetied:watchling/idle4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.watchling_ambient"
+  },
+  "watchling_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:watchling/hurt1"
+      },
+      {
+        "name": "goetied:watchling/hurt2"
+      },
+      {
+        "name": "goetied:watchling/hurt3"
+      },
+      {
+        "name": "goetied:watchling/hurt4"
+      },
+      {
+        "name": "goetied:watchling/hurt5"
+      },
+      {
+        "name": "goetied:watchling/hurt6"
+      }
+    ],
+    "subtitle": "subtitle.goetied.watchling_hurt"
+  },
+  "watchling_attack": {
+    "sounds": [
+      {
+        "name": "goetied:watchling/attack1"
+      },
+      {
+        "name": "goetied:watchling/attack2"
+      },
+      {
+        "name": "goetied:watchling/attack3"
+      },
+      {
+        "name": "goetied:watchling/attack4"
+      },
+      {
+        "name": "goetied:watchling/attack5"
+      },
+      {
+        "name": "goetied:watchling/attack6"
+      }
+    ],
+    "subtitle": "subtitle.goetied.watchling_attack"
+  },
+  "watchling_smash": {
+    "sounds": [
+      {
+        "name": "goetied:watchling/smash1"
+      },
+      {
+        "name": "goetied:watchling/smash2"
+      },
+      {
+        "name": "goetied:watchling/smash3"
+      },
+      {
+        "name": "goetied:watchling/smash4"
+      },
+      {
+        "name": "goetied:watchling/smash5"
+      },
+      {
+        "name": "goetied:watchling/smash6"
+      }
+    ],
+    "subtitle": "subtitle.goetied.watchling_attack"
+  },
+  "watchling_step": {
+    "sounds": [
+      {
+        "name": "goetied:watchling/step1"
+      },
+      {
+        "name": "goetied:watchling/step2"
+      },
+      {
+        "name": "goetied:watchling/step3"
+      },
+      {
+        "name": "goetied:watchling/step4"
+      },
+      {
+        "name": "goetied:watchling/step5"
+      }
+    ],
+    "subtitle": "subtitle.goetied.watchling_step"
+  },
+  "watchling_death": {
+    "sounds": [
+      {
+        "name": "goetied:watchling/death1"
+      },
+      {
+        "name": "goetied:watchling/death2"
+      },
+      {
+        "name": "goetied:watchling/death3"
+      },
+      {
+        "name": "goetied:watchling/death4"
+      },
+      {
+        "name": "goetied:watchling/death5"
+      }
+    ],
+    "subtitle": "subtitle.goetied.watchling_death"
+  },
+  "blastling_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:blastling/idle1"
+      },
+      {
+        "name": "goetied:blastling/idle2"
+      },
+      {
+        "name": "goetied:blastling/idle3"
+      },
+      {
+        "name": "goetied:blastling/idle4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.blastling_ambient"
+  },
+  "blastling_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:blastling/hurt1"
+      },
+      {
+        "name": "goetied:blastling/hurt2"
+      },
+      {
+        "name": "goetied:blastling/hurt3"
+      },
+      {
+        "name": "goetied:blastling/hurt4"
+      },
+      {
+        "name": "goetied:blastling/hurt5"
+      },
+      {
+        "name": "goetied:blastling/hurt6"
+      }
+    ],
+    "subtitle": "subtitle.goetied.blastling_hurt"
+  },
+  "blastling_pre_attack": {
+    "sounds": [
+      {
+        "name": "goetied:blastling/pre_attack1"
+      },
+      {
+        "name": "goetied:blastling/pre_attack2"
+      },
+      {
+        "name": "goetied:blastling/pre_attack3"
+      },
+      {
+        "name": "goetied:blastling/pre_attack4"
+      },
+      {
+        "name": "goetied:blastling/pre_attack5"
+      },
+      {
+        "name": "goetied:blastling/pre_attack6"
+      }
+    ],
+    "subtitle": "subtitle.goetied.blastling_pre_attack"
+  },
+  "blastling_shoot": {
+    "sounds": [
+      {
+        "name": "goetied:blastling/shoot1"
+      },
+      {
+        "name": "goetied:blastling/shoot2"
+      },
+      {
+        "name": "goetied:blastling/shoot3"
+      },
+      {
+        "name": "goetied:blastling/shoot4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.blastling_shoot"
+  },
+  "blastling_step": {
+    "sounds": [
+      {
+        "name": "goetied:blastling/step1"
+      },
+      {
+        "name": "goetied:blastling/step2"
+      },
+      {
+        "name": "goetied:blastling/step3"
+      },
+      {
+        "name": "goetied:blastling/step4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.blastling_step"
+  },
+  "blastling_death": {
+    "sounds": [
+      {
+        "name": "goetied:blastling/death1"
+      },
+      {
+        "name": "goetied:blastling/death2"
+      },
+      {
+        "name": "goetied:blastling/death3"
+      },
+      {
+        "name": "goetied:blastling/death4"
+      },
+      {
+        "name": "goetied:blastling/death5"
+      },
+      {
+        "name": "goetied:blastling/death6"
+      }
+    ],
+    "subtitle": "subtitle.goetied.blastling_death"
+  },
+  "snareling_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:snareling/idle1"
+      },
+      {
+        "name": "goetied:snareling/idle2"
+      },
+      {
+        "name": "goetied:snareling/idle3"
+      },
+      {
+        "name": "goetied:snareling/idle4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.snareling_ambient"
+  },
+  "snareling_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:snareling/hurt1"
+      },
+      {
+        "name": "goetied:snareling/hurt2"
+      },
+      {
+        "name": "goetied:snareling/hurt3"
+      },
+      {
+        "name": "goetied:snareling/hurt4"
+      },
+      {
+        "name": "goetied:snareling/hurt5"
+      },
+      {
+        "name": "goetied:snareling/hurt6"
+      }
+    ],
+    "subtitle": "subtitle.goetied.snareling_hurt"
+  },
+  "snareling_ambient_swing": {
+    "sounds": [
+      {
+        "name": "goetied:snareling/idle_swing1"
+      },
+      {
+        "name": "goetied:snareling/idle_swing2"
+      },
+      {
+        "name": "goetied:snareling/idle_swing3"
+      }
+    ]
+  },
+  "snareling_shoot": {
+    "sounds": [
+      {
+        "name": "goetied:snareling/shoot1"
+      },
+      {
+        "name": "goetied:snareling/shoot2"
+      },
+      {
+        "name": "goetied:snareling/shoot3"
+      },
+      {
+        "name": "goetied:snareling/shoot4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.snareling_shoot"
+  },
+  "snareling_melee": {
+    "sounds": [
+      {
+        "name": "goetied:snareling/melee1"
+      },
+      {
+        "name": "goetied:snareling/melee2"
+      },
+      {
+        "name": "goetied:snareling/melee3"
+      },
+      {
+        "name": "goetied:snareling/melee4"
+      },
+      {
+        "name": "goetied:snareling/melee5"
+      },
+      {
+        "name": "goetied:snareling/melee6"
+      }
+    ]
+  },
+  "snareling_melee_vocal": {
+    "sounds": [
+      {
+        "name": "goetied:snareling/melee_vocal1"
+      },
+      {
+        "name": "goetied:snareling/melee_vocal2"
+      },
+      {
+        "name": "goetied:snareling/melee_vocal3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.snareling_melee"
+  },
+  "snareling_step": {
+    "sounds": [
+      {
+        "name": "goetied:snareling/step1"
+      },
+      {
+        "name": "goetied:snareling/step2"
+      },
+      {
+        "name": "goetied:snareling/step3"
+      },
+      {
+        "name": "goetied:snareling/step4"
+      },
+      {
+        "name": "goetied:snareling/step5"
+      },
+      {
+        "name": "goetied:snareling/step6"
+      }
+    ],
+    "subtitle": "subtitle.goetied.snareling_step"
+  },
+  "snareling_death": {
+    "sounds": [
+      {
+        "name": "goetied:snareling/death1"
+      },
+      {
+        "name": "goetied:snareling/death2"
+      },
+      {
+        "name": "goetied:snareling/death3"
+      },
+      {
+        "name": "goetied:snareling/death4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.snareling_death"
+  },
+  "endersent_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:endersent/idle1"
+      },
+      {
+        "name": "goetied:endersent/idle2"
+      },
+      {
+        "name": "goetied:endersent/idle3"
+      },
+      {
+        "name": "goetied:endersent/idle4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.endersent_ambient"
+  },
+  "endersent_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:endersent/hurt1"
+      },
+      {
+        "name": "goetied:endersent/hurt2"
+      },
+      {
+        "name": "goetied:endersent/hurt3"
+      },
+      {
+        "name": "goetied:endersent/hurt4"
+      },
+      {
+        "name": "goetied:endersent/hurt5"
+      },
+      {
+        "name": "goetied:endersent/hurt6"
+      },
+      {
+        "name": "goetied:endersent/hurt7"
+      },
+      {
+        "name": "goetied:endersent/hurt8"
+      }
+    ],
+    "subtitle": "subtitle.goetied.endersent_hurt"
+  },
+  "endersent_ambient_smash": {
+    "sounds": [
+      {
+        "name": "goetied:endersent/idle_smash1"
+      },
+      {
+        "name": "goetied:endersent/idle_smash2"
+      },
+      {
+        "name": "goetied:endersent/idle_smash3"
+      },
+      {
+        "name": "goetied:endersent/idle_smash4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.endersent_ambient_smash"
+  },
+  "endersent_attack": {
+    "sounds": [
+      {
+        "name": "goetied:endersent/attack1"
+      },
+      {
+        "name": "goetied:endersent/attack2"
+      },
+      {
+        "name": "goetied:endersent/attack3"
+      },
+      {
+        "name": "goetied:endersent/attack4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.endersent_attack"
+  },
+  "endersent_swing": {
+    "sounds": [
+      {
+        "name": "goetied:endersent/swing1"
+      },
+      {
+        "name": "goetied:endersent/swing2"
+      },
+      {
+        "name": "goetied:endersent/swing3"
+      },
+      {
+        "name": "goetied:endersent/swing4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.endersent_swing"
+  },
+  "endersent_teleport_smash": {
+    "sounds": [
+      {
+        "name": "goetied:endersent/teleport_smash1"
+      },
+      {
+        "name": "goetied:endersent/teleport_smash2"
+      },
+      {
+        "name": "goetied:endersent/teleport_smash3"
+      },
+      {
+        "name": "goetied:endersent/teleport_smash4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.endersent_teleport_smash"
+  },
+  "endersent_deadly_escape": {
+    "sounds": [
+      {
+        "name": "goetied:endersent/deadly_escape1"
+      },
+      {
+        "name": "goetied:endersent/deadly_escape2"
+      },
+      {
+        "name": "goetied:endersent/deadly_escape3"
+      },
+      {
+        "name": "goetied:endersent/deadly_escape4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.endersent_deadly_escape"
+  },
+  "endersent_step": {
+    "sounds": [
+      {
+        "name": "goetied:endersent/step1"
+      },
+      {
+        "name": "goetied:endersent/step2"
+      },
+      {
+        "name": "goetied:endersent/step3"
+      },
+      {
+        "name": "goetied:endersent/step4"
+      },
+      {
+        "name": "goetied:endersent/step5"
+      },
+      {
+        "name": "goetied:endersent/step6"
+      }
+    ],
+    "subtitle": "subtitle.goetied.endersent_step"
+  },
+  "endersent_death": {
+    "sounds": [
+      {
+        "name": "goetied:endersent/death1"
+      },
+      {
+        "name": "goetied:endersent/death2"
+      },
+      {
+        "name": "goetied:endersent/death3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.endersent_death"
+  },
+  "ender_keeper_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:ender_keeper/hurt1"
+      },
+      {
+        "name": "goetied:ender_keeper/hurt2"
+      },
+      {
+        "name": "goetied:ender_keeper/hurt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.ender_keeper_hurt"
+  },
+  "ender_keeper_death": {
+    "sounds": [
+      {
+        "name": "goetied:ender_keeper/death1"
+      },
+      {
+        "name": "goetied:ender_keeper/death2"
+      },
+      {
+        "name": "goetied:ender_keeper/death3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.ender_keeper_death"
+  },
+  "vizier_ambient": {
+    "sounds": [
+      {
+        "name": "mob/evocation_illager/idle1",
+        "pitch": 0.75
+      },
+      {
+        "name": "mob/evocation_illager/idle2",
+        "pitch": 0.75
+      },
+      {
+        "name": "mob/evocation_illager/idle3",
+        "pitch": 0.75
+      },
+      {
+        "name": "mob/evocation_illager/idle4",
+        "pitch": 0.75
+      }
+    ],
+    "subtitle": "subtitle.goetied.vizier_ambient"
+  },
+  "vizier_hurt": {
+    "sounds": [
+      {
+        "name": "mob/evocation_illager/hurt1",
+        "pitch": 0.75
+      },
+      {
+        "name": "mob/evocation_illager/hurt2",
+        "pitch": 0.75
+      }
+    ],
+    "subtitle": "subtitle.goetied.vizier_hurt"
+  },
+  "vizier_confuse": {
+    "sounds": [
+      {
+        "name": "mob/illusion_illager/idle1",
+        "pitch": 0.5
+      },
+      {
+        "name": "mob/illusion_illager/idle2",
+        "pitch": 0.5
+      },
+      {
+        "name": "mob/illusion_illager/idle3",
+        "pitch": 0.5
+      },
+      {
+        "name": "mob/illusion_illager/idle4",
+        "pitch": 0.5
+      }
+    ],
+    "subtitle": "subtitle.goetied.vizier_confuse"
+  },
+  "vizier_rage": {
+    "sounds": [
+      {
+        "name": "mob/villager/no1",
+        "pitch": 0.5
+      },
+      {
+        "name": "mob/villager/no2",
+        "pitch": 0.5
+      },
+      {
+        "name": "mob/villager/no3",
+        "pitch": 0.5
+      }
+    ],
+    "subtitle": "subtitle.goetied.vizier_rage"
+  },
+  "vizier_celebrate": {
+    "sounds": [
+      {
+        "name": "mob/evocation_illager/celebrate",
+        "pitch": 0.75
+      }
+    ],
+    "subtitle": "subtitle.goetied.vizier_celebrate"
+  },
+  "vizier_scream": {
+    "sounds": [
+      {
+        "name": "goetied:vizier/death"
+      }
+    ]
+  },
+  "vizier_death": {
+    "sounds": [
+      {
+        "name": "mob/evocation_illager/death1",
+        "pitch": 0.75
+      },
+      {
+        "name": "mob/evocation_illager/death2",
+        "pitch": 0.75
+      }
+    ],
+    "subtitle": "subtitle.goetied.vizier_death"
+  },
+  "ice_chunk_idle": {
+    "sounds": [
+      {
+        "name": "goetied:ice/idle"
+      }
+    ],
+    "subtitle": "subtitle.goetied.ice_chunk_idle"
+  },
+  "ice_chunk_summon": {
+    "sounds": [
+      {
+        "name": "goetied:ice/summon"
+      }
+    ],
+    "subtitle": "subtitle.goetied.ice_chunk_summon"
+  },
+  "ice_chunk_drop": {
+    "sounds": [
+      {
+        "name": "goetied:ice/drop"
+      }
+    ],
+    "subtitle": "subtitle.goetied.ice_chunk_drop"
+  },
+  "ice_chunk_hit": {
+    "sounds": [
+      {
+        "name": "goetied:ice/hit"
+      }
+    ],
+    "subtitle": "subtitle.goetied.ice_chunk_hit"
+  },
+  "wall_spawn": {
+    "sounds": [
+      {
+        "name": "goetied:wall/wall_spawn1"
+      },
+      {
+        "name": "goetied:wall/wall_spawn2"
+      },
+      {
+        "name": "goetied:wall/wall_spawn3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wall_spawn"
+  },
+  "wall_hit": {
+    "sounds": [
+      {
+        "name": "goetied:wall/wall_hit1"
+      },
+      {
+        "name": "goetied:wall/wall_hit2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wall_hit"
+  },
+  "wall_erupt": {
+    "sounds": [
+      {
+        "name": "goetied:wall/wall_erupt1"
+      },
+      {
+        "name": "goetied:wall/wall_erupt2"
+      },
+      {
+        "name": "goetied:wall/wall_erupt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wall_erupt"
+  },
+  "wall_disappear": {
+    "sounds": [
+      {
+        "name": "goetied:wall/wall_disappear"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wall_disappear"
+  },
+  "bomb_spawn": {
+    "sounds": [
+      {
+        "name": "goetied:wall/bomb_spawn1"
+      },
+      {
+        "name": "goetied:wall/bomb_spawn2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.bomb_spawn"
+  },
+  "bomb_pulse": {
+    "sounds": [
+      {
+        "name": "goetied:wall/bomb_pulse1"
+      },
+      {
+        "name": "goetied:wall/bomb_pulse2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.bomb_pulse"
+  },
+  "bomb_fuse": {
+    "sounds": [
+      {
+        "name": "goetied:wall/bomb_fuse"
+      }
+    ],
+    "subtitle": "subtitle.goetied.bomb_fuse"
+  },
+  "bomb_load": {
+    "sounds": [
+      {
+        "name": "goetied:wall/bomb_load"
+      }
+    ],
+    "subtitle": "subtitle.goetied.bomb_load"
+  },
+  "bomb_sparkle": {
+    "sounds": [
+      {
+        "name": "goetied:wall/bomb_sparkle1"
+      },
+      {
+        "name": "goetied:wall/bomb_sparkle2"
+      },
+      {
+        "name": "goetied:wall/bomb_sparkle3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.bomb_sparkle"
+  },
+  "quick_growing_vine_burst": {
+    "sounds": [
+      {
+        "name": "goetied:quick_growing_vine/burst1"
+      },
+      {
+        "name": "goetied:quick_growing_vine/burst2"
+      },
+      {
+        "name": "goetied:quick_growing_vine/burst3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.quick_growing_vine_burst"
+  },
+  "quick_growing_vine_burrow": {
+    "sounds": [
+      {
+        "name": "goetied:quick_growing_vine/burrow1"
+      },
+      {
+        "name": "goetied:quick_growing_vine/burrow2"
+      },
+      {
+        "name": "goetied:quick_growing_vine/burrow3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.quick_growing_vine_burrow"
+  },
+  "quick_growing_vine_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:quick_growing_vine/hurt1"
+      },
+      {
+        "name": "goetied:quick_growing_vine/hurt2"
+      },
+      {
+        "name": "goetied:quick_growing_vine/hurt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.quick_growing_vine_hurt"
+  },
+  "quick_growing_vine_death": {
+    "sounds": [
+      {
+        "name": "goetied:quick_growing_vine/death1"
+      },
+      {
+        "name": "goetied:quick_growing_vine/death2"
+      },
+      {
+        "name": "goetied:quick_growing_vine/death3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.quick_growing_vine_death"
+  },
+  "quick_growing_kelp_burst": {
+    "sounds": [
+      {
+        "name": "goetied:quick_growing_kelp/burst1"
+      },
+      {
+        "name": "goetied:quick_growing_kelp/burst2"
+      },
+      {
+        "name": "goetied:quick_growing_kelp/burst3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.quick_growing_kelp_burst"
+  },
+  "quick_growing_kelp_burrow": {
+    "sounds": [
+      {
+        "name": "goetied:quick_growing_kelp/burrow1"
+      },
+      {
+        "name": "goetied:quick_growing_kelp/burrow2"
+      },
+      {
+        "name": "goetied:quick_growing_kelp/burrow3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.quick_growing_kelp_burrow"
+  },
+  "quick_growing_kelp_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:quick_growing_kelp/hurt1"
+      },
+      {
+        "name": "goetied:quick_growing_kelp/hurt2"
+      },
+      {
+        "name": "goetied:quick_growing_kelp/hurt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.quick_growing_kelp_hurt"
+  },
+  "quick_growing_kelp_death": {
+    "sounds": [
+      {
+        "name": "goetied:quick_growing_kelp/death1"
+      },
+      {
+        "name": "goetied:quick_growing_kelp/death2"
+      },
+      {
+        "name": "goetied:quick_growing_kelp/death3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.quick_growing_kelp_death"
+  },
+  "poison_quill_vine_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:poison_quill_vine/idle1"
+      },
+      {
+        "name": "goetied:poison_quill_vine/idle2"
+      },
+      {
+        "name": "goetied:poison_quill_vine/idle3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.poison_quill_vine_ambient"
+  },
+  "poison_quill_vine_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:poison_quill_vine/hurt1"
+      },
+      {
+        "name": "goetied:poison_quill_vine/hurt2"
+      },
+      {
+        "name": "goetied:poison_quill_vine/hurt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.poison_quill_vine_hurt"
+  },
+  "poison_quill_vine_open": {
+    "sounds": [
+      {
+        "name": "goetied:poison_quill_vine/open"
+      }
+    ],
+    "subtitle": "subtitle.goetied.poison_quill_vine_open"
+  },
+  "poison_quill_vine_close": {
+    "sounds": [
+      {
+        "name": "goetied:poison_quill_vine/close"
+      }
+    ],
+    "subtitle": "subtitle.goetied.poison_quill_vine_close"
+  },
+  "poison_quill_vine_shoot": {
+    "sounds": [
+      {
+        "name": "goetied:poison_quill_vine/shoot1"
+      },
+      {
+        "name": "goetied:poison_quill_vine/shoot2"
+      },
+      {
+        "name": "goetied:poison_quill_vine/shoot3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.poison_quill_vine_shoot"
+  },
+  "poison_quill_vine_burst": {
+    "sounds": [
+      {
+        "name": "goetied:poison_quill_vine/burst"
+      }
+    ],
+    "subtitle": "subtitle.goetied.poison_quill_vine_burst"
+  },
+  "poison_quill_vine_death": {
+    "sounds": [
+      {
+        "name": "goetied:poison_quill_vine/death1"
+      },
+      {
+        "name": "goetied:poison_quill_vine/death2"
+      },
+      {
+        "name": "goetied:poison_quill_vine/death3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.poison_quill_vine_death"
+  },
+  "poison_anemone_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:poison_anemone/idle1"
+      },
+      {
+        "name": "goetied:poison_anemone/idle2"
+      },
+      {
+        "name": "goetied:poison_anemone/idle3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.poison_anemone_ambient"
+  },
+  "poison_anemone_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:poison_anemone/hurt1"
+      },
+      {
+        "name": "goetied:poison_anemone/hurt2"
+      },
+      {
+        "name": "goetied:poison_anemone/hurt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.poison_anemone_hurt"
+  },
+  "poison_anemone_open": {
+    "sounds": [
+      {
+        "name": "goetied:poison_quill_vine/open"
+      }
+    ],
+    "subtitle": "subtitle.goetied.poison_anemone_open"
+  },
+  "poison_anemone_close": {
+    "sounds": [
+      {
+        "name": "goetied:poison_anemone/close"
+      }
+    ],
+    "subtitle": "subtitle.goetied.poison_anemone_close"
+  },
+  "poison_anemone_shoot": {
+    "sounds": [
+      {
+        "name": "goetied:poison_anemone/shoot1"
+      },
+      {
+        "name": "goetied:poison_anemone/shoot2"
+      },
+      {
+        "name": "goetied:poison_anemone/shoot3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.poison_anemone_shoot"
+  },
+  "poison_anemone_burst": {
+    "sounds": [
+      {
+        "name": "goetied:poison_anemone/burst"
+      }
+    ],
+    "subtitle": "subtitle.goetied.poison_anemone_burst"
+  },
+  "poison_anemone_death": {
+    "sounds": [
+      {
+        "name": "goetied:poison_anemone/death1"
+      },
+      {
+        "name": "goetied:poison_anemone/death2"
+      },
+      {
+        "name": "goetied:poison_anemone/death3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.poison_anemone_death"
+  },
+  "poison_quill_impact": {
+    "sounds": [
+      {
+        "name": "goetied:random/poison_quill_impact1"
+      },
+      {
+        "name": "goetied:random/poison_quill_impact2"
+      },
+      {
+        "name": "goetied:random/poison_quill_impact3"
+      },
+      {
+        "name": "goetied:random/poison_quill_impact4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.poison_quill_impact"
+  },
+  "poison_quill_aqua_impact": {
+    "sounds": [
+      {
+        "name": "goetied:random/poison_quill_aqua_impact1"
+      },
+      {
+        "name": "goetied:random/poison_quill_aqua_impact2"
+      },
+      {
+        "name": "goetied:random/poison_quill_aqua_impact3"
+      },
+      {
+        "name": "goetied:random/poison_quill_aqua_impact4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.poison_quill_impact"
+  },
+  "poison_quill_aqua_whoosh": {
+    "sounds": [
+      {
+        "name": "goetied:random/poison_quill_aqua_whoosh1"
+      },
+      {
+        "name": "goetied:random/poison_quill_aqua_whoosh2"
+      },
+      {
+        "name": "goetied:random/poison_quill_aqua_whoosh3"
+      },
+      {
+        "name": "goetied:random/poison_quill_aqua_whoosh4"
+      },
+      {
+        "name": "goetied:random/poison_quill_aqua_whoosh5"
+      },
+      {
+        "name": "goetied:random/poison_quill_aqua_whoosh6"
+      }
+    ],
+    "subtitle": "subtitle.goetied.poison_quill_aqua_whoosh"
+  },
+  "bone_shard_impact": {
+    "sounds": [
+      {
+        "name": "goetied:bone_spider/attack"
+      }
+    ],
+    "subtitle": "subtitle.goetied.bone_shard_impact"
+  },
+  "shield_debris_impact": {
+    "sounds": [
+      {
+        "name": "goetied:random/shield_debris_impact1"
+      },
+      {
+        "name": "goetied:random/shield_debris_impact2"
+      },
+      {
+        "name": "goetied:random/shield_debris_impact3"
+      },
+      {
+        "name": "goetied:random/shield_debris_impact4"
+      }
+    ]
+  },
+  "insect_swarm": {
+    "sounds": [
+      {
+        "name": "goetied:spell/insect_swarm1"
+      },
+      {
+        "name": "goetied:spell/insect_swarm2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.insect_swarm"
+  },
+  "insect_swarm_bite": {
+    "sounds": [
+      {
+        "name": "goetied:spell/insect_swarm_bite1"
+      },
+      {
+        "name": "goetied:spell/insect_swarm_bite2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.insect_swarm_bite"
+  },
+  "vine_trap_burst": {
+    "sounds": [
+      {
+        "name": "goetied:spell/vine_trap_burst1"
+      },
+      {
+        "name": "goetied:spell/vine_trap_burst2"
+      },
+      {
+        "name": "goetied:spell/vine_trap_burst3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.vine_trap_burst"
+  },
+  "vine_trap_hold": {
+    "sounds": [
+      {
+        "name": "goetied:spell/vine_trap_hold"
+      }
+    ],
+    "subtitle": "subtitle.goetied.vine_trap_hold"
+  },
+  "tropical_slime_small_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:tropical_slime/small/hurt1"
+      },
+      {
+        "name": "goetied:tropical_slime/small/hurt2"
+      },
+      {
+        "name": "goetied:tropical_slime/small/hurt3"
+      },
+      {
+        "name": "goetied:tropical_slime/small/hurt4"
+      }
+    ],
+    "subtitle": "subtitles.entity.slime.hurt"
+  },
+  "tropical_slime_small_attack": {
+    "sounds": [
+      {
+        "name": "goetied:tropical_slime/small/attack1"
+      },
+      {
+        "name": "goetied:tropical_slime/small/attack2"
+      }
+    ],
+    "subtitle": "subtitles.entity.slime.attack"
+  },
+  "tropical_slime_small_jump": {
+    "sounds": [
+      {
+        "name": "goetied:tropical_slime/small/jump1"
+      },
+      {
+        "name": "goetied:tropical_slime/small/jump2"
+      },
+      {
+        "name": "goetied:tropical_slime/small/jump3"
+      },
+      {
+        "name": "goetied:tropical_slime/small/jump4"
+      },
+      {
+        "name": "goetied:tropical_slime/small/jump5"
+      }
+    ],
+    "subtitle": "subtitles.entity.slime.squish"
+  },
+  "tropical_slime_small_squish": {
+    "sounds": [
+      {
+        "name": "goetied:tropical_slime/small/squish1"
+      },
+      {
+        "name": "goetied:tropical_slime/small/squish2"
+      },
+      {
+        "name": "goetied:tropical_slime/small/squish3"
+      },
+      {
+        "name": "goetied:tropical_slime/small/squish4"
+      },
+      {
+        "name": "goetied:tropical_slime/small/squish5"
+      }
+    ],
+    "subtitle": "subtitles.entity.slime.squish"
+  },
+  "tropical_slime_small_death": {
+    "sounds": [
+      {
+        "name": "goetied:tropical_slime/small/death1"
+      },
+      {
+        "name": "goetied:tropical_slime/small/death2"
+      },
+      {
+        "name": "goetied:tropical_slime/small/death3"
+      }
+    ],
+    "subtitle": "subtitles.entity.slime.death"
+  },
+  "tropical_slime_medium_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:tropical_slime/medium/hurt1"
+      },
+      {
+        "name": "goetied:tropical_slime/medium/hurt2"
+      },
+      {
+        "name": "goetied:tropical_slime/medium/hurt3"
+      },
+      {
+        "name": "goetied:tropical_slime/medium/hurt4"
+      }
+    ],
+    "subtitle": "subtitles.entity.slime.hurt"
+  },
+  "tropical_slime_medium_attack": {
+    "sounds": [
+      {
+        "name": "goetied:tropical_slime/medium/attack1"
+      },
+      {
+        "name": "goetied:tropical_slime/medium/attack2"
+      }
+    ],
+    "subtitle": "subtitles.entity.slime.attack"
+  },
+  "tropical_slime_medium_jump": {
+    "sounds": [
+      {
+        "name": "goetied:tropical_slime/medium/jump1"
+      },
+      {
+        "name": "goetied:tropical_slime/medium/jump2"
+      },
+      {
+        "name": "goetied:tropical_slime/medium/jump3"
+      },
+      {
+        "name": "goetied:tropical_slime/medium/jump4"
+      },
+      {
+        "name": "goetied:tropical_slime/medium/jump5"
+      }
+    ],
+    "subtitle": "subtitles.entity.slime.squish"
+  },
+  "tropical_slime_medium_squish": {
+    "sounds": [
+      {
+        "name": "goetied:tropical_slime/medium/squish1"
+      },
+      {
+        "name": "goetied:tropical_slime/medium/squish2"
+      },
+      {
+        "name": "goetied:tropical_slime/medium/squish3"
+      },
+      {
+        "name": "goetied:tropical_slime/medium/squish4"
+      },
+      {
+        "name": "goetied:tropical_slime/medium/squish5"
+      }
+    ],
+    "subtitle": "subtitles.entity.slime.squish"
+  },
+  "tropical_slime_medium_death": {
+    "sounds": [
+      {
+        "name": "goetied:tropical_slime/medium/death1"
+      },
+      {
+        "name": "goetied:tropical_slime/medium/death2"
+      },
+      {
+        "name": "goetied:tropical_slime/medium/death3"
+      }
+    ],
+    "subtitle": "subtitles.entity.slime.death"
+  },
+  "tropical_slime_large_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:tropical_slime/large/hurt1"
+      },
+      {
+        "name": "goetied:tropical_slime/large/hurt2"
+      },
+      {
+        "name": "goetied:tropical_slime/large/hurt3"
+      },
+      {
+        "name": "goetied:tropical_slime/large/hurt4"
+      }
+    ],
+    "subtitle": "subtitles.entity.slime.hurt"
+  },
+  "tropical_slime_large_attack": {
+    "sounds": [
+      {
+        "name": "goetied:tropical_slime/large/attack1"
+      },
+      {
+        "name": "goetied:tropical_slime/large/attack2"
+      }
+    ],
+    "subtitle": "subtitles.entity.slime.attack"
+  },
+  "tropical_slime_large_jump": {
+    "sounds": [
+      {
+        "name": "goetied:tropical_slime/large/jump1"
+      },
+      {
+        "name": "goetied:tropical_slime/large/jump2"
+      },
+      {
+        "name": "goetied:tropical_slime/large/jump3"
+      },
+      {
+        "name": "goetied:tropical_slime/large/jump4"
+      },
+      {
+        "name": "goetied:tropical_slime/large/jump5"
+      }
+    ],
+    "subtitle": "subtitles.entity.slime.squish"
+  },
+  "tropical_slime_large_squish": {
+    "sounds": [
+      {
+        "name": "goetied:tropical_slime/large/squish1"
+      },
+      {
+        "name": "goetied:tropical_slime/large/squish2"
+      },
+      {
+        "name": "goetied:tropical_slime/large/squish3"
+      },
+      {
+        "name": "goetied:tropical_slime/large/squish4"
+      },
+      {
+        "name": "goetied:tropical_slime/large/squish5"
+      }
+    ],
+    "subtitle": "subtitles.entity.slime.squish"
+  },
+  "tropical_slime_large_death": {
+    "sounds": [
+      {
+        "name": "goetied:tropical_slime/large/death1"
+      },
+      {
+        "name": "goetied:tropical_slime/large/death2"
+      },
+      {
+        "name": "goetied:tropical_slime/large/death3"
+      }
+    ],
+    "subtitle": "subtitles.entity.slime.death"
+  },
+  "spider_bite": {
+    "sounds": [
+      {
+        "name": "goetied:random/spider_bite1"
+      },
+      {
+        "name": "goetied:random/spider_bite2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.spider_bite"
+  },
+  "spider_call": {
+    "sounds": [
+      {
+        "name": "goetied:random/spider_call1"
+      },
+      {
+        "name": "goetied:random/spider_call2"
+      },
+      {
+        "name": "goetied:random/spider_call3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.spider_call"
+  },
+  "spider_spit": {
+    "sounds": [
+      {
+        "name": "goetied:random/spider_spit1"
+      },
+      {
+        "name": "goetied:random/spider_spit2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.spider_spit"
+  },
+  "spider_web": {
+    "sounds": [
+      {
+        "name": "goetied:random/spider_web1"
+      },
+      {
+        "name": "goetied:random/spider_web2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.spider_web"
+  },
+  "villager_chop": {
+    "sounds": [
+      {
+        "name": "goetied:villager/chop1"
+      },
+      {
+        "name": "goetied:villager/chop2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.villager_chop"
+  },
+  "enderling_teleport_in": {
+    "sounds": [
+      {
+        "name": "goetied:enderling/teleport_in1"
+      },
+      {
+        "name": "goetied:enderling/teleport_in2"
+      },
+      {
+        "name": "goetied:enderling/teleport_in3"
+      },
+      {
+        "name": "goetied:enderling/teleport_in4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.enderling_teleport_in"
+  },
+  "enderling_teleport_out": {
+    "sounds": [
+      {
+        "name": "goetied:enderling/teleport_out1"
+      },
+      {
+        "name": "goetied:enderling/teleport_out2"
+      },
+      {
+        "name": "goetied:enderling/teleport_out3"
+      },
+      {
+        "name": "goetied:enderling/teleport_out4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.enderling_teleport_out"
+  },
+  "vhoe_charge": {
+    "sounds": [
+      {
+        "name": "goetied:vhoe/charge1"
+      },
+      {
+        "name": "goetied:vhoe/charge2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.vhoe_charge"
+  },
+  "vhoe_pinwheel": {
+    "sounds": [
+      {
+        "name": "goetied:vhoe/pinwheel1"
+      },
+      {
+        "name": "goetied:vhoe/pinwheel2"
+      },
+      {
+        "name": "goetied:vhoe/pinwheel3"
+      }
+    ]
+  },
+  "void_rift_open": {
+    "sounds": [
+      {
+        "name": "goetied:random/void_pool_spawn"
+      }
+    ],
+    "subtitle": "subtitle.goetied.void_rift_open"
+  },
+  "void_rift": {
+    "sounds": [
+      {
+        "name": "goetied:random/void_demon_loop"
+      }
+    ]
+  },
+  "lich_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:lich/idle1"
+      },
+      {
+        "name": "goetied:lich/idle2"
+      },
+      {
+        "name": "goetied:lich/idle3"
+      }
+    ]
+  },
+  "lich_hurt": {
+    "sounds": [
+      {
+        "name": "goetied:lich/hurt1"
+      },
+      {
+        "name": "goetied:lich/hurt2"
+      },
+      {
+        "name": "goetied:lich/hurt3"
+      },
+      {
+        "name": "goetied:lich/hurt4"
+      }
+    ]
+  },
+  "lich_laugh": {
+    "sounds": [
+      {
+        "name": "goetied:lich/laugh_short1"
+      },
+      {
+        "name": "goetied:lich/laugh_short2"
+      },
+      {
+        "name": "goetied:lich/laugh_short3"
+      },
+      {
+        "name": "goetied:lich/laugh_long1"
+      },
+      {
+        "name": "goetied:lich/laugh_long2"
+      },
+      {
+        "name": "goetied:lich/laugh_long3"
+      }
+    ]
+  },
+  "lich_teleport_in": {
+    "sounds": [
+      {
+        "name": "goetied:lich/teleport_in1"
+      },
+      {
+        "name": "goetied:lich/teleport_in2"
+      },
+      {
+        "name": "goetied:lich/teleport_in3"
+      },
+      {
+        "name": "goetied:lich/teleport_in4"
+      }
+    ]
+  },
+  "lich_teleport_out": {
+    "sounds": [
+      {
+        "name": "goetied:lich/teleport_out1"
+      },
+      {
+        "name": "goetied:lich/teleport_out2"
+      }
+    ]
+  },
+  "lich_death": {
+    "sounds": [
+      {
+        "name": "goetied:lich/death"
+      }
+    ]
+  },
+  "biomine_spawn": {
+    "sounds": [
+      {
+        "name": "goetied:random/biomine_spawn1"
+      },
+      {
+        "name": "goetied:random/biomine_spawn2"
+      },
+      {
+        "name": "goetied:random/biomine_spawn3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.biomine_spawn"
+  },
+  "biomine_trigger": {
+    "sounds": [
+      {
+        "name": "goetied:random/biomine_trigger1"
+      },
+      {
+        "name": "goetied:random/biomine_trigger2"
+      },
+      {
+        "name": "goetied:random/biomine_trigger3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.biomine_trigger"
+  },
+  "ghast_disappear": {
+    "sounds": [
+      {
+        "name": "goetied:random/ghast_disappear"
+      }
+    ],
+    "subtitle": "subtitle.goetied.ghast_disappear"
+  },
+  "damned_scream": {
+    "sounds": [
+      {
+        "name": "goetied:random/damned_scream"
+      }
+    ],
+    "subtitle": "subtitle.goetied.damned_scream"
+  },
+  "dirt_debris": {
+    "sounds": [
+      {
+        "name": "goetied:random/dirt_debris1"
+      },
+      {
+        "name": "goetied:random/dirt_debris2"
+      },
+      {
+        "name": "goetied:random/dirt_debris3"
+      },
+      {
+        "name": "goetied:random/dirt_debris4"
+      }
+    ]
+  },
+  "thunder_strike_epic": {
+    "sounds": [
+      {
+        "name": "goetied:random/thunder_strike_epic1"
+      },
+      {
+        "name": "goetied:random/thunder_strike_epic2"
+      },
+      {
+        "name": "goetied:random/thunder_strike_epic3"
+      },
+      {
+        "name": "goetied:random/thunder_strike_epic4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.thunder_strike_epic"
+  },
+  "thunder_strike_fast": {
+    "sounds": [
+      {
+        "name": "goetied:random/thunder_strike_fast1"
+      },
+      {
+        "name": "goetied:random/thunder_strike_fast2"
+      },
+      {
+        "name": "goetied:random/thunder_strike_fast3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.thunder_strike_fast"
+  },
+  "tock": {
+    "sounds": [
+      {
+        "name": "goetied:random/tock"
+      }
+    ]
+  },
+  "intruder_alert": {
+    "sounds": [
+      {
+        "name": "goetied:fifo_alarm/alarm2"
+      }
+    ]
+  },
+  "roar_spell": {
+    "sounds": [
+      {
+        "name": "goetied:spell/roar_spell"
+      }
+    ],
+    "subtitle": "subtitle.goetied.roar_spell"
+  },
+  "fire_breath_start": {
+    "sounds": [
+      {
+        "name": "goetied:spell/fire_breath_start"
+      }
+    ]
+  },
+  "fire_breath": {
+    "sounds": [
+      {
+        "name": "goetied:spell/fire_breath"
+      }
+    ],
+    "subtitle": "subtitle.goetied.fire_breath"
+  },
+  "frost_breath": {
+    "sounds": [
+      {
+        "name": "random/breath"
+      }
+    ],
+    "subtitle": "subtitle.goetied.frost_breath"
+  },
+  "bubble_stream": {
+    "sounds": [
+      {
+        "name": "goetied:spell/bubble_stream1"
+      },
+      {
+        "name": "goetied:spell/bubble_stream2"
+      },
+      {
+        "name": "goetied:spell/bubble_stream3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.bubble_stream"
+  },
+  "burrow_spell": {
+    "sounds": [
+      {
+        "name": "goetied:spell/burrow_spell"
+      }
+    ],
+    "subtitle": "subtitle.goetied.burrow_spell"
+  },
+  "flight": {
+    "sounds": [
+      {
+        "name": "goetied:spell/flight"
+      }
+    ]
+  },
+  "whirlwind": {
+    "sounds": [
+      {
+        "name": "goetied:spell/whirlwind"
+      }
+    ]
+  },
+  "soul_armor": {
+    "sounds": [
+      {
+        "name": "goetied:spell/soul_armor1"
+      },
+      {
+        "name": "goetied:spell/soul_armor2"
+      },
+      {
+        "name": "goetied:spell/soul_armor3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.soul_armor"
+  },
+  "soul_heal": {
+    "sounds": [
+      {
+        "name": "goetied:spell/soul_heal"
+      }
+    ],
+    "subtitle": "subtitle.goetied.soul_heal"
+  },
+  "end_walk": {
+    "sounds": [
+      {
+        "name": "goetied:spell/end_walk1"
+      },
+      {
+        "name": "goetied:spell/end_walk2"
+      },
+      {
+        "name": "goetied:spell/end_walk3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.end_walk"
+  },
+  "prepare_spell": {
+    "sounds": [
+      {
+        "name": "goetied:spell/prepare_spell1"
+      },
+      {
+        "name": "goetied:spell/prepare_spell2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.prepare_spell"
+  },
+  "prepare_summon": {
+    "sounds": [
+      {
+        "name": "mob/evocation_illager/prepare_summon"
+      },
+      {
+        "name": "goetied:spell/prepare_summon"
+      }
+    ],
+    "subtitle": "subtitle.goetied.prepare_summon"
+  },
+  "frost_prepare_spell": {
+    "sounds": [
+      {
+        "name": "goetied:spell/frost_prepare_spell1",
+        "pitch": 0.75
+      },
+      {
+        "name": "goetied:spell/frost_prepare_spell2",
+        "pitch": 0.75
+      },
+      {
+        "name": "goetied:spell/frost_prepare_spell3",
+        "pitch": 0.75
+      }
+    ],
+    "subtitle": "subtitle.goetied.frost_prepare_spell"
+  },
+  "wild_prepare_spell": {
+    "sounds": [
+      {
+        "name": "goetied:spell/wild_prepare_spell"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wild_prepare_spell"
+  },
+  "abyss_prepare_spell": {
+    "sounds": [
+      {
+        "name": "goetied:spell/abyss_prepare_spell1"
+      },
+      {
+        "name": "goetied:spell/abyss_prepare_spell2"
+      },
+      {
+        "name": "goetied:spell/abyss_prepare_spell3"
+      },
+      {
+        "name": "goetied:spell/abyss_prepare_spell4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.prepare_spell"
+  },
+  "void_prepare_spell": {
+    "sounds": [
+      {
+        "name": "goetied:spell/void_prepare_spell1"
+      },
+      {
+        "name": "goetied:spell/void_prepare_spell2"
+      },
+      {
+        "name": "goetied:spell/void_prepare_spell3"
+      },
+      {
+        "name": "goetied:spell/void_prepare_spell4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.void_prepare_spell"
+  },
+  "cast_spell": {
+    "sounds": [
+      {
+        "name": "goetied:spell/cast_spell1"
+      },
+      {
+        "name": "goetied:spell/cast_spell2"
+      },
+      {
+        "name": "mob/evocation_illager/cast1"
+      },
+      {
+        "name": "mob/evocation_illager/cast2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.cast_spell"
+  },
+  "cast_spell_two": {
+    "sounds": [
+      {
+        "name": "goetied:spell/cast_spell1"
+      },
+      {
+        "name": "goetied:spell/cast_spell2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.cast_spell"
+  },
+  "vex_vapor": {
+    "sounds": [
+      {
+        "name": "goetied:spell/vex_vapor1"
+      },
+      {
+        "name": "goetied:spell/vex_vapor2"
+      },
+      {
+        "name": "goetied:spell/vex_vapor3"
+      }
+    ]
+  },
+  "soul_bolt_cast": {
+    "sounds": [
+      {
+        "name": "goetied:spell/summon_spell3"
+      }
+    ]
+  },
+  "necro_cast": {
+    "sounds": [
+      {
+        "name": "goetied:spell/necro_cast1"
+      },
+      {
+        "name": "goetied:spell/necro_cast2"
+      },
+      {
+        "name": "goetied:spell/necro_cast3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.necro_cast"
+  },
+  "shock_cast": {
+    "sounds": [
+      {
+        "name": "goetied:spell/shock_cast1"
+      },
+      {
+        "name": "goetied:spell/shock_cast2"
+      },
+      {
+        "name": "goetied:spell/shock_cast3"
+      },
+      {
+        "name": "goetied:spell/shock_cast4"
+      },
+      {
+        "name": "goetied:spell/shock_cast5"
+      },
+      {
+        "name": "goetied:spell/shock_cast6"
+      },
+      {
+        "name": "goetied:spell/shock_cast7"
+      }
+    ],
+    "subtitle": "subtitle.goetied.cast_spell"
+  },
+  "summon_spell": {
+    "sounds": [
+      {
+        "name": "goetied:spell/summon_spell1"
+      },
+      {
+        "name": "goetied:spell/summon_spell2"
+      },
+      {
+        "name": "goetied:spell/summon_spell3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.summon_spell"
+  },
+  "summon_spell_fiery": {
+    "sounds": [
+      {
+        "name": "goetied:spell/summon_spell_fiery1"
+      },
+      {
+        "name": "goetied:spell/summon_spell_fiery2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.summon_spell"
+  },
+  "vanguard_spell": {
+    "sounds": [
+      {
+        "name": "goetied:skull_lord/laser_gather"
+      }
+    ],
+    "subtitle": "subtitle.goetied.vanguard_spell"
+  },
+  "vanguard_summon": {
+    "sounds": [
+      {
+        "name": "goetied:spell/vanguard_summon"
+      }
+    ],
+    "subtitle": "subtitle.goetied.vanguard_summon"
+  },
+  "boss_summon": {
+    "sounds": [
+      {
+        "name": "goetied:random/boss_summon"
+      }
+    ]
+  },
+  "swing": {
+    "sounds": [
+      {
+        "name": "goetied:random/swing1"
+      },
+      {
+        "name": "goetied:random/swing2"
+      }
+    ]
+  },
+  "heavy_woosh": {
+    "sounds": [
+      {
+        "name": "goetied:random/heavy_woosh1"
+      },
+      {
+        "name": "goetied:random/heavy_woosh2"
+      },
+      {
+        "name": "goetied:random/heavy_woosh3"
+      },
+      {
+        "name": "goetied:random/heavy_woosh4"
+      },
+      {
+        "name": "goetied:random/heavy_woosh5"
+      }
+    ]
+  },
+  "projectile_spell": {
+    "sounds": [
+      {
+        "name": "goetied:spell/projectile_spell"
+      }
+    ]
+  },
+  "command": {
+    "sounds": [
+      {
+        "name": "goetied:spell/command"
+      }
+    ],
+    "subtitle": "subtitle.goetied.command"
+  },
+  "shield_up": {
+    "sounds": [
+      {
+        "name": "goetied:spell/shield_up"
+      }
+    ],
+    "subtitle": "subtitle.goetied.shield_up"
+  },
+  "weaken_cast": {
+    "sounds": [
+      {
+        "name": "goetied:spell/weaken1"
+      },
+      {
+        "name": "goetied:spell/weaken2"
+      },
+      {
+        "name": "goetied:spell/weaken3"
+      },
+      {
+        "name": "goetied:spell/weaken4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.weaken_cast"
+  },
+  "weaken_curse": {
+    "sounds": [
+      {
+        "name": "goetied:spell/weaken_curse"
+      }
+    ],
+    "subtitle": "subtitle.goetied.weaken_curse"
+  },
+  "bolt_impact": {
+    "sounds": [
+      {
+        "name": "goetied:spell/bolt_impact1"
+      },
+      {
+        "name": "goetied:spell/bolt_impact2"
+      },
+      {
+        "name": "goetied:spell/bolt_impact3"
+      },
+      {
+        "name": "goetied:spell/bolt_impact4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.bolt_impact"
+  },
+  "ender_goo_impact": {
+    "sounds": [
+      {
+        "name": "goetied:blastling/impact1"
+      },
+      {
+        "name": "goetied:blastling/impact2"
+      },
+      {
+        "name": "goetied:blastling/impact3"
+      },
+      {
+        "name": "goetied:blastling/impact4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.goo_impact"
+  },
+  "snareling_goo_impact": {
+    "sounds": [
+      {
+        "name": "goetied:snareling/impact1"
+      },
+      {
+        "name": "goetied:snareling/impact2"
+      },
+      {
+        "name": "goetied:snareling/impact3"
+      },
+      {
+        "name": "goetied:snareling/impact4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.goo_impact"
+  },
+  "cast_steam": {
+    "sounds": [
+      {
+        "name": "goetied:spell/cast_steam1"
+      },
+      {
+        "name": "goetied:spell/cast_steam2"
+      },
+      {
+        "name": "goetied:spell/cast_steam3"
+      },
+      {
+        "name": "goetied:spell/cast_steam4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.cast_steam"
+  },
+  "steam_impact": {
+    "sounds": [
+      {
+        "name": "goetied:spell/steam_impact1"
+      },
+      {
+        "name": "goetied:spell/steam_impact2"
+      },
+      {
+        "name": "goetied:spell/steam_impact3"
+      },
+      {
+        "name": "goetied:spell/steam_impact4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.steam_impact"
+  },
+  "poison_bolt_impact": {
+    "sounds": [
+      {
+        "name": "goetied:item/poison_old1"
+      },
+      {
+        "name": "goetied:item/poison_old2"
+      },
+      {
+        "name": "goetied:item/poison_old3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.bolt_impact"
+  },
+  "hell_bolt_shoot": {
+    "sounds": [
+      {
+        "name": "goetied:spell/hell_bolt_shoot1"
+      },
+      {
+        "name": "goetied:spell/hell_bolt_shoot2"
+      },
+      {
+        "name": "goetied:spell/hell_bolt_shoot3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.hell_bolt_shoot"
+  },
+  "hell_bolt_impact": {
+    "sounds": [
+      {
+        "name": "goetied:spell/hell_bolt_impact1"
+      },
+      {
+        "name": "goetied:spell/hell_bolt_impact2"
+      },
+      {
+        "name": "goetied:spell/hell_bolt_impact3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.hell_bolt_impact"
+  },
+  "hell_blast_shoot": {
+    "sounds": [
+      {
+        "name": "goetied:spell/hell_blast_shoot1"
+      },
+      {
+        "name": "goetied:spell/hell_blast_shoot2"
+      },
+      {
+        "name": "goetied:spell/hell_blast_shoot3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.hell_blast_shoot"
+  },
+  "hell_blast_impact": {
+    "sounds": [
+      {
+        "name": "goetied:spell/hell_blast_impact1"
+      },
+      {
+        "name": "goetied:spell/hell_blast_impact2"
+      },
+      {
+        "name": "goetied:spell/hell_blast_impact3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.hell_blast_impact"
+  },
+  "soul_eat": {
+    "sounds": [
+      {
+        "name": "goetied:spell/soul_eat1"
+      },
+      {
+        "name": "goetied:spell/soul_eat2"
+      },
+      {
+        "name": "goetied:spell/soul_eat3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.soul_eat"
+  },
+  "soul_explode": {
+    "sounds": [
+      {
+        "name": "goetied:spell/soul_explode_1"
+      },
+      {
+        "name": "goetied:spell/soul_explode_2"
+      },
+      {
+        "name": "goetied:spell/soul_explode_3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.soul_explode"
+  },
+  "fire_tornado_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:random/fire_tornado"
+      }
+    ],
+    "subtitle": "subtitle.goetied.fire_tornado_ambient"
+  },
+  "radiance_wave": {
+    "sounds": [
+      {
+        "name": "goetied:random/radiance_wave1"
+      },
+      {
+        "name": "goetied:random/radiance_wave2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.heal_spell"
+  },
+  "leeching": {
+    "sounds": [
+      {
+        "name": "goetied:random/leeching1"
+      },
+      {
+        "name": "goetied:random/leeching2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.leeching"
+  },
+  "heal_spell": {
+    "sounds": [
+      {
+        "name": "goetied:spell/heal_spell"
+      }
+    ],
+    "subtitle": "subtitle.goetied.heal_spell"
+  },
+  "wind": {
+    "sounds": [
+      {
+        "name": "goetied:spell/wind1"
+      },
+      {
+        "name": "goetied:spell/wind2"
+      },
+      {
+        "name": "goetied:spell/wind3"
+      },
+      {
+        "name": "goetied:spell/wind4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wind"
+  },
+  "thunderbolt": {
+    "sounds": [
+      {
+        "name": "goetied:spell/thunderbolt1"
+      },
+      {
+        "name": "goetied:spell/thunderbolt2"
+      },
+      {
+        "name": "goetied:spell/thunderbolt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.thunderbolt"
+  },
+  "updraft_blast": {
+    "sounds": [
+      {
+        "name": "goetied:spell/updraft_blast1"
+      },
+      {
+        "name": "goetied:spell/updraft_blast2"
+      },
+      {
+        "name": "goetied:spell/updraft_blast3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.updraft_blast"
+  },
+  "wind_blast": {
+    "sounds": [
+      {
+        "name": "goetied:spell/wind_blast_1"
+      },
+      {
+        "name": "goetied:spell/wind_blast_2"
+      },
+      {
+        "name": "goetied:spell/wind_blast_3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wind"
+  },
+  "wind_horn": {
+    "sounds": [
+      {
+        "name": "goetied:spell/wind_horn"
+      }
+    ],
+    "subtitle": "subtitle.goetied.wind"
+  },
+  "zap": {
+    "sounds": [
+      {
+        "name": "goetied:spell/zap_1"
+      },
+      {
+        "name": "goetied:spell/zap_2"
+      },
+      {
+        "name": "goetied:spell/zap_3"
+      },
+      {
+        "name": "goetied:spell/zap_4"
+      },
+      {
+        "name": "goetied:spell/zap_5"
+      },
+      {
+        "name": "goetied:spell/zap_6"
+      }
+    ],
+    "subtitle": "subtitle.goetied.zap"
+  },
+  "trident_storm_pre": {
+    "sounds": [
+      {
+        "name": "goetied:spell/trident_storm_pre1"
+      },
+      {
+        "name": "goetied:spell/trident_storm_pre2"
+      },
+      {
+        "name": "goetied:spell/trident_storm_pre3"
+      },
+      {
+        "name": "goetied:spell/trident_storm_pre4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.trident_storm_pre"
+  },
+  "trident_storm_explode": {
+    "sounds": [
+      {
+        "name": "goetied:spell/trident_storm_explode1"
+      },
+      {
+        "name": "goetied:spell/trident_storm_explode2"
+      },
+      {
+        "name": "goetied:spell/trident_storm_explode3"
+      },
+      {
+        "name": "goetied:spell/trident_storm_explode4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.trident_storm_explode"
+  },
+  "gravity": {
+    "sounds": [
+      {
+        "name": "goetied:random/gravity"
+      }
+    ]
+  },
+  "rumble": {
+    "sounds": [
+      {
+        "name": "goetied:spell/rumble_1"
+      },
+      {
+        "name": "goetied:spell/rumble_2"
+      },
+      {
+        "name": "goetied:spell/rumble_3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.rumble"
+  },
+  "plate": {
+    "sounds": [
+      {
+        "name": "goetied:random/plate1"
+      },
+      {
+        "name": "goetied:random/plate2"
+      },
+      {
+        "name": "goetied:random/plate3"
+      },
+      {
+        "name": "goetied:random/plate4"
+      },
+      {
+        "name": "goetied:random/plate5"
+      }
+    ],
+    "subtitle": "subtitle.goetied.plate"
+  },
+  "plate_drop": {
+    "sounds": [
+      {
+        "name": "goetied:random/plate_drop1"
+      },
+      {
+        "name": "goetied:random/plate_drop2"
+      },
+      {
+        "name": "goetied:random/plate_drop3"
+      },
+      {
+        "name": "goetied:random/plate_drop4"
+      },
+      {
+        "name": "goetied:random/plate_drop5"
+      },
+      {
+        "name": "goetied:random/plate_drop6"
+      },
+      {
+        "name": "goetied:random/plate_drop7"
+      }
+    ],
+    "subtitle": "subtitle.goetied.plate_drop"
+  },
+  "scary_recite": {
+    "sounds": [
+      {
+        "name": "goetied:random/scary_recite"
+      }
+    ]
+  },
+  "tooth_spawn": {
+    "sounds": [
+      {
+        "name": "goetied:wall/bomb_spawn1"
+      },
+      {
+        "name": "goetied:wall/bomb_spawn2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.tooth_spawn"
+  },
+  "impale": {
+    "sounds": [
+      {
+        "name": "goetied:spell/impale"
+      }
+    ],
+    "subtitle": "subtitle.goetied.impale"
+  },
+  "ice_spike_cast": {
+    "sounds": [
+      {
+        "name": "goetied:spell/ice_cast"
+      }
+    ],
+    "subtitle": "subtitle.goetied.ice_spike_cast"
+  },
+  "ice_spike_hit": {
+    "sounds": [
+      {
+        "name": "goetied:spell/freeze1"
+      },
+      {
+        "name": "goetied:spell/freeze2"
+      },
+      {
+        "name": "goetied:spell/freeze3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.ice_spike_hit"
+  },
+  "spell_fail": {
+    "sounds": [
+      {
+        "name": "goetied:spell/spell_fail"
+      }
+    ],
+    "subtitle": "subtitle.goetied.spell_fail"
+  },
+  "doom": {
+    "sounds": [
+      {
+        "name": "goetied:item/gong_curse",
+        "pitch": 0.75
+      }
+    ],
+    "subtitle": "subtitle.goetied.doom"
+  },
+  "dead_moan": {
+    "sounds": [
+      {
+        "name": "goetied:block/graveyard_moan4"
+      }
+    ]
+  },
+  "stone_drag": {
+    "sounds": [
+      {
+        "name": "goetied:block/stone_drag"
+      }
+    ]
+  },
+  "redstone_fire_projectile": {
+    "sounds": [
+      {
+        "name": "goetied:redstone_golem/fire_projectile"
+      }
+    ]
+  },
+  "fire_projectile_fly": {
+    "sounds": [
+      {
+        "name": "goetied:random/fire_projectile_fly1"
+      },
+      {
+        "name": "goetied:random/fire_projectile_fly2"
+      },
+      {
+        "name": "goetied:random/fire_projectile_fly3"
+      }
+    ]
+  },
+  "teleport_orb_throw": {
+    "sounds": [
+      {
+        "name": "goetied:random/teleport_orb_throw"
+      }
+    ]
+  },
+  "swirlings": {
+    "sounds": [
+      {
+        "name": "goetied:random/swirlings1"
+      },
+      {
+        "name": "goetied:random/swirlings2"
+      },
+      {
+        "name": "goetied:random/swirlings3"
+      },
+      {
+        "name": "goetied:random/swirlings4"
+      },
+      {
+        "name": "goetied:random/swirlings5"
+      }
+    ]
+  },
+  "joke": {
+    "sounds": [
+      {
+        "name": "goetied:random/joke"
+      }
+    ]
+  },
+  "void_touched_activate": {
+    "sounds": [
+      {
+        "name": "goetied:random/void_touched_activate1"
+      },
+      {
+        "name": "goetied:random/void_touched_activate2"
+      },
+      {
+        "name": "goetied:random/void_touched_activate3"
+      },
+      {
+        "name": "goetied:random/void_touched_activate4"
+      },
+      {
+        "name": "goetied:random/void_touched_activate5"
+      }
+    ]
+  },
+  "void_touched_deactivate": {
+    "sounds": [
+      {
+        "name": "goetied:random/void_touched_deactivate1"
+      },
+      {
+        "name": "goetied:random/void_touched_deactivate2"
+      },
+      {
+        "name": "goetied:random/void_touched_deactivate3"
+      },
+      {
+        "name": "goetied:random/void_touched_deactivate4"
+      }
+    ]
+  },
+  "void_touched_loop": {
+    "sounds": [
+      {
+        "name": "goetied:random/void_touched_loop1"
+      },
+      {
+        "name": "goetied:random/void_touched_loop2"
+      },
+      {
+        "name": "goetied:random/void_touched_loop3"
+      },
+      {
+        "name": "goetied:random/void_touched_loop4"
+      }
+    ]
+  },
+  "scythe_swing": {
+    "sounds": [
+      {
+        "name": "goetied:item/scythe_swing1"
+      },
+      {
+        "name": "goetied:item/scythe_swing2"
+      },
+      {
+        "name": "goetied:item/scythe_swing3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.scythe_swing"
+  },
+  "scythe_hit": {
+    "sounds": [
+      {
+        "name": "goetied:item/scythe_hit1"
+      },
+      {
+        "name": "goetied:item/scythe_hit2"
+      },
+      {
+        "name": "goetied:item/scythe_hit3"
+      }
+    ]
+  },
+  "scythe_hit_meaty": {
+    "sounds": [
+      {
+        "name": "goetied:item/scythe_hit_meaty1"
+      },
+      {
+        "name": "goetied:item/scythe_hit_meaty2"
+      },
+      {
+        "name": "goetied:item/scythe_hit_meaty3"
+      }
+    ]
+  },
+  "hammer_swing": {
+    "sounds": [
+      {
+        "name": "goetied:item/hammer_swing1"
+      },
+      {
+        "name": "goetied:item/hammer_swing2"
+      },
+      {
+        "name": "goetied:item/hammer_swing3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.hammer_swing"
+  },
+  "hammer_impact": {
+    "sounds": [
+      {
+        "name": "goetied:item/hammer_impact1"
+      },
+      {
+        "name": "goetied:item/hammer_impact2"
+      },
+      {
+        "name": "goetied:item/hammer_impact3"
+      },
+      {
+        "name": "goetied:item/hammer_impact4"
+      },
+      {
+        "name": "goetied:item/hammer_impact5"
+      },
+      {
+        "name": "goetied:item/hammer_impact6"
+      },
+      {
+        "name": "goetied:item/hammer_impact7"
+      }
+    ],
+    "subtitle": "subtitle.goetied.hammer_impact"
+  },
+  "bonehead_hammer_impact": {
+    "sounds": [
+      {
+        "name": "goetied:item/bonehead_hammer_impact1"
+      },
+      {
+        "name": "goetied:item/bonehead_hammer_impact2"
+      },
+      {
+        "name": "goetied:item/bonehead_hammer_impact3"
+      },
+      {
+        "name": "goetied:item/bonehead_hammer_impact4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.hammer_impact"
+  },
+  "bonehead_hammer_hit": {
+    "sounds": [
+      {
+        "name": "goetied:item/bonehead_hammer_hit1"
+      },
+      {
+        "name": "goetied:item/bonehead_hammer_hit2"
+      },
+      {
+        "name": "goetied:item/bonehead_hammer_hit3"
+      },
+      {
+        "name": "goetied:item/bonehead_hammer_hit4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.hammer_impact"
+  },
+  "obsidian_claymore_swing": {
+    "sounds": [
+      {
+        "name": "goetied:item/obsidian_claymore_combo1_1"
+      },
+      {
+        "name": "goetied:item/obsidian_claymore_combo1_2"
+      },
+      {
+        "name": "goetied:item/obsidian_claymore_combo1_3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.claymore_swing"
+  },
+  "obsidian_claymore_smash": {
+    "sounds": [
+      {
+        "name": "goetied:item/obsidian_claymore_combo2_1"
+      },
+      {
+        "name": "goetied:item/obsidian_claymore_combo2_2"
+      },
+      {
+        "name": "goetied:item/obsidian_claymore_combo2_3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.claymore_smash"
+  },
+  "obsidian_claymore_windup": {
+    "sounds": [
+      {
+        "name": "goetied:item/obsidian_claymore_windup1"
+      },
+      {
+        "name": "goetied:item/obsidian_claymore_windup2"
+      },
+      {
+        "name": "goetied:item/obsidian_claymore_windup3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.claymore_windup"
+  },
+  "whip_swing": {
+    "sounds": [
+      {
+        "name": "goetied:item/whip_swing1"
+      },
+      {
+        "name": "goetied:item/whip_swing2"
+      },
+      {
+        "name": "goetied:item/whip_swing3"
+      },
+      {
+        "name": "goetied:item/whip_swing4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.whip_swing"
+  },
+  "whip_hit": {
+    "sounds": [
+      {
+        "name": "goetied:item/whip_hit1"
+      },
+      {
+        "name": "goetied:item/whip_hit2"
+      },
+      {
+        "name": "goetied:item/whip_hit3"
+      },
+      {
+        "name": "goetied:item/whip_hit4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.whip_hit"
+  },
+  "harpoon_impact": {
+    "sounds": [
+      {
+        "name": "goetied:item/harpoon_impact1"
+      },
+      {
+        "name": "goetied:item/harpoon_impact2"
+      },
+      {
+        "name": "goetied:item/harpoon_impact3"
+      },
+      {
+        "name": "goetied:item/harpoon_impact4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.harpoon_impact"
+  },
+  "harpoon_impact_water": {
+    "sounds": [
+      {
+        "name": "goetied:item/harpoon_impact_water1"
+      },
+      {
+        "name": "goetied:item/harpoon_impact_water2"
+      },
+      {
+        "name": "goetied:item/harpoon_impact_water3"
+      },
+      {
+        "name": "goetied:item/harpoon_impact_water4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.harpoon_impact"
+  },
+  "flame_capture_catch": {
+    "sounds": [
+      {
+        "name": "goetied:item/flame_capture_catch"
+      }
+    ]
+  },
+  "flame_capture_release": {
+    "sounds": [
+      {
+        "name": "goetied:item/flame_capture_release1"
+      },
+      {
+        "name": "goetied:item/flame_capture_release2"
+      }
+    ]
+  },
+  "redstone_explode": {
+    "sounds": [
+      {
+        "name": "goetied:item/mine_explode1"
+      },
+      {
+        "name": "goetied:item/mine_explode2"
+      },
+      {
+        "name": "goetied:item/mine_explode3"
+      },
+      {
+        "name": "goetied:item/mine_explode4"
+      }
+    ]
+  },
+  "blast_fungus_throw": {
+    "sounds": [
+      {
+        "name": "goetied:item/blast_fungus_throw1"
+      },
+      {
+        "name": "goetied:item/blast_fungus_throw2"
+      },
+      {
+        "name": "goetied:item/blast_fungus_throw3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.blast_fungus_throw"
+  },
+  "blast_fungus_explode": {
+    "sounds": [
+      {
+        "name": "goetied:item/blast_fungus_explode1"
+      },
+      {
+        "name": "goetied:item/blast_fungus_explode2"
+      },
+      {
+        "name": "goetied:item/blast_fungus_explode3"
+      },
+      {
+        "name": "goetied:item/blast_fungus_explode4"
+      },
+      {
+        "name": "goetied:item/blast_fungus_explode5"
+      }
+    ],
+    "subtitle": "subtitle.goetied.blast_fungus_explode"
+  },
+  "fungus_explosion": {
+    "sounds": [
+      {
+        "name": "goetied:random/fungus_explosion1"
+      },
+      {
+        "name": "goetied:random/fungus_explosion2"
+      }
+    ]
+  },
+  "focus_pick": {
+    "sounds": [
+      {
+        "name": "goetied:item/focus_pick"
+      }
+    ]
+  },
+  "corrupt_beam_start": {
+    "sounds": [
+      {
+        "name": "goetied:spell/corrupt_beam_start1"
+      },
+      {
+        "name": "goetied:spell/corrupt_beam_start2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.corrupt_beam_start"
+  },
+  "corrupt_beam_loop": {
+    "sounds": [
+      {
+        "name": "goetied:spell/corrupt_beam_loop1"
+      }
+    ],
+    "subtitle": "subtitle.goetied.corrupt_beam_loop"
+  },
+  "corrupt_beam_soul": {
+    "sounds": [
+      {
+        "name": "goetied:spell/corrupt_beam_soul"
+      }
+    ]
+  },
+  "ice_storm_loop": {
+    "sounds": [
+      {
+        "name": "goetied:spell/ice_storm_loop"
+      }
+    ],
+    "subtitle": "subtitle.goetied.ice_storm_loop"
+  },
+  "brew_gas": {
+    "sounds": [
+      {
+        "name": "goetied:item/brew_gas1"
+      },
+      {
+        "name": "goetied:item/brew_gas2"
+      },
+      {
+        "name": "goetied:item/brew_gas3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.brew_gas"
+  },
+  "brew_gas_alt": {
+    "sounds": [
+      {
+        "name": "goetied:item/brew_gas_alt1"
+      },
+      {
+        "name": "goetied:item/brew_gas_alt2"
+      },
+      {
+        "name": "goetied:item/brew_gas_alt3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.brew_gas"
+  },
+  "altar_start": {
+    "sounds": [
+      {
+        "name": "goetied:block/altar_start"
+      }
+    ],
+    "subtitle": "subtitle.goetied.altar_start"
+  },
+  "altar_loop": {
+    "sounds": [
+      {
+        "name": "goetied:block/altar_loop"
+      }
+    ],
+    "subtitle": "subtitle.goetied.altar_loop"
+  },
+  "altar_finish": {
+    "sounds": [
+      {
+        "name": "goetied:block/altar_finish"
+      }
+    ],
+    "subtitle": "subtitle.goetied.altar_finish"
+  },
+  "cauldron_bubbles": {
+    "sounds": [
+      {
+        "name": "goetied:block/cauldron_bubbles1"
+      },
+      {
+        "name": "goetied:block/cauldron_bubbles2"
+      },
+      {
+        "name": "goetied:block/cauldron_bubbles3"
+      },
+      {
+        "name": "goetied:block/cauldron_bubbles4"
+      },
+      {
+        "name": "goetied:block/cauldron_bubbles5"
+      }
+    ],
+    "subtitle": "subtitle.goetied.cauldron_bubbles"
+  },
+  "cauldron_chimes": {
+    "sounds": [
+      {
+        "name": "goetied:block/cauldron_chimes"
+      }
+    ],
+    "subtitle": "subtitle.goetied.cauldron_chimes"
+  },
+  "resonance_crystal_on": {
+    "sounds": [
+      {
+        "name": "goetied:block/resonance_crystal_on1"
+      },
+      {
+        "name": "goetied:block/resonance_crystal_on2"
+      },
+      {
+        "name": "goetied:block/resonance_crystal_on3"
+      },
+      {
+        "name": "goetied:block/resonance_crystal_on4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.resonance_crystal_on"
+  },
+  "resonance_crystal_off": {
+    "sounds": [
+      {
+        "name": "goetied:block/resonance_crystal_off1"
+      },
+      {
+        "name": "goetied:block/resonance_crystal_off2"
+      },
+      {
+        "name": "goetied:block/resonance_crystal_off3"
+      },
+      {
+        "name": "goetied:block/resonance_crystal_off4"
+      }
+    ],
+    "subtitle": "subtitle.goetied.resonance_crystal_off"
+  },
+  "resonance_crystal_loop": {
+    "sounds": [
+      {
+        "name": "goetied:block/resonance_crystal_loop1"
+      },
+      {
+        "name": "goetied:block/resonance_crystal_loop2"
+      }
+    ],
+    "subtitle": "subtitle.goetied.resonance_crystal_loop"
+  },
+  "spider_nest_start": {
+    "sounds": [
+      {
+        "name": "goetied:block/spider_nest_start1"
+      },
+      {
+        "name": "goetied:block/spider_nest_start2"
+      },
+      {
+        "name": "goetied:block/spider_nest_start3"
+      },
+      {
+        "name": "goetied:block/spider_nest_start4"
+      },
+      {
+        "name": "goetied:block/spider_nest_start5"
+      },
+      {
+        "name": "goetied:block/spider_nest_start6"
+      }
+    ],
+    "subtitle": "subtitle.goetied.spider_nest_start"
+  },
+  "spider_nest_train": {
+    "sounds": [
+      {
+        "name": "goetied:block/spider_nest_train"
+      }
+    ],
+    "subtitle": "subtitle.goetied.spider_nest_train"
+  },
+  "spider_nest_spawn": {
+    "sounds": [
+      {
+        "name": "goetied:block/spider_nest_spawn1"
+      },
+      {
+        "name": "goetied:block/spider_nest_spawn2"
+      },
+      {
+        "name": "goetied:block/spider_nest_spawn3"
+      },
+      {
+        "name": "goetied:block/spider_nest_spawn4"
+      },
+      {
+        "name": "goetied:block/spider_nest_spawn5"
+      },
+      {
+        "name": "goetied:block/spider_nest_spawn6"
+      }
+    ],
+    "subtitle": "subtitle.goetied.spider_nest_spawn"
+  },
+  "gravestone_start": {
+    "sounds": [
+      {
+        "name": "goetied:block/graveyard_moan1"
+      },
+      {
+        "name": "goetied:block/graveyard_moan2"
+      },
+      {
+        "name": "goetied:block/graveyard_moan3"
+      },
+      {
+        "name": "goetied:block/graveyard_moan4"
+      },
+      {
+        "name": "goetied:block/graveyard_moan5"
+      },
+      {
+        "name": "goetied:block/graveyard_moan6"
+      }
+    ],
+    "subtitle": "subtitle.goetied.gravestone_start"
+  },
+  "blazing_cage_start": {
+    "sounds": [
+      {
+        "name": "goetied:block/blazing_cage_start1"
+      },
+      {
+        "name": "goetied:block/blazing_cage_start2"
+      },
+      {
+        "name": "goetied:block/blazing_cage_start3"
+      },
+      {
+        "name": "goetied:block/blazing_cage_start4"
+      },
+      {
+        "name": "goetied:block/blazing_cage_start5"
+      },
+      {
+        "name": "goetied:block/blazing_cage_start6"
+      }
+    ],
+    "subtitle": "subtitle.goetied.blazing_cage_start"
+  },
+  "blazing_cage_train": {
+    "sounds": [
+      {
+        "name": "goetied:block/blazing_cage_scatter1"
+      },
+      {
+        "name": "goetied:block/blazing_cage_scatter2"
+      },
+      {
+        "name": "goetied:block/blazing_cage_scatter3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.blazing_cage_train"
+  },
+  "urn_break": {
+    "sounds": [
+      {
+        "name": "goetied:block/urn_break1"
+      },
+      {
+        "name": "goetied:block/urn_break2"
+      },
+      {
+        "name": "goetied:block/urn_break3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.urn_break"
+  },
+  "void_flame_loop": {
+    "sounds": [
+      {
+        "name": "goetied:block/void_flame_loop"
+      }
+    ]
+  },
+  "void_flame": {
+    "sounds": [
+      {
+        "name": "goetied:block/void_flame1"
+      },
+      {
+        "name": "goetied:block/void_flame2"
+      },
+      {
+        "name": "goetied:block/void_flame3"
+      },
+      {
+        "name": "goetied:block/void_flame4"
+      },
+      {
+        "name": "goetied:block/void_flame5"
+      },
+      {
+        "name": "goetied:block/void_flame6"
+      }
+    ]
+  },
+  "void_barrel_activate": {
+    "sounds": [
+      {
+        "name": "goetied:block/void_barrel_activate1"
+      },
+      {
+        "name": "goetied:block/void_barrel_activate2"
+      },
+      {
+        "name": "goetied:block/void_barrel_activate3"
+      }
+    ]
+  },
+  "void_spawner_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:end_fire/fire1"
+      },
+      {
+        "name": "goetied:end_fire/fire2"
+      },
+      {
+        "name": "goetied:end_fire/fire3"
+      },
+      {
+        "name": "goetied:end_fire/fire4"
+      },
+      {
+        "name": "goetied:end_fire/fire5"
+      }
+    ],
+    "subtitle": "subtitle.goetied.void_spawner_ambient"
+  },
+  "void_spawner_detect_player": {
+    "sounds": [
+      {
+        "name": "goetied:end_pillar/power_up1"
+      },
+      {
+        "name": "goetied:end_pillar/power_up2"
+      },
+      {
+        "name": "goetied:end_pillar/power_up3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.void_spawner_detect_player"
+  },
+  "void_spawner_open_shutter": {
+    "sounds": [
+      {
+        "name": "goetied:trial_spawner/open_shutter"
+      }
+    ],
+    "subtitle": "subtitle.goetied.void_spawner_open_shutter"
+  },
+  "void_spawner_close_shutter": {
+    "sounds": [
+      {
+        "name": "goetied:trial_spawner/close_shutter"
+      }
+    ],
+    "subtitle": "subtitle.goetied.void_spawner_close_shutter"
+  },
+  "void_spawner_eject_item": {
+    "sounds": [
+      {
+        "name": "goetied:trial_spawner/eject_item"
+      }
+    ],
+    "subtitle": "subtitle.goetied.void_spawner_eject_item"
+  },
+  "void_vault_ambient": {
+    "sounds": [
+      {
+        "name": "goetied:fortune_flower/flower1"
+      },
+      {
+        "name": "goetied:fortune_flower/flower2"
+      },
+      {
+        "name": "goetied:fortune_flower/flower3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.void_vault_ambient"
+  },
+  "void_vault_activate": {
+    "sounds": [
+      {
+        "name": "goetied:end_pillar/enter1"
+      },
+      {
+        "name": "goetied:end_pillar/enter2"
+      },
+      {
+        "name": "goetied:end_pillar/enter3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.void_vault_activate"
+  },
+  "void_vault_deactivate": {
+    "sounds": [
+      {
+        "name": "goetied:end_pillar/exit1"
+      },
+      {
+        "name": "goetied:end_pillar/exit2"
+      },
+      {
+        "name": "goetied:end_pillar/exit3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.void_vault_deactivate"
+  },
+  "void_vault_open_shutter": {
+    "sounds": [
+      {
+        "name": "goetied:vault/open_shutter"
+      }
+    ],
+    "subtitle": "subtitle.goetied.void_vault_open_shutter"
+  },
+  "void_vault_close_shutter": {
+    "sounds": [
+      {
+        "name": "goetied:trial_spawner/close_shutter"
+      }
+    ],
+    "subtitle": "subtitle.goetied.void_vault_close_shutter"
+  },
+  "void_vault_eject_item": {
+    "sounds": [
+      {
+        "name": "goetied:vault/eject1"
+      },
+      {
+        "name": "goetied:vault/eject2"
+      },
+      {
+        "name": "goetied:vault/eject3"
+      }
+    ],
+    "subtitle": "subtitle.goetied.void_vault_eject_item"
+  },
+  "void_vault_insert": {
+    "sounds": [
+      {
+        "name": "goetied:vault/insert"
+      }
+    ],
+    "subtitle": "subtitle.goetied.void_vault_insert"
+  },
+  "void_vault_insert_fail": {
+    "sounds": [
+      {
+        "name": "goetied:vault/insert_fail"
+      }
+    ],
+    "subtitle": "subtitle.goetied.void_vault_insert_fail"
+  },
+  "void_vault_reject": {
+    "sounds": [
+      {
+        "name": "goetied:vault/reject_rewarded_player"
+      }
+    ],
+    "subtitle": "subtitle.goetied.void_vault_reject"
+  },
+  "void_frame_unlock": {
+    "sounds": [
+      {
+        "name": "goetied:vault/insert"
+      }
+    ],
+    "subtitle": "subtitle.goetied.void_frame_unlock"
+  },
+  "creeper_pillar_on": {
+    "sounds": [
+      {
+        "name": "goetied:creeper_pillar/on"
+      }
+    ]
+  },
+  "creeper_pillar_off": {
+    "sounds": [
+      {
+        "name": "goetied:creeper_pillar/off"
+      }
+    ]
+  },
+  "creeper_pillar_loop": {
+    "sounds": [
+      {
+        "name": "goetied:creeper_pillar/loop"
+      }
+    ]
+  },
+  "jungle_pillar_burst": {
+    "sounds": [
+      {
+        "name": "goetied:jungle_pillar/burst1"
+      },
+      {
+        "name": "goetied:jungle_pillar/burst2"
+      },
+      {
+        "name": "goetied:jungle_pillar/burst3"
+      }
+    ]
+  },
+  "apostle_theme": {
+    "sounds": [
+      {
+        "name": "goetied:music/apostle_theme",
+        "stream": true
+      }
+    ]
+  },
+  "apostle_theme_disc": {
+    "sounds": [
+      {
+        "name": "goetied:music/apostle_theme_mono",
+        "stream": true
+      }
+    ]
+  },
+  "apostle_theme_post": {
+    "sounds": [
+      {
+        "name": "goetied:music/apostle_theme_post",
+        "stream": true
+      }
+    ]
+  },
+  "vizier_theme": {
+    "sounds": [
+      {
+        "name": "goetied:music/vizier_theme",
+        "stream": true
+      }
+    ]
+  },
+  "vizier_theme_disc": {
+    "sounds": [
+      {
+        "name": "goetied:music/vizier_theme_mono",
+        "stream": true
+      }
+    ]
+  },
+  "rm_theme": {
+    "sounds": [
+      {
+        "name": "goetied:music/rm_theme",
+        "stream": true
+      }
+    ]
+  },
+  "rm_theme_disc": {
+    "sounds": [
+      {
+        "name": "goetied:music/rm_theme_mono",
+        "stream": true
+      }
+    ]
+  },
+  "ender_keeper_theme": {
+    "sounds": [
+      {
+        "name": "goetied:music/ender_keeper_theme",
+        "stream": true
+      }
+    ]
+  },
+  "ender_keeper_theme_post": {
+    "sounds": [
+      {
+        "name": "goetied:music/ender_keeper_theme_post",
+        "stream": true
+      }
+    ]
+  },
+  "ender_keeper_theme_disc": {
+    "sounds": [
+      {
+        "name": "goetied:music/ender_keeper_theme_disc",
+        "stream": true
+      }
+    ]
+  },
+  "enderman_theme_pre": {
+    "sounds": [
+      {
+        "name": "goetied:music/enderman_theme_pre",
+        "stream": true
+      }
+    ]
+  },
+  "enderman_theme": {
+    "sounds": [
+      {
+        "name": "goetied:music/enderman_theme",
+        "stream": true
+      }
+    ]
+  },
+  "enderman_theme_disc": {
+    "sounds": [
+      {
+        "name": "goetied:music/enderman_theme_disc",
+        "stream": true
+      }
+    ]
+  },
+  "boss_post": {
+    "sounds": [
+      {
+        "name": "goetied:music/boss_post",
+        "stream": true
+      }
+    ]
+  },
+  "boss_post_second": {
+    "sounds": [
+      {
+        "name": "goetied:music/boss_post2",
+        "stream": true
+      }
+    ]
+  },
+  "arena_end": {
+    "sounds": [
+      {
+        "name": "goetied:music/arena_end",
+        "stream": true
+      }
+    ]
+  }
+}

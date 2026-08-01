@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "goetied:block/end_rock"
+      },
+      {
+        "model": "goetied:block/end_rock",
+        "y": 90
+      },
+      {
+        "model": "goetied:block/end_rock",
+        "y": 180
+      },
+      {
+        "model": "goetied:block/end_rock",
+        "y": 270
+      }
+    ]
+  }
+}

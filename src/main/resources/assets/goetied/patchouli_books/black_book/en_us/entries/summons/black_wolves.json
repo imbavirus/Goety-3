@@ -1,0 +1,45 @@
+{
+  "name": "Black Wolves",
+  "icon": "minecraft:bone",
+  "category": "goetied:summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Thought to be fairy tales, these omens of death are very real and loyal to their summoner."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "One can call upon a loyal black wolf through the use of a $(l:focuses/wild/hunting_focus)Hunting Focus$(), or through a ritual which summons one without a limited lifespan."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:thrall/summon_black_wolf_thrall"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goetied:black_wolf",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Right-clicking on a loyal Black Wolf with meat will heal them."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Summoning Black Wolves through certain ways may also yield variants of the beast or even other types of hounds."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goetied:skeleton_wolf",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "An undead version of regular wolves, though unlike them, these wolves may emit a howl that boosts the damage of their skeleton allies. They are summoned by casting $(l:focuses/wild/hunting_focus)Hunting spell$() with a $(l:crafts/staff/necro_staff)Necro Staff$(), or through another ritual."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:thrall/summon_skeleton_wolf_thrall"
+    }
+  ]
+}

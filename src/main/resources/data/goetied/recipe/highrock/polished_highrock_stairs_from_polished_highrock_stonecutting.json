@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "goetied:polished_highrock"
+  },
+  "result": "goetied:polished_highrock_stairs",
+  "count": 1
+}

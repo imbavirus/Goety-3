@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "goetied:block/freezing_lamp" },
+    "lit=false": { "model": "goetied:block/freezing_lamp_off" }
+  }
+}

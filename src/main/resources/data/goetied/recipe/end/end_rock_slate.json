@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "goetied:end_stone_slate"
+    },
+    "S": {
+      "item": "goetied:end_rock"
+    }
+  },
+  "result": {
+    "id": "goetied:end_rock_slate",
+    "count": 2
+  }
+}

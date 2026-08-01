@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "rrr",
+    "rrr",
+    "rrr"
+  ],
+  "key":
+  {
+    "r":
+    {
+      "item": "dungeonsdelight:stained_scrap"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:cursed_ingot",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "c:mod_loaded",
+      "modid": "dungeonsdelight"
+    }
+  ]
+}

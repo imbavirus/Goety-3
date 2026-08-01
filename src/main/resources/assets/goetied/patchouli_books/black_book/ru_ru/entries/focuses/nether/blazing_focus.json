@@ -1,0 +1,24 @@
+{
+  "name": "Фокус полыхания",
+  "icon": "goetied:blazing_focus",
+  "category": "goetied:focuses/nether",
+  "advancement": "goetied:goetied/read_bygone_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Несмотря на то, что восстание всполохов до сих пор является тайной, вам удалось создать фокус, который вызывает всполохов без революционного стержня."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/blazing_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Использование $(l:crafts/staff/nether_staff)незерского посоха$() позволяет вызывать больше всполохов."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:blazing_focus": 1
+  }
+}

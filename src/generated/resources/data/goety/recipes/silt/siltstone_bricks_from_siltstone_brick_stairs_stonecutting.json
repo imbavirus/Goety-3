@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "goety:siltstone_bricks"
-  },
-  "result": "goety:siltstone_brick_stairs"
-}

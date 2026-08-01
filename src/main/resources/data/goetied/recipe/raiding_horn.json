@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "ccc",
+    "chc",
+    " e "
+  ],
+  "key":
+  {
+    "e":
+    {
+      "item": "goetied:savage_tooth"
+    },
+    "c":
+    {
+      "item": "goetied:pale_steel_ingot"
+    },
+    "h":
+    {
+      "item": "minecraft:goat_horn"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:raiding_horn",
+    "count": 1
+  }
+}

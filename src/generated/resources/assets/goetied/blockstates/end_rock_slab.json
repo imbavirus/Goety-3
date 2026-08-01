@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "goetied:block/end_rock_slab"
+    },
+    "type=double": {
+      "model": "goetied:block/end_rock"
+    },
+    "type=top": {
+      "model": "goetied:block/end_rock_slab_top"
+    }
+  }
+}

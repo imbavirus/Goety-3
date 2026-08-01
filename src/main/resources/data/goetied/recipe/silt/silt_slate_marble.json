@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " m ",
+    "mlm",
+    " m "
+  ],
+  "key":
+  {
+    "m":
+    {
+      "item": "goetied:slate_marble"
+    },
+    "l":
+    {
+      "item": "goetied:siltstone"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:silt_slate_marble",
+    "count": 4
+  }
+}

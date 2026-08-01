@@ -1,0 +1,22 @@
+{
+  "name": "Foco da Caveira",
+  "icon": "goetied:skull_focus",
+  "category": "goetied:focuses/necromancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Com este foco, você pode invocar Caveiras assombradas por espíritos do além que o seguirão e atacarão qualquer criatura hostil próxima, explodindo no impacto."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/skull_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com $(l:crafts/staff/necro_staff)Cajado Necro$() invoca mais caveiras de uma vez."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:skull_focus": 1
+  }
+}

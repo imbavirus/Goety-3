@@ -1,0 +1,19 @@
+{
+  "name": "Foco Vaporizante",
+  "icon": "goetied:steaming_focus",
+  "category": "goetied:focuses/abyss",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Esta magia permite disparar uma torrente de mísseis de vapor quente na direção em que você está olhando, causando dano e repelindo criaturas atingidas."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:focus/steaming_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com $(l:crafts/staff/abyss_staff)Cajado do Abismo$() permite lançar mais torrentes de mísseis."
+    }
+  ]
+}

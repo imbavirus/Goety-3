@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "l",
+    "s",
+    "l"
+  ],
+  "key":
+  {
+    "l":
+    {
+      "item": "minecraft:polished_blackstone_brick_slab"
+    },
+    "s":
+    {
+      "item": "minecraft:polished_blackstone_bricks"
+    }
+  },
+  "result":
+  {
+    "id": "goetied:pedestal_blackstone",
+    "count": 1
+  }
+}

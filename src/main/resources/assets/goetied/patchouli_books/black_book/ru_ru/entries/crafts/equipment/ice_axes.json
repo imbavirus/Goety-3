@@ -1,0 +1,16 @@
+{
+  "name": "Ледорубы",
+  "icon": "goetied:iron_ice_axe",
+  "category": "goetied:crafts/equipment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эти инструменты, похожие на кирки, полезны для добычи льда и преодоления препятствий, хотя рубить они ничего не могут."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:iron_ice_axe",
+      "recipe2": "goetied:diamond_ice_axe"
+    }
+  ]
+}

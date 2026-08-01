@@ -1,0 +1,22 @@
+{
+  "name": "Foco da Maré",
+  "icon": "goetied:tidal_focus",
+  "category": "goetied:focuses/abyss",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Esta magia conjura uma onda de água fluindo à frente do conjurador, empurrando e danificando alvos não aliados."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/tidal_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Conjurar com $(l:crafts/staff/abyss_staff)Cajado do Abismo$() invoca três ondas em vez de uma."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:tidal_focus": 1
+  }
+}

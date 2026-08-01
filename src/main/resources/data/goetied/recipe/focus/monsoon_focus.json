@@ -1,0 +1,21 @@
+{
+  "type": "goetied:ritual",
+  "ritual_type": "goetied:craft",
+  "activation_item": {
+    "item": "goetied:wind_core"
+  },
+  "craftType": "storm",
+  "soulCost": 1,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goetied:thunderbolt_focus"
+    },
+    {
+      "item": "goetied:magic_emerald"
+    }
+  ],
+  "result": {
+    "id": "goetied:monsoon_focus"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "goetied:goetied/root",
+  "criteria": {
+    "kill_a_crypt_slime": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "goetied:crypt_slime"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_a_crypt_slime"
+    ]
+  ]
+}

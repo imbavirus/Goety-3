@@ -1,0 +1,15 @@
+{
+  "name": "合成聚晶",
+  "icon": "goetied:crafting_focus",
+  "category": "goetied:focuses",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "有些冒险家经常忘记带自己的工作台出门探险，这个聚晶就因此应运而生。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:focus/crafting_focus"
+    }
+  ]
+}

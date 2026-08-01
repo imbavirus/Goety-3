@@ -1,0 +1,18 @@
+{
+  "name": "Troop Focus",
+  "icon": "goetied:troop_focus",
+  "category": "goetied:focuses/void",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A modified Call Focus that, rather than storing an individual servant, stores the servant's species and type, allowing you to call all servants of that type instead."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/troop_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:troop_focus": 1
+  }
+}

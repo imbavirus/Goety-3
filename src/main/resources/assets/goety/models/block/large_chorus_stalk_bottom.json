@@ -1,7 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "goety:block/large_chorus_stalk_bottom"
-  },
-  "render_type": "cutout"
-}

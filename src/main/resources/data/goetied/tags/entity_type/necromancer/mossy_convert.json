@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "__comment": "mobs that can be converted to Mossy Necromancers.",
+  "values": [
+    "goetied:mossy_skeleton_servant"
+  ]
+}

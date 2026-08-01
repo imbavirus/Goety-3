@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "goetied:block/dark_altar_stone_activated" },
+    "lit=false": { "model": "goetied:block/dark_altar_stone" }
+  }
+}

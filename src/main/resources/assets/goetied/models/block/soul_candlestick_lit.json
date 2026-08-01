@@ -1,0 +1,7 @@
+{
+	"parent": "goetied:block/template_candlestick",
+	"textures": {
+		"candle": "minecraft:block/candle_lit",
+		"stick": "goetied:block/soul_candlestick"
+	}
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Braziers",
+  "icon": "goetied:shade_brazier",
+  "category": "goetied:crafts",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Just because you're a dark wizard doesn't mean you can't be decorative. These braziers are a fancy way of providing light and burn any fool that stand on them when lit. The braziers can also be unlit by right-clicking on them, and relit the same way."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:shade/shade_brazier",
+      "recipe2": "goetied:stone_brazier"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:deepslate_brazier",
+      "recipe2": "goetied:brick_brazier"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:blackstone_brazier",
+      "recipe2": "goetied:nether_brick_brazier"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:marble/marble_brazier"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Like torches and campfires, these braziers can also burn with soul fire."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:shade/shade_soul_brazier",
+      "recipe2": "goetied:stone_soul_brazier"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:deepslate_soul_brazier",
+      "recipe2": "goetied:brick_soul_brazier"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:blackstone_soul_brazier",
+      "recipe2": "goetied:nether_brick_soul_brazier"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:marble/marble_soul_brazier"
+    }
+  ]
+}

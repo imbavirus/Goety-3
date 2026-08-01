@@ -1,0 +1,27 @@
+{
+  "name": "Guardian Servant",
+  "icon": "minecraft:prismarine_bricks",
+  "category": "goetied:summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "These biomechanical cyclops are called from their monuments to serve under your command. While they do not need to breath to survive, it's best to not have them flail about on land."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goetied:guardian_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "One can call these creatures through the use of a $(l:focuses/abyss/guardian_focus)Guardian Focus$(), or through a ritual which summons one without a limited lifespan."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:thrall/summon_guardian_servant_thrall"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Guardians can be healed by right-clicking on them with fishes."
+    }
+  ]
+}

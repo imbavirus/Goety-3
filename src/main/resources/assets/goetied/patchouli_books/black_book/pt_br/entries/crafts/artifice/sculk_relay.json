@@ -1,0 +1,17 @@
+{
+  "name": "Relé de Sculk",
+  "icon": "goetied:sculk_relay",
+  "category": "goetied:crafts/artifice",
+  "advancement": "goetied:goetied/get_sculk_catalyst",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "O Relé desvia a propagação de Sculk do Conversor para a sua localização. Clicar no Conversor mostra o Relé associado. Pode ser recolhido com uma Enxada com Toque Suave."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:sculk_relay",
+      "text": "O Conversor só usa o Relé mais próximo."
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#goety:rotten_logs",
-    "#goety:windswept_logs",
-    "#goety:pine_logs",
-    "goety:steep_wood"
+    "#goetied:rotten_logs",
+    "#goetied:windswept_logs",
+    "#goetied:pine_logs",
+    "goetied:steep_wood"
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "name": "Иллюзорные одежды",
+  "icon": "goetied:illusion_robe",
+  "category": "goetied:crafts/garment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Из оккультных тканей вы можете создать иллюзорную мантию, которая будет становиться невидимой вместе с вами, что сделает вас совершенно незаметным для мобов и других вам подобных."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goetied:illusion_robe"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Мантия также усиливает фокус отражения, заставляя ваших двойников наносить урон, хотя и небольшой."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:illusion_robe_mirror": 1
+  }
+}

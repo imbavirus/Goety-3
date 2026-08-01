@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "goety:cursed_metal_block",
-    "goety:pale_steel_block",
-    "goety:ominous_pyre",
-    "goety:ominous_idol",
-    "goety:creeper_totem"
+    "goetied:cursed_metal_block",
+    "goetied:pale_steel_block",
+    "goetied:ominous_pyre",
+    "goetied:ominous_idol",
+    "goetied:creeper_totem"
   ]
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "goetied:block/snowy_siltstone_slight"
+  }
+}

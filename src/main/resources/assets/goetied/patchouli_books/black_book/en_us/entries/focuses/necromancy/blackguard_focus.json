@@ -1,0 +1,23 @@
+{
+  "name": "Blackguard Focus",
+  "icon": "goetied:blackguard_focus",
+  "category": "goetied:focuses/necromancy",
+  "advancement": "goetied:goetied/read_front_scroll",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Inspired by the vanguards, you've devised a way to summon and armed powerful, but slow, zombies with heavy armor and mace."
+    },
+    {
+      "type": "goetied:ritual",
+      "recipe": "goetied:focus/blackguard_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Casting with $(l:crafts/staff/necro_staff)Necro Staff$() summons more blackguards at once."
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goetied:blackguard_focus": 1
+  }
+}

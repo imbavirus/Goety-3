@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "goetied:windswept_log",
+    "goetied:windswept_wood",
+    "goetied:stripped_windswept_log",
+    "goetied:stripped_windswept_wood"
+  ]
+}

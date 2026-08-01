@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_trapdoor",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "goetied:haunted_planks"
+    }
+  },
+  "result": {
+    "id": "goetied:haunted_trapdoor",
+    "count": 2
+  }
+}
