@@ -1,0 +1,8 @@
+{
+  "type": "goety:cursed_infuser",
+  "ingredient": {
+    "item": "goety:witch_hat"
+  },
+  "result": "goety:witch_hat_hedge",
+  "cookingTime": 60
+}

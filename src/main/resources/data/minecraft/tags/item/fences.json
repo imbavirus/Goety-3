@@ -1,15 +1,15 @@
 {
   "replace": false,
   "values": [
-    "goetied:haunted_fence",
-    "goetied:rotten_fence",
-    "goetied:windswept_fence",
-    "goetied:pine_fence",
-    "goetied:steep_fence",
-    "goetied:chorus_fence",
-    "goetied:corrupt_chorus_fence",
-    "goetied:cragrocks_fence",
-    "goetied:end_rock_brick_fence",
-    "goetied:smooth_end_stone_fence"
+    "goety:haunted_fence",
+    "goety:rotten_fence",
+    "goety:windswept_fence",
+    "goety:pine_fence",
+    "goety:steep_fence",
+    "goety:chorus_fence",
+    "goety:corrupt_chorus_fence",
+    "goety:cragrocks_fence",
+    "goety:end_rock_brick_fence",
+    "goety:smooth_end_stone_fence"
   ]
 }

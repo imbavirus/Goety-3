@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "goetied:block/cobbled_end_stone",
-    "side": "goetied:block/cobbled_end_stone",
-    "top": "goetied:block/cobbled_end_stone"
-  }
-}

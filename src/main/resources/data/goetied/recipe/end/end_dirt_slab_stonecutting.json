@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "goetied:end_dirt"
-  },
-  "result": "goetied:end_dirt_slab"
-}

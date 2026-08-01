@@ -1,0 +1,45 @@
+{
+  "name": "黑狼",
+  "icon": "minecraft:bone",
+  "category": "goety:summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "这些常象征童话故事中死亡预兆的存在，对它的召唤者却是实实在在的忠诚"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "使用 $(l:focuses/wild/hunting_focus)狩猎聚晶$() 即可召唤效忠于你的黑狼，或是通过仪式召唤一只没有寿命限制的黑狼"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_black_wolf_thrall"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:black_wolf",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "手持肉类右键你的黑狼仆从即可为其恢复血量。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "通过某些特殊方式可以召唤黑狼的变种，甚至是其它类型的猎犬"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:skeleton_wolf",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "这是普通狼的亡灵化版本，虽然看似没有什么区别，但它们可以通过发动嚎叫来提升周围其它骷髅类仆从的伤害，它们可以通过承载 $(l:focuses/wild/hunting_focus)狩猎聚晶$() 的 $(l:crafts/necro_staff)死灵魔杖$()召唤，或是通过仪式召唤"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_skeleton_wolf_thrall"
+    }
+  ]
+}

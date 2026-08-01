@@ -1,6 +1,0 @@
-{
-  "parent": "goetied:block/template_dark_anvil",
-  "textures": {
-    "top": "goetied:block/dark_anvil_top"
-  }
-}

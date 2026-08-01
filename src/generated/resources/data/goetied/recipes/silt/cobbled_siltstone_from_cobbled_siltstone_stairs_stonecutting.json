@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "goetied:cobbled_siltstone"
-  },
-  "result": "goetied:cobbled_siltstone_stairs"
-}

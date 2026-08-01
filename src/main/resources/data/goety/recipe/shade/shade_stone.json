@@ -1,0 +1,8 @@
+{
+  "type": "goety:cursed_infuser",
+  "ingredient": {
+    "tag": "c:sandstone"
+  },
+  "result": "goety:shade_stone",
+  "cookingTime": 20
+}

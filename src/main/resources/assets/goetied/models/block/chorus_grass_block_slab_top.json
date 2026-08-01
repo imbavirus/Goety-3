@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "top": "goetied:block/chorus_grass_block_slab_top",
-    "side": "goetied:block/chorus_grass_block_slab",
-    "bottom": "goetied:block/smooth_end_stone"
-  }
-}

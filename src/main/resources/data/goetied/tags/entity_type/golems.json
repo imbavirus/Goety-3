@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#goetied:golem_servants",
-    "goetied:hostile_redstone_golem",
-    "goetied:hostile_redstone_monstrosity"
-  ]
-}

@@ -1,8 +1,0 @@
-{
-  "type": "goetied:cursed_infuser",
-  "ingredient": {
-    "item": "minecraft:emerald"
-  },
-  "result": "goetied:magic_emerald",
-  "cookingTime": 60
-}

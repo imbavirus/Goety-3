@@ -1,7 +1,0 @@
-{
-  "name": "Облачение",
-  "description": "Загадочные одежды для тёмного колдуна.",
-  "icon": "goetied:dark_hat",
-  "parent": "goetied:crafts",
-  "sortnum": 2
-}

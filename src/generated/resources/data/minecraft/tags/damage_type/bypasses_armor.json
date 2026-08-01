@@ -1,15 +1,15 @@
 {
   "values": [
-    "goetied:phobia",
-    "goetied:doom",
-    "goetied:hellfire",
-    "goetied:indirect_hellfire",
-    "goetied:acid",
-    "goetied:spike",
-    "goetied:magic_bolt",
-    "goetied:choke",
-    "goetied:voided",
-    "goetied:dismissed",
-    "goetied:death"
+    "goety:phobia",
+    "goety:doom",
+    "goety:hellfire",
+    "goety:indirect_hellfire",
+    "goety:acid",
+    "goety:spike",
+    "goety:magic_bolt",
+    "goety:choke",
+    "goety:voided",
+    "goety:dismissed",
+    "goety:death"
   ]
 }

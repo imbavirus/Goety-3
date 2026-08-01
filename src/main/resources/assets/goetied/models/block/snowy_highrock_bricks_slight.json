@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "top": "goetied:block/snowy_highrock_bricks_slight_top",
-    "bottom": "goetied:block/snowy_highrock_bricks_slight_top",
-    "side": "goetied:block/snowy_highrock_bricks_slight"
-  }
-}

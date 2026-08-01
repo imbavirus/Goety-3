@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "goetied:snowy_siltstone_bricks_slight"
-  },
-  "result": "goetied:snowy_siltstone_brick_slight_wall"
-}

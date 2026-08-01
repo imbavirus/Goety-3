@@ -1,7 +1,0 @@
-{
-  "name": "工具和设备",
-  "description": "为黑暗巫师而生的工具，黑暗而强大。",
-  "icon": "goetied:eerie_pickaxe",
-  "parent": "goetied:crafts",
-  "sortnum": 1
-}

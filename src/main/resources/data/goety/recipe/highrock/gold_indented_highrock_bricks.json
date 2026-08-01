@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "gmg"
+  ],
+  "key":
+  {
+    "m":
+    {
+      "item": "goety:highrock_bricks"
+    },
+    "g":
+    {
+      "tag": "c:sandstone"
+    }
+  },
+  "result":
+  {
+    "id": "goety:gold_indented_highrock_bricks",
+    "count": 1
+  }
+}

@@ -1,7 +1,0 @@
-{
-  "name": "Artifices",
-  "description": "Utilizing and Manipulating Soul Energy.",
-  "icon": "goetied:soul_absorber",
-  "parent": "goetied:crafts",
-  "sortnum": 3
-}

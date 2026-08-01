@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "goetied:indented_gold"
-  },
-  "result": "goetied:indented_gold_stairs",
-  "count": 1
-}

@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "goetied:star_amulet",
-    "goetied:pendant_of_hunger",
-    "goetied:sea_amulet",
-    "goetied:amethyst_necklace",
-    "goetied:feline_amulet"
+    "goety:star_amulet",
+    "goety:pendant_of_hunger",
+    "goety:sea_amulet",
+    "goety:amethyst_necklace",
+    "goety:feline_amulet"
   ]
 }

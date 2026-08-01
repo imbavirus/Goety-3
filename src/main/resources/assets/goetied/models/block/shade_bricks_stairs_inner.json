@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "goetied:block/shade_bricks",
-    "top": "goetied:block/shade_bricks",
-    "side": "goetied:block/shade_bricks"
-  }
-}

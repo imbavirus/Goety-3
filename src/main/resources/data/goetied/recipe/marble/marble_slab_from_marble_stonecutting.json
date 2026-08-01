@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "goetied:marble"
-  },
-  "result": "goetied:marble_slab",
-  "count": 2
-}

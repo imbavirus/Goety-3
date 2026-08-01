@@ -1,0 +1,130 @@
+package za.co.infernos.goety.common.entities.projectiles;
+
+import za.co.infernos.goety.api.entities.IOwned;
+import za.co.infernos.goety.common.entities.ModEntityType;
+import za.co.infernos.goety.common.entities.boss.Apostle;
+import za.co.infernos.goety.config.MobsConfig;
+import za.co.infernos.goety.utils.ExplosionUtil;
+import za.co.infernos.goety.utils.LootingExplosion;
+import za.co.infernos.goety.utils.MobUtil;
+import za.co.infernos.goety.utils.ModDamageSource;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.particles.ParticleOptions;
+import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.util.Mth;
+import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.level.Explosion;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.phys.EntityHitResult;
+import net.minecraft.world.phys.HitResult;
+import net.minecraft.world.phys.Vec3;
+
+public class NetherMeteor extends ExplosiveProjectile {
+
+    public NetherMeteor(EntityType<? extends ExplosiveProjectile> type, Level world) {
+        super(type, world);
+    }
+
+    public NetherMeteor(Level worldIn, double x, double y, double z, double accelX, double accelY, double accelZ) {
+        super(ModEntityType.NETHER_METEOR.get(), x, y, z, accelX, accelY, accelZ, worldIn);
+    }
+
+    public NetherMeteor(Level worldIn, LivingEntity shooter, double accelX, double accelY, double accelZ) {
+        super(ModEntityType.NETHER_METEOR.get(), shooter, accelX, accelY, accelZ, worldIn);
+    }
+
+    public void defaultExplosionAndDamage(net.minecraft.network.syncher.SynchedEntityData.Builder builder) {
+        builder.define(DATA_EXPLOSION, 4.0F);
+        builder.define(DATA_DAMAGE, 6.0F);
+    }
+
+    public void tick() {
+        super.tick();
+        Vec3 vector3d = this.getDeltaMovement();
+        double d0 = this.getX() + vector3d.x;
+        double d1 = this.getY() + vector3d.y;
+        double d2 = this.getZ() + vector3d.z;
+        this.level().addParticle(ParticleTypes.LARGE_SMOKE, d0 + this.level().random.nextDouble()/2, d1 + 0.5D, d2 + this.level().random.nextDouble()/2, 0.0D, 0.0D, 0.0D);
+        this.level().addParticle(ParticleTypes.FLAME, d0 + this.level().random.nextDouble()/2, d1 + 0.5D, d2 + this.level().random.nextDouble()/2, 0.0D, 0.0D, 0.0D);
+    }
+
+    protected void onHit(HitResult result) {
+        super.onHit(result);
+        if (!this.level().isClientSide) {
+            boolean flag = this.isDangerous();
+            Explosion.BlockInteraction interaction = flag ? Explosion.BlockInteraction.DESTROY : Explosion.BlockInteraction.KEEP;
+            ExplosionUtil.lootExplode(this.level(), this, this.getX(), this.getY(), this.getZ(), this.getExplosionPower(), flag, interaction, LootingExplosion.Mode.LOOT);
+            if (za.co.infernos.goety.utils.ConfigHelper.getBoolean(MobsConfig.ApocalypseMode, false) && flag){
+                if (this.getOwner() instanceof Apostle apostle){
+                    apostle.netherSpreaderUtil.clear();
+                    for (int i = 0; i < 5; i++) {
+                        int range = Mth.floor(this.getExplosionPower());
+                        int x = this.random.nextInt(-range, range);
+                        int y = this.random.nextInt(-range, -(range / 2));
+                        int z = this.random.nextInt(-range, range);
+                        BlockPos blockPos = this.blockPosition().below().offset(x, y, z);
+                        apostle.netherSpreaderUtil.addCursors(blockPos, 10);
+                    }
+                }
+            }
+            this.discard();
+        }
+    }
+
+    protected void onHitEntity(EntityHitResult pResult) {
+        super.onHitEntity(pResult);
+        if (!this.level().isClientSide) {
+            Entity entity = pResult.getEntity();
+            Entity entity1 = this.getOwner();
+            entity.hurt(ModDamageSource.hellfire(this, this.getOwner()), this.getDamage() + this.getExtraDamage());
+            if (entity1 instanceof LivingEntity livingAttacker && entity instanceof LivingEntity livingTarget) {
+                 net.minecraft.world.item.enchantment.EnchantmentHelper.doPostAttackEffects((net.minecraft.server.level.ServerLevel) this.level(), livingTarget, ModDamageSource.hellfire(this, this.getOwner()));
+            }
+
+        }
+    }
+
+    protected boolean canHitEntity(Entity pEntity) {
+        if (this.getOwner() instanceof IOwned owner){
+            if (pEntity instanceof IOwned entity){
+                if (owner.getTrueOwner() == entity.getTrueOwner()){
+                    return false;
+                }
+            }
+            if (owner.getTrueOwner() == pEntity){
+                return false;
+            }
+        }
+        if (MobUtil.areAllies(this.getOwner(), pEntity)){
+            return false;
+        }
+        return super.canHitEntity(pEntity);
+    }
+
+    public boolean isOnFire() {
+        return false;
+    }
+
+    public boolean ignoreExplosion(){
+        return true;
+    }
+
+    public boolean canBeCollidedWith() {
+        return false;
+    }
+
+    public boolean hurt(DamageSource source, float amount) {
+        return false;
+    }
+
+    protected ParticleOptions getTrailParticle() {
+        return ParticleTypes.LARGE_SMOKE;
+    }
+
+    protected boolean shouldBurn() {
+        return false;
+    }
+}

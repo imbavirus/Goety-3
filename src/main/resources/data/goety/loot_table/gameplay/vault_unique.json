@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "goety:dark_ingot",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "goety:soul_emerald"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:elytra"
+        },
+        {
+          "type": "item",
+          "name": "goety:forbidden_piece"
+        },
+        {
+          "type": "item",
+          "name": "goety:forbidden_fragment"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

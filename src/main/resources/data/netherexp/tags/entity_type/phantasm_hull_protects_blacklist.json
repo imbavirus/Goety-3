@@ -1,16 +1,16 @@
 {
   "replace": false,
   "values": [
-    "goetied:dragon_fireball",
-    "goetied:wither_skull",
-    "goetied:wither_bolt",
-    "goetied:necro_bolt",
-    "goetied:scythe",
-    "goetied:void_shock",
-    "goetied:void_shock_bomb",
-    "goetied:void_slash",
-    "goetied:hell_bolt",
-    "goetied:hell_blast",
-    "goetied:death_arrow"
+    "goety:dragon_fireball",
+    "goety:wither_skull",
+    "goety:wither_bolt",
+    "goety:necro_bolt",
+    "goety:scythe",
+    "goety:void_shock",
+    "goety:void_shock_bomb",
+    "goety:void_slash",
+    "goety:hell_bolt",
+    "goety:hell_blast",
+    "goety:death_arrow"
   ]
 }

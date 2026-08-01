@@ -1,0 +1,18 @@
+{
+  "name": "忌まわしい機械",
+  "icon": "minecraft:end_stone",
+  "category": "goety:rumors",
+  "advancement": "goety:goety/read_warred_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "終端のスクロール​​には、レッドストーンゴーレムよりも強力なものが作られ、失われた地へ追放されたという記述があります。また、この怪物が滅ぼされる前に、一部の学者がどのようにして作られたかを記録していたという記述もありますが、きっとまだ残っているものがあるのでしょう…"
+    },
+    {
+      "type": "patchouli:quest",
+      "trigger": "goety:goety/get_shrouded_blueprint",
+      "text": "スクロールには、怪物のデザインは$(l)エンド$()の存在から生まれた可能性があり、その秘密は$(l)ターミナル$()の中にあると記されています。"
+    }
+  ]
+}

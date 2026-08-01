@@ -1,0 +1,360 @@
+package za.co.infernos.goety.common.blocks.entities;
+
+import za.co.infernos.goety.Goety;
+import za.co.infernos.goety.common.blocks.ModBlocks;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.entity.BlockEntityType;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.minecraft.core.registries.Registries;
+import net.neoforged.neoforge.registries.DeferredHolder;
+
+public class ModBlockEntities {
+        public static DeferredRegister<BlockEntityType<?>> BLOCK_ENTITY = DeferredRegister
+                        .create(Registries.BLOCK_ENTITY_TYPE, Goety.MOD_ID);
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<ArcaBlockEntity>> ARCA = BLOCK_ENTITY
+                        .register("arca",
+                                        () -> {
+                                                // Use supplier to access block lazily, after it's registered
+                                                Block block = ModBlocks.ARCA_BLOCK.get();
+                                                return BlockEntityType.Builder
+                                                                .of(ArcaBlockEntity::new, block)
+                                                                .build(null);
+                                        });
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<CursedInfuserBlockEntity>> CURSED_INFUSER = BLOCK_ENTITY
+                        .register("cursed_infuser",
+                                        () -> BlockEntityType.Builder.of(CursedInfuserBlockEntity::new,
+                                                        ModBlocks.CURSED_INFUSER.get()).build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<GrimInfuserBlockEntity>> GRIM_INFUSER = BLOCK_ENTITY
+                        .register("grim_infuser",
+                                        () -> BlockEntityType.Builder
+                                                        .of(GrimInfuserBlockEntity::new, ModBlocks.GRIM_INFUSER.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<CursedCageBlockEntity>> CURSED_CAGE = BLOCK_ENTITY
+                        .register("cursed_cage",
+                                        () -> BlockEntityType.Builder.of(CursedCageBlockEntity::new,
+                                                        ModBlocks.CURSED_CAGE_BLOCK.get()).build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<DarkAltarBlockEntity>> DARK_ALTAR = BLOCK_ENTITY
+                        .register("dark_altar",
+                                        () -> BlockEntityType.Builder.of(DarkAltarBlockEntity::new,
+                                                        ModBlocks.DARK_ALTAR.get(), ModBlocks.DARK_ALTAR_STONE.get(),
+                                                        ModBlocks.DARK_ALTAR_DEEPSLATE.get(),
+                                                        ModBlocks.DARK_ALTAR_NETHER_BRICK.get(),
+                                                        ModBlocks.DARK_ALTAR_BLACKSTONE.get(),
+                                                        ModBlocks.DARK_ALTAR_END_STONE.get(),
+                                                        ModBlocks.DARK_ALTAR_HIGHROCK.get(),
+                                                        ModBlocks.DARK_ALTAR_MARBLE.get()).build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<PedestalBlockEntity>> PEDESTAL = BLOCK_ENTITY
+                        .register("pedestal",
+                                        () -> BlockEntityType.Builder.of(PedestalBlockEntity::new,
+                                                        ModBlocks.PEDESTAL.get(), ModBlocks.PEDESTAL_STONE.get(),
+                                                        ModBlocks.PEDESTAL_DEEPSLATE.get(),
+                                                        ModBlocks.PEDESTAL_NETHER_BRICK.get(),
+                                                        ModBlocks.PEDESTAL_BLACKSTONE.get(),
+                                                        ModBlocks.PEDESTAL_END_STONE.get(),
+                                                        ModBlocks.PEDESTAL_HIGHROCK.get(),
+                                                        ModBlocks.PEDESTAL_MARBLE.get()).build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<SoulAbsorberBlockEntity>> SOUL_ABSORBER = BLOCK_ENTITY
+                        .register("soul_absorber",
+                                        () -> BlockEntityType.Builder
+                                                        .of(SoulAbsorberBlockEntity::new, ModBlocks.SOUL_ABSORBER.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<SoulMenderBlockEntity>> SOUL_MENDER = BLOCK_ENTITY
+                        .register("soul_mender",
+                                        () -> BlockEntityType.Builder
+                                                        .of(SoulMenderBlockEntity::new, ModBlocks.SOUL_MENDER.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<IceBouquetTrapBlockEntity>> ICE_BOUQUET_TRAP = BLOCK_ENTITY
+                        .register("ice_bouquet_trap",
+                                        () -> BlockEntityType.Builder.of(IceBouquetTrapBlockEntity::new,
+                                                        ModBlocks.ICE_BOUQUET_TRAP.get()).build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<WindBlowerBlockEntity>> WIND_BLOWER = BLOCK_ENTITY
+                        .register("wind_blower",
+                                        () -> BlockEntityType.Builder
+                                                        .of(WindBlowerBlockEntity::new, ModBlocks.WIND_BLOWER.get(),
+                                                                        ModBlocks.MARBLE_WIND_BLOWER.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<ResonanceCrystalBlockEntity>> RESONANCE_CRYSTAL = BLOCK_ENTITY
+                        .register("resonance_crystal",
+                                        () -> BlockEntityType.Builder.of(ResonanceCrystalBlockEntity::new,
+                                                        ModBlocks.RESONANCE_CRYSTAL.get()).build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<SculkDevourerBlockEntity>> SCULK_DEVOURER = BLOCK_ENTITY
+                        .register("sculk_devourer",
+                                        () -> BlockEntityType.Builder.of(SculkDevourerBlockEntity::new,
+                                                        ModBlocks.SCULK_DEVOURER.get()).build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<SculkConverterBlockEntity>> SCULK_CONVERTER = BLOCK_ENTITY
+                        .register("sculk_converter",
+                                        () -> BlockEntityType.Builder.of(SculkConverterBlockEntity::new,
+                                                        ModBlocks.SCULK_CONVERTER.get()).build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<SculkGrowerBlockEntity>> SCULK_GROWER = BLOCK_ENTITY
+                        .register("sculk_grower",
+                                        () -> BlockEntityType.Builder
+                                                        .of(SculkGrowerBlockEntity::new, ModBlocks.SCULK_GROWER.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<ForbiddenGrassBlockEntity>> FORBIDDEN_GRASS = BLOCK_ENTITY
+                        .register("forbidden_grass",
+                                        () -> BlockEntityType.Builder.of(ForbiddenGrassBlockEntity::new,
+                                                        ModBlocks.FORBIDDEN_GRASS.get()).build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<HookBellBlockEntity>> HOOK_BELL = BLOCK_ENTITY
+                        .register("hook_bell",
+                                        () -> BlockEntityType.Builder
+                                                        .of(HookBellBlockEntity::new, ModBlocks.HOOK_BELL.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<ShriekObeliskBlockEntity>> SHRIEKING_OBELISK = BLOCK_ENTITY
+                        .register("shriek_obelisk",
+                                        () -> BlockEntityType.Builder.of(ShriekObeliskBlockEntity::new,
+                                                        ModBlocks.SHRIEKING_OBELISK.get()).build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<NecroBrazierBlockEntity>> NECRO_BRAZIER = BLOCK_ENTITY
+                        .register("necro_brazier",
+                                        () -> BlockEntityType.Builder
+                                                        .of(NecroBrazierBlockEntity::new, ModBlocks.NECRO_BRAZIER.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<AnimatorBlockEntity>> ANIMATOR = BLOCK_ENTITY
+                        .register("animator",
+                                        () -> BlockEntityType.Builder
+                                                        .of(AnimatorBlockEntity::new, ModBlocks.ANIMATOR.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<BlackCrystalBlockEntity>> BLACK_CRYSTAL = BLOCK_ENTITY
+                        .register("black_crystal",
+                                        () -> BlockEntityType.Builder
+                                                        .of(BlackCrystalBlockEntity::new, ModBlocks.BLACK_CRYSTAL.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<SoulCandlestickBlockEntity>> SOUL_CANDLESTICK = BLOCK_ENTITY
+                        .register("soul_candlestick",
+                                        () -> BlockEntityType.Builder.of(SoulCandlestickBlockEntity::new,
+                                                        ModBlocks.SOUL_CANDLESTICK.get()).build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<BrewCauldronBlockEntity>> BREWING_CAULDRON = BLOCK_ENTITY
+                        .register("witch_cauldron",
+                                        () -> BlockEntityType.Builder.of(BrewCauldronBlockEntity::new,
+                                                        ModBlocks.BREWING_CAULDRON.get()).build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<HauntedMirrorBlockEntity>> HAUNTED_MIRROR = BLOCK_ENTITY
+                        .register("haunted_mirror",
+                                        () -> BlockEntityType.Builder.of(HauntedMirrorBlockEntity::new,
+                                                        ModBlocks.HAUNTED_MIRROR.get()).build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<HauntedJugBlockEntity>> HAUNTED_JUG = BLOCK_ENTITY
+                        .register("haunted_jug",
+                                        () -> BlockEntityType.Builder
+                                                        .of(HauntedJugBlockEntity::new, ModBlocks.HAUNTED_JUG.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<SpiderNestBlockEntity>> SPIDER_NEST = BLOCK_ENTITY
+                        .register("spider_nest",
+                                        () -> BlockEntityType.Builder
+                                                        .of(SpiderNestBlockEntity::new, ModBlocks.SPIDER_NEST.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<GravestoneBlockEntity>> SHADE_GRAVESTONE = BLOCK_ENTITY
+                        .register("shade_gravestone",
+                                        () -> BlockEntityType.Builder.of(GravestoneBlockEntity::new,
+                                                        ModBlocks.SHADE_GRAVESTONE.get()).build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<BlazingCageBlockEntity>> BLAZING_CAGE = BLOCK_ENTITY
+                        .register("blazing_cage",
+                                        () -> BlockEntityType.Builder
+                                                        .of(BlazingCageBlockEntity::new, ModBlocks.BLAZING_CAGE.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<OminousPyreBlockEntity>> OMINOUS_PYRE = BLOCK_ENTITY
+                        .register("ominous_pyre",
+                                        () -> BlockEntityType.Builder
+                                                        .of(OminousPyreBlockEntity::new, ModBlocks.OMINOUS_PYRE.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<OminousIdolBlockEntity>> OMINOUS_IDOL = BLOCK_ENTITY
+                        .register("ominous_idol",
+                                        () -> BlockEntityType.Builder
+                                                        .of(OminousIdolBlockEntity::new, ModBlocks.OMINOUS_IDOL.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<PithosBlockEntity>> PITHOS = BLOCK_ENTITY
+                        .register("pithos",
+                                        () -> BlockEntityType.Builder.of(PithosBlockEntity::new, ModBlocks.PITHOS.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<SpiderMotherDenBlockEntity>> SPIDER_MOTHER_DEN = BLOCK_ENTITY
+                        .register("spider_mother_den",
+                                        () -> BlockEntityType.Builder.of(SpiderMotherDenBlockEntity::new,
+                                                        ModBlocks.SPIDER_MOTHER_DEN.get()).build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<VoidSpawnerBlockEntity>> VOID_SPAWNER = BLOCK_ENTITY
+                        .register("void_spawner",
+                                        () -> BlockEntityType.Builder
+                                                        .of(VoidSpawnerBlockEntity::new, ModBlocks.VOID_SPAWNER.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<VoidVaultBlockEntity>> VOID_VAULT = BLOCK_ENTITY
+                        .register("void_vault",
+                                        () -> BlockEntityType.Builder
+                                                        .of(VoidVaultBlockEntity::new, ModBlocks.VOID_VAULT.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<VoidFrameBlockEntity>> VOID_FRAME = BLOCK_ENTITY
+                        .register("void_frame",
+                                        () -> BlockEntityType.Builder
+                                                        .of(VoidFrameBlockEntity::new, ModBlocks.VOID_FRAME.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<VoidShrineBlockEntity>> VOID_SHRINE = BLOCK_ENTITY
+                        .register("void_shrine",
+                                        () -> BlockEntityType.Builder
+                                                        .of(VoidShrineBlockEntity::new, ModBlocks.VOID_SHRINE.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<UrnBlockEntity>> URN = BLOCK_ENTITY
+                        .register("crypt_urn",
+                                        () -> BlockEntityType.Builder.of(UrnBlockEntity::new, ModBlocks.CRYPT_URN.get(),
+                                                        ModBlocks.STASH_URN.get()).build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<SpiderSacBlockEntity>> SPIDER_SAC = BLOCK_ENTITY
+                        .register("spider_sac",
+                                        () -> BlockEntityType.Builder
+                                                        .of(SpiderSacBlockEntity::new, ModBlocks.SPIDER_SAC.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<HoleBlockEntity>> HOLE = BLOCK_ENTITY
+                        .register("hole",
+                                        () -> BlockEntityType.Builder.of(HoleBlockEntity::new, ModBlocks.HOLE.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<PartLiquidBlockEntity>> PART_LIQUID = BLOCK_ENTITY
+                        .register("part_liquid",
+                                        () -> BlockEntityType.Builder
+                                                        .of(PartLiquidBlockEntity::new, ModBlocks.PART_LIQUID.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<NightBeaconBlockEntity>> NIGHT_BEACON = BLOCK_ENTITY
+                        .register("night_beacon",
+                                        () -> BlockEntityType.Builder
+                                                        .of(NightBeaconBlockEntity::new, ModBlocks.NIGHT_BEACON.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<VoidBarrelBlockEntity>> VOID_BARREL = BLOCK_ENTITY
+                        .register("void_barrel",
+                                        () -> {
+                                                // Access block lazily after it's registered
+                                                Block block = ModBlocks.VOID_BARREL.get();
+                                                return BlockEntityType.Builder
+                                                                .of(VoidBarrelBlockEntity::new, block)
+                                                                .build(null);
+                                        });
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<MagicLightBlockEntity>> MAGIC_LIGHT = BLOCK_ENTITY
+                        .register("magic_light",
+                                        () -> BlockEntityType.Builder.of(MagicLightBlockEntity::new,
+                                                        ModBlocks.SOUL_LIGHT_BLOCK.get(),
+                                                        ModBlocks.GLOW_LIGHT_BLOCK.get()).build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<TallSkullBlockEntity>> TALL_SKULL = BLOCK_ENTITY
+                        .register("tall_skull",
+                                        () -> BlockEntityType.Builder
+                                                        .of(TallSkullBlockEntity::new, ModBlocks.TALL_SKULL_BLOCK.get(),
+                                                                        ModBlocks.WALL_TALL_SKULL_BLOCK.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<RedstoneGolemSkullBlockEntity>> REDSTONE_GOLEM_SKULL = BLOCK_ENTITY
+                        .register("redstone_golem_skull",
+                                        () -> BlockEntityType.Builder
+                                                        .of(RedstoneGolemSkullBlockEntity::new,
+                                                                        ModBlocks.REDSTONE_GOLEM_SKULL_BLOCK.get(),
+                                                                        ModBlocks.WALL_REDSTONE_GOLEM_SKULL_BLOCK.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<GraveGolemSkullBlockEntity>> GRAVE_GOLEM_SKULL = BLOCK_ENTITY
+                        .register("grave_golem_skull",
+                                        () -> BlockEntityType.Builder
+                                                        .of(GraveGolemSkullBlockEntity::new,
+                                                                        ModBlocks.GRAVE_GOLEM_SKULL_BLOCK.get(),
+                                                                        ModBlocks.WALL_GRAVE_GOLEM_SKULL_BLOCK.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<RedstoneMonstrosityHeadBlockEntity>> REDSTONE_MONSTROSITY_HEAD = BLOCK_ENTITY
+                        .register("redstone_monstrosity_head",
+                                        () -> BlockEntityType.Builder.of(RedstoneMonstrosityHeadBlockEntity::new,
+                                                        ModBlocks.REDSTONE_MONSTROSITY_HEAD_BLOCK.get(),
+                                                        ModBlocks.WALL_REDSTONE_MONSTROSITY_HEAD_BLOCK.get())
+                                                        .build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<ModChestBlockEntity>> MOD_CHEST = BLOCK_ENTITY
+                        .register("chest",
+                                        () -> {
+                                                // Access blocks lazily after they're registered
+                                                return BlockEntityType.Builder.of(ModChestBlockEntity::new,
+                                                                ModBlocks.HAUNTED_CHEST.get(), ModBlocks.ROTTEN_CHEST.get(),
+                                                                ModBlocks.WINDSWEPT_CHEST.get(), ModBlocks.PINE_CHEST.get(),
+                                                                ModBlocks.CHORUS_CHEST.get(),
+                                                                ModBlocks.CORRUPT_CHORUS_CHEST.get(),
+                                                                ModBlocks.RAIDING_CHEST.get()).build(null);
+                                        });
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<ModTrappedChestBlockEntity>> MOD_TRAPPED_CHEST = BLOCK_ENTITY
+                        .register("trapped_chest",
+                                        () -> BlockEntityType.Builder.of(ModTrappedChestBlockEntity::new,
+                                                        ModBlocks.TRAPPED_HAUNTED_CHEST.get(),
+                                                        ModBlocks.TRAPPED_ROTTEN_CHEST.get(),
+                                                        ModBlocks.TRAPPED_WINDSWEPT_CHEST.get(),
+                                                        ModBlocks.TRAPPED_PINE_CHEST.get(),
+                                                        ModBlocks.TRAPPED_CHORUS_CHEST.get(),
+                                                        ModBlocks.TRAPPED_CORRUPT_CHORUS_CHEST.get(),
+                                                        ModBlocks.TRAPPED_RAIDING_CHEST.get()).build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<CryptChestBlockEntity>> CRYPT_CHEST = BLOCK_ENTITY
+                        .register("crypt_chest",
+                                        () -> BlockEntityType.Builder.of(CryptChestBlockEntity::new,
+                                                        ModBlocks.CRYPT_CHEST.get()).build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<LoftyChestBlockEntity>> LOFTY_CHEST = BLOCK_ENTITY
+                        .register("lofty_chest",
+                                        () -> BlockEntityType.Builder.of(LoftyChestBlockEntity::new,
+                                                        ModBlocks.LOFTY_CHEST.get()).build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<ModSignBlockEntity>> SIGN_BLOCK_ENTITIES = BLOCK_ENTITY
+                        .register("sign",
+                                        () -> BlockEntityType.Builder.of(ModSignBlockEntity::new,
+                                                        ModBlocks.HAUNTED_SIGN.get(), ModBlocks.HAUNTED_WALL_SIGN.get(),
+                                                        ModBlocks.ROTTEN_SIGN.get(), ModBlocks.ROTTEN_WALL_SIGN.get(),
+                                                        ModBlocks.WINDSWEPT_SIGN.get(),
+                                                        ModBlocks.WINDSWEPT_WALL_SIGN.get(),
+                                                        ModBlocks.PINE_SIGN.get(), ModBlocks.PINE_WALL_SIGN.get(),
+                                                        ModBlocks.CHORUS_SIGN.get(), ModBlocks.CHORUS_WALL_SIGN.get(),
+                                                        ModBlocks.CORRUPT_CHORUS_SIGN.get(),
+                                                        ModBlocks.CORRUPT_CHORUS_WALL_SIGN.get()).build(null));
+
+        public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<ModHangingSignBlockEntity>> HANGING_SIGN_BLOCK_ENTITIES = BLOCK_ENTITY
+                        .register("hanging_sign",
+                                        () -> BlockEntityType.Builder.of(ModHangingSignBlockEntity::new,
+                                                        ModBlocks.HAUNTED_HANGING_SIGN.get(),
+                                                        ModBlocks.HAUNTED_WALL_HANGING_SIGN.get(),
+                                                        ModBlocks.ROTTEN_HANGING_SIGN.get(),
+                                                        ModBlocks.ROTTEN_WALL_HANGING_SIGN.get(),
+                                                        ModBlocks.WINDSWEPT_HANGING_SIGN.get(),
+                                                        ModBlocks.WINDSWEPT_WALL_HANGING_SIGN.get(),
+                                                        ModBlocks.PINE_HANGING_SIGN.get(),
+                                                        ModBlocks.PINE_WALL_HANGING_SIGN.get(),
+                                                        ModBlocks.CHORUS_HANGING_SIGN.get(),
+                                                        ModBlocks.CHORUS_WALL_HANGING_SIGN.get(),
+                                                        ModBlocks.CORRUPT_CHORUS_HANGING_SIGN.get(),
+                                                        ModBlocks.CORRUPT_CHORUS_WALL_HANGING_SIGN.get()).build(null));
+}

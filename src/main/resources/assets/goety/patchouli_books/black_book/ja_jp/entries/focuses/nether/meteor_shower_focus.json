@@ -1,0 +1,22 @@
+{
+  "name": "流星のフォーカス",
+  "icon": "goety:meteor_shower_focus",
+  "category": "goety:focuses/nether",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "ネザーの力を弾雨のフォーカスに注入すると、矢の代わりに溶岩爆弾の雨を降らせることができます。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/meteor_shower_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:crafts/staff/nether_staff)ネザーの杖$()で唱えると、空から落ちてくる溶岩爆弾の数が増加します。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:meteor_shower_focus": 1
+  }
+}

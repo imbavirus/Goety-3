@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "goetied:block/shade_glass"
-  },
-  "render_type": "cutout_mipped"
-}

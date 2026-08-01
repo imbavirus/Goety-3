@@ -3,8 +3,8 @@
   "values": [
     "minecraft:spider",
     "minecraft:cave_spider",
-    "goetied:web_spider",
-    "goetied:icy_spider",
-    "goetied:bone_spider"
+    "goety:web_spider",
+    "goety:icy_spider",
+    "goety:bone_spider"
   ]
 }

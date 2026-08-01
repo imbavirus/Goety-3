@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "goetied:block/rotten_planks",
-    "side": "goetied:block/rotten_bookshelf"
-  }
-}

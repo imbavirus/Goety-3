@@ -1,6 +1,6 @@
 {
   "values": [
-    "goetied:loot_explode",
-    "goetied:loot_explode_owned"
+    "goety:loot_explode",
+    "goety:loot_explode_owned"
   ]
 }

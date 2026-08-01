@@ -1,0 +1,27 @@
+{
+  "name": "幽霊の水差し",
+  "icon": "goety:haunted_jug",
+  "category": "goety:crafts/artifice",
+  "advancement": "goety:goety/craft_dark_altar",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "場合によっては、闇の魔法使いが無限水源を得るために、2つ以上の水源ブロックが必要になることがあります。おそらく、もっとコンパクトで扱いやすいものでしょう。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:haunted/haunted_jug"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "幽霊の水差しには無限に水が供給されており、誰でもバケツ、ボトル、さらにはパイプ(つまり、工業modでも使えます)を通して受け取ることができます。しかし、この水差しを本当に特別なものにしているのは、その名前が示すように、スピリチュアルなエネルギーが憑りついているということです。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "水差しは、大釜など、近くにある有効な容器に水を入れようとし、近くで燃えている生き物を消火してしまうこともあります。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:haunted_jug": 1
+  }
+}

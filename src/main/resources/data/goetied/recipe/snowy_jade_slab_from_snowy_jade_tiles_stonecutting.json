@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "goetied:snowy_jade_tiles"
-  },
-  "result": "goetied:snowy_jade_slab"
-}

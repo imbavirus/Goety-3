@@ -1,14 +1,14 @@
 {
   "replace": false,
   "values": [
-    "goetied:haunted_stairs",
-    "goetied:rotten_stairs",
-    "goetied:windswept_stairs",
-    "goetied:pine_stairs",
-    "goetied:steep_stairs",
-    "goetied:sky_wood_stairs",
-    "goetied:chorus_stairs",
-    "goetied:chorus_wood_stairs",
-    "goetied:corrupt_chorus_stairs"
+    "goety:haunted_stairs",
+    "goety:rotten_stairs",
+    "goety:windswept_stairs",
+    "goety:pine_stairs",
+    "goety:steep_stairs",
+    "goety:sky_wood_stairs",
+    "goety:chorus_stairs",
+    "goety:chorus_wood_stairs",
+    "goety:corrupt_chorus_stairs"
   ]
 }

@@ -1,14 +1,14 @@
 {
   "replace": false,
   "values": [
-    "goetied:pedestal_dummy",
-    "goetied:jei_dummy/none",
-    "goetied:jei_dummy/sacrifice",
-    "goetied:bone_shard",
-    "goetied:cooking_ladle",
-    "goetied:brew",
-    "goetied:splash_brew",
-    "goetied:lingering_brew",
-    "goetied:gas_brew"
+    "goety:pedestal_dummy",
+    "goety:jei_dummy/none",
+    "goety:jei_dummy/sacrifice",
+    "goety:bone_shard",
+    "goety:cooking_ladle",
+    "goety:brew",
+    "goety:splash_brew",
+    "goety:lingering_brew",
+    "goety:gas_brew"
   ]
 }

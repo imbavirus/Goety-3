@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "goetied:block/sky_wood_planks",
-    "side": "goetied:block/sky_wood_planks",
-    "top": "goetied:block/sky_wood_planks"
-  }
-}

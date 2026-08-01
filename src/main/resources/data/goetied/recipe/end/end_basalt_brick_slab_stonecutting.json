@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "goetied:end_basalt_bricks"
-  },
-  "result": "goetied:end_basalt_brick_slab"
-}

@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "#goetied:wraiths",
-    "#goetied:reapers",
-    "goetied:haunt"
+    "#goety:wraiths",
+    "#goety:reapers",
+    "goety:haunt"
   ]
 }

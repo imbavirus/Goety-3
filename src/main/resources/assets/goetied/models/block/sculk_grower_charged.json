@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "top": "goetied:block/sculk_grower_top",
-    "bottom": "goetied:block/sculk_grower_bottom",
-    "side": "goetied:block/sculk_grower_side_charged"
-  }
-}

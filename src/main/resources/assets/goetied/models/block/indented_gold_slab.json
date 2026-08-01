@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "goetied:block/indented_gold",
-    "top": "goetied:block/indented_gold",
-    "side": "goetied:block/indented_gold"
-  }
-}

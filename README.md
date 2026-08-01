@@ -115,7 +115,7 @@ Goetied includes extensive configuration options accessible through the config f
 - Lich mode settings
 - And much more
 
-Configuration files are located in your Minecraft instance's `config/goetied/` directory.
+Configuration files are located in your Minecraft instance's `config/goety/` directory.
 
 ## Credits
 

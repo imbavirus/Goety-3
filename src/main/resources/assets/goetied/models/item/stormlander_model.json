@@ -1,6 +1,0 @@
-{
-	"parent": "goetied:item/template_hammer",
-	"textures": {
-		"hammer": "goetied:item/stormlander_model"
-	}
-}

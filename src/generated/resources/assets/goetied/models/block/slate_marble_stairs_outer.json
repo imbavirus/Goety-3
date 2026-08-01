@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "goetied:block/slate_marble",
-    "side": "goetied:block/slate_marble",
-    "top": "goetied:block/slate_marble"
-  }
-}

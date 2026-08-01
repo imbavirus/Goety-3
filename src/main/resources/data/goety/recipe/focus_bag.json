@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "bgb",
+    "beb"
+  ],
+  "key":
+  {
+    "b":
+    {
+      "tag": "c:rods/wooden"
+    },
+    "g":
+    {
+      "tag": "c:ingots/gold"
+    },
+    "e":
+    {
+      "item": "goety:empty_focus"
+    }
+  },
+  "result":
+  {
+    "id": "goety:focus_bag",
+    "count": 1
+  }
+}

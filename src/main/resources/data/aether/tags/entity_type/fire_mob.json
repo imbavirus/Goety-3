@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "goetied:blaze_servant",
-    "goetied:wildfire",
-    "goetied:inferno"
+    "goety:blaze_servant",
+    "goety:wildfire",
+    "goety:inferno"
   ]
 }

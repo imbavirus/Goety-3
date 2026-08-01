@@ -1,7 +1,0 @@
-{
-  "name": "Vestuário",
-  "description": "Curiosidades e vestuário dos feiticeiros das trevas.",
-  "icon": "goetied:dark_hat",
-  "parent": "goetied:crafts",
-  "sortnum": 2
-}

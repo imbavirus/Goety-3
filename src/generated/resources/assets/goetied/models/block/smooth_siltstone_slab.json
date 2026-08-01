@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "goetied:block/smooth_siltstone",
-    "side": "goetied:block/smooth_siltstone",
-    "top": "goetied:block/smooth_siltstone"
-  }
-}

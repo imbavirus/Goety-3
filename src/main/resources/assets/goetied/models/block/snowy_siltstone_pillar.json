@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "goetied:block/snowy_siltstone_pillar_end",
-    "side": "goetied:block/snowy_siltstone_pillar"
-  }
-}

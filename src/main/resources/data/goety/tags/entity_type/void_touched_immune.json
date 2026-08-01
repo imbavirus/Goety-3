@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "values": [
+    "#c:enderman",
+    "#goety:endermen",
+    "#goety:enderlings",
+    "minecraft:endermite",
+    "minecraft:ender_dragon",
+    "goety:endersent",
+    "goety:ender_keeper",
+    {
+      "id": "cataclysm:ender_golem",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ender_guardian",
+      "required": false
+    },
+    {
+      "id": "cataclysm:endermaptera",
+      "required": false
+    },
+    {
+      "id": "cataclysm:the_leviathan",
+      "required": false
+    },
+    {
+      "id": "cataclysm:the_baby_leviathan",
+      "required": false
+    }
+  ]
+}

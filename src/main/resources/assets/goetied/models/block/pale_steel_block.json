@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "goetied:block/pale_steel_block"
-  }
-}

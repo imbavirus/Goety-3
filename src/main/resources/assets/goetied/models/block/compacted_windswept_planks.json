@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "goetied:block/compacted_windswept_planks"
-  }
-}

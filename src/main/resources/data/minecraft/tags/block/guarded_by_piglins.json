@@ -1,20 +1,20 @@
 {
   "replace": false,
   "values": [
-    "#goetied:indented_gold_blocks",
-    "goetied:gold_arch_marble",
-    "goetied:gold_banded_marble",
-    "goetied:gold_covered_marble",
-    "goetied:gold_plated_marble",
-    "goetied:gold_indented_highrock_bricks",
-    "goetied:gold_chiseled_highrock_bricks",
-    "goetied:studded_steep_wood",
-    "goetied:studded_steep_wall",
-    "goetied:rimmed_steep_wood",
-    "goetied:rimmed_steep_wall",
-    "goetied:lined_steep_wood",
-    "goetied:lined_steep_wall",
-    "goetied:steep_lamp",
-    "goetied:haunted_mirror"
+    "#goety:indented_gold_blocks",
+    "goety:gold_arch_marble",
+    "goety:gold_banded_marble",
+    "goety:gold_covered_marble",
+    "goety:gold_plated_marble",
+    "goety:gold_indented_highrock_bricks",
+    "goety:gold_chiseled_highrock_bricks",
+    "goety:studded_steep_wood",
+    "goety:studded_steep_wall",
+    "goety:rimmed_steep_wood",
+    "goety:rimmed_steep_wall",
+    "goety:lined_steep_wood",
+    "goety:lined_steep_wall",
+    "goety:steep_lamp",
+    "goety:haunted_mirror"
   ]
 }

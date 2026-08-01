@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "goetied:silt_jade_tiles"
-  },
-  "result": "goetied:silt_jade_stairs"
-}

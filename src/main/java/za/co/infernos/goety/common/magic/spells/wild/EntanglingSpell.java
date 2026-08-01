@@ -1,0 +1,116 @@
+package za.co.infernos.goety.common.magic.spells.wild;
+
+import za.co.infernos.goety.api.magic.SpellType;
+import za.co.infernos.goety.common.enchantments.ModEnchantments;
+import za.co.infernos.goety.common.entities.projectiles.EntangleVines;
+import za.co.infernos.goety.common.magic.Spell;
+import za.co.infernos.goety.common.magic.SpellStat;
+import za.co.infernos.goety.config.SpellConfig;
+import za.co.infernos.goety.init.ModSounds;
+import za.co.infernos.goety.utils.CuriosFinder;
+import za.co.infernos.goety.utils.MathHelper;
+import za.co.infernos.goety.utils.MobUtil;
+import za.co.infernos.goety.utils.WandUtil;
+import net.minecraft.core.BlockPos;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.enchantment.Enchantment;
+import net.minecraft.world.phys.AABB;
+import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.phys.HitResult;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class EntanglingSpell extends Spell {
+    @Override
+    public int defaultSoulCost() {
+        return za.co.infernos.goety.utils.ConfigHelper.getInt(SpellConfig.EntanglingCost, 0);
+    }
+
+    @Override
+    public int defaultCastDuration() {
+        return za.co.infernos.goety.utils.ConfigHelper.getInt(SpellConfig.EntanglingDuration, 0);
+    }
+
+    @Override
+    public SpellType getSpellType() {
+        return SpellType.WILD;
+    }
+
+    @Nullable
+    @Override
+    public SoundEvent CastingSound() {
+        return ModSounds.WILD_PREPARE_SPELL.get();
+    }
+
+    @Override
+    public int defaultSpellCooldown() {
+        return za.co.infernos.goety.utils.ConfigHelper.getInt(SpellConfig.EntanglingCoolDown, 0);
+    }
+
+    @Override
+    public List<Enchantment> acceptedEnchantments() {
+        List<Enchantment> list = new ArrayList<>();
+        list.add(ModEnchantments.RANGE.get());
+        list.add(ModEnchantments.DURATION.get());
+        return list;
+    }
+
+    @Override
+    public void SpellResult(ServerLevel worldIn, LivingEntity caster, ItemStack staff, SpellStat spellStat) {
+        int range = spellStat.getRange();
+        int duration = spellStat.getDuration();
+        if (WandUtil.enchantedFocus(caster)) {
+            range += WandUtil.getRangeLevel(caster);
+            duration += WandUtil.getLevels(ModEnchantments.DURATION.get(), caster);
+        }
+        HitResult rayTraceResult = this.rayTrace(worldIn, caster, range, 3);
+        if (rightStaff(staff)){
+            int i = (int) caster.getX();
+            int j = (int) caster.getY();
+            int k = (int) caster.getZ();
+            int amount = 0;
+            List<LivingEntity> list = worldIn.getEntitiesOfClass(LivingEntity.class, (new AABB(i, j, k, i, j - 4, k)).inflate(16));
+            if (!list.isEmpty()) {
+                for (LivingEntity entity : list) {
+                    if (amount < za.co.infernos.goety.utils.ConfigHelper.getInt(SpellConfig.EntanglingStaffAmount, 0)) {
+                        if (entity != caster && !MobUtil.areAllies(entity, caster) && entity.getMaxHealth() <= 100.0F) {
+                            EntangleVines entangleVines = new EntangleVines(worldIn, caster, entity);
+                            entangleVines.setLifeSpan(entangleVines.getLifeSpan() + MathHelper.secondsToTicks(duration));
+                            if (CuriosFinder.hasWildRobe(caster)){
+                                entangleVines.setDamaging(true);
+                            }
+                            if (worldIn.addFreshEntity(entangleVines)) {
+                                ++amount;
+                            }
+                        }
+                    }
+                }
+            } else if (rayTraceResult instanceof BlockHitResult){
+                BlockPos blockPos = ((BlockHitResult) rayTraceResult).getBlockPos();
+                EntangleVines entangleVines = new EntangleVines(worldIn, caster, blockPos);
+                entangleVines.setLifeSpan(entangleVines.getLifeSpan() + MathHelper.secondsToTicks(duration));
+                worldIn.addFreshEntity(entangleVines);
+            }
+        } else {
+            LivingEntity target = this.getTarget(caster, range);
+            if (target != null){
+                EntangleVines entangleVines = new EntangleVines(worldIn, caster, target);
+                entangleVines.setLifeSpan(entangleVines.getLifeSpan() + MathHelper.secondsToTicks(duration));
+                if (CuriosFinder.hasWildRobe(caster)){
+                    entangleVines.setDamaging(true);
+                }
+                worldIn.addFreshEntity(entangleVines);
+            } else if (rayTraceResult instanceof BlockHitResult){
+                BlockPos blockPos = ((BlockHitResult) rayTraceResult).getBlockPos();
+                EntangleVines entangleVines = new EntangleVines(worldIn, caster, blockPos);
+                entangleVines.setLifeSpan(entangleVines.getLifeSpan() + MathHelper.secondsToTicks(duration));
+                worldIn.addFreshEntity(entangleVines);
+            }
+        }
+    }
+}

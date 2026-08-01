@@ -1,18 +1,18 @@
 {
   "replace": false,
   "entries": [
-    "goetied:instant_pick",
-    "goetied:chill_fabric_dig",
-    "goetied:dark_fabric_dig",
-    "goetied:gale_fabric_dig",
-    "goetied:occult_fabric_dig",
-    "goetied:spirit_fabric_dig",
-    "goetied:cross_pottery_sherd_dig",
-    "goetied:dead_pottery_sherd_dig",
-    "goetied:haunt_pottery_sherd_dig",
-    "goetied:night_pottery_sherd_dig",
-    "goetied:soul_pottery_sherd_dig",
-    "goetied:forbidden_piece_dig",
-    "goetied:jade_dig"
+    "goety:instant_pick",
+    "goety:chill_fabric_dig",
+    "goety:dark_fabric_dig",
+    "goety:gale_fabric_dig",
+    "goety:occult_fabric_dig",
+    "goety:spirit_fabric_dig",
+    "goety:cross_pottery_sherd_dig",
+    "goety:dead_pottery_sherd_dig",
+    "goety:haunt_pottery_sherd_dig",
+    "goety:night_pottery_sherd_dig",
+    "goety:soul_pottery_sherd_dig",
+    "goety:forbidden_piece_dig",
+    "goety:jade_dig"
   ]
 }

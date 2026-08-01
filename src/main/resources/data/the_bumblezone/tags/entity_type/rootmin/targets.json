@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#goetied:golems",
-    "goetied:blaze_servant",
-    "goetied:wildfire",
-    "goetied:inferno"
+    "#goety:golems",
+    "goety:blaze_servant",
+    "goety:wildfire",
+    "goety:inferno"
   ]
 }

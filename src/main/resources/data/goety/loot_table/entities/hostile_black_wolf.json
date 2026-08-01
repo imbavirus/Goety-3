@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2,
+                "min": 0
+              },
+              "function": "set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0
+              },
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "minecraft:looting"
+            }
+          ],
+          "name": "minecraft:iron_nugget",
+          "weight": 1
+        }
+      ],
+      "rolls": 1,
+      "name": "hostile_black_wolf"
+    },
+    {
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.025,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.01
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:chain",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "goety:savage_tooth",
+          "weight": 1
+        }
+      ],
+      "rolls": 1,
+      "name": "hostile_black_wolf_1"
+    }
+  ]
+}

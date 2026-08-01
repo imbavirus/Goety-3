@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "goetied:cursed_knight_boots",
-    "goetied:cursed_paladin_boots",
-    "goetied:black_iron_boots",
-    "goetied:dark_boots"
+    "goety:cursed_knight_boots",
+    "goety:cursed_paladin_boots",
+    "goety:black_iron_boots",
+    "goety:dark_boots"
   ]
 }

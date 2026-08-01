@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#goetied:slime_servants",
-    "goetied:crypt_slime"
+    "#goety:slime_servants",
+    "goety:crypt_slime"
   ]
 }

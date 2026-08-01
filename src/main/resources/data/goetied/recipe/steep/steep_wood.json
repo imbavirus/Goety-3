@@ -1,8 +1,0 @@
-{
-  "type": "goetied:cursed_infuser",
-  "ingredient": {
-    "tag": "goetied:steepable_wood"
-  },
-  "result": "goetied:steep_wood",
-  "cookingTime": 20
-}

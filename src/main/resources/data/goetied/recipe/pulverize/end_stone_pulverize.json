@@ -1,9 +1,0 @@
-{
-  "type": "goetied:pulverize",
-  "ingredient": [
-    {
-      "item": "minecraft:end_stone_bricks"
-    }
-  ],
-  "block_result": "minecraft:end_stone"
-}

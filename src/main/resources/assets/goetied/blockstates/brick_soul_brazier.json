@@ -1,6 +1,0 @@
-{
-  "variants": {
-    "lit=true": { "model": "goetied:block/brick_soul_brazier" },
-    "lit=false": { "model": "goetied:block/brick_brazier_unlit" }
-  }
-}

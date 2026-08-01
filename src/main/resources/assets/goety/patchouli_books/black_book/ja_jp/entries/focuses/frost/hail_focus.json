@@ -1,0 +1,22 @@
+{
+  "name": "氷雨のフォーカス",
+  "icon": "goety:hail_focus",
+  "category": "goety:focuses/frost",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "対象のブロックまたはクリーチャーの上空高くに雪雲を召喚し、そこに雹(ひょう)を降らせます。この雹はターゲットに小さなダメージを与え、5秒間凍結させることができます。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/hail_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:crafts/staff/frost_staff)氷の杖$()で唱えると、雪雲が有効なターゲットを追うようになります。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:hail_focus": 1
+  }
+}

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "goetied:block/highrock_bricks",
-    "side": "goetied:block/highrock_bricks",
-    "top": "goetied:block/highrock_bricks"
-  }
-}

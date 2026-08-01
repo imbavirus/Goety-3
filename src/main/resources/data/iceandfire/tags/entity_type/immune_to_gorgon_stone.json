@@ -1,13 +1,13 @@
 {
   "replace": false,
   "values": [
-    "goetied:apostle",
-    "goetied:vizier",
-    "goetied:squall_golem",
-    "goetied:redstone_golem",
-    "goetied:hostile_redstone_golem",
-    "goetied:grave_golem",
-    "goetied:redstone_monstrosity",
-    "goetied:hostile_redstone_monstrosity"
+    "goety:apostle",
+    "goety:vizier",
+    "goety:squall_golem",
+    "goety:redstone_golem",
+    "goety:hostile_redstone_golem",
+    "goety:grave_golem",
+    "goety:redstone_monstrosity",
+    "goety:hostile_redstone_monstrosity"
   ]
 }

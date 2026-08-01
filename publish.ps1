@@ -597,7 +597,7 @@ function Upload-ToCurseForge([string]$version, [array]$artifacts) {
 
   # Build metadata per CurseForge Upload API.
   # Prefer a friendly Goetied-branded display name on the project files list.
-  $displayName = if ($fileName -match '^goetied') { "Goetied $version" } else { $fileName }
+  $displayName = if ($fileName -match '^goet(y|ied)') { "Goetied $version" } else { $fileName }
   $metadata = @{
     changelog = [string]$changelog
     changelogType = "markdown"

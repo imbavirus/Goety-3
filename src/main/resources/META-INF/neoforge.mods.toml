@@ -2,11 +2,11 @@ modLoader="javafml"
 loaderVersion="[4,)"
 license="MIT License"
 [[mods]]
-modId="goetied"
+modId="goety"
 version="${mod_version}"
 displayName="Goetied"
 displayURL="https://github.com/imbavirus/Goetied"
-logoFile="Goetied.png" #optional
+logoFile="Goety.png" #optional
 credits='''Tutorial/Help: GentlemanRevvnar, Technovision, Cy4's Modding, TelepathicGrunt, diesieben07.
 
 Major Bug Testing: Mich705, pantman687, glacial_flower, Mephodio.
@@ -20,7 +20,7 @@ authors="Infernos"
 description='''
 Goetied adds a bunch of new Mobs that can help or hinder players and a magic system that can provides a player a different way of combat!
 '''
-[[dependencies.goetied]] #optional
+[[dependencies.goety]] #optional
 modId="neoforge" #mandatory
 
 mandatory=true #mandatory
@@ -31,14 +31,14 @@ ordering="NONE"
 
 side="BOTH"
 
-[[dependencies.goetied]]
+[[dependencies.goety]]
 modId="curios"
 mandatory=true
 versionRange="[9.5.1,)"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.goetied]]
+[[dependencies.goety]]
 modId="minecraft"
 
 mandatory=true
@@ -50,4 +50,4 @@ ordering="NONE"
 side="BOTH"
 
 [[mixins]]
-config="goetied.mixins.json"
+config="goety.mixins.json"

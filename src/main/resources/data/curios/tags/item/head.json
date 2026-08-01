@@ -1,19 +1,19 @@
 {
   "replace": false,
   "values": [
-    "goetied:targeting_monocle",
-    "goetied:dark_hat",
-    "goetied:grand_turban",
-    "goetied:frost_crown",
-    "goetied:wild_crown",
-    "goetied:abyss_crown",
-    "goetied:void_crown",
-    "goetied:nether_crown",
-    "goetied:witch_hat",
-    "goetied:witch_hat_hedge",
-    "goetied:crone_hat",
-    "goetied:unholy_hat",
-    "goetied:necro_crown",
-    "goetied:nameless_crown"
+    "goety:targeting_monocle",
+    "goety:dark_hat",
+    "goety:grand_turban",
+    "goety:frost_crown",
+    "goety:wild_crown",
+    "goety:abyss_crown",
+    "goety:void_crown",
+    "goety:nether_crown",
+    "goety:witch_hat",
+    "goety:witch_hat_hedge",
+    "goety:crone_hat",
+    "goety:unholy_hat",
+    "goety:necro_crown",
+    "goety:nameless_crown"
   ]
 }

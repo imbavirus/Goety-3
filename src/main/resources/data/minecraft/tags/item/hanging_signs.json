@@ -1,11 +1,11 @@
 {
   "replace": false,
   "values": [
-    "goetied:haunted_hanging_sign",
-    "goetied:rotten_hanging_sign",
-    "goetied:windswept_hanging_sign",
-    "goetied:pine_hanging_sign",
-    "goetied:chorus_hanging_sign",
-    "goetied:corrupt_chorus_hanging_sign"
+    "goety:haunted_hanging_sign",
+    "goety:rotten_hanging_sign",
+    "goety:windswept_hanging_sign",
+    "goety:pine_hanging_sign",
+    "goety:chorus_hanging_sign",
+    "goety:corrupt_chorus_hanging_sign"
   ]
 }

@@ -1,14 +1,14 @@
 {
   "values": [
-    "goetied:ice_bouquet",
-    "goetied:spike",
-    "goetied:hellfire",
-    "goetied:indirect_hellfire",
-    "goetied:soul_leech",
-    "goetied:life_leech",
-    "goetied:choke",
-    "goetied:voided",
-    "goetied:dismissed",
-    "goetied:death"
+    "goety:ice_bouquet",
+    "goety:spike",
+    "goety:hellfire",
+    "goety:indirect_hellfire",
+    "goety:soul_leech",
+    "goety:life_leech",
+    "goety:choke",
+    "goety:voided",
+    "goety:dismissed",
+    "goety:death"
   ]
 }

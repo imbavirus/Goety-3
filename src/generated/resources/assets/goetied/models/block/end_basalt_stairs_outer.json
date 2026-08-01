@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "goetied:block/end_basalt",
-    "side": "goetied:block/end_basalt",
-    "top": "goetied:block/end_basalt"
-  }
-}

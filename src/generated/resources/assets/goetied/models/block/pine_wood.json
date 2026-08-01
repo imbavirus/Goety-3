@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "goetied:block/pine_log",
-    "side": "goetied:block/pine_log"
-  }
-}

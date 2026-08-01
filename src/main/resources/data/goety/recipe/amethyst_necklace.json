@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "a a",
+    "a a",
+    "aaa"
+  ],
+  "key":
+  {
+    "a":
+    {
+      "tag": "c:stone"
+    }
+  },
+  "result":
+  {
+    "id": "goety:amethyst_necklace",
+    "count": 1
+  }
+}

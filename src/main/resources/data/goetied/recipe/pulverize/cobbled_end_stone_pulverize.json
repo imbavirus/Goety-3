@@ -1,9 +1,0 @@
-{
-  "type": "goetied:pulverize",
-  "ingredient": [
-    {
-      "item": "goetied:end_stone_slate"
-    }
-  ],
-  "block_result": "goetied:cobbled_end_stone"
-}

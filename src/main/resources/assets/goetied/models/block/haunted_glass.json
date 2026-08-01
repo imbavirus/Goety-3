@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "goetied:block/haunted_glass"
-  },
-  "render_type": "cutout"
-}

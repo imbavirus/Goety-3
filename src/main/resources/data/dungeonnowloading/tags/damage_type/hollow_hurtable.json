@@ -1,12 +1,12 @@
 {
   "replace": false,
   "values": [
-    "#goetied:shock_attacks",
-    "#goetied:hellfire",
-    "goetied:wind_blast",
-    "goetied:magic_bolt",
-    "goetied:soul_leech",
-    "goetied:phobia",
-    "goetied:doom"
+    "#goety:shock_attacks",
+    "#goety:hellfire",
+    "goety:wind_blast",
+    "goety:magic_bolt",
+    "goety:soul_leech",
+    "goety:phobia",
+    "goety:doom"
   ]
 }

@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "goetied:fell_blade",
-    "goetied:frozen_blade",
-    "goetied:dark_sword"
+    "goety:fell_blade",
+    "goety:frozen_blade",
+    "goety:dark_sword"
   ]
 }

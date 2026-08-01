@@ -1,8 +1,0 @@
-{
-  "type": "goetied:cursed_infuser",
-  "ingredient": {
-    "item": "goetied:nether_robe"
-  },
-  "result": "goetied:nether_robe_warped",
-  "cookingTime": 60
-}

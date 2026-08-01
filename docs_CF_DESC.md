@@ -1,5 +1,7 @@
 ### Goetied - A Magic & Necromancy Mod
 
+**Goetied** is the display name for this NeoForge port of **Goety**. The in-game mod ID remains **`goety`** so existing worlds, configs, and datapacks keep working.
+
 Goetied brings a rich magic system and dark fantasy elements to Minecraft, offering players new ways to engage with combat, exploration, and progression through spellcasting and necromancy.
 
 #### Core Features
@@ -26,6 +28,7 @@ Wield powerful magic staves, equip specialized armor sets with unique abilities,
 
 - **Minecraft Version**: 1.21.1
 - **Mod Loader**: NeoForge 21.1.34+
+- **Mod ID**: `goety` (unchanged for world compatibility)
 - **Required Dependencies**: Curios API 9.5.1+
 - **Optional Dependencies**: JEI, Patchouli
 
@@ -33,7 +36,7 @@ Wield powerful magic staves, equip specialized armor sets with unique abilities,
 
 #### Credits & Attribution
 
-**Original Mod**: This mod is a port and continuation of the original **Goety** mod created by **Polarice3**, rebranded as **Goetied**.
+**Original Mod**: This mod is a port and continuation of the original **Goety** mod created by **Polarice3**. The project is listed as **Goetied** while keeping the original mod ID.
 
 **Original Project**: [Goety (Original) - CurseForge](https://www.curseforge.com/minecraft/mc-mods/goety) | [Goety (Original) - GitHub](https://github.com/Polarice3/Goety-2)
 
@@ -43,20 +46,16 @@ Wield powerful magic staves, equip specialized armor sets with unique abilities,
 
 #### How This Project Differs from the Original
 
-This NeoForge port brings the original Goety mod to Minecraft 1.21.1 as **Goetied**, with the following key differences:
+This NeoForge port brings the original Goety mod to Minecraft 1.21.1, with the following key differences:
 
 1. **Mod Loader**: Ported from Minecraft Forge to **NeoForge** (the successor to Forge)
 2. **Minecraft Version**: Updated from earlier versions to **Minecraft 1.21.1**
-3. **API Updates**: All systems have been updated to use NeoForge's modern APIs:
-   - Replaced the old Capability system with NeoForge's Attachment system
-   - Updated registry system to NeoForge's deferred registration
-   - Migrated to NeoForge's recipe and data-driven content systems
-   - Updated rendering and model systems for 1.21.1
-4. **Code Modernization**: Refactored package structure and updated to Java 21
+3. **API Updates**: All systems have been updated to use NeoForge's modern APIs
+4. **Code Modernization**: Updated to Java 21
 5. **Bug Fixes**: Resolved compatibility issues and bugs specific to the NeoForge port
 6. **Maintenance**: Active maintenance and updates for NeoForge 1.21.1+
 
-**What's the Same**: All gameplay features, mechanics, items, mobs, structures, and content from the original mod are preserved. This is a faithful port that maintains the original gameplay experience while updating the underlying technology.
+**What's the Same**: Gameplay, registry IDs under the `goety` namespace, items, mobs, structures, and configs remain compatible with prior Goety NeoForge builds from this project.
 
 We extend our gratitude to **Polarice3** for creating the original Goety mod and all the contributors, artists, builders, and translators who have helped make this mod what it is today.
 
@@ -66,12 +65,12 @@ We extend our gratitude to **Polarice3** for creating the original Goety mod and
 
 1. Install NeoForge 21.1.34 or later for Minecraft 1.21.1
 2. Install Curios API 9.5.1 or later (required)
-3. Download and install Goetied
+3. Download and install Goetied (jar still uses the `goety` mod ID)
 4. Launch and enjoy!
 
 #### Configuration
 
-Goetied includes extensive configuration options for customizing spell damage, mob spawn rates, structure generation, and more. Configuration files are located in your `config/goetied/` directory.
+Configuration files are located in your `config/goety/` directory.
 
 #### Support & Links
 

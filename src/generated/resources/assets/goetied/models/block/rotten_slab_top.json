@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "goetied:block/rotten_planks",
-    "side": "goetied:block/rotten_planks",
-    "top": "goetied:block/rotten_planks"
-  }
-}

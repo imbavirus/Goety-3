@@ -1,0 +1,18 @@
+{
+  "name": "ウィークネスのフォーカス",
+  "icon": "goety:weakening_focus",
+  "category": "goety:focuses",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "この呪文は、術者の周囲にいる味方以外のクリーチャーを弱体化させる恐ろしい騒音を放ちます。結果、攻撃力と防御力を低下させます。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/weakening_focus"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:weakening_focus": 1
+  }
+}

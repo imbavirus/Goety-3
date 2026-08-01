@@ -1,0 +1,22 @@
+{
+  "name": "吸血のフォーカス",
+  "icon": "goety:leeching_focus",
+  "category": "goety:focuses/necromancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "敵の命を奪うことと、実際に敵を食べることは別のことです。この呪文は、術者が見つめている敵を吸血し、ターゲットが体力を失った分だけ術者を回復します。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/leeching_focus"
+    },
+	{
+      "type": "patchouli:text",
+      "text": "$(l:crafts/staff/necro_staff)ネクロの杖$()で唱えると、ターゲットに弱体化を与えます。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:leeching_focus": 1
+  }
+}

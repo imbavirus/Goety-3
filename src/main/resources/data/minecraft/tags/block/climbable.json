@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "goetied:end_growth_vines",
-    "goetied:end_growth_vines_plant"
+    "goety:end_growth_vines",
+    "goety:end_growth_vines_plant"
   ]
 }

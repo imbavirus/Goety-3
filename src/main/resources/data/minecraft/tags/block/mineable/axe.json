@@ -1,19 +1,19 @@
 {
   "replace": false,
   "values": [
-    "#goetied:haunted_wood_blocks",
-    "#goetied:rotten_wood_blocks",
-    "#goetied:windswept_wood_blocks",
-    "#goetied:pine_wood_blocks",
-    "#goetied:steep_wood_blocks",
-    "#goetied:sky_wood_blocks",
-    "#goetied:chorus_wood_blocks",
-    "#goetied:end_plants",
-    "#goetied:chests",
-    "#goetied:trapped_chests",
-    "goetied:witch_pole",
-    "goetied:magic_thorn",
-    "goetied:overgrown_roots",
-    "goetied:corpse_blossom"
+    "#goety:haunted_wood_blocks",
+    "#goety:rotten_wood_blocks",
+    "#goety:windswept_wood_blocks",
+    "#goety:pine_wood_blocks",
+    "#goety:steep_wood_blocks",
+    "#goety:sky_wood_blocks",
+    "#goety:chorus_wood_blocks",
+    "#goety:end_plants",
+    "#goety:chests",
+    "#goety:trapped_chests",
+    "goety:witch_pole",
+    "goety:magic_thorn",
+    "goety:overgrown_roots",
+    "goety:corpse_blossom"
   ]
 }

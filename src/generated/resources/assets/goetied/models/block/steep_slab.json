@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "goetied:block/steep_planks",
-    "side": "goetied:block/steep_planks",
-    "top": "goetied:block/steep_planks"
-  }
-}

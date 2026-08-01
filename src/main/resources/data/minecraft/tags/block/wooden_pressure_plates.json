@@ -1,12 +1,12 @@
 {
   "replace": false,
   "values": [
-    "goetied:haunted_pressure_plate",
-    "goetied:rotten_pressure_plate",
-    "goetied:windswept_pressure_plate",
-    "goetied:pine_pressure_plate",
-    "goetied:steep_pressure_plate",
-    "goetied:chorus_pressure_plate",
-    "goetied:corrupt_chorus_pressure_plate"
+    "goety:haunted_pressure_plate",
+    "goety:rotten_pressure_plate",
+    "goety:windswept_pressure_plate",
+    "goety:pine_pressure_plate",
+    "goety:steep_pressure_plate",
+    "goety:chorus_pressure_plate",
+    "goety:corrupt_chorus_pressure_plate"
   ]
 }

@@ -1,9 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "top": "goetied:block/blazing_cage_top",
-    "bottom": "goetied:block/blazing_cage_bottom",
-    "side": "goetied:block/blazing_cage"
-  },
-  "render_type": "cutout"
-}

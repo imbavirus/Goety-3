@@ -1,6 +1,0 @@
-{
-  "variants": {
-    "lit=true": { "model": "goetied:block/stone_brazier" },
-    "lit=false": { "model": "goetied:block/stone_brazier_unlit" }
-  }
-}

@@ -1,7 +1,7 @@
 {
   "values": [
-    "goetied:ghost_arrow",
-    "goetied:rain_arrow",
-    "goetied:death_arrow"
+    "goety:ghost_arrow",
+    "goety:rain_arrow",
+    "goety:death_arrow"
   ]
 }

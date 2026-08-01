@@ -1,9 +1,9 @@
 {
   "values": [
-    "goetied:direct_freeze",
-    "goetied:indirect_freeze",
-    "goetied:frost_breath",
-    "goetied:ice_spike",
-    "goetied:ice_bouquet"
+    "goety:direct_freeze",
+    "goety:indirect_freeze",
+    "goety:frost_breath",
+    "goety:ice_spike",
+    "goety:ice_bouquet"
   ]
 }

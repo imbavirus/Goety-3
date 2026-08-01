@@ -1,8 +1,8 @@
 {
   "values": [
-    "goetied:blaze_servant",
-    "goetied:wildfire",
-    "goetied:inferno",
-    "goetied:magma_cube_servant"
+    "goety:blaze_servant",
+    "goety:wildfire",
+    "goety:inferno",
+    "goety:magma_cube_servant"
   ]
 }

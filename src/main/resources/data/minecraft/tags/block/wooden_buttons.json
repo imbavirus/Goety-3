@@ -1,12 +1,12 @@
 {
   "replace": false,
   "values": [
-    "goetied:haunted_button",
-    "goetied:rotten_button",
-    "goetied:windswept_button",
-    "goetied:pine_button",
-    "goetied:steep_button",
-    "goetied:chorus_button",
-    "goetied:corrupt_chorus_button"
+    "goety:haunted_button",
+    "goety:rotten_button",
+    "goety:windswept_button",
+    "goety:pine_button",
+    "goety:steep_button",
+    "goety:chorus_button",
+    "goety:corrupt_chorus_button"
   ]
 }

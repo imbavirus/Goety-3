@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "top": "goetied:block/marble",
-    "bottom": "goetied:block/marble",
-    "side": "goetied:block/gold_banded_marble"
-  }
-}

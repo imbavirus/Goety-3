@@ -1,0 +1,16 @@
+package za.co.infernos.goety.compat.jei;
+
+import net.neoforged.fml.ModList;
+
+public enum JeiLoaded {
+    JEI("jei");
+    private final boolean loaded;
+
+    JeiLoaded(String modid) {
+        this.loaded = ModList.get() != null && ModList.get().getModContainerById(modid).isPresent();
+    }
+
+    public boolean isLoaded() {
+        return this.loaded;
+    }
+}

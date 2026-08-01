@@ -1,0 +1,30 @@
+{
+  "name": "トランプラー",
+  "icon": "minecraft:saddle",
+  "category": "goety:mutations",
+  "advancement": "goety:goety/read_ravaging_scroll",
+  "secret": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "村人ではなくイリジャーから作られた凶暴な馬のような獣を作成する方法を見つけたようです。ラヴェジャーとは異なり、トランプラーは門から出て馬に乗る準備ができているように見えました。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:convert_pillager_to_trampler"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "ラクダと同じように、ジャンプを押すとダッシュがチャージされ、手動で敵に突撃できるようになります。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:trampler_servant",
+      "scale": 0.5
+    },
+    {
+      "type": "patchouli:text",
+      "text": "トランプラーは$(l:goety:mutations/illager_servants)レイダー$()の一員になることはできますが、リーダーになることはできません。"
+    }
+  ]
+}

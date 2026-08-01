@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "goetied:cragrocks"
-  },
-  "result": "goetied:crag_tiles",
-  "count": 1
-}

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "goetied:end_rock"
-  },
-  "result": "goetied:end_rock_bricks"
-}

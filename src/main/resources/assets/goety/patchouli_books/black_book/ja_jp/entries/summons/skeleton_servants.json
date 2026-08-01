@@ -1,0 +1,70 @@
+{
+  "name": "スケルトンの従者",
+  "icon": "minecraft:skeleton_skull",
+  "category": "goety:summons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "スケルトンは、腐ったスケルトンよりもわずかに知的で素早いですが、それ以外の機能は依然として基本的です。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "以下のテキストでは、ネクロマンサーが召喚できるスケルトンのバリエーションについて詳しく説明します。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:focuses/osseous_focus)骨性のフォーカス$() を使用するか、寿命に制限なく召喚する儀式を通じて、これらのクリーチャーを呼び出すことができます。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_skeleton_thrall"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:skeleton_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "スケルトンの召使いは、あなたを傷つける者や近くにいる敵対的な生き物を殺そうとします。 召喚者がネクロマントを着用しているときに召喚された場合、その矢は味方のMobを通過します。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:stray_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "空にさらされた極寒のツンドラでスケルトンの従者を召喚しようとすると、代わりにストレイの従者が出現します。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:skeleton_pillager"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "ピリジャーの前哨基地で呪文を唱えると、通常のスケルトンよりも体力があり、クロスボウを扱う忠実なスケルトンのピリジャーが召喚されます。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "スケルトンの従者はあらゆる鎧を受け入れることができますが、剣/弓のみを受け入れることができます。つまり、遠距離攻撃者または近接攻撃者になることができます。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "不思議なことに、この呪文をネザー要塞内で唱えた場合、忠実なウィザー スケルトンを呼び出すことはできません。 黒焦げの骸骨は、軽薄に呼び出されるほどの強大な魔力と故郷への忠誠心を秘めているようだ…。"
+    },
+    {
+      "type": "patchouli:entity",
+      "advancement": "goety:goety/read_bygone_scroll",
+      "entity": "goety:wither_skeleton_servant"
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "goety:goety/read_bygone_scroll",
+      "text": "多大な研究の末、要塞の元住人を呼び出し、自分の意志に従わせる方法を見つけました。彼らは近接攻撃でウィザー効果を与え、弓を与えると火矢を放ちます。"
+    },
+    {
+      "type": "goety:ritual",
+      "advancement": "goety:goety/read_bygone_scroll",
+      "recipe": "goety:thrall/summon_wither_skeleton_thrall"
+    }
+  ]
+}

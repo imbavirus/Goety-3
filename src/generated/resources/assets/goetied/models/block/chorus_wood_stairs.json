@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "goetied:block/chorus_log",
-    "side": "goetied:block/chorus_log",
-    "top": "goetied:block/chorus_log"
-  }
-}

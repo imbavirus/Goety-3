@@ -1,0 +1,19 @@
+{
+  "name": "感覚のフォーカス",
+  "icon": "goety:sensing_focus",
+  "category": "goety:focuses/geomancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "恐怖の感覚が得られ、地面にいるあらゆる生き物があなたのために光っているように見えます。この効果は両方が地面に立っている場合にのみ有効です。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "goety:focus/sensing_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Potency enchantment increases the effect level of Tremor Sense, doubling the radius per level."
+    }
+  ]
+}

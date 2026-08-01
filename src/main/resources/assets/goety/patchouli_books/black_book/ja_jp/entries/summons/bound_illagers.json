@@ -1,0 +1,93 @@
+{
+  "name": "縛られたイリジャー",
+  "icon": "minecraft:totem_of_undying",
+  "category": "goety:summons",
+  "advancement": "goety:goety/kill_a_evoker",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "ヴィンディケーターはゾンビとして、ピリジャーはスケルトンとして育てることができますが、強力なエヴォーカーや他のイリジャーの魔法使いの真のアンデッド版を作るには、もっと... 精神的な追求が必要です。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:bound_evoker"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "他の2体とは異なり、縛られたエヴォーカーは浮遊することができ、重力の影響を受けません。壁を透過することはできず、従来の武器でダメージを与えることができます。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_bound_evoker"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:bound_geomancer"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "もはや地面にいないにもかかわらず、これらのアンデッドの魔法使いたちは依然として地球に対する支配力を保持しています。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_bound_geomancer"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:bound_iceologer"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "縛られたアイソロジャーは生きている時と同じくらい冷酷ですが、今回は彼らの氷の塊があなたの頭ではなく、誰か他の人の頭に落ちてきます。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_bound_iceologer"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:bound_cryologer"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "生前は涙もろいアンデッドのクライオロジャーは、敵に氷雨を降らせ、壁を召喚する。なぜか、涙目で見守る姿とは裏腹に、他の縛られたイリジャーたちほど、悲惨さや窮状への無関心さは感じられない。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_bound_cryologer"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:bound_wind_caller",
+      "scale": 0.75
+    },
+    {
+      "type": "patchouli:text",
+      "text": "これらの縛られたイリジャーは、死んでも風を操る力を保持していますが、ゆっくりと地面に落ちるのではなく、本当に飛ぶことができるという便利な点があります。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_bound_wind_caller"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:bound_storm_caster"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "死をもってしても、内なる嵐を止めることはできず、彼らはそれを敵に明かすつもりでいる。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:thrall/summon_bound_storm_caster"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "これらの縛られたイリジャーは、エクトプラズムで右クリックすることで回復することができます。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "彼らはまだ精神的能力を保持しているため、これらの魂に$(l:goety:mutations/illager_servants#banner)個人的な旗$()を与えることができ、また $(l:goety:mutations/illager_servants)イリジャーの従者$()を率いることもできます。"
+    }
+  ]
+}

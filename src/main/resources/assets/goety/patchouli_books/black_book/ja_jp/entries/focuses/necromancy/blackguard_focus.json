@@ -1,0 +1,23 @@
+{
+  "name": "ブラックガードのフォーカス",
+  "icon": "goety:blackguard_focus",
+  "category": "goety:focuses/necromancy",
+  "advancement": "goety:goety/read_front_scroll",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "スケルトンのヴァンガードがいるなら、ゾンビの衛兵もいますよね？ブラックガードは重装甲でメイスを持った強力なゾンビです。その代わり、移動速度は落ちました。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/blackguard_focus"
+    },
+	{
+      "type": "patchouli:text",
+      "text": "$(l:crafts/staff/necro_staff)ネクロの杖$()で唱えると、一度に召喚されるブラックガードの数が増えます。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:blackguard_focus": 1
+  }
+}

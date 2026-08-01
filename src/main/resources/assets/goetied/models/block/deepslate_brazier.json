@@ -1,7 +1,0 @@
-{
-	"parent": "goetied:block/template_brazier",
-	"textures": {
-		"brazier": "goetied:block/deepslate_brazier",
-		"fire": "goetied:block/brazier_fire"
-	}
-}

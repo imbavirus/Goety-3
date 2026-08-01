@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "goetied:block/windswept_log",
-    "side": "goetied:block/windswept_log"
-  }
-}

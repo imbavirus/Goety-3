@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "goetied:siltstone_tiles"
-  },
-  "result": "goetied:siltstone_pavement_stairs"
-}

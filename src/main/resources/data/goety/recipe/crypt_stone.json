@@ -1,0 +1,9 @@
+{
+  "type": "goety:cursed_infuser",
+  "ingredient": {
+    "tag": "c:stone"
+  },
+  "grim": true,
+  "result": "goety:crypt_stone",
+  "cookingTime": 20
+}

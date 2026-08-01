@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "goetied:infernal_tome",
-    "goetied:withered_manuscript",
-    "goetied:grimoire_of_grudges",
-    "goetied:grimoire_of_goodwill",
-    "goetied:grimoire_of_grounding"
+    "goety:infernal_tome",
+    "goety:withered_manuscript",
+    "goety:grimoire_of_grudges",
+    "goety:grimoire_of_goodwill",
+    "goety:grimoire_of_grounding"
   ]
 }

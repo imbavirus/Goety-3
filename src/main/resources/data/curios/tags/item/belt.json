@@ -1,11 +1,11 @@
 {
   "replace": false,
   "values": [
-    "goetied:focus_bag",
-    "goetied:focus_pack",
-    "goetied:brew_bag",
-    "goetied:warlock_sash",
-    "goetied:wayfarers_belt",
-    "goetied:spiteful_belt"
+    "goety:focus_bag",
+    "goety:focus_pack",
+    "goety:brew_bag",
+    "goety:warlock_sash",
+    "goety:wayfarers_belt",
+    "goety:spiteful_belt"
   ]
 }

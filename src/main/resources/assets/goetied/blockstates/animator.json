@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "powered=false,triggered=false": { "model": "goetied:block/animator_off" },
-    "powered=true,triggered=false": {"model": "goetied:block/animator"},
-    "powered=false,triggered=true": { "model": "goetied:block/animator_off" },
-    "powered=true,triggered=true": {"model": "goetied:block/animator_activate"}
-  }
-}

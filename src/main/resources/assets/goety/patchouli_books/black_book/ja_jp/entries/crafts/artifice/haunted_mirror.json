@@ -1,0 +1,27 @@
+{
+  "name": "幽霊の鏡",
+  "icon": "goety:haunted_mirror",
+  "category": "goety:crafts/artifice",
+  "advancement": "goety:goety/craft_dark_altar",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "いくつかの研究と実験を行った結果、幽霊のガラスを鏡に変えて、ある場所から別の場所にテレポートできるようにする方法を発見しました。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:haunted/haunted_mirror"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "鏡を使用してテレポートするには、ワールドの同じ X 軸、Z 軸、または Y 軸上に 2 つ配置する必要があります。 X 軸と Z 軸、つまり水平軸については、2 つのミラーを同じ Y 軸上に、それぞれ向かい合って32ブロック以内に配置する必要があり、鏡と鏡の間にトンネルを置くようにブロックを置く必要があります。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Y 軸 (垂直軸) の場合、鏡は同じ方向を向いており、互いに 16 ブロック上下に同じ X Z 座標を共有する必要があります。鏡は、下を検索する前に、それ自体の上にある別の鏡を検索しようとします。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:haunted_mirror": 1
+  }
+}

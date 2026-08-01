@@ -1,19 +1,19 @@
 {
   "replace": false,
   "values": [
-    "goetied:fireball",
-    "goetied:lavaball",
-    "goetied:ice_spike",
-    "goetied:harpoon",
-    "goetied:poison_quill",
-    "goetied:bone_shard",
-    "goetied:soul_bullet",
-    "goetied:soul_bolt",
-    "goetied:steam_missile",
-    "goetied:ill_bomb",
-    "goetied:electro_orb",
-    "goetied:pyroclast",
-    "goetied:magma_bomb",
-    "goetied:web_shot"
+    "goety:fireball",
+    "goety:lavaball",
+    "goety:ice_spike",
+    "goety:harpoon",
+    "goety:poison_quill",
+    "goety:bone_shard",
+    "goety:soul_bullet",
+    "goety:soul_bolt",
+    "goety:steam_missile",
+    "goety:ill_bomb",
+    "goety:electro_orb",
+    "goety:pyroclast",
+    "goety:magma_bomb",
+    "goety:web_shot"
   ]
 }

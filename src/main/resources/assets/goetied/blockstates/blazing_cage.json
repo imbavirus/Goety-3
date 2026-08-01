@@ -1,6 +1,0 @@
-{
-  "variants": {
-    "powered=true": { "model": "goetied:block/blazing_cage_active" },
-    "powered=false": { "model": "goetied:block/blazing_cage" }
-  }
-}

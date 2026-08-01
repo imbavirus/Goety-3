@@ -1,0 +1,54 @@
+package za.co.infernos.goety.utils;
+
+import za.co.infernos.goety.common.capabilities.witchbarter.IWitchBarter;
+import za.co.infernos.goety.common.capabilities.witchbarter.WBUpdatePacket;
+import za.co.infernos.goety.common.capabilities.witchbarter.WitchBarterImp;
+import za.co.infernos.goety.common.network.ModNetwork;
+import za.co.infernos.goety.init.ModAttachments;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.raid.Raider;
+
+import javax.annotation.Nullable;
+
+public class WitchBarterHelper {
+    public static IWitchBarter getCapability(LivingEntity livingEntity) {
+        if (livingEntity instanceof Raider raider) {
+            return raider.getData(ModAttachments.WITCH_BARTER);
+        }
+        return new WitchBarterImp();
+    }
+
+    public static int getTimer(Raider witch){
+        return getCapability(witch).getTimer();
+    }
+
+    public static void setTimer(Raider witch, int timer){
+        getCapability(witch).setTimer(timer);
+        sendWitchBarterUpdatePacket(witch);
+    }
+
+    public static void decreaseTimer(Raider witch){
+        setTimer(witch, -1);
+        sendWitchBarterUpdatePacket(witch);
+    }
+
+    @Nullable
+    public static LivingEntity getTrader(Raider witch){
+        return witch.level().getEntity(getCapability(witch).getTraderID()) instanceof LivingEntity livingEntity ? livingEntity : null;
+    }
+
+    public static void setTrader(Raider witch, @Nullable LivingEntity livingEntity){
+        if (livingEntity != null) {
+            getCapability(witch).setTraderID(livingEntity.getId());
+        } else {
+            getCapability(witch).setTraderID(-1);
+        }
+        sendWitchBarterUpdatePacket(witch);
+    }
+
+    public static void sendWitchBarterUpdatePacket(Raider witch) {
+        if (!witch.level().isClientSide()) {
+            ModNetwork.sentToTrackingEntityAndPlayer(witch, new WBUpdatePacket(witch));
+        }
+    }
+}

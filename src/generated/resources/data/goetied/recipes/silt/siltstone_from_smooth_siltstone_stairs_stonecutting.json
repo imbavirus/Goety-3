@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "goetied:siltstone"
-  },
-  "result": "goetied:smooth_siltstone_stairs"
-}

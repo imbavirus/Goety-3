@@ -2,15 +2,15 @@
   "replace": false,
   "__comment": "all non-player mobs that glow, used by hullbreaker.",
   "values": [
-    "goetied:vizier",
-    "goetied:wraith",
-    "goetied:border_wraith",
-    "goetied:wraith_servant",
-    "goetied:border_wraith_servant",
-    "goetied:magma_cube_servant",
-    "goetied:redstone_golem",
-    "goetied:hostile_redstone_golem",
-    "goetied:redstone_monstrosity",
-    "goetied:hostile_redstone_monstrosity"
+    "goety:vizier",
+    "goety:wraith",
+    "goety:border_wraith",
+    "goety:wraith_servant",
+    "goety:border_wraith_servant",
+    "goety:magma_cube_servant",
+    "goety:redstone_golem",
+    "goety:hostile_redstone_golem",
+    "goety:redstone_monstrosity",
+    "goety:hostile_redstone_monstrosity"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "goetied:void",
-    "goetied:void_flowing"
+    "goety:void",
+    "goety:void_flowing"
   ]
 }

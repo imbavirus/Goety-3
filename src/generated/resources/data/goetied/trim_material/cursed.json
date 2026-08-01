@@ -1,9 +1,0 @@
-{
-  "asset_name": "cursed",
-  "description": {
-    "color": "#1C303A",
-    "translate": "trim_material.goetied.cursed"
-  },
-  "ingredient": "goetied:cursed_ingot",
-  "item_model_index": 0.9
-}

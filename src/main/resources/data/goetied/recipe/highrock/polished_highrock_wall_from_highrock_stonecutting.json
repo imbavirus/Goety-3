@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "goetied:highrock"
-  },
-  "result": "goetied:polished_highrock_wall",
-  "count": 1
-}

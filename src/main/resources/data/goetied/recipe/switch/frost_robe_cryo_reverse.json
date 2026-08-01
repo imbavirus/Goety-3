@@ -1,8 +1,0 @@
-{
-  "type": "goetied:cursed_infuser",
-  "ingredient": {
-    "item": "goetied:frost_robe_cryo"
-  },
-  "result": "goetied:frost_robe",
-  "cookingTime": 60
-}

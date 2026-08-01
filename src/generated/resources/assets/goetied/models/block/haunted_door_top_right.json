@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/door_top_right",
-  "render_type": "minecraft:cutout",
-  "textures": {
-    "bottom": "goetied:block/haunted_door_bottom",
-    "top": "goetied:block/haunted_door_top"
-  }
-}

@@ -1,0 +1,22 @@
+{
+  "name": "スケルトンのフォーカス",
+  "icon": "goety:osseous_focus",
+  "category": "goety:focuses/necromancy",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "盾を持ち歩く忍耐力のない人にとって、スケルトンは実に厄介な存在です。しかし今、スケルトンを召喚し、命令して他のスケルトンを針山に変えることができるようになりました。"
+    },
+    {
+      "type": "goety:ritual",
+      "recipe": "goety:focus/osseous_focus"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:crafts/staff/necro_staff)ネクロの杖$()で唱えると、一度に召喚されるスケルトンの数が増えます。"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:osseous_focus": 1
+  }
+}

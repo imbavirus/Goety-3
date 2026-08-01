@@ -1,7 +1,0 @@
-{
-	"parent": "goetied:block/template_lamp",
-	"textures": {
-		"lamp": "goetied:block/haunted_lamp",
-		"light": "goetied:block/lamp_on"
-	}
-}

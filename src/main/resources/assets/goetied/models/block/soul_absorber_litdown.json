@@ -1,6 +1,0 @@
-{
-  "parent": "goetied:block/template_soul_absorber",
-  "textures": {
-    "flame": "goetied:block/soul_absorber_litdown"
-  }
-}

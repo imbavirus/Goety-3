@@ -1,0 +1,25 @@
+{
+  "name": "リーパー",
+  "icon": "goety:spirit_fabric",
+  "category": "goety:world/bestiary",
+  "advancement": "goety:goety/kill_a_reaper",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "魂を渇望し、鎌を巧みに扱うフード付きの幽霊です。"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "goety:reaper"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "goety:grave_dust",
+      "title": "リーパーは、ネクロマンシー系の作成に役立つグレイブダストをドロップする可能性があります。",
+      "text": ""
+    }
+  ],
+  "extra_recipe_mappings": {
+    "goety:grave_dust": 2
+  }
+}

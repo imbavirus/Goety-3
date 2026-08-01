@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "goetied:dark_scythe",
-    "goetied:dark_metal_scythe",
-    "goetied:death_scythe"
+    "goety:dark_scythe",
+    "goety:dark_metal_scythe",
+    "goety:death_scythe"
   ]
 }

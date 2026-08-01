@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "goetied:jade_tiles"
-  },
-  "result": "goetied:jade_pillar"
-}

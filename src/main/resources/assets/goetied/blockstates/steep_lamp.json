@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "lit=true,half=lower": { "model": "goetied:block/steep_lamp_bottom" },
-    "lit=false,half=lower": { "model": "goetied:block/steep_lamp_bottom_off" },
-    "lit=true,half=upper": { "model": "goetied:block/steep_lamp_top" },
-    "lit=false,half=upper": { "model": "goetied:block/steep_lamp_top_off" }
-  }
-}

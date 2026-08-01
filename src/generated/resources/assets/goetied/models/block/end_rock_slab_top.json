@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "goetied:block/end_rock_top",
-    "side": "goetied:block/end_rock",
-    "top": "goetied:block/end_rock_top"
-  }
-}
