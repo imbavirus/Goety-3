@@ -596,10 +596,12 @@ function Upload-ToCurseForge([string]$version, [array]$artifacts) {
   }
 
   # Build metadata per CurseForge Upload API.
+  # Prefer a friendly Goetied-branded display name on the project files list.
+  $displayName = if ($fileName -match '^goetied') { "Goetied $version" } else { $fileName }
   $metadata = @{
     changelog = [string]$changelog
     changelogType = "markdown"
-    displayName = $fileName
+    displayName = $displayName
     gameVersions = $gameVersionIds
     releaseType = $releaseType
   }
@@ -787,7 +789,7 @@ function Upload-ToModrinth([string]$version, [array]$artifacts) {
   $loadersArray = [string[]]@(if ($loaders -is [array]) { $loaders } else { $loaders })
   
   $metadata = @{
-    name = "v$version"
+    name = "Goetied $version"
     version_number = $version
     changelog = [string]$changelog
     dependencies = @()
