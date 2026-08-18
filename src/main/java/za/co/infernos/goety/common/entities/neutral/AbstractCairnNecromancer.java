@@ -42,7 +42,7 @@ public class AbstractCairnNecromancer extends AbstractNecromancer{
     }
 
     public void projectileGoal(int priority) {
-        this.goalSelector.addGoal(priority, new NecromancerRangedGoal(this, 1.0D, 20, 10.0F));
+        this.goalSelector.addGoal(priority, new NecromancerRangedGoal(this, 1.0D, 40, 10.0F));
     }
 
     public void summonSpells(int priority){

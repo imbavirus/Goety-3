@@ -4,6 +4,8 @@ This folder contains user-relevant changelogs for all versions since the NeoForg
 
 ## Available Versions
 
+- [3.0.19](3.0.19.md) - Ripper crash fix, Necromancer spawn/blast nerf
+- [3.0.18](3.0.18.md) - CurseForge filename format
 - [3.0.14](3.0.14.md) - Armor Invulnerability, Curios, Focuses, Models & Port Fixes
 - [3.0.13](3.0.13.md) - Necromancer Servant Spawn Limits
 - [3.0.11](3.0.11.md) - Armor Fixes

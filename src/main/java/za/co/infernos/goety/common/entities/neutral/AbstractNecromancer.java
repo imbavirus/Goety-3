@@ -49,6 +49,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.NotNull;
 
@@ -96,7 +97,7 @@ public abstract class AbstractNecromancer extends AbstractSkeletonServant implem
     }
 
     public void projectileGoal(int priority) {
-        this.goalSelector.addGoal(priority, new NecromancerRangedGoal(this, 1.0D, 20, 12.0F));
+        this.goalSelector.addGoal(priority, new NecromancerRangedGoal(this, 1.0D, 40, 12.0F));
     }
 
     public void avoidGoal(int priority) {
@@ -110,21 +111,30 @@ public abstract class AbstractNecromancer extends AbstractSkeletonServant implem
 
     public static AttributeSupplier.Builder setCustomAttributes() {
         return Mob.createMobAttributes()
-                .add(Attributes.MAX_HEALTH, za.co.infernos.goety.utils.ConfigHelper.getDouble(AttributesConfig.NecromancerHealth, 20.0D))
-                .add(Attributes.ARMOR, za.co.infernos.goety.utils.ConfigHelper.getDouble(AttributesConfig.NecromancerArmor, 20.0D))
-                .add(Attributes.FOLLOW_RANGE, za.co.infernos.goety.utils.ConfigHelper.getDouble(AttributesConfig.NecromancerFollowRange, 20.0D))
+                .add(Attributes.MAX_HEALTH, za.co.infernos.goety.utils.ConfigHelper.getDouble(AttributesConfig.NecromancerHealth, 50.0D))
+                .add(Attributes.ARMOR, za.co.infernos.goety.utils.ConfigHelper.getDouble(AttributesConfig.NecromancerArmor, 0.0D))
+                .add(Attributes.FOLLOW_RANGE, za.co.infernos.goety.utils.ConfigHelper.getDouble(AttributesConfig.NecromancerFollowRange, 16.0D))
                 .add(Attributes.MOVEMENT_SPEED, 0.25F)
                 .add(Attributes.KNOCKBACK_RESISTANCE, 0.6D)
-                .add(Attributes.ATTACK_DAMAGE, za.co.infernos.goety.utils.ConfigHelper.getDouble(AttributesConfig.NecromancerDamage, 20.0D));
+                .add(Attributes.ATTACK_DAMAGE, za.co.infernos.goety.utils.ConfigHelper.getDouble(AttributesConfig.NecromancerDamage, 2.0D));
     }
 
     public void setConfigurableAttributes() {
-        MobUtil.setBaseAttributes(this.getAttribute(Attributes.MAX_HEALTH), za.co.infernos.goety.utils.ConfigHelper.getDouble(AttributesConfig.NecromancerHealth, 20.0D));
-        MobUtil.setBaseAttributes(this.getAttribute(Attributes.ARMOR), za.co.infernos.goety.utils.ConfigHelper.getDouble(AttributesConfig.NecromancerArmor, 20.0D));
+        MobUtil.setBaseAttributes(this.getAttribute(Attributes.MAX_HEALTH), za.co.infernos.goety.utils.ConfigHelper.getDouble(AttributesConfig.NecromancerHealth, 50.0D));
+        MobUtil.setBaseAttributes(this.getAttribute(Attributes.ARMOR), za.co.infernos.goety.utils.ConfigHelper.getDouble(AttributesConfig.NecromancerArmor, 0.0D));
         MobUtil.setBaseAttributes(this.getAttribute(Attributes.FOLLOW_RANGE),
-                za.co.infernos.goety.utils.ConfigHelper.getDouble(AttributesConfig.NecromancerFollowRange, 20.0D));
+                za.co.infernos.goety.utils.ConfigHelper.getDouble(AttributesConfig.NecromancerFollowRange, 16.0D));
         MobUtil.setBaseAttributes(this.getAttribute(Attributes.ATTACK_DAMAGE),
-                za.co.infernos.goety.utils.ConfigHelper.getDouble(AttributesConfig.NecromancerDamage, 20.0D));
+                za.co.infernos.goety.utils.ConfigHelper.getDouble(AttributesConfig.NecromancerDamage, 2.0D));
+    }
+
+    @Nullable
+    @Override
+    public SpawnGroupData finalizeSpawn(ServerLevelAccessor worldIn, DifficultyInstance difficultyIn, MobSpawnType reason,
+            @Nullable SpawnGroupData spawnDataIn) {
+        spawnDataIn = super.finalizeSpawn(worldIn, difficultyIn, reason, spawnDataIn);
+        this.setConfigurableAttributes();
+        return spawnDataIn;
     }
 
     @Override
@@ -276,7 +286,7 @@ public abstract class AbstractNecromancer extends AbstractSkeletonServant implem
         this.entityData.set(LEVEL, i);
         AttributeInstance attributeInstance = this.getAttribute(Attributes.MAX_HEALTH);
         if (attributeInstance != null) {
-            attributeInstance.setBaseValue(za.co.infernos.goety.utils.ConfigHelper.getDouble(AttributesConfig.NecromancerHealth, 20.0D) * Math.max(i * 1.25F, 1));
+            attributeInstance.setBaseValue(za.co.infernos.goety.utils.ConfigHelper.getDouble(AttributesConfig.NecromancerHealth, 50.0D) * Math.max(i * 1.25F, 1));
         }
         this.reapplyPosition();
         this.refreshDimensions();
@@ -608,7 +618,7 @@ public abstract class AbstractNecromancer extends AbstractSkeletonServant implem
                     if (this.getNecroLevel() < 2) {
                         this.setNecroLevel(this.getNecroLevel() + 1);
                     }
-                    this.heal((float)za.co.infernos.goety.utils.ConfigHelper.getDouble(AttributesConfig.NecromancerHealth, 20.0D));
+                    this.heal((float)za.co.infernos.goety.utils.ConfigHelper.getDouble(AttributesConfig.NecromancerHealth, 50.0D));
                     if (this.level() instanceof ServerLevel serverLevel) {
                         for (int i = 0; i < 7; ++i) {
                             double d0 = this.random.nextGaussian() * 0.02D;
@@ -779,8 +789,8 @@ public abstract class AbstractNecromancer extends AbstractSkeletonServant implem
         }
 
         protected int getCastingInterval() {
-            return 100;
-        };
+            return 200;
+        }
 
         @Deprecated
         @Nullable
@@ -814,7 +824,7 @@ public abstract class AbstractNecromancer extends AbstractSkeletonServant implem
                     && owned.getOwnerId() != null && owned.getOwnerId().equals(AbstractNecromancer.this.getUUID());
             int i = AbstractNecromancer.this.level().getEntitiesOfClass(LivingEntity.class,
                     AbstractNecromancer.this.getBoundingBox().inflate(64.0D, 16.0D, 64.0D), predicate).size();
-            return super.canUse() && i < 7;
+            return super.canUse() && i < 3;
         }
 
         protected void castSpell() {
@@ -825,8 +835,8 @@ public abstract class AbstractNecromancer extends AbstractSkeletonServant implem
                         .getEntitiesOfClass(LivingEntity.class,
                                 AbstractNecromancer.this.getBoundingBox().inflate(64.0D, 16.0D, 64.0D), predicate)
                         .size();
-                if (i < 7) {
-                    int j = 7 - i;
+                if (i < 3) {
+                    int j = 3 - i;
                     for (int i1 = 0; i1 < 1 + serverLevel.random.nextInt(j); ++i1) {
                         Summoned summonedentity = AbstractNecromancer.this.getSummon();
                         BlockPos blockPos = BlockFinder.SummonRadius(AbstractNecromancer.this.blockPosition(),
@@ -934,7 +944,7 @@ public abstract class AbstractNecromancer extends AbstractSkeletonServant implem
             if (this.spellTime == 0) {
                 this.playLaughSound();
                 AbstractNecromancer.this.setNecromancerSpellType(NecromancerSpellType.NONE);
-                int i = 2 + AbstractNecromancer.this.level().random.nextInt(4);
+                int i = 1 + AbstractNecromancer.this.level().random.nextInt(2);
                 for (int i1 = 0; i1 < i; ++i1) {
                     if (AbstractNecromancer.this.level() instanceof ServerLevel serverLevel) {
                         Summoned summonedentity = AbstractNecromancer.this.getSummon();

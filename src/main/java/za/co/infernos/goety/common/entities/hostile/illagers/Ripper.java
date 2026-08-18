@@ -8,6 +8,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.SynchedEntityData;
@@ -407,14 +408,10 @@ public class Ripper extends Raider {
                                             this.level().getCurrentDifficultyAt(ripper.blockPosition()),
                                             MobSpawnType.REINFORCEMENT, (SpawnGroupData) null);
                                     serverlevel.addFreshEntityWithPassengers(ripper);
-                                    spawnChance.addPermanentModifier(new AttributeModifier(net.minecraft.resources.ResourceLocation.withDefaultNamespace("caller_charge"),
-                                            (double) -0.05F, AttributeModifier.Operation.ADD_VALUE));
-                                    AttributeInstance spawnChance2 = ripper
-                                            .getAttribute(Attributes.SPAWN_REINFORCEMENTS_CHANCE);
-                                    if (spawnChance2 != null) {
-                                        spawnChance2.addPermanentModifier(new AttributeModifier(net.minecraft.resources.ResourceLocation.withDefaultNamespace("callee_charge"),
-                                                (double) -0.05F, AttributeModifier.Operation.ADD_VALUE));
-                                    }
+                                    addModifierOnce(spawnChance, "caller_charge", -0.05D,
+                                            AttributeModifier.Operation.ADD_VALUE);
+                                    addModifierOnce(ripper.getAttribute(Attributes.SPAWN_REINFORCEMENTS_CHANCE),
+                                            "callee_charge", -0.05D, AttributeModifier.Operation.ADD_VALUE);
                                     break;
                                 }
                             }
@@ -444,27 +441,34 @@ public class Ripper extends Raider {
     protected void handleAttributes(float p_34340_) {
         this.randomizeReinforcementsChance();
 
-        AttributeInstance speed = this.getAttribute(Attributes.MOVEMENT_SPEED);
-        AttributeInstance knockResist = this.getAttribute(Attributes.KNOCKBACK_RESISTANCE);
-        AttributeInstance spawnChance = this.getAttribute(Attributes.SPAWN_REINFORCEMENTS_CHANCE);
-        if (speed != null) {
-            speed.addPermanentModifier(new AttributeModifier(net.minecraft.resources.ResourceLocation.withDefaultNamespace("random_spawn_speed_bonus"),
-                    this.random.nextDouble() * 0.05D, AttributeModifier.Operation.ADD_VALUE));
-        }
-        if (knockResist != null) {
-            knockResist.addPermanentModifier(new AttributeModifier(net.minecraft.resources.ResourceLocation.withDefaultNamespace("random_spawn_bonus"),
-                    this.random.nextDouble() * 0.05D, AttributeModifier.Operation.ADD_VALUE));
-        }
+        addModifierOnce(this.getAttribute(Attributes.MOVEMENT_SPEED), "random_spawn_speed_bonus",
+                this.random.nextDouble() * 0.05D, AttributeModifier.Operation.ADD_VALUE);
+        addModifierOnce(this.getAttribute(Attributes.KNOCKBACK_RESISTANCE), "random_spawn_bonus",
+                this.random.nextDouble() * 0.05D, AttributeModifier.Operation.ADD_VALUE);
 
         if (this.random.nextFloat() < p_34340_ * 0.05F) {
-            if (spawnChance != null) {
-                spawnChance.addPermanentModifier(new AttributeModifier(net.minecraft.resources.ResourceLocation.withDefaultNamespace("leader_ripper_bonus"),
-                        this.random.nextDouble() * 0.25D + 0.5D, AttributeModifier.Operation.ADD_VALUE));
-            }
+            addModifierOnce(this.getAttribute(Attributes.SPAWN_REINFORCEMENTS_CHANCE), "leader_ripper_bonus",
+                    this.random.nextDouble() * 0.25D + 0.5D, AttributeModifier.Operation.ADD_VALUE);
             this.setRipperSize(2, true);
         } else {
             this.setRipperSize(this.random.nextIntBetweenInclusive(-1, 1), true);
         }
+    }
+
+    /**
+     * 1.21 attributes are keyed by {@link ResourceLocation}. Adding the same id twice
+     * throws and kills the server tick (poisoned Rippers during reinforcement).
+     */
+    private static void addModifierOnce(AttributeInstance instance, String path, double amount,
+            AttributeModifier.Operation operation) {
+        if (instance == null) {
+            return;
+        }
+        ResourceLocation id = ResourceLocation.withDefaultNamespace(path);
+        if (instance.hasModifier(id)) {
+            return;
+        }
+        instance.addPermanentModifier(new AttributeModifier(id, amount, operation));
     }
 
     protected void randomizeReinforcementsChance() {

@@ -494,8 +494,8 @@ public class AttributesConfig {
                         .defineInRange("necromancerArmor", 0.0, 0.0, Double.MAX_VALUE);
                 NecromancerFollowRange = BUILDER.comment("How much following/detection range Necromancers have, Default: 16.0")
                         .defineInRange("necromancerFollowRange", 16.0, 1.0, 2048.0);
-                NecromancerDamage = BUILDER.comment("How much damage Necromancers deals, Default: 4.0")
-                        .defineInRange("necromancerDamage", 4.0, 1.0, Double.MAX_VALUE);
+                NecromancerDamage = BUILDER.comment("How much damage Necromancers deals, Default: 2.0")
+                        .defineInRange("necromancerDamage", 2.0, 1.0, Double.MAX_VALUE);
                 BUILDER.pop();
                 BUILDER.push("Drowned Necromancer");
                 DrownedNecromancerHealth = BUILDER.comment("How much Max Health Drowned Necromancers have, Default: 220.0")

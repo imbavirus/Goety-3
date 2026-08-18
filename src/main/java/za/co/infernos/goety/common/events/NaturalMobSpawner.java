@@ -157,15 +157,13 @@ public class NaturalMobSpawner {
                     }
                 }
                 
-                // Necromancer
+                // Necromancer — rare extra spawn on top of vanilla. Cap 1, no 1% floor.
                 if (biome.is(ModTags.Biomes.NECROMANCER_SPAWN) && !biome.is(ModTags.Biomes.NECROMANCER_EXCLUDE_SPAWN)) {
-                    AABB searchBox = new AABB(playerPos).inflate(48.0D);
+                    AABB searchBox = new AABB(playerPos).inflate(64.0D);
                     int nearbyNecromancers = countEntitiesByType(pLevel, ModEntityType.NECROMANCER.get(), searchBox);
-                    int maxNearbyNecromancers = 4;
-                    if (nearbyNecromancers < maxNearbyNecromancers) {
-                        int weight = za.co.infernos.goety.utils.ConfigHelper.getInt(MobsConfig.NecromancerSpawnWeight, 20);
-                        int spawnChance = Math.max(1, weight / 5);
-                        if (weight > 0 && random.nextInt(100) < spawnChance) {
+                    if (nearbyNecromancers < 1) {
+                        int weight = za.co.infernos.goety.utils.ConfigHelper.getInt(MobsConfig.NecromancerSpawnWeight, 1);
+                        if (weight > 0 && random.nextInt(400) < weight) {
                             if (trySpawnNecromancer(pLevel, player, playerPos)) {
                                 return 1;
                             }
